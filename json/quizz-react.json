@@ -104,6 +104,7 @@
   "State - Hooks - other - useId": "useId is a React Hook for generating unique IDs that can be passed to accessibility attributes. const id = useId()",
   "State - Hooks - other - useDebugValue": "useDebugValue is a React Hook that lets you add a label to a custom Hook in React DevTools. useDebugValue(value, format?)",
   "State - Hooks - other - useSyncExternalStore": "useSyncExternalStore is a React Hook that lets you subscribe to an external store. const snapshot = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot?)",
+  "State - Hooks - custom": "https://javascript.plainenglish.io/collection-of-custom-hooks-for-your-nextjs-react-project-1779379e6f4a",
   "State - Redux": ".",
   "State - Contexts API": ".",
   "State - Mobx": ".",
