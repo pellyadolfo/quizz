@@ -1,0 +1,25 @@
+{
+  "OCP - OpenShift Container Platform": "SECTION",
+  "OCP": "OpenShift Container Platform is a cloud-based Kubernetes container platform. The foundation of OpenShift Container Platform is based on Kubernetes and therefore shares the same technology.",££
+
+  "OCP - S2I": "SECTION",
+  "OCP - S2I - images": "Red Hat Software Collections images as a foundation for applications that rely on specific runtime environments. With S2I images, you can insert your code into a base image environment that is ready to run that code.",
+  "OCP - S2I - definition": "Source-to-image (S2I) produces ready-to-run images by injecting source code into a container that prepares that source code to be run",
+  "OCP - S2I - overriding": "Builder images provide their own version of the source-to-image (S2I) scripts that cover the most common use-cases. If these scripts do not fulfill your needs, S2I provides a way of overriding them by adding custom ones in the .s2i/bin directory. However, by doing this, you are completely replacing the standard scripts.",
+  "OCP - S2I - customizing": "In some cases, replacing the scripts is acceptable, but, in other scenarios, you can run a few commands before or after the scripts while retaining the logic of the script provided in the image. To reuse the standard scripts, you can create a wrapper script that runs custom logic and delegates further work to the default scripts in the image.",
+
+  "OCP - cicd": "SECTION",
+  "OCP - cicd - projects": "A project allows a community of users to organize and manage their content in isolation from other communities.",
+  "OCP - cicd - projects - permissions": "A project allows a community of users to organize and manage their content in isolation from other communities.",
+  "OCP - cicd - projects - monitoring": ".",
+  "OCP - cicd - applications": ".",
+  "OCP - cicd - applications - build": ".",
+  "OCP - cicd - applications - deployments": ".",
+  "OCP - cicd - applications - scaling": ".",
+  "OCP - cicd - applications - helm charts": ".",
+
+  "OCP - gui": "SECTION",
+  "OCP - gui - web console": "SECTION",
+  
+}
+

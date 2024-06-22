@@ -1,0 +1,17 @@
+{
+			"testing types": "SECTION",
+			"AWS SQS": "Amazon SQS is a highly reliable, scalable message queuing service that enables asynchronous message-based communication between distributed components of an application.",
+			"AWS SQS - Reliability": "No message is ever lost in the interim, each message is persistently stored in highly available, highly reliable queues.",
+			"AWS SQS - Complexity": "SQS is dead-simple to use. Simply create a queue, and send messages to it.",
+			"AWS SQS - Queue Types": "Amazon SQS offers two queue types for different application requirements: Standard Queues and FIFO Queues",
+			"AWS SQS - Queue Types - Standard Queues": "",
+			"AWS SQS - Queue Types - Standard Queues - Throughput": "Unlimited Throughput: Standard queues support a nearly unlimited number of transactions per second (TPS) per API action.",
+			"AWS SQS - Queue Types - Standard Queues - Delivery": "At-Least-Once Delivery: A message is delivered at least once, but occasionally more than one copy of a message is delivered.",
+			"AWS SQS - Queue Types - Standard Queues - Ordering": "Best-Effort Ordering: Occasionally, messages might be delivered in an order different from which they were sent.",
+			"AWS SQS - Queue Types - Standard Queues - Use Cases": "",
+			"AWS SQS - Queue Types - FIFO Queues": "",
+			"AWS SQS - Queue Types - FIFO Queues - Throughput": "High Throughput: By default, FIFO queues support up to 300 messages per second (300 send, receive, or delete operations per second). When you batch 10 messages per operation (maximum), FIFO queues can support up to 3,000 messages per second. To request a limit increase, file a support request.",
+			"AWS SQS - Queue Types - FIFO Queues - Delivery": "Exactly-Once Processing: A message is delivered once and remains available until a consumer processes and deletes it. Duplicates aren't introduced into the queue.",
+			"AWS SQS - Queue Types - FIFO Queues - Ordering": "First-In-First-Out Delivery: The order in which messages are sent and received is strictly preserved (i.e. First-In-First-Out).",
+			"AWS SQS - Queue Types - FIFO Queues - Use Cases": ""
+}

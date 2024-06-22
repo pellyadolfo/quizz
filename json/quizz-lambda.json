@@ -1,0 +1,28 @@
+{
+	"languages": "SECTION",
+	"Lambda": "",
+	"Lambda - Languages": "",
+	"Lambda - Languages - NodeJS": "",
+	"Lambda - Languages - Python": "",
+	"Lambda - Languages - Java": "",
+	"Lambda - Languages - Go": "",
+	"Lambda - Languages - C#": "",
+	"Lambda - Languages - PowerShell": "",
+	"Lambda - Languages - Ruby": "",
+	
+	"invokation": "SECTION",
+	"Lambda - Invokation": "",
+	"Lambda - Invokation - by AWS services": "",
+	"Lambda - Invokation - by AWS services - S3": "S3Event",
+	"Lambda - Invokation - by AWS services - Kinesis": "KinesisEvent",
+	"Lambda - Invokation - by AWS services - SQS": "",
+	"Lambda - Invokation - by AWS services - SNS": "SNSEvent",
+	"Lambda - Invokation - by AWS services - Cognito": "CognitoEvent",
+	"Lambda - Invokation - by AWS services - DynamoDB": "DynamodbEvent",
+	"Lambda - Invokation - by AWS services - CloudTrail": "",
+	"Lambda - Invokation - by API Gateway (HTTPS)": "APIGatewayProxyRequestEvent  - You can invoke AWS Lambda functions over HTTPS",
+	"Lambda - Invokation - by API Gateway - multiple": "You can do this by defining a custom REST API and endpoint using Amazon API Gateway, and then mapping individual methods, such as GET and PUT, to specific Lambda functions.",
+	"Lambda - Invokation - by API Gateway - unique": "You could add a special method named ANY to map all supported methods (GET, POST, PATCH, DELETE) to your Lambda function. When you send an HTTPS request to the API endpoint, the Amazon API Gateway service invokes the corresponding Lambda function.",
+	"Lambda - Invokation - by Custom Events": "",
+	"Lambda - Invokation - by Scheduled events": ""
+}

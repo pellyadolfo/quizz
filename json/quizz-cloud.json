@@ -1,0 +1,35 @@
+{
+	"Twelve-Factor App": "SECTION",
+	"Twelve-Factor App ": "The twelve-factor app is a methodology for building software-as-a-service apps that: Use declarative formats for setup automation, to minimize time and cost for new developers joining the project, Have a clean contract with the underlying operating system, offering maximum portability between execution environments, Are suitable for deployment on modern cloud platforms, obviating the need for servers and systems administration, Minimize divergence between development and production, enabling continuous deployment for maximum agility, And can scale up without significant changes to tooling, architecture, or development practices. The twelve-factor methodology can be applied to apps written in any programming language, and which use any combination of backing services (database, queue, memory cache, etc).",
+	"Twelve-Factor App - Factor 1": "Codebase: The application has one code base which is tracked in revision control and has many deployments to different stages",
+	"Twelve-Factor App - Factor 2": "Dependencies: External dependencies of the application are explicitly declared and isolated.",
+	"Twelve-Factor App - Factor 3": "Configuration: The configuration of the application is stored in environment variables.",
+	"Twelve-Factor App - Factor 4": "Backing services: Consumed services are treated as attached resources by the application, i.e. accessed via a URL or other locator/credentials stored in the configuration without distinguishing between locally operated services and third party services.",
+	"Twelve-Factor App - Factor 5": "Build, release, run: Build, release and run stages of the application are strictly separated.",
+	"Twelve-Factor App - Factor 6": "Processes: The application is executed as one or more stateless processes which share no resources (directly).",
+	"Twelve-Factor App - Factor 7": "Port binding: The application is completely self-contained (i.e. it does not rely e.g. on runtime injection of a web server into the execution environment to create a web-facing service) and exports HTTP as a service by binding to a port and listening to requests coming in on that port.",
+	"Twelve-Factor App - Factor 8": "Concurrency: The application scales via the process model, i.e. processes are first class citizens and the operating system’s process manager is used for process management and scaling.",
+	"Twelve-Factor App - Factor 9": "Disposability: The application maximizes robustness with fast startup and graceful shutdown mechanisms.",
+	"Twelve-Factor App - Factor 10": "Dev/prod parity: The application is designed for continuous deployment by keeping the gap between development and production small.",
+	"Twelve-Factor App - Factor 11": "Logs: The application treats logs as event streams, i.e. it never concerns itself with routing or storage of its event output stream.",
+	"Twelve-Factor App - Factor 12": "Admin processes: Administration and management tasks of the application are performed as one-off processes, i.e. they run in an identical environment, use the same codebase and configuration as any other processes.",
+
+	"XAAS": "SECTION",
+	"XAAS ": "It’s a general acronym meaning any …aaS solutions.",
+
+	"DBaaS": "SECTION",
+	"DBaaS ": "Database as a service – it’s a platform which hosts our database providing backups, clustering, and high availability. The most popular DBaaS are Amazon Aurora, Amazon DynamicDB, mLab, IBM Cloudant and MongoDB Atlas.",
+
+	"SAAS": "SECTION",
+	"SAAS ": "Software as a Service (SaaS) is the most “advanced” version of the cloud service. Your service provides a complete platform, including operating systems, software and specific applications. It is a software distribution model in which applications are hosted by a service provider and made available to client over a network.",
+
+	"FAAS": "SECTION",
+	"FAAS (serverless)": "Function as a Service is even simpler than PaaS. As the name suggests, it’s based on the functions which can be triggered by a given event, so it’s an event-based architecture. The level of simplicity is so high that it’s called a serverless architecture. The developer just writes a function and doesn’t have to ponder about topics such as deployment, server resources, scalability… It’s because FaaS is auto-scalable. Therefore, the billing is based on the real consumption, not on the declared resources needs. The most prominent example is AWS Lambda, but there are others like Google Cloud Functions, Microsoft Azure Functions, Iron.io and Webtask.io as well. One of the biggest drawbacks of FaaS are supported technologies. There are even fewer available technologies than with PaaS. More exactly (as of 2017) AWS Lambda supports .NET, Java, Node.js and Python, Microsoft Azure Functions supports .NET, Java, Node.js, and PHP, whereas Google Functions supports only Node.js. So as you can notice, none of the most popular FaaS supports Ruby in contrary to PaaS (e.g., Heroku).",
+	"FAAS - security": "Well, the biggest thing is that FaaS architectures shift some of the security responsibility from you back to your FaaS platform provider. The downside of this shift in security responsibilities is that you are now definitely required to focus on securing your own code.",
+
+	"PAAS": "SECTION",
+	"PAAS ": "The Platform as a Service (PaaS) is an enhanced version of service infrastructure (IaaS). The company has an on-demand infrastructure that can be adjusted according to the needs. Also, it has a minimum service from its service provider, since it is also responsible for operating systems and certain licenses, such as databases. In PaaS, the resources and software needed for the hosting of its platform and service is used for production. The service provider will install and configure the servers, operating systems, databases, and required licenses. The consumer will still be responsible for setting its applications and operations. The advantage is that the company has a highly flexible and scalable service. According to its needs, it can adjust its platform. For example, if eUKhost found something that could cause a peak load on its client website, it can quickly increase the technological resources and without interruption or direct impact to its customers.",
+
+	"IAAS": "SECTION",
+	"IAAS ": "Infrastructure as a Service (IaaS) is the use of infrastructure or virtual machines on demand. The supplier is responsible for the network elements, transit and virtual servers. The consumer, however, is responsible for the installation and operation of its operating system and its applications."
+}
