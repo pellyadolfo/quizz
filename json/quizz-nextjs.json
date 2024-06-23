@@ -1,6 +1,33 @@
 {
   "NextJS": "SECTION",
-  "NextJS - ": "."
+  "NextJS - ": ".",
 
+
+
+  "UI - Rendering": ".",
+	"UI - Caching": ".",
+	"UI - Caching - mechanisms": ".",
+	"UI - Caching - mechanisms - Request Memoization": ".",
+	"UI - Caching - mechanisms - Data Cache": ".",
+	"UI - Caching - mechanisms - Full Route Cache": ".",
+	"UI - Caching - mechanisms - Router Cache": ".",
+	"UI - Styling": ".",
+
+
+	"Routing": ".",
+
+
+
+	"DataFeching": ".",
+	"DataFeching - Types": "There are four ways you can fetch data: (1) On the server, with fetch, (2) On the server, with third-party libraries (3) On the client, via a Route Handler (4) On the client, with third-party libraries.",
+	"DataFeching - Types - server fetch": ".",
+	"DataFeching - Types - server libraries": ".",
+	"DataFeching - Types - client RouteHandler": ".",
+	"DataFeching - Types - client libraries": ".",
+
+	"Server": "By default, Next.js includes its own server with next start.",
+
+
+	"CICD": "."
 
 }
