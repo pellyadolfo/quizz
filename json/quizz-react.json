@@ -4,7 +4,11 @@
 
   "UI - Tree ": "SECTION",
   "UI - Tree": "React applications use components that form a hierarchical structure to build applications. Components can be functional or class-based and represent reusable UI elements.",
-  "UI - Tree - dynamic": "React uses a Virtual DOM, a lightweight representation of the browser DOM. The Virtual DOM allows React to efficiently manage and update the UI.",
+  "UI - Tree - Virtual DOM": "React uses a Virtual DOM, a lightweight representation of the browser DOM. The Virtual DOM allows React to efficiently manage and update the UI. React has introduced a new way of handling routing in web applications and it was the Virtual DOM.",
+  "UI - Tree - Virtual DOM - routing": "Instead of using the native browser routing and navigation, we keep all of that in the JavaScript memory and use JavaScript to handle pages and routing for us, and as a result, it will become a lot faster.",
+  "UI - Tree - Virtual DOM - reconciler - <16": "React 15 and previous versions of React, in those versions, we had a reconciler called stack reconciler which was a LIFO data structure responsible for picking a work and returning the results just like how the JavaScript call stack works. The main problem was that the stack reconciler was synchronous and sequential meaning there was no chance for it to handle multiple units of work at the same time in parallel or concurrently.",
+  "UI - Tree - Virtual DOM - reconciler - >=16": "In React version 16 and above, the React team has introduced a new way of handling the units of work and virtual DOM tree using the new meta called Fiber Reconciler to tackle two main challenges: 1- Synchronous way of processing the units of work 2- Prioritizing and concurrency of the units of work.",
+  "UI - Tree - Virtual DOM - reconciler - >=16 - Fiber": "The current React Fiber Reconciler consists of many fiber nodes which are plain JavaScript objects with a lot of properties to handle their work. Fiber = { a JavaScript object with many properties OR unit of work }. Fiber Reconciler = The current React reconciler based on Fiber objects or units of work. https://maxtsh.medium.com/how-does-the-react-fiber-reconciler-work-77c3650127da",
   "UI - Tree - shaking": "Leverage tree shaking techniques, typically provided by bundlers like webpack, to eliminate unused code from your JavaScript bundle. This helps reduce the overall bundle size and improve loading time.",
 
   "UI - Components": "SECTION",
