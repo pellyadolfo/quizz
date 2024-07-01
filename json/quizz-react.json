@@ -80,6 +80,7 @@
   "UI - Apps - Patterns - Base UI Component - BaseUI": "https://baseweb.design/",
   "UI - Apps - Patterns - Inheritance": "No use",
   "UI - Apps - Patterns - Composition": "",
+  "UI - Apps - Patterns - Compound": "The Compound Components pattern isn’t just a coding technique; it’s a design paradigm that promotes collaboration between components while maintaining loose coupling. Recognizing its value involves understanding the use of static properties, which resemble dot notation for accessing nested components within a parent component. https://medium.com/@khushi1399gupta/mastering-reacts-compound-components-a-guide-for-experienced-developers-8a35c1468acb",
   "UI - Apps - APIs": "the react package exports a few other APIs that are useful for defining components.",
   "UI - Apps - APIs - act": "act is a test helper to apply pending React updates before making assertions.",
   "UI - Apps - APIs - cache": "cache is only for use with React Server Components.",

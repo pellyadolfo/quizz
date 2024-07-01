@@ -12,9 +12,10 @@
   "App - page - Page - getStaticPaths": "",
   "App - page - Page - getStaticProps": "",
   "App - page - access": "If you create pages/about.js that exports a React component like below, it will be accessible at /about.",
-	"App - page - Styling": ".",
-	"App - routing": ".",
-	"App - routing - Hooks - useRouter": ".",
+  "App - page - import": "",
+  "App - page - import - dynamic": "",
+  "App - page - import - dynamic - module": "const module = await import('some-big-library');",
+  "App - page - import - dynamic - react": "For React components, Next.js provides a next/dynamic function to handle dynamic imports seamlessly with server-side rendering support. This is especially useful for heavy components that are not critical to the initial rendering of the page. const DynamicComponent = dynamic(() => import('../components/HeavyComponent'), { loading: () => <p>Loading...</p>, ssr: false, });",
 
 	"UI": "SECTION",
 	"UI - Components": "",
@@ -31,13 +32,28 @@
   "UI - Execution - Rendering - pattern - SSG": "If a page uses Static Generation, the page HTML is generated at build time. That means in production, the page HTML is generated when you run next build. This HTML will then be reused on each request. It can be cached by a CDN.",
   "UI - Execution - Rendering - pattern - SSR - no data": ".",
   "UI - Execution - Rendering - pattern - SSR - data": ".",
+  "UI - Execution - Rendering - pattern - ISR": "Incremental Static Regeneration (ISR) is a powerful feature provided by Next.js, allowing you to set a time window for static-generated pages to automatically update in the background. This means you can enjoy the speed and security advantages of a static site while keeping the content dynamically updated, making it highly suitable for dynamic web pages that need regular updates. ISR offers an efficient update mechanism by combining the benefits of static generation and server-side rendering (SSR).",
+  "UI - Execution - Rendering - pattern - ISR - getStaticProps": "You need to export an asynchronous function called getStaticProps in your page component. This function is responsible for providing the page's props and is executed at build time.",
+  "UI - Execution - Rendering - pattern - ISR - revalidate": "Within the object returned by the getStaticProps function, you can set a revalidate property. The value of this property is a number, indicating how many seconds after which the page content will be regenerated.",
+  "UI - Execution - Rendering - pattern - ISR - howitworks": "When a request is made for a statically generated page, if the time since the last generation has exceeded the revalidate setting, Next.js will regenerate the page in the background. Meanwhile, for user requests, the old page content will still be provided until the new page is generated, ensuring the immediacy and consistency of access.",
   "UI - Execution - Rendering - ASO": "Next.js automatically determines that a page is static (can be prerendered) if it has no blocking data requirements. This determination is made by the absence of getServerSideProps and getInitialProps in the page.",
 	"UI - Execution - Caching": ".",
-	"UI - Execution - Caching - mechanisms": ".",
+	"UI - Execution - Caching - mechanisms - fetch - Next14": "In Next.js 14, fetch requests use the force-cache strategy by default, meaning data is cached by default. const res = await fetch('https://api.weijunext.com/');",
+	"UI - Execution - Caching - mechanisms - fetch - Next15": "In Next.js 15, fetch requests will use the no-store strategy by default, meaning they won’t cache by default. If you want to cache data in Next.js 15, you need to explicitly specify the caching parameters. For example: const res = await fetch('https://api.weijunext.com/', { cache: 'force-cache' });",
 	"UI - Execution - Caching - mechanisms - Request Memoization": ".",
 	"UI - Execution - Caching - mechanisms - Data Cache": ".",
 	"UI - Execution - Caching - mechanisms - Full Route Cache": ".",
-	"UI - Execution - Caching - mechanisms - Router Cache": ".",
+	"UI - Execution - Caching - mechanisms - Router Cache - Next14": "In Next.js 14, GET route handlers are cached by default.",
+	"UI - Execution - Caching - mechanisms - Router Cache - Next15": "In Next.js 15, GET route handlers won’t cache by default. If you want to cache GET route handlers in Next.js 15, you can use export const dynamic = 'force-static'.",
+	"UI - Execution - Caching - mechanisms - Router Cache - Next14 - staleTime": "In Next.js 14.2.0, the experimental staleTimes flag was introduced, allowing custom configuration of router caching. By default, the staleTime for dynamic routes is a non-zero value, defaulting to 30. If the prefetch parameter is set in the <Link> component, the default is 5 minutes.",
+	"UI - Execution - Caching - mechanisms - Router Cache - Next15 - staleTime": "In Next.js 15, the `staleTime` for Page segments defaults to 0, meaning the client will always fetch the latest page component data during in-app navigation.",
+
+
+	"Processing": "SECTION",
+	"Processing - EndPoints - API Routing": "export default async (req, res) => { ... retrun data }",
+	"Processing - EndPoints - API Routing - caching": "export default async (req, res) => { res.setHeader('Cache-Control', 's-maxage=3600, stale-while-revalidate'); ... retrun data }",
+	"Processing - App - routing": ".",
+	"Processing - App - routing - Hooks - useRouter": ".",
 
 	"DataFeching": "SECTION",
 	"DataFeching - Types": "There are four ways you can fetch data: (1) On the server, with fetch, (2) On the server, with third-party libraries (3) On the client, via a Route Handler (4) On the client, with third-party libraries.",
@@ -50,6 +66,15 @@
 	"Server - default": "By default, Next.js includes its own server with next start.",
 
 	"CICD": "SECTION",
-	"CICD ": "."
+	"CICD - Deploying - CDN": "In Next.js, publishing static assets to a CDN and managing them through the assetPrefix configuration is a very efficient method. It can help optimize your application's load time and reduce server load. module.exports = { assetPrefix: isProd ? 'https://yourcdn.example.com' : '', };",
+  "CICD - SEO - robots.txt": "This is a text file placed in the root directory of your site that tells search engine crawlers which pages or sections of your site should not be crawled and indexed. For a Next.js site, you can create a robots.txt file and serve it statically. Ensure it’s accessible by placing it in the public folder. This will help control the crawler traffic to your site, prevent the indexing of certain pages, and help manage the crawl budget.",
+  "CICD - SEO - XML Sitemaps": "A sitemap is crucial as it lists all URLs for a site, allowing search engines to crawl the site more intelligently. In Next.js, you can generate sitemaps dynamically or during your build process. Static generation is often preferred for performance reasons. You can use libraries like next-sitemap to automate the generation of sitemaps during your build process.",
+  "CICD - SEO - Semantic HTML": "Semantic HTML5 elements (like <header>, <footer>, <article>, and <section>) help search engines understand the structure of your website and the importance of the content within each section. This can be particularly beneficial for SEO.",
+  "CICD - SEO - Optimize Page Speed": "Google considers page speed as a ranking factor. Optimize images, leverage efficient CSS and JavaScript, use Next.js’s Image component for optimized image handling, and consider implementing a Content Delivery Network (CDN) to serve your content faster.",
+  "CICD - SEO - Meta Tags": "Ensure each page has a unique title and description meta tags that accurately describe the page content. These are crucial for SEO as they appear in search engine results.",
+  "CICD - SEO - Structured Data": "Implement structured data using JSON-LD to help search engines understand the content of your pages and provide rich results. Next.js can handle inline scripts where you can place your JSON-LD structured data.",
+  "CICD - SEO - Accessibility (A11y)": "Making your website accessible is not only a good practice for usability; it also impacts SEO. Ensuring your website is accessible to all users, including those with disabilities, can positively influence your rankings.",
+  "CICD - SEO - Mobile-Friendliness": "With the increasing use of mobile devices, having a mobile-friendly website is crucial. Next.js’s responsive design capabilities can help ensure that your website looks good on all devices, which is important for both user experience and SEO.",
+  "CICD - SEO - Content Quality": "Regularly update your website with high-quality, relevant content that addresses your audience’s needs. This is vital for SEO and helps retain visitors."
 
 }
