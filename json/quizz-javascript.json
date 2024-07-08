@@ -37,6 +37,14 @@
 	"JS Scopes - Changing Scope - .call() and .apply()": "The .call() and .apply() methods are really sweet, they allows you to pass in a scope to a function, which binds the correct this value. We can use either .call() or .apply() to change the scope, but any further arguments are where the two differ: .call(scope, arg1, arg2, arg3) takes individual arguments, comma separated, whereas .apply(scope, [arg1, arg2]) takes an Array of arguments.",
 	"JS Scopes - Changing Scope - .bind() (ES5)": "Unlike the above, using .bind() does not invoke a function, it merely binds the values before the function is invoked.",
 
+	"loops": "SECTION",
+	"loops - forEach": "",
+	"loops - forEach - problem - break continue": "The flow of a forEach loop is uninterruptible. If you wish to break/continue an iteration, you are better off using the class “for i” loop or the “for of” loop statement.",
+	"loops - forEach - problem - no async": "The forEach loop will not wait for the completion of async functions, which could lead to unexpected output orders.",
+	"loops - forEach - problem - no Modify": "https://levelup.gitconnected.com/4-major-problems-with-javascript-foreach-b79f717c61b8",
+	"loops - forEach - problem - exception": "In other words, if an error occurs inside a forEach, the error will not be caught by the loop itself, which means you must handle exceptions explicitly within the callback.",
+
+
 	"async": "SECTION",
 	"JS Async": "",
 	"JS Async - Callback": "take a function as an argument that would be called when the response is available, freeing the CPU for other things while we wait for the response. in Node.js, almost every call is asynchronous",
@@ -46,7 +54,11 @@
 	"JS Async - Promises (ES6)": "A promise represents the eventual result of an asynchronous operation. It is a placeholder into which the successful result value or reason for failure will materialize. ES6 follows the standard Promises/A+ [1].",
 	"JS Async - Promises - States": "A promise can be in one of 3 states:(1) Pending - the promise’s outcome hasn’t yet been determined, because the asynchronous operation that will produce its result hasn’t completed yet. (2) Fulfilled - the asynchronous operation has completed, and the promise has a value. (3) Rejected - the asynchronous operation failed, and the promise will never be fulfilled. In the rejected state, a promise has a reason that indicates why the operation failed..",
 	"JS Async - Promises - Creation": "new Promise( /* executor */ function(resolve, reject) { ... } ).",
-	"JS Async - Promises - Parallel": "Promise.all([ asyncFunc1(), asyncFunc2(), ]).then(([result1, result2]) => {  ··· })",
+	"JS Async - Promises - Parallel": "When you need to execute multiple asynchronous operations in parallel and continue executing subsequent code only when all asynchronous operations complete successfully. Promise.all([ asyncFunc1(), asyncFunc2(), ]).then(([result1, result2]) => {  ··· })",
+	"JS Async - Promises - Parallel Wait": "When you want to wait for multiple asynchronous operations to complete and you need to know the result of each asynchronous operation. Promise.allSettled([promise1, promise2, promise3]).then((values) => { console.log(values); });",
+	"JS Async - Promises - Race": "When you have multiple asynchronous operations and you only care which one completes first, whether it succeeds or fails. Promise.race([promise1, promise2, promise3]).then((values) => { console.log(values); });",
+	"JS Async - Promises - Any": "When you have multiple asynchronous operations and you want to get the result of the first successful asynchronous operation and ignore the other asynchronous operations that have failed. Promise.any([promise1, promise2, promise3]).then((values) => { console.log(values); });",
+	"JS Async - Promises - Resolvers": "In some scenarios, we want to control the state of the Promise object externally. For example, in the scenario of requesting network data, the resolve method is called to set the return data of the current Promise only after all data is successfully received.",
 	"JS Async - Promises - Chaining": "asyncFunc1().then().then()....",
 	"JS Async - Promises - Handling Errors": ".then(function (greeting) { .... }, function(error) { ... }), or .then(result2 => { ... }) catch(error => { ... })",
 	"JS Async - async/await": "The word “async” before a function means one simple thing: a function always returns a promise. The keyword await, works only inside async functions, makes JavaScript wait until that promise settles and returns its result.",
@@ -68,5 +80,22 @@
 	"JS Async - Observables - Observables compared to promises. Error Handling": "Observables subscribe() is responsible for handling errors. Promises push errors to the child promises (then().then().then().catch())",
 	"JS Async - Observables - Observables compared to promises. Multiplicity": "Observables provide many values. Promises provide one",
 	"JS Async - Observables - Observables compared to events API": "you can configure an observable to transform an event before passing the event to the handler",
-	"JS Async - Observables - Observables compared to arrays": "An observable produces values over time. An array is created as a static set of values. In a sense, observables are asynchronous where arrays are synchronous. "
+	"JS Async - Observables - Observables compared to arrays": "An observable produces values over time. An array is created as a static set of values. In a sense, observables are asynchronous where arrays are synchronous. ",
+
+	"CICD": "SECTION",
+	"CICD - runtime - node": "",
+	"CICD - runtime - deno": "",
+	"CICD - runtime - performance - resources loading - sync": "<script src='script.js'></script>",
+	"CICD - runtime - performance - resources loading - async": "<script src='script.js' async></script>",
+	"CICD - runtime - performance - resources loading - defer": "<script src='script.js' defer></script>",
+	"CICD - runtime - performance - tree shaking": "Tree shaking is a form of dead code elimination. Modern JavaScript bundlers like Webpack can automatically remove unused code, reducing the final bundle size. To enable tree shaking in Webpack, ensure you’re using ES6 module syntax (import and export). Webpack will analyze the dependencies and eliminate code that is not used.",
+	"CICD - runtime - performance - web workers": "Web Workers allow you to run JavaScript in background threads. This can be useful for offloading heavy computations and keeping your UI responsive.",
+	"CICD - runtime - performance - web workers - main": "const worker = new Worker('worker.js'); worker.onmessage = function(e) { console.log('Worker said: ', e.data); };​ worker.postMessage('Hello, Worker!');.",
+	"CICD - runtime - performance - web workers - worker": "self.onmessage = function(e) { console.log('Main thread said: ', e.data); self.postMessage('Hello, Main thread!'); };.",
+	"CICD - runtime - performance - service workers": "Service Workers can be used to cache assets and handle offline functionality. This can significantly improve the load time of your web app, especially on repeat visits.",
+	"CICD - runtime - performance - service workers - register": "navigator.serviceWorker.register('/service-worker.js').then(function(registration) {})",
+	"CICD - package managers - npm": "",
+	"CICD - package managers - yarn": "",
+	"CICD - package managers - JSR": "https://denoland.medium.com/jsr-is-not-another-package-manager-77fa596c345d"
+
 	}

@@ -181,7 +181,8 @@
   "DataFetching - SWR": "React Hooks for data fetching. Standing for “stale-while-revalidate,” SWR is a strategy and library that makes fetching, caching, and updating data in your React applications a breeze.",
 
   "CICD": "SECTION",
-  "CICD - packaging": "",
+  "CICD - frameworks nextJS": "",
+  "CICD - frameworks tauri": "https://medium.com/@asierr/tauri-building-tiny-fast-and-secure-native-apps-03ccebed336c",
   "CICD - packaging - splitting": "When you develop a new React application, all your JavaScript code is typically bundled together into a single file. This file contains all the components, libraries, and other code required for your application to function. But as your application grows, the bundle size can become quite large, resulting in slow initial load times for your users. Code splitting allows you to divide a single bundle into multiple chunks, which can be loaded selectively based on the current needs of your application. Instead of downloading the entire bundle upfront, only the necessary code is fetched and executed when a user visits a particular page or triggers a specific action.",
   "CICD - packaging - splitting - libraries - CommonsChunkPlugin": "",
   "CICD - packaging - splitting - libraries - SplitChunksPlugin": "",
