@@ -1,7 +1,6 @@
 {
   "docker": "SECTION",
   "docker - installing": "",
-  "docker - installing": "",
   "docker - start": "service docker start",
   "docker - stop": "service docker stop",
   "docker - build": "This method allows the users to build their own Docker images. docker build -t ImageName:TagName dir",
@@ -257,5 +256,5 @@
 	"Docker - UCP - UCP CLI - id": "",
 	"Docker - UCP - UCP CLI - backup": "",
 	"Docker - UCP - UCP CLI - restore": "",
-	"Docker - UCP - UCP CLI - example-config": "",
+	"Docker - UCP - UCP CLI - example-config": ""
 }

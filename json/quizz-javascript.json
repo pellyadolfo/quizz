@@ -97,7 +97,6 @@
 	"CICD - Packaging - package managers - npm": "",
 	"CICD - Packaging - package managers - yarn": "",
 	"CICD - Packaging - package managers - JSR": "https://denoland.medium.com/jsr-is-not-another-package-manager-77fa596c345d",
-	"CICD - Packaging - runtime - node": "",
 
 	"CICD - Execution": "SECTION",
 	"CICD - Execution - JS Scopes": "The namespace is sometimes an interchangeable word for scope, but usually the refers to the highest level scope. They are: Global, Function, Lexical (Closures), Block (ES6",
@@ -118,15 +117,16 @@
 	"CICD - Execution - Execution Context - Execution context stack (ECS)": "Execution context stack (ECS): Execution context stack is a stack data structure to store all the execution stacks created while executing the JS code. Global execution context is present by default in execution context stack and it is at the bottom of the stack. While executing global execution context code, if JS engines finds a function call, it creates functional execution context of that function and pushes that function execution context on top of execution context stack. JS engine executes the function whose execution context is at the top of the execution context stack. Once all the code of the function is executed, JS engines pop’s out that function’s execution context and start’s executing the function which is below it..",
 	"CICD - Execution - Logging - console.log": "",
 	"CICD - Execution - Logging - process.stdout.write": "https://medium.com/coding-beauty/javascript-console-log-without-newline-20e7e63cca36",
+	"CICD - Execution - runtime - node": "",
 	"CICD - Execution - runtime - deno": "",
-	"CICD - Execution - runtime - performance - resources loading - sync": "<script src='script.js'></script>",
-	"CICD - Execution - runtime - performance - resources loading - async": "<script src='script.js' async></script>",
-	"CICD - Execution - runtime - performance - resources loading - defer": "<script src='script.js' defer></script>",
-	"CICD - Execution - runtime - performance - tree shaking": "Tree shaking is a form of dead code elimination. Modern JavaScript bundlers like Webpack can automatically remove unused code, reducing the final bundle size. To enable tree shaking in Webpack, ensure you’re using ES6 module syntax (import and export). Webpack will analyze the dependencies and eliminate code that is not used.",
-	"CICD - Execution - runtime - performance - web workers": "Web Workers allow you to run JavaScript in background threads. This can be useful for offloading heavy computations and keeping your UI responsive.",
-	"CICD - Execution - runtime - performance - web workers - main": "const worker = new Worker('worker.js'); worker.onmessage = function(e) { console.log('Worker said: ', e.data); };​ worker.postMessage('Hello, Worker!');.",
-	"CICD - Execution - runtime - performance - web workers - worker": "self.onmessage = function(e) { console.log('Main thread said: ', e.data); self.postMessage('Hello, Main thread!'); };.",
-	"CICD - Execution - runtime - performance - service workers": "Service Workers can be used to cache assets and handle offline functionality. This can significantly improve the load time of your web app, especially on repeat visits.",
-	"CICD - Execution - runtime - performance - service workers - register": "navigator.serviceWorker.register('/service-worker.js').then(function(registration) {})"
+	"CICD - Execution - performance - resources loading - sync": "<script src='script.js'></script>",
+	"CICD - Execution - performance - resources loading - async": "<script src='script.js' async></script>",
+	"CICD - Execution - performance - resources loading - defer": "<script src='script.js' defer></script>",
+	"CICD - Execution - performance - tree shaking": "Tree shaking is a form of dead code elimination. Modern JavaScript bundlers like Webpack can automatically remove unused code, reducing the final bundle size. To enable tree shaking in Webpack, ensure you’re using ES6 module syntax (import and export). Webpack will analyze the dependencies and eliminate code that is not used.",
+	"CICD - Execution - performance - web workers": "Web Workers allow you to run JavaScript in background threads. This can be useful for offloading heavy computations and keeping your UI responsive.",
+	"CICD - Execution - performance - web workers - main": "const worker = new Worker('worker.js'); worker.onmessage = function(e) { console.log('Worker said: ', e.data); };​ worker.postMessage('Hello, Worker!');.",
+	"CICD - Execution - performance - web workers - worker": "self.onmessage = function(e) { console.log('Main thread said: ', e.data); self.postMessage('Hello, Main thread!'); };.",
+	"CICD - Execution - performance - service workers": "Service Workers can be used to cache assets and handle offline functionality. This can significantly improve the load time of your web app, especially on repeat visits.",
+	"CICD - Execution - performance - service workers - register": "navigator.serviceWorker.register('/service-worker.js').then(function(registration) {})"
 
 	}
