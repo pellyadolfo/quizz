@@ -1,5 +1,5 @@
 {
-	"JS types": "SECTION",
+	"JS": "SECTION",
 	"JS Types - ES6": "ECMAScript 6 introduced the let and const keywords. These keywords can be used in place of the var keyword.",
 
 	"Data": "SECTION",
@@ -33,7 +33,6 @@
 	"Logic - Loops - for...of - advantages - break": "for...of waits support break and continue statements. forEach do not support them",
 	"Logic - Loops - for...of - examples - object properties": "for( const[key,value] of Object.entries(user)) { ... }",
 	"Logic - Loops - for...of - examples - destructuring": "for( const {name, age} of users) { ... }",
-	"Logic - Functional": "SECTION",
 	"Logic - Functional - Monads": "https://medium.com/@yourfuse/what-are-monads-in-javascript-and-how-can-they-improve-your-functional-programming-e42e56e7af9d https://medium.com/javascript-scene/javascript-monads-made-simple-7856be57bfe8",
 	"Logic - Functional - Monads2": "https://javascript.plainenglish.io/50-single-line-code-examples-that-showcase-your-fundamental-skills-ea495082de45",
 	"Logic - Async": "",
