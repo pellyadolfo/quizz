@@ -1,6 +1,9 @@
 {
   "NodeJS": "SECTION",
 
+	"Features": "SECTION",
+	"Features - Node Green": "The website https://node.green/ provides an excellent overview over supported ECMAScript features in various versions of Node.js, based on kangax's compat-table",
+
 	"Single Threaded": "SECTION",
 	"Single Threaded - SSR": "𝐑𝐞𝐚𝐜𝐭 𝐫𝐞𝐧𝐝𝐞𝐫𝐢𝐧𝐠 𝐨𝐧 𝐭𝐡𝐞 𝐬𝐞𝐫𝐯𝐞𝐫 𝐚𝐝𝐝𝐬 𝐚 𝐝𝐢𝐦𝐞𝐧𝐬𝐢𝐨𝐧 𝐨𝐟 𝐜𝐨𝐦𝐩𝐥𝐞𝐱𝐢𝐭𝐲 𝐭𝐨 𝐭𝐡𝐞 𝐚𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐛𝐞𝐜𝐚𝐮𝐬𝐞 𝐲𝐨𝐮’𝐫𝐞 𝐦𝐚𝐤𝐢𝐧𝐠 𝐍𝐨𝐝𝐞𝐉𝐒 𝐝𝐨 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐢𝐭’𝐬 𝐫𝐞𝐚𝐥𝐥𝐲 𝐛𝐚𝐝 𝐚𝐭 𝐝𝐨𝐢𝐧𝐠. NodeJs is single threaded. In the ideal case that it’s designed for, requests should be I/O bound. A complex page requiring much SSR will hamstring the ability to serve concurrent requests."
 }
