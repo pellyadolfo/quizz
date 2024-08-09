@@ -69,9 +69,6 @@
 	"Logic - HOFs - forEach": ".",
 	"Logic - HOFs - some": ".",
 	"Logic - HOFs - every": ".",
-	"Logic - Functional - Monads": "https://medium.com/@yourfuse/what-are-monads-in-javascript-and-how-can-they-improve-your-functional-programming-e42e56e7af9d https://medium.com/javascript-scene/javascript-monads-made-simple-7856be57bfe8",
-	"Logic - Functional - Monads2": "https://javascript.plainenglish.io/50-single-line-code-examples-that-showcase-your-fundamental-skills-ea495082de45",
-	"Logic - Functional - |>": "The pipeline operator (|>) allows for a more readable and functional approach to chaining functions, inspired by languages like Elixir.",
 	"Logic - Async": "",
 	"Logic - Async - Callback": "take a function as an argument that would be called when the response is available, freeing the CPU for other things while we wait for the response. in Node.js, almost every call is asynchronous",
 	"Logic - Async - Callback - Callback Hell": "Callbacks are very good for the CPU but they are not so good for the programmer. multiple, deep nested callbacks within a function",
@@ -107,7 +104,10 @@
 	"Logic - Async - Observables - Observables compared to events API": "you can configure an observable to transform an event before passing the event to the handler",
 	"Logic - Async - Observables - Observables compared to arrays": "An observable produces values over time. An array is created as a static set of values. In a sense, observables are asynchronous where arrays are synchronous. ",
 	"Logic - Async - AsyncLocalStorage": "Async context provides a way to handle asynchronous operations more gracefully, preserving the context across async calls, making debugging and tracing easier. A go-to feature for backend developers working with Node.js and complex async operations. AsyncLocalStorage  is a Node.js API (based on the async_hooks API) that is used to create asynchronous state within callbacks and promise chains.",
-
+	"Logic - Functional - Monads": "https://medium.com/@yourfuse/what-are-monads-in-javascript-and-how-can-they-improve-your-functional-programming-e42e56e7af9d https://medium.com/javascript-scene/javascript-monads-made-simple-7856be57bfe8",
+	"Logic - Functional - Monads2": "https://javascript.plainenglish.io/50-single-line-code-examples-that-showcase-your-fundamental-skills-ea495082de45",
+	"Logic - Functional - |>": "The pipeline operator (|>) allows for a more readable and functional approach to chaining functions, inspired by languages like Elixir.",
+	
 	"CICD - Packaging": "SECTION",
 	"CICD - Packaging - Functions - Arrow": "(a,b)=>a+b;",
 	"CICD - Packaging - Functions - Strict": "Strict Mode imposes restrictions that save hours of debugging. With Strict Mode, you’ll get an error if a variable doesn’t exist or has a typo, stopping your app from running and pinpointing the bug immediately. It throws visible errors for silent issues like wrong variable names and prevents using reserved keywords that could cause future problems. Use the use strict line to enable Strict Mode anywhere in your code. I recommend placing it in the global context. It will cover the entire file.",

@@ -8,6 +8,11 @@
 	"Single Threaded - SSR": "𝐑𝐞𝐚𝐜𝐭 𝐫𝐞𝐧𝐝𝐞𝐫𝐢𝐧𝐠 𝐨𝐧 𝐭𝐡𝐞 𝐬𝐞𝐫𝐯𝐞𝐫 𝐚𝐝𝐝𝐬 𝐚 𝐝𝐢𝐦𝐞𝐧𝐬𝐢𝐨𝐧 𝐨𝐟 𝐜𝐨𝐦𝐩𝐥𝐞𝐱𝐢𝐭𝐲 𝐭𝐨 𝐭𝐡𝐞 𝐚𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐛𝐞𝐜𝐚𝐮𝐬𝐞 𝐲𝐨𝐮’𝐫𝐞 𝐦𝐚𝐤𝐢𝐧𝐠 𝐍𝐨𝐝𝐞𝐉𝐒 𝐝𝐨 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐢𝐭’𝐬 𝐫𝐞𝐚𝐥𝐥𝐲 𝐛𝐚𝐝 𝐚𝐭 𝐝𝐨𝐢𝐧𝐠. NodeJs is single threaded. In the ideal case that it’s designed for, requests should be I/O bound. A complex page requiring much SSR will hamstring the ability to serve concurrent requests.",
 
 	"Async": "SECTION",
-	"Async - AsyncLocalStorage": "Async context provides a way to handle asynchronous operations more gracefully, preserving the context across async calls, making debugging and tracing easier. A go-to feature for backend developers working with Node.js and complex async operations. AsyncLocalStorage  is a Node.js API (based on the async_hooks API) that is used to create asynchronous state within callbacks and promise chains."
+	"Async - AsyncLocalStorage": "Async context provides a way to handle asynchronous operations more gracefully, preserving the context across async calls, making debugging and tracing easier. A go-to feature for backend developers working with Node.js and complex async operations. AsyncLocalStorage  is a Node.js API (based on the async_hooks API) that is used to create asynchronous state within callbacks and promise chains.",
+
+	"CICD": "SECTION",
+  "CICD - compilation - SWC": "SWC (stands for Speedy Web Compiler ) is a super-fast TypeScript / JavaScript compiler written in Rust.",
+  "CICD - compilation - SWC - WASM": "WebAssembly (WASM).",
+  "CICD - compilation --experimental-strip-types": "A few days ago, the tech community woke up to the news that the experimental --experimental-strip-types flag has been added to Node.js, currently available in the Node 23 nightly build. This development allows developers to write TypeScript code using .ts files in Node.js without the need for a compile step. Previously, running TypeScript in Node.js required a build process to transpile TypeScript into JavaScript. This new feature eliminates that necessity, enabling direct execution of TypeScript files."
 
 }
