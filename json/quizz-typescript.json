@@ -1,4 +1,8 @@
 {
 	"JS types": "SECTION",
-	"JS Types - ES6": "ECMAScript 6 introduced the let and const keywords. These keywords can be used in place of the var keyword."
-	}
+	"JS Types - ES6": "ECMAScript 6 introduced the let and const keywords. These keywords can be used in place of the var keyword.",
+
+	"Props Chaining": "",
+	"Props Chaining - optional": "example?.a?.[0]"
+
+}
