@@ -1,6 +1,9 @@
 {
 	"JS types": "SECTION",
-	"JS Types - ES6": "ECMAScript 6 introduced the let and const keywords. These keywords can be used in place of the var keyword.",
+	"JS Types - assign - satisfies": "TypeScript satisfies operator allow developers to check and validate the value of a variable against a given type.",
+	"JS Types - assign - :": "The : tells the variable will always be this type. const obj: Record<string, string> = {}",
+	"JS Types - assign - as": "Third way to declare type is using as annotation, I will really suggest not to use this way of declaring types since this is literally like telling lie to TypeScript.",
+	"JS Types - assign - infer": "not annotating and letting TS infer it.",
 
 	"Props Chaining": "",
 	"Props Chaining - optional": "example?.a?.[0]"

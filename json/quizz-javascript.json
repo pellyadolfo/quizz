@@ -55,6 +55,8 @@
 	"DataTypes - Operations - Equalying - Deep": "Deep equality requires custom comparison logic or libraries like Lodash’s isEqual method, which recursively checks the content of nested objects or arrays.",
 	"DataTypes - Operations - Copying - Shallow": "To create an independent copy of an object (copy by value), you can use methods like Object.assign() or the spread operator (...). These methods create a shallow copy, which means they copy the top-level properties of the object but not nested objects. It’s essential to note that a shallow copy does not create copies of nested objects within the original object. Shallow Copy means the original data is unaffected by changes to the copied data for fundamental types. For reference types, a shallow copy might duplicate the first layer of an object, protecting the original data when modifying shallow properties in the copied object. https://javascript.plainenglish.io/is-the-spread-operator-a-deep-copy-261c109fb708",
 	"DataTypes - Operations - Copying - Deep": "To create deep copies, which include all nested objects, you would need to implement a custom copying function or use a library like Lodash. Deep Copy represents limitless hierarchical duplication. Changes to either fundamental or reference data types in the deep copy do not affect the original.",
+	"DataTypes - Operations - Clone - Shallow": "Object.create(), Spread Operator {...}",
+	"DataTypes - Operations - Clone - Deep": "JSON.parse(JSON.stringify()), lodash.deepClone",
 	"DataTypes - Operations - Passing by Value": "Passing Primitive Values: Passing by Value. When you pass a primitive value to a function, you are essentially passing a copy of that value. This is known as passing by value. Any changes made to the parameter within the function do not affect the original variable outside the function.",
 	"DataTypes - Operations - Passing by Reference": "Passing Reference Values: Passing by Reference. When you pass a reference type (such as an object or array) to a function, you are passing a reference to the actual data. This is known as passing by reference. Any modifications made to the parameter within the function directly affect the original variable outside the function. Let’s see this in action:",
 	"DataTypes - Operations - Conversion - Strings to Numbers": ".",
@@ -129,6 +131,17 @@
 	"Logic - Functional - Monads2": "https://javascript.plainenglish.io/50-single-line-code-examples-that-showcase-your-fundamental-skills-ea495082de45",
 	"Logic - Functional - |>": "The pipeline operator (|>) allows for a more readable and functional approach to chaining functions, inspired by languages like Elixir.",
 	
+	"View - Rendering": "SECTION",
+	"View - Rendering - resources - lazy loading": "Similar to the list virtualization technique, lazy loading images prevents the creation of unnecessary DOM nodes, thereby boosting performance. Lazy loading allows you to defer or delay the loading of images until they are needed or visible to the user instead of loading all the images on page load..",
+	"View - Rendering - resources - lazy loading - technique": "The concept behind lazy loading is to initiate the load of a placeholder or a small low-resolution version of the image, typically a small-sized thumbnail or a blurred placeholder. As the user scrolls or interacts with the page, the actual image is loaded dynamically, replacing the placeholder when the user enters the viewport or when it becomes visible. Lazy loading in React can be achieved using various libraries and techniques. One of the popular libraries is the react-lazyload.  .",
+	"View - Rendering - resources - lazy loading - compression": "Image compression reduces the file size of images without significant loss of visual quality..",
+	"View - Rendering - resources - loading - sync": "<script src='script.js'></script>",
+	"View - Rendering - resources - loading - async": "<script src='script.js' async></script>",
+	"View - Rendering - resources - loading - defer": "<script src='script.js' defer></script>",
+	"View - Rendering - DOM": "The DOM is not part of the JavaScript language, but is instead a Web API which defines the structure and properties of elements on a webpage.",
+	"View - Rendering - DOM - access": ".",
+	"View - Rendering - DOM - access - minimize": "Accessing and manipulating the DOM can be slow. Minimize the amount of DOM access by caching references to elements and avoiding unnecessary changes.",
+
 	"CICD - Bundling": "SECTION",
 	"CICD - Bundling - Arch - Functions - Arrow": "(a,b)=>a+b;",
 	"CICD - Bundling - Arch - Functions - Strict": "Strict Mode imposes restrictions that save hours of debugging. With Strict Mode, you’ll get an error if a variable doesn’t exist or has a typo, stopping your app from running and pinpointing the bug immediately. It throws visible errors for silent issues like wrong variable names and prevents using reserved keywords that could cause future problems. Use the use strict line to enable Strict Mode anywhere in your code. I recommend placing it in the global context. It will cover the entire file.",
@@ -156,9 +169,6 @@
 	"CICD - Bundling - Packaging - Modules - compatibility": "Using require to load ES modules is not supported because ES modules are executed asynchronously. So, there’s nothing wrong with supporting require() for ESM that doesn’t include top-level await. Although some libraries may have valid reasons to use top-level await, it may not be so common.",
 	"CICD - Bundling - Packaging - Modules - compatibility - joyeecheung": "https://levelup.gitconnected.com/commonjs-and-es-module-are-finally-going-to-be-compatible-with-each-other-39b8b880796b.",
 	"CICD - Bundling - Packaging - Modules - compatibility - polyfill": "https://amy-blankenship.medium.com/those-scary-stories-about-polyfill-io-theyre-just-the-beginning-5e24e7b5fe8a.",
-	"CICD - Bundling - Packaging - resources - loading - sync": "<script src='script.js'></script>",
-	"CICD - Bundling - Packaging - resources - loading - async": "<script src='script.js' async></script>",
-	"CICD - Bundling - Packaging - resources - loading - defer": "<script src='script.js' defer></script>",
 	"CICD - Bundling - Packaging - resources - package managers - npm": "",
 	"CICD - Bundling - Packaging - resources - package managers - yarn": "",
 	"CICD - Bundling - Packaging - resources - package managers - JSR": "https://denoland.medium.com/jsr-is-not-another-package-manager-77fa596c345d",
@@ -216,6 +226,8 @@
   "CICD - Execution - WebWorkers - type - Service": "Service Workers: These special workers act like proxies, sitting between your web app, the browser, and the network. They’re essential for building robust offline experiences, intercepting network requests, and enabling features like push notifications.",
 	"CICD - Execution - WebWorkers - type - Service - usage": "Service Workers can be used to cache assets and handle offline functionality. This can significantly improve the load time of your web app, especially on repeat visits.",
 	"CICD - Execution - WebWorkers - type - Service - register": "navigator.serviceWorker.register('/service-worker.js').then(function(registration) {})",
+	"CICD - Execution - performance - debounce": "Debounce function is a javascript programming pattern for delaying execution of a function.",
+	"CICD - Execution - performance - throttle": "Throttling is a technique that limits how often a function can be called in a given period of time. It is useful for improving the performance. Throttling is used to call a function after every millisecond or a particular interval of time only the first click is executed immediately.",
 
 	"CICD - Audit": "SECTION",
 	"CICD - Audit - Logging - console.log": "",
@@ -227,6 +239,10 @@
 	"CICD - Audit - Testing - Playwright": ".",
 	"CICD - Audit - Testing - Cypress": ".",
 	"CICD - Audit - Profiling - Lighthouse": "Lighthouse is an open-source tool by Google for auditing performance, accessibility, and SEO.",
-	"CICD - Audit - Profiling - Chrome DevTools": "Chrome DevTools offers a suite of performance profiling and debugging tools."
+	"CICD - Audit - Profiling - WebPageTest": "WebPageTest allows you to run performance tests from multiple locations around the world. It provides detailed insights into your site’s loading times, resource usage, and more.",
+	"CICD - Audit - Profiling - Chrome DevTools": "Chrome DevTools offers a suite of performance profiling and debugging tools.",
+	"CICD - Audit - Profiling - Firefox Developer Tools": "Similar to Chrome, open DevTools (F12), go to the “Performance” tab, and start recording.",
+	"CICD - Audit - Profiling - NodeJS - prof": "",
+	"CICD - Audit - Profiling - NodeJS - clinic": ""
 
 	}

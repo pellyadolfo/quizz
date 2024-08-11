@@ -1,5 +1,6 @@
 {
   "NodeJS": "SECTION",
+  "NodeJS - 2009": "released",
 
 	"Features": "SECTION",
 	"Features - Node Green": "The website https://node.green/ provides an excellent overview over supported ECMAScript features in various versions of Node.js, based on kangax's compat-table",
