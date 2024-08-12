@@ -249,7 +249,7 @@
 	"CICD - Audit": "SECTION",
 	"CICD - Audit - Logging - console.log": "",
 	"CICD - Audit - Logging - process.stdout.write": "https://medium.com/coding-beauty/javascript-console-log-without-newline-20e7e63cca36",
-	"CICD - Audit - Testing - JEST": "https://www.robinwieruch.de/react-testing-tutorial/.",
+	"CICD - Audit - Testing - Jest": "https://www.robinwieruch.de/react-testing-tutorial/.",
 	"CICD - Audit - Testing - Mocha": ".",
 	"CICD - Audit - Testing - Chai": ".",
 	"CICD - Audit - Testing - Vite": ".",
