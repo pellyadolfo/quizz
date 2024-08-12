@@ -86,7 +86,12 @@
 	"Logic - ServerComponents - draftMode": "The draftMode function allows you to detect Draft Mode inside a Server Component.",
 
 	"View": "SECTION",
-  "View - Rendering - strategy - CSR": "In Client-Side Rendering (CSR) with React, the browser downloads a minimal HTML page and the JavaScript needed for the page. The JavaScript is then used to update the DOM and render the page. When the application is first loaded, the user may notice a slight delay before they can see the full page, this is because the page isn't fully rendered until all the JavaScript is downloaded, parsed, and executed.",
+	"View - Resources - Caching - RouterCache": "Next.js has an in-memory client-side cache called the Router Cache.",
+	"View - Resources - Caching - RouterCache - Prefetching - <Link>": "<Link> component: Routes are automatically prefetched as they become visible in the user's viewport. Prefetching happens when the page first loads or when it comes into view through scrolling.",
+	"View - Resources - Caching - RouterCache - Prefetching - router.prefetch()": "router.prefetch(): The useRouter hook can be used to prefetch routes programmatically.",
+	"View - Resources - Caching - RouterCache - Prefetching - router.refresh()": "Revalidate RouterCache.",
+	"View - Resources - Caching - FullRouteCache": "https://nextjs.org/docs/app/building-your-application/caching#apis",
+	"View - Resources - Caching - DataCache": "https://nextjs.org/docs/app/building-your-application/caching#apis",
 	"View - Rendering - strategy - SSR": "If a page uses Server-side Rendering, the page HTML is generated on each request.",
 	"View - Rendering - strategy - SSR - drawbacks - load": "Try to use SSR consciously and check whether you actually need SEO or not for your application. SSR takes up an immense load, so if you avoid using it when not required, you will be blessed.",
   "View - Rendering - strategy - SSR - benefits - Data Fetching": "Data Fetching: Server Components allow you to move data fetching to the server, closer to your data source. This can improve performance by reducing time it takes to fetch data needed for rendering, and the number of requests the client needs to make.",
