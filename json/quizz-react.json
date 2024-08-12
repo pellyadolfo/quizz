@@ -173,11 +173,11 @@
 	"Logic - ServerComponents - use client": "Server Components are not sent to the browser, so they cannot use interactive APIs like useState. To add interactivity to Server Components, you can compose them with Client Component using the 'use client' directive. A common misunderstanding is that Server Components are denoted by 'use server', but there is no directive for Server Components. The 'use server' directive is used for Server Actions.",
 	"Logic - ServerComponents - async": "Server Components introduce a new way to write Components using async/await. When you await in an async component, React will suspend and wait for the promise to resolve before resuming rendering. This works across server/client boundaries with streaming support for Suspense.",
   "Logic - ServerComponents - cache": "cache is only for use with React Server Components.",
-  "Logic - ServerComponents - ServerActions": "Server Actions allow Client Components to call async functions executed on the server.",
+  "Logic - ServerComponents - ServerActions": "Server Actions are asynchronous functions that are executed on the server. They can be used in Server and Client Components to handle form submissions",
+  "Logic - ServerComponents - ServerActions - forms": "Server Actions work with the new Form features in React 19. You can pass a Server Action to a Form to automatically submit the form to the server:",
   "Logic - ServerComponents - ServerActions - attaching - as props": "Server Actions can be created in Server Components and passed as props to Client Components. Server Components can define Server Actions with the 'use server' directive",
   "Logic - ServerComponents - ServerActions - attaching - importing": "Server Actions can be imported and used in Client Components. Client Components can import Server Actions from files that use the 'use server' directive:",
   "Logic - ServerComponents - ServerActions - composing": "Server Actions can be composed with Actions on the client",
-  "Logic - ServerComponents - ServerActions - forms": "Server Actions work with the new Form features in React 19. You can pass a Server Action to a Form to automatically submit the form to the server:",
   "Logic - ServerComponents - ServerActions - useActionState": "You can compose Server Actions with useActionState for the common case where you just need access to the action pending state and last returned respons.",
 
 	"View": "SECTION",
