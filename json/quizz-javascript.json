@@ -30,6 +30,7 @@
 	"DataTypes - Inmutable - Tuple": "A Tuple is an immutable ordered list, similar to JavaScript arrays, but Tuples are immutable and have deep equality. Tuples are created using an array-like literal syntax prefixed with #. const tuple = #['value1', 'value2'];",
 	"DataTypes - Reference": "Reference types store a reference to the object in the stack, while the object itself lives in the heap, a more complex but expansive memory structure.",
 	"DataTypes - Reference - Object": "",
+	"DataTypes - Reference - Object - prototype": "JavaScript uses a prototype-based approach to object-oriented programming.",
 	"DataTypes - Reference - Object - Map": "let map = new Map(); https://medium.com/@jacobmacinnis/javascript-map-vs-javascript-object-vs-traditional-hash-tables-83e5c3068fbd",
 	"DataTypes - Reference - Object - Map vs Object - Key Types": "Flexible Key Types: One of the most significant advantages of Map over objects is its flexibility with key types. In an object, keys must be strings or symbols. In a Map, keys can be anything – from primitive values to complex objects. https://javascript.plainenglish.io/are-you-still-using-objects-discover-the-game-changing-power-of-map-in-js-ts-3600a6c28b60",
 	"DataTypes - Reference - Object - Map vs Object - Order": "Maintains Order: Maps maintain the order of their entries, which means the sequence in which items are added is preserved. This is particularly useful when you need a predictable iteration order.",
@@ -143,6 +144,7 @@
 	"View - Rendering - DOM - access - minimize": "Accessing and manipulating the DOM can be slow. Minimize the amount of DOM access by caching references to elements and avoiding unnecessary changes.",
 
 	"CICD - Bundling": "SECTION",
+	"CICD - Bundling - Arch - Functions - firstclass": "JavaScript is a language with first-class functions, meaning functions are treated like regular variables. This allows us to pass functions into other functions and even return functions from functions.",
 	"CICD - Bundling - Arch - Functions - Arrow": "(a,b)=>a+b;",
 	"CICD - Bundling - Arch - Functions - Strict": "Strict Mode imposes restrictions that save hours of debugging. With Strict Mode, you’ll get an error if a variable doesn’t exist or has a typo, stopping your app from running and pinpointing the bug immediately. It throws visible errors for silent issues like wrong variable names and prevents using reserved keywords that could cause future problems. Use the use strict line to enable Strict Mode anywhere in your code. I recommend placing it in the global context. It will cover the entire file.",
 	"CICD - Bundling - Arch - Functions - Pure": "If I call a pure function, it will only take the data passed as parameters, perform an X operation, and return the output as a value. Pure functions do not print the output, call another function, perform another Y operation, etc. They only return a value.",
@@ -194,7 +196,7 @@
   "CICD - Bundling - tools - Vite": "native ES modules in the browser https://vitejs.dev/",
 
 	"CICD - Building": "SECTION",
-	"CICD - Building - types - JIT": "",
+	"CICD - Building - types - JIT": "Interpreted",
 	"CICD - Building - types - AOTC": "",
 	"CICD - Building - Babel": "Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.",
 	"CICD - Building - Optiflow": "https://itnext.io/optiflow-a-compiler-based-solution-for-next-generation-javascript-performance-e51c8c8de6ee",
@@ -216,6 +218,8 @@
 	"CICD - Execution - Scopes - Changing Scope": "Sometimes you need to manipulate the scopes of your JavaScript depending on what you’re looking to do: .call() and .apply() and .bind()",
 	"CICD - Execution - Scopes - Changing Scope - .call() and .apply()": "The .call() and .apply() methods are really sweet, they allows you to pass in a scope to a function, which binds the correct this value. We can use either .call() or .apply() to change the scope, but any further arguments are where the two differ: .call(scope, arg1, arg2, arg3) takes individual arguments, comma separated, whereas .apply(scope, [arg1, arg2]) takes an Array of arguments.",
 	"CICD - Execution - Scopes - Changing Scope - .bind() (ES5)": "Unlike the above, using .bind() does not invoke a function, it merely binds the values before the function is invoked.",
+	"CICD - Execution - Concurrency - single-threaded": "Let’s now understand JavaScript’s single-threaded, non-blocking event loop concurrency model. A concurrency model refers to how the JavaScript engine manages multiple tasks occurring simultaneously. Since JavaScript runs on a single thread, it can only perform one task at a time. Therefore, we need a method to handle multiple tasks concurrently.",
+	"CICD - Execution - Concurrency - event loop": "To avoid blocking, JavaScript uses a non-blocking behavior facilitated by the event loop. The event loop manages long-running tasks by executing them in the background and then placing them back on the main thread once they are completed.",
 	"CICD - Execution - Environment - runtime - node": "",
 	"CICD - Execution - Environment - runtime - deno": "",
 	"CICD - Execution - Environment - engine - Google V8": "",
