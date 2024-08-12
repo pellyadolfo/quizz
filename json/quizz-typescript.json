@@ -1,9 +1,12 @@
 {
-	"JS types": "SECTION",
-	"JS Types - assign - satisfies": "TypeScript satisfies operator allow developers to check and validate the value of a variable against a given type.",
-	"JS Types - assign - :": "The : tells the variable will always be this type. const obj: Record<string, string> = {}",
-	"JS Types - assign - as": "Third way to declare type is using as annotation, I will really suggest not to use this way of declaring types since this is literally like telling lie to TypeScript.",
-	"JS Types - assign - infer": "not annotating and letting TS infer it.",
+	"ts types": "SECTION",
+	"ts Types - assign - satisfies": "TypeScript satisfies operator allow developers to check and validate the value of a variable against a given type.",
+	"ts Types - assign - :": "The : tells the variable will always be this type. const obj: Record<string, string> = {}",
+	"ts Types - assign - as": "Third way to declare type is using as annotation, I will really suggest not to use this way of declaring types since this is literally like telling lie to TypeScript.",
+	"ts Types - assign - infer": "not annotating and letting TS infer it.",
+
+	"Files - .d.ts": "Their purpose is to hold declarations (not implementations) and public types. Having a single add.ts file, containing both the declaration and implementation, is the equivalent of having the add.d.ts and add.js files defined separately. This means you don’t need to worry about organizing declaration files with their respective implemention files, which is great for developer experience.",
+	"Files - .d.ts - autogenerate": "You can simply auto-generate .d.ts files from your .ts files, just by changing a few settings in your tsconfig.json 'compilerOptions': { 'declaration': true } and package.json 'main': 'dist/index.js', 'types': 'dist/index.d.ts',     ",
 
 	"Props Chaining": "",
 	"Props Chaining - optional": "example?.a?.[0]"
