@@ -1,6 +1,6 @@
 {
   "OCP - OpenShift Container Platform": "SECTION",
-  "OCP": "OpenShift Container Platform is a cloud-based Kubernetes container platform. The foundation of OpenShift Container Platform is based on Kubernetes and therefore shares the same technology.",££
+  "OCP": "OpenShift Container Platform is a cloud-based Kubernetes container platform. The foundation of OpenShift Container Platform is based on Kubernetes and therefore shares the same technology.",
 
   "OCP - S2I": "SECTION",
   "OCP - S2I - images": "Red Hat Software Collections images as a foundation for applications that rely on specific runtime environments. With S2I images, you can insert your code into a base image environment that is ready to run that code.",
@@ -19,7 +19,7 @@
   "OCP - cicd - applications - helm charts": ".",
 
   "OCP - gui": "SECTION",
-  "OCP - gui - web console": "SECTION",
+  "OCP - gui - web console": "SECTION"
   
 }
 
