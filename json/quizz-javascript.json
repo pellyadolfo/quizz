@@ -228,10 +228,14 @@
 	"CICD - Bundling - Packaging - Modules": "A module is just a file. One script is one module. As simple as that. Modules can load each other and use special directives export and import to interchange functionality, call functions of one module from another one:",
 	"CICD - Bundling - Packaging - Modules - File - <2009": "Before CommonJS, JavaScript code was typically written in a single file, making it difficult to manage dependencies.",
 	"CICD - Bundling - Packaging - Modules - CommonJS - 2009": "CommonJS (CJS). CommonJS was developed in 2009 by Kevin Dangoor and other developers. It was created to solve the problem of managing dependencies in JavaScript projects.",
+	"CICD - Bundling - Packaging - Modules - CommonJS - .cjs": ".cjs files are treated as CommonJS files.",
+	"CICD - Bundling - Packaging - Modules - CommonJS - browser - module": "When the type attribute is set to module, the file is treated as an ESM file.",
 	"CICD - Bundling - Packaging - Modules - CommonJS - sync": "CommonJS is a synchronous module system. This means that when a module is imported, the code execution is blocked until the module is loaded.",
 	"CICD - Bundling - Packaging - Modules - CommonJS - require": "CJS uses the require function to load modules and expose code as a module using either module.exports or exports objects.",
 	"CICD - Bundling - Packaging - Modules - CommonJS - NodeJS": "CommonJS is a module system natively supported by Node.js, initially introduced to meet the needs of server-side modularity. .js file extension is by default associated with CommonJS modules.",
 	"CICD - Bundling - Packaging - Modules - ESM - 2015": "ECMAScript Module (ESM). ES Modules was introduced in ECMAScript 6 in 2015. It was created to provide a standardized way to modularize JavaScript code.",
+	"CICD - Bundling - Packaging - Modules - ESM - .mjs": ".mjs files are treated as ESM files.",
+	"CICD - Bundling - Packaging - Modules - ESM - browser - text/javascript": "When the type attribute is not specified or set to text/javascript, the file is treated as a CommonJS file.",
 	"CICD - Bundling - Packaging - Modules - ESM - standard": "ESM is the official standard module system for modern JavaScript and is natively supported by the latest versions of browsers.",
 	"CICD - Bundling - Packaging - Modules - ESM - static": "Unlike CommonJS, they are designed to be static, which means you cannot dynamically load or create modules at runtime.",
 	"CICD - Bundling - Packaging - Modules - ESM - async": "Since ESM was introduced to Node.js, its asynchronous loading feature and module resolution logic have been well received.",
@@ -240,6 +244,9 @@
 	"CICD - Bundling - Packaging - Modules - ESM - import dynamic": "import('path/to/module').then(module => { ... });",
   "CICD - Bundling - Packaging - Modules - ESM - export": ".",
 	"CICD - Bundling - Packaging - Modules - compatibility": "Using require to load ES modules is not supported because ES modules are executed asynchronously. So, there’s nothing wrong with supporting require() for ESM that doesn’t include top-level await. Although some libraries may have valid reasons to use top-level await, it may not be so common.",
+	"CICD - Bundling - Packaging - Modules - compatibility - dual - wrapper": "You write your library in CommonJS and create an ESM wrapper around it. The ESM wrapper imports the CommonJS code and re-exports it.",
+	"CICD - Bundling - Packaging - Modules - compatibility - dual - separate": "Separate ESM and CommonJS builds. This approach involves writing your library in ESM and CommonJS separately - or more commonly, authoring in ESM and using tooling to generate the CommonJS build. This approach has the benefit of allowing you to write your code in ESM and get the benefits of ESM like tree-shaking with bundlers. But it also increases complexity in the build process.",
+	"CICD - Bundling - Packaging - Modules - compatibility - dual - coexists": "Dual package hazard. With this approach, the ESM and CommonJS versions of the package are treated as separate modules by Node.js as they are different files, leading to potential issues if the package is both imported and required in the same runtime environment. If the package relies on any state that can cause issues if 2 separate instances are loaded, it's necessary to isolate the state into a separate CommonJS module that can be shared between the ESM and CommonJS builds. This is not an issue if it's safe to have 2 separate instances of the package loaded in the same environment, which is often the case for most libraries.",
 	"CICD - Bundling - Packaging - Modules - compatibility - NodeJS - package.js": "Node.js allows the use of .mjs file extension or explicitly specifying the “type”: “module” property in package.json to indicate ESM modules.",
 	"CICD - Bundling - Packaging - Modules - compatibility - experimental-require-module": "https://levelup.gitconnected.com/commonjs-and-es-module-are-finally-going-to-be-compatible-with-each-other-39b8b880796b.",
 	"CICD - Bundling - Packaging - Modules - compatibility - polyfill": "https://amy-blankenship.medium.com/those-scary-stories-about-polyfill-io-theyre-just-the-beginning-5e24e7b5fe8a.",
@@ -342,6 +349,12 @@
 	"CICD - Audit - Profiling - Chrome DevTools": "Chrome DevTools offers a suite of performance profiling and debugging tools.",
 	"CICD - Audit - Profiling - Firefox Developer Tools": "Similar to Chrome, open DevTools (F12), go to the “Performance” tab, and start recording.",
 	"CICD - Audit - Profiling - NodeJS - prof": "",
-	"CICD - Audit - Profiling - NodeJS - clinic": ""
+	"CICD - Audit - Profiling - NodeJS - clinic": "",
+	"CICD - Audit - Security - XSS": "Cross-Site Scripting (XSS).",
+	"CICD - Audit - Security - CSP": "Content Security Policy (CSP) Headers. Implementing a Content Security Policy (CSP) is a crucial step in securing your web application against various types of attacks, including Cross-Site Scripting (XSS).",
+	"CICD - Audit - Security - CSRF": "Cross-Site Request Forgery (CSRF) is a type of security attack on web applications. In a CSRF attack, the attacker tricks a legitimate user into submitting a request that they did not intend to..",
+	"CICD - Audit - Security - IDOR": "Insecure Direct Object References (IDOR) refer to a security weakness where an application provides direct access to objects based on user-supplied input..",
+	"CICD - Audit - Security - env": "One of the key aspects of frontend application security is protecting sensitive information like API keys, database credentials, and other confidential data. Use env variables so they don’t get leaked into the git repository. Especially when the repository is open source and public."
+
 
 	}
