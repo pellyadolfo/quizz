@@ -329,7 +329,7 @@
 	"CICD - Execution - Scopes - Function": "Function scope: The context within a JS-function.",
 	"CICD - Execution - Scopes - Component": "Component scope: The context inside a functional or class component.",
 	"CICD - Execution - Scopes - Module": "Module scope: The context for code running inside a JavaScript (JS), JSX, TypeScript (TS), or TSX file.",
-	"CICD - Audit - Testing - React Testing": ".",
+	"CICD - Audit - Testing - ReactTesting": "React Testing Library is not an alternative to Jest, because they need each other and every one of them has a clear task.",
   "CICD - Audit - Profiling - react Profiler": "The React Profiler is a tool that comes with the React Developer Tools extension. It allows you to measure and analyze the rendering performance of your components. The React Profiler lets you identify components that take longer to render and detect potential performance bottlenecks.",
   "CICD - Audit - Profiling - ReactDevTools": "React Developer Tools. Use React Developer Tools to inspect React components, edit props and state, and identify performance problems.",
   "CICD - Audit - Profiling - ReactDevTools - useDebugValue": "useDebugValue is a React Hook that lets you add a label to a custom Hook in ReactDevTools. useDebugValue(value, format?)"

@@ -4,6 +4,12 @@
 	"ts Types - assign - :": "The : tells the variable will always be this type. const obj: Record<string, string> = {}",
 	"ts Types - assign - as": "Third way to declare type is using as annotation, I will really suggest not to use this way of declaring types since this is literally like telling lie to TypeScript.",
 	"ts Types - assign - infer": "not annotating and letting TS infer it.",
+	"ts Types - TypeGuards": "A type guard is some expression that performs a runtime check that guarantees the type in some scope.",
+	"ts Types - TypeGuards - typeof": "function isNumber(x: any): x is number { return typeof x === 'number'; }",
+	"ts Types - TypeGuards - instanceof": "",
+	"ts Types - TypeGuards - custom": "To define a type guard, we simply need to define a function whose return type is a type predicate:. function isFish(pet: Fish | Bird): pet is Fish { return (pet as Fish).swim !== undefined; }",
+	"ts Types - TypeAliases": "Type aliases create a new name for a type. Type aliases are sometimes similar to interfaces, but can name primitives, unions, tuples, and any other types that you’d otherwise have to write by hand.",
+	"ts Types - Generics": ".",
 
 	"Files - .d.ts": "Their purpose is to hold declarations (not implementations) and public types. Having a single add.ts file, containing both the declaration and implementation, is the equivalent of having the add.d.ts and add.js files defined separately. This means you don’t need to worry about organizing declaration files with their respective implemention files, which is great for developer experience.",
 	"Files - .d.ts - autogenerate": "You can simply auto-generate .d.ts files from your .ts files, just by changing a few settings in your tsconfig.json 'compilerOptions': { 'declaration': true } and package.json 'main': 'dist/index.js', 'types': 'dist/index.d.ts',     ",
