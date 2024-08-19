@@ -37,8 +37,8 @@
 	"DataTypes - Reference - Object - reflection - Proxy": "Proxy is also a useful inbuilt JavaScript object released with the ES6 version. It helps us override the default internal operations of JavaScript objects, like property setting/getting, by creating a proxy object.",
 	"DataTypes - Reference - Object - data - BigInt": "ES2020 introduced the BigInt inbuilt object to solve these issues in the default number format. This object lets you create large integers by sending integer values as a string let a = BigInt('36028797018963975');",
 	"DataTypes - Reference - Object - data - Array": "",
-	"DataTypes - Reference - Object - data - Array - Spread Operator": "The Spread operator is a key feature in JavaScript that enables an iterable to expand wherever zero or more arguments are required. Its primary use case is with arrays, especially when expecting multiple values. This operator provides the convenience of easily extracting a list of parameters from an array, making our code more versatile and readable.",	
 	"DataTypes - Reference - Object - data - Array - Destructuring": "Destructuring was introduced in ES6. It’s a JavaScript feature that allows us to extract multiple pieces of data from an array or object and assign them to their own variables. const { firstName, lastName, city } = person;.",
+	"DataTypes - Reference - Object - data - Array - Spread Operator": "The Spread operator is a key feature in JavaScript that enables an iterable to expand wherever zero or more arguments are required. Its primary use case is with arrays, especially when expecting multiple values. This operator provides the convenience of easily extracting a list of parameters from an array, making our code more versatile and readable.",	
 	"DataTypes - Reference - Object - data - ArrayBuffer": "The ArrayBuffer object lets you define a generic raw byte buffer based on a given byte length. We can’t directly store binary data on it, so we should create a typed array referring to the array buffer. const ab = new ArrayBuffer(2);",
 	"DataTypes - Reference - Object - data - ArrayBuffer - Uint8Array": "Uint8Array object to access the array buffer. const arr = new Uint8Array(ab);",
 	"DataTypes - Reference - Object - data - ArrayBuffer - Uint16Array": "Uint8Array object to access the array buffer. const arr = new Uint16Array(ab);",
@@ -92,6 +92,7 @@
 	"DataTypes - Operations - Chaining - Nullish Coalescing": "user.name ?? 'Guest'",
 
 	"Logic": "SECTION",
+	"Logic - Events - preventDefault": "",
 	"Logic - Conditions - if": "",
 	"Logic - Conditions - switch": "",
 	"Logic - Loops": "",
@@ -234,7 +235,9 @@
 
 	"CICD - Bundling": "SECTION",
 	"CICD - Bundling - Arch - Functions - firstclass": "JavaScript is a language with first-class functions, meaning functions are treated like regular variables. This allows us to pass functions into other functions and even return functions from functions.",
-	"CICD - Bundling - Arch - Functions - Arrow": "(a,b)=>a+b;",
+	"CICD - Bundling - Arch - Functions - ES5": "function getGreeting() { return 'Welcome to JavaScript'; }",
+	"CICD - Bundling - Arch - Functions - ES6 - ArrowWithBody": "const getGreeting = () => { return 'Welcome to JavaScript'; }",
+	"CICD - Bundling - Arch - Functions - ES6 - Arrow": "const getGreeting = () => 'Welcome to JavaScript';",
 	"CICD - Bundling - Arch - Functions - Strict": "Strict Mode imposes restrictions that save hours of debugging. With Strict Mode, you’ll get an error if a variable doesn’t exist or has a typo, stopping your app from running and pinpointing the bug immediately. It throws visible errors for silent issues like wrong variable names and prevents using reserved keywords that could cause future problems. Use the use strict line to enable Strict Mode anywhere in your code. I recommend placing it in the global context. It will cover the entire file.",
 	"CICD - Bundling - Arch - Functions - Pure": "If I call a pure function, it will only take the data passed as parameters, perform an X operation, and return the output as a value. Pure functions do not print the output, call another function, perform another Y operation, etc. They only return a value.",
 	"CICD - Bundling - Arch - Functions - Currying": "https://javascript.info/currying-partials",
