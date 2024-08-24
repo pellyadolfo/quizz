@@ -39,6 +39,7 @@
   "images - dockerfile - WORKDIR": "This command is used to set the working directory of the container. WORKDIR dirname",
 
   "container": "SECTION",
+  "container - list": "Virtualization is an abstract version of a physical machine, while containerization is the abstract version of an application.",
   "container - list": "One can list all of the containers on the machine via the docker ps command. This command is used to return the currently running containers.",
   "container - processes": "With this command, you can see the top processes within a container. docker top ContainerID",
   "container - attach": "docker attach ContainerID",
