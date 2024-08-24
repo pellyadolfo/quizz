@@ -2,6 +2,11 @@
   "OCP - OpenShift Container Platform": "SECTION",
   "OCP": "OpenShift Container Platform is a cloud-based Kubernetes container platform. The foundation of OpenShift Container Platform is based on Kubernetes and therefore shares the same technology.",
 
+  "Arch": "SECTION",
+  "Arch - Machine": "A fundamental unit that describes the host for a node. The nodes in a cluster are the machines (VMs, physical servers, etc) that run your applications and cloud workflows.",
+  "Arch - Machine - machine - set": "MachineSet resources are groups of machines. Machine sets are to machines as replica sets are to pods.",
+  "Arch - Machine - machine - MCP": "A Machine Config Pool is used to group machines together so the MCO can manage their configurations and facilitate their upgrades.",
+
   "OCP - S2I": "SECTION",
   "OCP - S2I - images": "Red Hat Software Collections images as a foundation for applications that rely on specific runtime environments. With S2I images, you can insert your code into a base image environment that is ready to run that code.",
   "OCP - S2I - definition": "Source-to-image (S2I) produces ready-to-run images by injecting source code into a container that prepares that source code to be run",
