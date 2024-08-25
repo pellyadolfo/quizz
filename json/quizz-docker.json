@@ -2,6 +2,7 @@
 
   "2. ChooseContainerRuntime - docker": "SECTION",
 	"2. ChooseContainerRuntime - Docker": "Docker is a platform for developers and sysadmins to develop, deploy, and run applications with containers.",
+	"2. ChooseContainerRuntime - Docker - deprecated": "Cloud container orchestrators deprecated docker in favour of containerd or CRI-O.",
 	"2. ChooseContainerRuntime - Docker - language": "Docker is written in Go and takes advantage of several features of the Linux kernel to deliver its functionality.",
   "2. ChooseContainerRuntime - docker - installing": "",
   "2. ChooseContainerRuntime - docker - cloud": ".",
@@ -82,7 +83,8 @@
 	"4. RunImageOnDev - Docker Engine - start": "service docker start",
   "4. RunImageOnDev - Docker Engine - stop": "service docker stop",
 	"4. RunImageOnDev - Docker Machine - 2014": "Typically, you install Docker Machine on your local system. Docker Machine is a tool that lets you install Docker Engine on virtual hosts, and manage the hosts.",
-	"4. RunImageOnDev - Docker Machine - deprecated": "Docker Machine, which Docker has deprecated as of 2021-09-27.",
+	"4. RunImageOnDev - Docker Machine - deprecated": "Docker Machine, which Docker has deprecated as of 2021-09-27. This is the original implementation of Docker for macOS and Wndows.",
+	"4. RunImageOnDev - Docker Machine - virtualization": "You have a special VM image (Docker Machine) that needs a third party virtualization solution like VirtualBox or Parallels to run.",
 	"4. RunImageOnDev - Docker Machine - docker-machine": "You can use Machine to create Docker hosts on your local Mac or Windows box, on your company network, in your data center, or on cloud providers like Azure, AWS, or Digital Ocean. Using docker-machine commands, you can start, inspect, stop, and restart a managed host, upgrade the Docker client and daemon, and configure a Docker client to talk to your host.",
 	"4. RunImageOnDev - Docker Machine - docker-machine - active": "",
 	"4. RunImageOnDev - Docker Machine - docker-machine - config": "",
@@ -166,6 +168,7 @@
 	"4. RunImageOnDev - Docker Desktop - 2016": "Since its release in 2016, Docker Desktop has been seen as the replacement for Docker Machine to develop with containers on macOS and Windows. Not only does Docker Desktop provide a Docker API endpoint but it also provides transparent handling of file sharing and networking between the host and VM which make container development easier.",
 	"4. RunImageOnDev - Docker Desktop - GUI": "Docker Desktop is a one-click-install application for your Mac, Linux, or Windows environment that lets you build, share, and run containerized applications and microservices. It provides a straightforward GUI (Graphical User Interface) that lets you manage your containers, applications, and images directly from your machine..",
 	"4. RunImageOnDev - Docker Desktop - scope": "The easiest and recommended way to get Docker Compose is to install Docker Desktop. Docker Desktop includes Docker Compose along with Docker Engine and Docker CLI which are Compose prerequisites.",
+	"4. RunImageOnDev - Docker Desktop - virtualization": "Docker Desktop doesn’t need a third party virtualization because it depends on native OS virtualization methods.",
 	"4. RunImageOnDev - Docker Desktop - dev": "Docker Desktop provides development environments for both of container orchestrators.",
 	"4. RunImageOnDev - Docker Personal - 2021": "As announced on 31 August 2021, Docker Desktop will turn into Docker Personal and it will be only available freely for small businesses, personal use, education, and non-commercial open source projects. For other use case, a paid subscription is required. It will be an issue, since most developer will install Docker Desktop themselves and used in the commercial environment. A free distribution of Docker installation is required for such environment as a new default.",
 
