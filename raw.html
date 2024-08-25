@@ -12,17 +12,19 @@
 
 
 		<script>
+
+			async function fetchJSON(param) {
+  			const response = await fetch('./json/' + param);
+				const json = await response.json();
+			  return json;
+			}
+
 			window.onload = function(){
 				var param = new URL(window.location.href).searchParams.get("quizz");
-				fetch('./json/' + param)
-					.then((response) => { 
-						return document.getElementById("json").innerHTML = JSON.stringify(response.json(), undefined, 4) 
-					})
-					.then((json) => console.log(json))
-					.catch((error) => {
-					  console.log(error)
-					});
+				document.getElementById("json").innerHTML = JSON.stringify(fetchJSON(param), undefined, 4) 
 		  }
+
+
 		</script>
 
 	</body>
