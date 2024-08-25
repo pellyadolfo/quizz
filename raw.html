@@ -16,12 +16,12 @@
 			async function fetchJSON(param) {
   			const response = await fetch('./json/' + param);
 				const json = await response.json();
-			  return json;
+			  document.getElementById("json").innerHTML = JSON.stringify(json, undefined, 4) 
 			}
 
 			window.onload = function(){
 				var param = new URL(window.location.href).searchParams.get("quizz");
-				document.getElementById("json").innerHTML = JSON.stringify(fetchJSON(param), undefined, 4) 
+				fetchJSON(param);
 		  }
 
 
