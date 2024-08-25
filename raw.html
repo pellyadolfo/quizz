@@ -1,0 +1,25 @@
+
+<!doctype html>
+<html>
+
+	<head>
+		<title>Quizz - IT for Humans</title>
+	</head>
+
+	<body>
+
+		<pre id="json"></pre>
+
+
+		<script>
+			window.onload = function(){
+				var param = new URL(window.location.href).searchParams.get("quizz");
+				fetch(param)
+					.then((response) => document.getElementById("json").innerHTML = JSON.stringify(response.json(), undefined, 4))
+					.then((json) => console.log(json));
+		  }
+		</script>
+
+	</body>
+
+</html>
