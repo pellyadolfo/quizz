@@ -15,7 +15,7 @@
 			window.onload = function(){
 				var param = new URL(window.location.href).searchParams.get("quizz");
 				fetch('./json/' + param)
-					.then((response) => document.getElementById("json").innerHTML = JSON.stringify(response.json(), undefined, 4))
+					.then((response) => document.getElementById("json").innerHTML = JSON.stringify(response, undefined, 4))
 					.then((json) => console.log(json))
 					.catch((error) => {
 					  console.log(error)
