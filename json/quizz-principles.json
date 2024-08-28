@@ -30,9 +30,9 @@
 
 	"BASE": "SECTION",
 	"BASE Consistency Model": "BASE properties are looser than ACID. A BASE datastore values availability and scale, instead of guaranteed consistency. Used by NoSQL stores, including column family, key-value and document stores.",
-	"BASE. Basic Availability": "The database appears to work most of the time.",
-	"BASE. Soft-state": "Stores do not have to be write-consistent, nor do different replicas have to be mutually consistent all the time.",
-	"BASE. Eventual consistency": "Stores exhibit consistency at some later point (e.g., lazily at read time).",
+	"BASE Basic Availability": "The database appears to work most of the time.",
+	"BASE Soft-state": "Stores do not have to be write-consistent, nor do different replicas have to be mutually consistent all the time.",
+	"BASE Eventual consistency": "Stores exhibit consistency at some later point (e.g., lazily at read time).",
 
 	"CAP Theorem": "SECTION",
 	"CAP Theorem ": "In any distributed data store, you can have at most two of these three properties: consistency (C), high availability (A), tolerance to network partitions (P)",
@@ -41,5 +41,23 @@
 	"CAP Theorem. Tolerance to Network Partitions (P)": "Tolerance to network partitions (P). The system continues to operate despite an arbitrary number of messages being dropped (or delayed) by the network between nodes. Note that the I in ACID depends on network partitions: Isolation can only be guaranteed inside a single partition.",
 	"CAP Theorem - CA - Forfeit Partitions": "The system achieves High Available Consistency. To manage data across multiple resources these systems used methods like 2-Phase Commit. Single-site databases, RDBMS (Oracle, Postgres, MySQL) could be good eamples of CA systems.",
 	"CAP Theorem - CP - Best Effort Availity": "The system achieves Strong Consistency with Partition Tolerance. Pessimistic Locking methods used for multi resource data management. DNS, MongoDB, Redis are the example CP systems.",
-	"CAP Theorem - AP - Best Effort Consistency": "The system offers Full Availability by relaxing consistency. Optimistic Locking methods used for multi resource data management. CouchBase, Cassandra, Hazelcast are the example CP systems."
+	"CAP Theorem - AP - Best Effort Consistency": "The system offers Full Availability by relaxing consistency. Optimistic Locking methods used for multi resource data management. CouchBase, Cassandra, Hazelcast are the example CP systems.",
+
+	"DDD": "SECTION",
+	"DDD - description": ".",
+	"DDD - Entities": "Entities are objects that have a distinct identity that runs through time and different states. The identity is usually represented by an ID.",
+	"DDD - ValueObjects": "Value objects are objects that are defined by their attributes. They do not have a distinct identity.",
+	"DDD - Repositories": "Repositories are used to retrieve and store entities. They act as a collection of entities.",
+	"DDD - Factories": "Factories are used to create complex objects and aggregates.",
+	"DDD - Aggregates": "Aggregates are clusters of entities and value objects that are treated as a single unit.",
+	"DDD - Services": "Services contain business logic that doesn’t naturally fit within an entity or value object.",
+	"DDD - Services - stateless": "1.Stateless: Services are typically stateless. They do not hold any state themselves but operate on the state of entities and value objects.",
+	"DDD - Services - Encapsulation": "2.Encapsulation of Business Logic: They encapsulate business logic that spans multiple entities or value objects or that doesn’t fit neatly within a single entity or value object.",
+	"DDD - Services - Coordination": "3.Coordination: They often coordinate interactions between multiple entities and value objects.",
+	"DDD - DomainEvents": "Domain events are used to communicate changes in the state of the business.",
+	"DDD - DomainEvents - published": "Where Domain Events Are Published:",
+	"DDD - DomainEvents - published - EventBus": "1.Event Bus: Domain events are often published to an in-memory event bus within the application. This allows other parts of the application to subscribe to and handle these events. Since it is in-memory, the events are ephemeral and will be lost if the application restarts or crashes. It is suitable for scenarios where events need to be processed quickly and do not require persistence, such as inter-component communication within a single application instance.",
+	"DDD - DomainEvents - published - EventStore": "2.Event Store: For more complex scenarios, domain events can be published to an event store, such as AWS EventBridge, Kafka, or a custom event store. This allows for durable storage and replay of events.",
+	"DDD - DomainEvents - published - MessageBrokers": "3.Message Brokers: Domain events can also be published to message brokers like RabbitMQ or AWS SNS/SQS for asynchronous processing and integration with other systems."
+
 }
