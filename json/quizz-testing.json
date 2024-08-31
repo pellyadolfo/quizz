@@ -54,7 +54,10 @@
 	"Automated Testing": "",
 	"Automated Testing - Products": "",
 	"Automated Testing - Products - Selenium": "",
-	
+
+	"Patterns": "SECTION",
+	"Patterns": "https://medium.com/@ashishps/leetcode-was-hard-until-i-learned-these-15-patterns-19d15f6d71f1",
+
 	"TDD": "SECTION",
 	"TDD ": "Test-driven development is a programming technique that moves unit tests to the front row. In test-driven development tests are written as specification before writing production code: we must describe the problem we are trying to solve. In other words, TDD requires us to think about the results before providing the solution.",
 	"TDD - Steps": "(1) Describe the process you trying to solve (2) Write the unit test for the function you’re going to implement, the unit test should be short and focus on a single behavior of a function. Tests describe the object you are implementing, and it should not be necessary to change them unless the object itself changes, (3) Watch the test fail without writing the passing code allows us to confirm our theories about the current state of our code, (4) Make the test pass by providing the simplest solution that could possibly work, (4) Refactor to remove duplication. At the end, we need to review the work  and make necessary adjustments to remove duplication and improve design. There is only one rule to obey during this step: tests should stay green,",
@@ -62,5 +65,5 @@
 	
 	"BDD": "SECTION",
 	"BDD ": "Instead of TDD, I prefer a similar approach called “BDD” (Behavior Driven Development). Instead of writing test cases for every function in the implementation, write test cases for the behaviors. Of course the definition of “behavior” can be different: It can be story level behavior, making one test case for each component in the story, or it can be more granular, making test cases for all the actions such as API calls and DB queries. Choose what fits your project best. The important thing here is, focus on the behavior, not the implementation. If a behavior consists of three functions, the test case should not care about the input and output of each function, instead, treat them as a whole functionality. In this way the implementation can be changed without affecting the test case, as long as it keeps the same interface.",
-	"BDD - ": "",
+	"BDD - ": ""
 }
