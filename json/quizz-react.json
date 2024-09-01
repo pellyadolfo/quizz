@@ -220,6 +220,7 @@
   "Logic - ServerActions - useActionState": "useActionState is a Hook that allows you to update state based on the result of a form action.",
   "Logic - ServerActions - DataFetching - ocassional": "Data fetching with Server Actions comes with drawbacks too: Server Actions perform HTTP POST requests Server Actions run in sequence",
   "Logic - ServerActions - DataFetching - drawbacks": "Using a Server Action for data fetching in a Client Component only happens occasionally",
+  "Logic - ServerActions - FullStack": "React, with its addition of Server Components and Server Actions, is evolving into a full-stack framework. Once the most popular frontend framework, it has now successfully bridged the gap between frontend and backend to reign over both sides of the chasm.",
 
 	"View": "SECTION",
 	"View - JSX": "Returned by Components.",
