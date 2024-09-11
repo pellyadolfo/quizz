@@ -1,4 +1,10 @@
 {
-  "Solidity": "SECTION"
+  "Solidity": "SECTION",
+  "Solidity - quizz": "https://www.rareskills.io/post/solidity-interview-questions",
+
+  "Solidity - Data - Arithmetic": "A fixed-point number is an integer that stores only the numerator of a fraction — while the denominator is implied. This type of arithmetic is not necessary in most programming languages because they have floating point numbers. It is necessary in Solidity because Solidity only has integers, and we often need to perform operations with fractional numbers. https://medium.com/rareskills/fixed-point-arithmetic-in-solidity-using-solady-solmate-and-abdk-as-examples-100d972f884f",
+
+  "Solidity - Storage - transient": "https://coinsbench.com/transient-storage-in-solidity-a-closer-look-at-eip-1153-f5db99b3698d"
+
 }
 
