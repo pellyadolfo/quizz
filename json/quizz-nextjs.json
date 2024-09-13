@@ -171,6 +171,8 @@
 	"CICD - Building - Tools - NextCompiler": "The Next.js Compiler, written in Rust using SWC, allows Next.js to transform and minify your JavaScript code for production. This replaces Babel for individual files and Terser for minifying output bundles. Compilation using the Next.js Compiler is 17x faster than Babel and enabled by default since Next.js version 12. If you have an existing Babel configuration or are using unsupported features, your application will opt-out of the Next.js Compiler and continue using Babel.",
 	"CICD - Building - Tools - next.config.js - webpack": "In order to extend our usage of webpack, you can define a function that extends its config inside next.config.js",
 	"CICD - Building - Tools - next.config.js - turbo": "Turbopack can be customized to transform different files and change how modules are resolved.",
+	"CICD - Exporting - .out - next export": "Creates .out file.",
+	"CICD - Exporting - .out - ": "next export has been removed in favor of 'output: export' in next.config.js.",
 	"CICD - Deploying - Multi-Zones": "An interesting feature offered by Next.js is Multi-Zones, an approach to micro-frontends. It allows a large application to be divided into smaller, independent Next.js applications, each serving a specific set of paths on the same domain. This modularization can improve build times and reduce code complexity.",
 	"CICD - Deploying - Multi-Zones - multiapp": "Each zone is a standard Next.js application configured with a basePath to prevent conflicts.",
 	"CICD - Deploying - Multi-Zones - navigation": "Navigation within a zone is seamless (soft navigation), while navigating between zones triggers a full page reload (hard navigation).",
