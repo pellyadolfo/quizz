@@ -1,6 +1,7 @@
 {
   "Solidity": "SECTION",
   "Solidity - quizz": "https://www.rareskills.io/post/solidity-interview-questions",
+  "Solidity - quizz2": "https://coinsbench.com/master-solidity-must-know-interview-questions-for-ethereum-developers-%EF%B8%8F-practical-only-00cc15a9b9bf",
 
 	"Variables": "SECTION",
   "Variables - DataTypes - types - Value - Literals - Address": "literals that pass the address checksum test, for example 0xdCad3a6d3569DF655070DEd06cb7A1b2Ccd1D3AF are of address type.",
@@ -23,6 +24,7 @@
   "Variables - DataTypes - types - Reference - Arrays": "",
   "Variables - DataTypes - types - Reference - ArraysSlides": "",
   "Variables - DataTypes - types - Reference - Structs": "",
+  "Variables - DataTypes - types - Mapping": "https://coinsbench.com/understanding-mappings-in-solidity-a-deep-dive-0a4a59034e72",
   "Variables - DataTypes - types - Mapping - IterableMappings": "",
   "Variables - DataTypes - Conversions - uint160 - address": "Explicit conversions to and from address are allowed for uint160",
   "Variables - DataTypes - Conversions - integer - address": "Explicit conversions to and from address are allowed for integer literals",

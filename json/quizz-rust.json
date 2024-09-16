@@ -80,7 +80,7 @@
 	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - Unrecoverable - panic! - explicitly": "by explicitly calling the panic! macro",
 	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - Unrecoverable - panic! - message": "By default, these panics will print a failure message, unwind, clean up the stack, and quit. Via an environment variable, you can also have Rust display the call stack when a panic occurs to make it easier to track down the source of the panic.",
 	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - Unrecoverable - Option<T>": "Sometimes it's desirable to catch the failure of some parts of a program instead of calling panic!; this can be accomplished using the Option enum. ",
-	"Logic - Async - async": "",
+	"Logic - Async - Frameworks - Tokio": "https://medium.com/@anon.quant/why-one-should-avoid-using-asynchronous-frameworks-like-tokio-in-real-time-trading-systems-663edbf4e961",
 	"Logic - Multithreading": "",
 	"Logic - Multithreading - Concurrency": "Rust’s type system prevents data races at compile-time, making it easier to write safe, concurrent programs.",
 	"Logic - Resources": "",
@@ -125,6 +125,10 @@
 	"CICD - Architecture - OO": "",
 
 	"CICD - Applications - Web - Wasm": "Rust’s compatibility with WebAssembly (Wasm) has opened up new avenues for web development, allowing Rust code to run at near-native speed in web browsers.",
+	"CICD - Applications - Systems - Linux Kernel": "",
+	"CICD - Applications - Systems - Blockchain": "",
+	"CICD - Applications - Systems - Browsers": "At Google, we are driving the adoption of Rust in platforms like Android and Chromium to reduce memory safety vulnerabilities.",
+	"CICD - Applications - Systems - Android": "Google recently rewrote the protected virtual machine firmware within the Android virtualization framework using the Rust programming language.",
 
 	"CICD - Bundling": "SECTION",
 	"CICD - Bundling - PackageManager - Cargo": "Cargo is the Rust package manager. It is a tool that allows Rust packages to declare their various dependencies and ensure that you’ll always get a repeatable build.",
@@ -134,7 +138,8 @@
 	"CICD - Bundling - PackageManager - Cargo - newExecutable": "Create a new package that builds an executable: cargo new IntmainApp.",
 	"CICD - Bundling - PackageManager - Cargo - newLib": "Create a new package that builds a library: cargo new --lib IntmainLib.",
 	"CICD - Bundling - PackageManager - Cargo - tree": "Display a tree of dependencies in the project: cargo tree",
-	
+	"CICD - Bundling - C": "Rust supports interoperability with C code without introducing any additional overhead.",
+
 	"CICD - Building": "SECTION",
 	"CICD - Building - Crate": "When compiling a crate, the compiler first looks in the crate root file for code to compile.",
 	"CICD - Building - rustc": ".",
