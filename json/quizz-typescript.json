@@ -35,6 +35,9 @@
 	"DataTypes - Interfaces - vs Types - extensibility": "One of the most significant differences is how you extend them. Interfaces are built with extension in mind. You can easily extend an interface using the extends keyword. This makes interfaces a natural choice when you're working with object-oriented design patterns. Types, on the other hand, are more flexible but less formal in their extensibility. You can’t directly extend a type in the same way, but you can achieve similar results using intersection types:",
 	"DataTypes - Interfaces - vs Types - merging": "Another difference is that interfaces can be merged, while types cannot. This is particularly useful when you’re working with third-party libraries or want to add additional properties to an existing interface.:",
 
+	"Logic - Conditions - Errors": "https://tomaszs2.medium.com/typescript-5-6-release-candidate-no-more-condition-errors-you-can-skip-type-checking-too-169a782ae30b",
+	"Logic - Patterns - ts-pattern": "https://tauantcamargo.medium.com/how-ts-pattern-can-improve-your-code-readability-d64996841646",
+
 	"Files - .d.ts": "Their purpose is to hold declarations (not implementations) and public types. Having a single add.ts file, containing both the declaration and implementation, is the equivalent of having the add.d.ts and add.js files defined separately. This means you don’t need to worry about organizing declaration files with their respective implemention files, which is great for developer experience.",
 	"Files - .d.ts - autogenerate": "You can simply auto-generate .d.ts files from your .ts files, just by changing a few settings in your tsconfig.json 'compilerOptions': { 'declaration': true } and package.json 'main': 'dist/index.js', 'types': 'dist/index.d.ts',     ",
 
