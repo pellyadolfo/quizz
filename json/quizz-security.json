@@ -1,0 +1,9 @@
+{
+  "Security": "SECTION",
+
+  "Web": "SECTION",
+  "Web - CORS": "https://javascript.plainenglish.io/cors-the-friendly-gatekeeper-of-the-web-and-how-to-fix-it-650e33179d24",
+  "Web - XSS": "https://javascript.plainenglish.io/how-to-secure-your-frontend-in-2024-with-code-best-practices-for-modern-web-development-dc60921bb93a"
+
+}
+
