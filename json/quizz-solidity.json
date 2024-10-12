@@ -58,6 +58,7 @@
 	"CICD - Architecture - Patterns - Proxy - TUP": "",
 
 	"CICD - Bundling": "SECTION",
+	"CICD - Bundling - Arch - Functions - selector": "https://medium.com/rareskills/understanding-the-function-selector-in-solidity-f8d115372ef9",
 
 	"CICD - Building": "SECTION",
 	"CICD - Building - solc": "",
