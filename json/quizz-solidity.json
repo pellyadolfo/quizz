@@ -59,6 +59,7 @@
 
 	"CICD - Bundling": "SECTION",
 	"CICD - Bundling - Arch - Functions - selector": "https://medium.com/rareskills/understanding-the-function-selector-in-solidity-f8d115372ef9",
+	"CICD - Bundling - Arch - Functions - receive": "https://coinsbench.com/understanding-fallback-vs-receive-functions-in-solidity-647986a82af2",
 
 	"CICD - Building": "SECTION",
 	"CICD - Building - solc": "",
