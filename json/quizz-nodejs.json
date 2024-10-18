@@ -26,12 +26,19 @@
 	"Logic - WebStreamsAPI - Consumers": "",
 	"Logic - Async": "",
 	"Logic - Async - AsyncLocalStorage": "Async context provides a way to handle asynchronous operations more gracefully, preserving the context across async calls, making debugging and tracing easier. A go-to feature for backend developers working with Node.js and complex async operations. AsyncLocalStorage  is a Node.js API (based on the async_hooks API) that is used to create asynchronous state within callbacks and promise chains.",
+	"Logic - IO": "when dealing with modules like fs (file system), crypto, or networking features like HTTP, Node.js taps into a library called libuv. Libuv provides access to OS-level features, including threading.",
 
 	"CICD": "SECTION",
+  "CICD - compilation": "Node.js is built on Google’s V8 engine, which compiles JavaScript into native machine code.",
   "CICD - compilation - SWC": "SWC (stands for Speedy Web Compiler ) is a super-fast TypeScript / JavaScript compiler written in Rust.",
   "CICD - compilation - SWC - WASM": "WebAssembly (WASM).",
   "CICD - compilation --experimental-strip-types": "A few days ago, the tech community woke up to the news that the experimental --experimental-strip-types flag has been added to Node.js, currently available in the Node 23 nightly build. This development allows developers to write TypeScript code using .ts files in Node.js without the need for a compile step. Previously, running TypeScript in Node.js required a build process to transpile TypeScript into JavaScript. This new feature eliminates that necessity, enabling direct execution of TypeScript files.",
-	"CICD - Executionn - Single Threaded": "SECTION",
-	"CICD - Executionn - Single Threaded - SSR": "𝐑𝐞𝐚𝐜𝐭 𝐫𝐞𝐧𝐝𝐞𝐫𝐢𝐧𝐠 𝐨𝐧 𝐭𝐡𝐞 𝐬𝐞𝐫𝐯𝐞𝐫 𝐚𝐝𝐝𝐬 𝐚 𝐝𝐢𝐦𝐞𝐧𝐬𝐢𝐨𝐧 𝐨𝐟 𝐜𝐨𝐦𝐩𝐥𝐞𝐱𝐢𝐭𝐲 𝐭𝐨 𝐭𝐡𝐞 𝐚𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐛𝐞𝐜𝐚𝐮𝐬𝐞 𝐲𝐨𝐮’𝐫𝐞 𝐦𝐚𝐤𝐢𝐧𝐠 𝐍𝐨𝐝𝐞𝐉𝐒 𝐝𝐨 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐢𝐭’𝐬 𝐫𝐞𝐚𝐥𝐥𝐲 𝐛𝐚𝐝 𝐚𝐭 𝐝𝐨𝐢𝐧𝐠. NodeJs is single threaded. In the ideal case that it’s designed for, requests should be I/O bound. A complex page requiring much SSR will hamstring the ability to serve concurrent requests."
+	"CICD - Executionn - threading - SingleThreaded": "Node.js runs your JavaScript code (your application’s logic) on a single thread. All your event handlers and callbacks are executed here.",
+	"CICD - Executionn - threading - SingleThreaded - EventLoop": "The reason Node.js can handle multiple operations even with a single thread lies in its Event Loop. The Event Loop is an architectural model that allows Node.js to perform asynchronous operations by offloading time-consuming tasks to background processes (like the thread pool or the OS).",
+	"CICD - Executionn - threading - MultiThreaded": "For non-JavaScript tasks like file I/O, cryptography, and DNS lookups, Node.js offloads these to a thread pool managed by libuv.",
+	"CICD - Executionn - threading - MultiThreaded - non-blocking I/O": "Node.js uses non-blocking I/O to manage concurrency. This means when an I/O task is requested (e.g., reading from a database or file), Node.js doesn’t sit idle waiting for the result. Instead, it hands off the task to the OS and moves on to the next request. This architecture allows Node.js to handle thousands of concurrent connections efficiently.",
+	"CICD - Executionn - threading - MultiThreaded - threadpool": "For specific operations like file access, DNS lookups, or cryptography, Node.js makes use of libuv’s thread pool to handle these blocking tasks. Each thread in the pool processes one task, and once complete, the results are sent back to the Event Loop.",
+	"CICD - Executionn - threading - MultiThreaded - threadpool - UV_THREADPOOL_SIZE": "You can control the size of this thread pool by setting the environment variable UV_THREADPOOL_SIZE.",
+	"CICD - Executionn - threading - Worker Threads": "For cases where the Event Loop and thread pool aren’t enough (particularly for CPU-heavy tasks), Node.js introduced Worker Threads. This allows you to run JavaScript code in parallel across multiple threads, truly leveraging multi-core processors. https://levelup.gitconnected.com/node-js-is-not-single-threaded-ae3d2f698a99"
 
 }

@@ -1,6 +1,7 @@
 {
 	"ts": "SECTION",
 	"ts - Typescript": "TypeScript is a superset of JavaScript in which you add types to JavaScript. JavaScript is a loosely typed language which leads to lot of types error in production code. With TypeScript developers can catch those error, even before running the code.",
+	"ts - Typescript - 5.7": "TypeScript 5.7 adds support for ES2024 features",
 
 	"Variables": "SECTION",
 	"Variables - DataTypes - type": "Types allow you to create complex types by combining existing types, union types, intersection types, and even utility types.",
@@ -18,6 +19,7 @@
 	"Variables - DataTypes - UserDefined - Enum": "An enum is a type of variables which are constants. You have to use the values within it only. The values are numeric by default and starts with 0 and increments by 1.",
 	"Variables - DataTypes - UserDefined - Array - string[]": "",
 	"Variables - DataTypes - UserDefined - Array - Inference": "If we don’t give any type to an array, it will infer the type.",
+	"Variables - DataTypes - UserDefined - Array - Typed - TS5.7": "As mentioned earlier, typed arrays like Uint8Array are now generic over ArrayBufferLike, improving type flexibility. let uint8Array: Uint8Array<ArrayBufferLike>;",
 	"Variables - DataTypes - UserDefined - Tuple": "It is a type array with pre-defined length and types. let ourTuple: [number, boolean, string]; ourTuple = [5, false, 'Coding Hero was here'];",
 	"Variables - DataTypes - UserDefined - Interface": "Interface define the structure of an object.",
 	"Variables - DataTypes - UserDefined - Interface - contract": "Interfaces are a core feature of TypeScript. They allow you to define a contract for your objects.",
@@ -91,8 +93,11 @@
 	"CICD - Bundling - Arch - Classes - Overriding": "",
 	"CICD - Bundling - Arch - Classes - Singleton": "",
   "CICD - Bundling - Packaging - Modules - ESM - import - noUncheckedSideEffectImports": "TypeScript 5.6 introduced a new option called --noUncheckedSideEffectImports. When you enable this option, TypeScript will throw an error if it can’t find the file you’re trying to import.",
+	"CICD - Bundling - Packaging - Modules - ESM - import - rewriteRelativeImportExtensions": "With this new compiler option, TypeScript 5.7 automatically rewrites relative import paths from .ts, .tsx, .mts, and .cts to their corresponding .js, .jsx, .mjs, or .cjs extensions during compilation. This allows you to seamlessly develop using .ts files and still have compatible output for JavaScript environments.",
+	"CICD - Bundling - Packaging - Modules - ESM - import - module nodenext": "When importing JSON files, TypeScript now requires an import assertion that specifies the type of the module: import config from './config.json' assert { type: 'json' };",
 
-	"CICD - Building": "In TypeScript 5.6. the compiler will throw errors when it figures out that a truthy or nullish check is guaranteed to always evaluate in a certain way.",
+	"CICD - Building - NullishCheck": "In TypeScript 5.6. the compiler will throw errors when it figures out that a truthy or nullish check is guaranteed to always evaluate in a certain way.",
+	"CICD - Building - NotInitialized": "With TypeScript 5.7, the compiler now accurately detects uninitialized variables, even when they are accessed inside nested functions, preventing potential runtime errors",
 
 	"CICD - Execution - Scopes": "",
 	"CICD - Execution - Scopes - public": "public — Default if not mentioned and allows the class member to be accessed from anywhere.",
