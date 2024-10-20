@@ -45,6 +45,7 @@
 	"Structure - Components - Function - Arrow Function": "With the introduction of JavaScript ES6, new coding concepts were introduced to JavaScript and therefore to React. For instance, a JavaScript function can be expressed as lambda (arrow function). That's why a Function Component is sometimes called Arrow Function Components (or maybe also Lambda Function Component). const App = () => { ... };",
 	"Structure - Router - ReactRouter": "React Router is the perfect tool to link together the URL and your React app. React Router is the de-facto React routing library, and it's one of the most popular projects built on top of React. We can use ReactRouter with Suspense for LazyLoading.",
 	"Structure - Router - TanStackRouter": "",
+	"Structure - Router - Vike": "https://javascript.plainenglish.io/exploring-vike-vites-new-micro-frontend-framework-and-how-it-compares-with-other-major-tools-3acad4fa3fc4",
 
   "Data": "SECTION",
 	"Data - Props": "React components use props to communicate with each other. The component receives the argument as a props object. Every parent component can pass some information to its child components by giving them props. Passing props from component to component in React doesn't make components interactive, because props are read-only and therefore immutable.",
@@ -259,6 +260,7 @@
 	"View - JSX - Built-in - form - libraries - React Hook Form": ".",
 	"View - JSX - Built-in - form - libraries - Formik": ".",
 	"View - JSX - Built-in - form - libraries - Zod": ".",
+	"View - JSX - Built-in - form - libraries - Yup": "form validation.",
   "View - Styling - className": "",
   "View - Styling - className - conditional": "classNames.push('box-error'); ... <div className={classNames.join(' ')}>",
 	"View - Rerendering": "Any screen update in a React app happens in three steps: Trigger, Render, Commit. https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/",
