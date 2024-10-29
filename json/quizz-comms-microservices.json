@@ -63,10 +63,11 @@
 	"Patterns - Implementation - Service discovery - Pattern Self registration": "A service instance is responsible for registering itself with the service registry. On startup the service instance registers itself (host and IP address) with the service registry and makes itself available for discovery. The client must typically periodically renew its registration so that the registry knows it is still alive. On shutdown, the service instance unregisters itself from the service registry.",
 	"Patterns - Implementation - Service discovery - Pattern 3rd party registration": "A 3rd party registrar is responsible for registering and unregistering a service instance with the service registry. When the service instance starts up, the registrar registers the service instance with the service registry. When the service instance shuts downs, the registrar unregisters the service instance from the service registry.",
 	"Patterns - Implementation - Service discovery - Product": "Eureka",
-	"Patterns - Implementation - Communication Style": "RPC - Messaging - Domain Specific Protocol",
-	"Patterns - Implementation - Communication Style - Pattern RPC": "Use RPI for inter-service communication. The client uses a request/reply-based protocol to make requests to a service.",
-	"Patterns - Implementation - Communication Style - Pattern Messaging": "Use asynchronous messaging for inter-service communication. Services communicating by exchanging messages over messaging channels.",
-	"Patterns - Implementation - Communication Style - Pattern Domain Specific Protocol": "Use a domain-specific protocol for inter-service communication.",
+	"Patterns - Implementation - Communication Style - RPC": "Use RPI for inter-service communication. The client uses a request/reply-based protocol to make requests to a service.",
+	"Patterns - Implementation - Communication Style - RPC - gRPC": "",
+	"Patterns - Implementation - Communication Style - RPC - gRPC - Features - HTTP/2": "gRPC leverages the HTTP/2 protocol under the covers.",
+	"Patterns - Implementation - Communication Style - Messaging": "Use asynchronous messaging for inter-service communication. Services communicating by exchanging messages over messaging channels.",
+	"Patterns - Implementation - Communication Style - Domain Specific Protocol": "Use a domain-specific protocol for inter-service communication.",
 	"Patterns - Implementation - Deployment": "Multiple services per host - service per host - service per VM - service per container - serverless - specific serviecs platform",
 	"Patterns - Implementation - Deployment - Patttern Multiple services per host": "Run multiple instances of different services on a host (Physical or Virtual machine). There are various ways of deploying a service instance on a shared host including: Deploy each service instance as a JVM process. For example, a Tomcat or Jetty instances per service instance. Deploy multiple service instances in the same JVM. For example, as web applications or OSGI bundles.",
 	"Patterns - Implementation - Deployment - Patttern service per host": "Deploy each single service instance on its own host",
@@ -94,7 +95,17 @@
 	"Patterns - Data - Storage - Patttern - Event sourcing": "A good solution to this problem is to use event sourcing. Event sourcing persists the state of a business entity such an Order or a Customer as a sequence of state-changing events. Whenever the state of a business entity changes, a new event is appended to the list of events. Since saving an event is a single operation, it is inherently atomic. The application reconstructs an entity’s current state by replaying the events. Applications persist events in an event store, which is a database of events. The store has an API for adding and retrieving an entity’s events. The event store also behaves like a message broker. It provides an API that enables services to subscribe to events. When a service saves an event in the event store, it is delivered to all interested subscribers. Some entities, such as a Customer, can have a large number of events. In order to optimize loading, an application can periodically save a snapshot of an entity’s current state. To reconstruct the current state, the application finds the most recent snapshot and the events that have occurred since that snapshot. As a result, there are fewer events to replay.",
 	"Patterns - Data - Decomposition and Storage - Persisting state (modularization) vs persisting events (aggregates = materialized views)": "by Capability has the problem of 2PC because dependencies (violates encapsulation). We can use Saga but is not ACID but ACD (no isolation). Therefore use DDD aggregates instead modularization. Rules: (1) Refer entitites by primary key. (2) One aggregate to comand per atomic transaction. (3) How to maintain consistency between aggregates?? Events sourcing solves this by persisting events instead state. But has challenge of maintain consistency between aggregates",
 
-	"Protocols - HTTP": "SECTION",
+	"Protocols - GraphQL": "SECTION",
+	"Protocols - GraphQL - History": "GraphQL, a query language and execution engine originally created at Facebook in 2012",
+	"Protocols - GraphQL - Features - Transport": "GraphQL and REST typically use HTTP as their transport layer, and they both leverage the standard HTTP POST method to send and receive data.",
+	"Protocols - GraphQL - Features - Formats": "GraphQL and REST use standard data formats for communication. JSON is the most commonly used format, but other formats, like XML or HTML, can also be used, especially in REST.",
+	"Protocols - GraphQL - Features - Response": "GraphQL uses the 200 status code for all responses, including error responses. The error response is typically included in the response payload itself.",
+	"Protocols - GraphQL - Features - Stateless": "the server does not save response history between requests",
+	"Protocols - GraphQL - Schema": "GraphQL requires a schema that defines the data types and relationships between each type. The schema provides clients with a description of the data that is available to them.",
+	"Protocols - GraphQL - Schema - Introspection": "GraphQL APIs are self-documenting. Clients can query the API schema to discover the types, queries, mutations, and fields it supports. This introspective capability makes it easier to understand and explore the capabilities of a GraphQL API.",
+	"Protocols - GraphQL - Requests - Queries": "Queries allow the client to request the specific data it needs using a defined data schema. They can be used to fetch data from multiple data sources—or even other APIs—without the need to make multiple round-trip calls to the server.",
+	"Protocols - GraphQL - Requests - Mutations": "Mutations in GraphQL allow the client to mutate data on the server. This includes creating or updating existing data objects. GraphQL mutations are in fact RPC.",
+	"Protocols - GraphQL - Requests - Subscriptions": "Subscriptions facilitate bi-directional, real-time communication between the client and the server. The client can subscribe to events and get updated as soon as these events are published, or vice versa.",
 
 	"Protocols - REST": "SECTION",
 	"Protocols - REST - Requirements - Richardson Maturity Model": "",
@@ -145,9 +156,9 @@
 	"Protocols - REST - Features - Security - Input Validation": "",
 	"Protocols - REST - Features - Security - Encryption": "",
 
-	"Protocols - gRPC": "SECTION",
-	"Protocols - gRPC - Features": "",
-	"Protocols - gRPC - Features - HTTP/2": "gRPC leverages the HTTP/2 protocol under the covers.",
+	"Protocols - SOAP": "SECTION",
+
+	"Protocols - HTTP": "SECTION",
 	"Protocols - HTTP - 2": "HTTP/2 began as the SPDY protocol, developed primarily at Google",
 	"Protocols - HTTP - 2 - Goal": "Reducing server latency",
 	"Protocols - HTTP - 2 - Features - Binary": "binary framing layer. As opposed to HTTP/1.1, which keeps all requests and responses in plain text format, HTTP/2 uses the binary framing layer to encapsulate all messages in binary format, while still maintaining HTTP semantics, such as verbs, methods, and headers.",
@@ -165,6 +176,5 @@
 	"Formats - JSON": "SECTION",
 
 	"Formats - XML": "SECTION"
-
 
 }
