@@ -156,6 +156,10 @@
 	"Protocols - REST - Features - Security - Input Validation": "",
 	"Protocols - REST - Features - Security - Encryption": "",
 
+	"Protocols - JAX-RS": "SECTION",
+
+	"Protocols - JAX-WS": "SECTION",
+
 	"Protocols - SOAP": "SECTION",
 
 	"Protocols - HTTP": "SECTION",

@@ -50,6 +50,12 @@
   "Variables - DataTypes - ArithmeticOperations": "",
   "Variables - DataTypes - ArithmeticOperations - unchecked": "",
   "Variables - DataTypes - ArithmeticOperations - checked": "",
+	"Variables - DataTypes - Storage - SSTORE": "updating a storage slot’s value",
+	"Variables - DataTypes - Storage - SSTORE - types - zero to non-zero": "20,000 gas plus 2,100 gas if the slot is cold",
+	"Variables - DataTypes - Storage - SSTORE - types - non-zero to non-zero": "5,000 gas",
+	"Variables - DataTypes - Storage - SSTORE - types - non-zero to zero": "5,000 gas",
+	"Variables - DataTypes - Storage - transient": "https://coinsbench.com/transient-storage-in-solidity-a-closer-look-at-eip-1153-f5db99b3698d",
+
 
 	"Logic": "SECTION",
 	"Logic - Sync - Imperative - ControlFlow - Expressions": "",
@@ -61,6 +67,8 @@
 	"Logic - Sync - Imperative - ControlFlow - Iterators - for": ".",
 	"Logic - Sync - Imperative - ControlFlow - Iterators - break": ".",
 	"Logic - Sync - Imperative - ControlFlow - Iterators - continue": ".",
+	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - require": "ensure that certain conditions are met before a function can proceed. If the condition specified in require is not satisfied, the transaction is reverted, an optional error message can be provided",
+	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - require - fails -gas": "If requirefails, the transaction is reverted, and the user receives a gas refund for the unused portion of the transaction's gas limit. However, any gas used before the require statement, including costs for initial operations and data loading, is not refunded.",
 	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - trycatch": "",
 
 	"CICD - Architecture": "SECTION",
@@ -90,6 +98,7 @@
 
 	"CICD - Execution": "SECTION",
 	"CICD - Execution - EVM": "The EVM is an interpreter that reads bytecode and executes instructions based on it.",
+	"CICD - Execution - EVM - codes": "https://www.evm.codes/?fork=cancun#55",
 	"CICD - Execution - Scopes - Functions - private": "",
 	"CICD - Execution - Scopes - Functions - internal": "",
 	"CICD - Execution - Scopes - Functions - public": "This means the function can be called from outside the contract.",
@@ -97,7 +106,6 @@
 	"CICD - Execution - Scopes - Functions - view": "This indicates that the function doesn't modify the contract's state (it only reads data).",
 	"CICD - Execution - Scopes - functionargs - memory": "",
 	"CICD - Execution - Scopes - functionargs - calldata": "",
-  "CICD - Execution - Storage - transient": "https://coinsbench.com/transient-storage-in-solidity-a-closer-look-at-eip-1153-f5db99b3698d",
 
 	"CICD - Audit": "SECTION"
 

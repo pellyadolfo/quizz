@@ -1,0 +1,47 @@
+{
+
+	"Principles - ACID": "SECTION",
+	"Principles - ACID  ": "https://levelup.gitconnected.com/newsql-databases-the-best-of-both-worlds-8727411a49ec",
+	"Principles - ACID ": "ACID: Atomicity, Consistency, Isolation, Durability",
+	"Principles - ACID. Atomicity": "The db must treat each transaction as all or nothing, if any part fails, the whole transaction must be rolled back as if it never happened.",
+	"Principles - ACID. Consistency": "A catch-all term that means all the rules defined in the database must be followed when committing a transaction. The end state, at the end of the transaction, must be valid. Rules here can mean data constraints, cascades, triggers, etc. Consistency relies on atomicity, in that if there is a violation, we rely on the systems ability to roll back changes.",
+	"Principles - ACID. Isolation": "result of 2 concurrent operations should be the same as if they occurred sequentially.",
+	"Principles - ACID. Durability": "Transactions that have committed must survive permanently, even if the system crashes. This is usually assured by writing transactions into a log before acknowledging the commit. The log is on non-volatile storage and can be used to recreate the system state prior to failure (often automatically).",
+	"Principles - BASE Consistency Model": "BASE properties are looser than ACID. A BASE datastore values availability and scale, instead of guaranteed consistency. Used by NoSQL stores, including column family, key-value and document stores.",
+	"Principles - BASE Basic Availability": "The database appears to work most of the time.",
+	"Principles - BASE Soft-state": "Stores do not have to be write-consistent, nor do different replicas have to be mutually consistent all the time.",
+	"Principles - BASE Eventual consistency": "Stores exhibit consistency at some later point (e.g., lazily at read time).",
+	"Principles - CAP Theorem ": "In any distributed data store, you can have at most two of these three properties: consistency (C), high availability (A), tolerance to network partitions (P)",
+	"Principles - CAP Theorem. Consistency (C)": "Consistency (C) equivalent to having a single up-to-date copy of the data. Every read receives the most recent write or an error. Note that this is different definition of C than in ACID, where it's about maintaining the constraints on the data and the model.",
+	"Principles - CAP Theorem. High Availability (A)": "High Availability (A) of that data (for updates). Every request receives a (non-error) response without guarantee that it contains the most recent write. Note that this is a different definition of A than in ACID, which is about atomicity.",
+	"Principles - CAP Theorem. Tolerance to Network Partitions (P)": "Tolerance to network partitions (P). The system continues to operate despite an arbitrary number of messages being dropped (or delayed) by the network between nodes. Note that the I in ACID depends on network partitions: Isolation can only be guaranteed inside a single partition.",
+	"Principles - CAP Theorem - CA - Forfeit Partitions": "The system achieves High Available Consistency. To manage data across multiple resources these systems used methods like 2-Phase Commit. Single-site databases, RDBMS (Oracle, Postgres, MySQL) could be good eamples of CA systems.",
+	"Principles - CAP Theorem - CP - Best Effort Availity": "The system achieves Strong Consistency with Partition Tolerance. Pessimistic Locking methods used for multi resource data management. DNS, MongoDB, Redis are the example CP systems.",
+	"Principles - CAP Theorem - AP - Best Effort Consistency": "The system offers Full Availability by relaxing consistency. Optimistic Locking methods used for multi resource data management. CouchBase, Cassandra, Hazelcast are the example CP systems.",
+	"Principles - Consistency - Strong consistency": "Strong consistency is a consistency model where all subsequent accesses to a distributed system will always return the updated value after the update.",
+	"Principles - Consistency - Weak consistency": "It is a consistency model used in distributed computing where subsequent accesses might not always be returning the updated value. There might be inconsistent responses.",
+	"Principles - Consistency - Eventual consistency": "Eventual consistency is a special type of weak consistency method which informally guarantees that, if no new updates are made to a given data item, eventually all accesses to that item will return the last updated value.",
+	"Principles - Transaction Isolation. States": "Isolation levels defines the degree to which a transaction must be isolated from the data modifications made by any other transaction in the database system. A transaction isolation level are defined by the following phenomena: Dirty Read, Non Repeatable read, Phantom Read",
+	"Principles - Transaction Isolation. States. Dirty Read": "A Dirty read is the situation when a transaction reads a data that has not yet been commited.",
+	"Principles - Transaction Isolation. States. Non Repeatable read": "Non Repeatable read occurs when a transaction reads same row twice, and get a different value each time. For example, suppose transaction T1 reads a data. Due to concurrency, another transaction T2 updates the same data and commit, Now if transaction T1 rereads the same data, it will retrieve a different value.",
+	"Principles - Transaction Isolation. States. Phantom Read": "Phantom Read occurs when two same queries are executed, but the rows retrieved by the two, are different.",
+	"Principles - Transaction Isolation. Levels": "The SQL standard defines four isolation levels: Read Uncommitted, Read Committed, Repeatable Read, Serializable",
+	"Principles - Transaction Isolation. Levels. Read Uncommitted": "Read Uncommitted is the lowest isolation level. In this level, one transaction may read not yet commited changes made by other transaction, thereby allowing dirty reads. In this level, transactions are not isolated from each other.",
+	"Principles - Transaction Isolation. Levels. Read Committed": "This isolation level guarantees that any data read is committed at the moment it is read. Thus it does not allows dirty read. The transaction hold a read or write lock on the current row, and thus prevent other rows from reading, updating or deleting it.",
+	"Principles - Transaction Isolation. Levels. Repeatable Read": "This is the most restrictive isolation level. The transaction holds read locks on all rows it references and write locks on all rows it inserts, updates, or deletes. Since other transaction cannot read, update or delete these rows, consequently it avoids non repeatable read.",
+	"Principles - Transaction Isolation. Levels. Serializable": "This is the Highest isolation level. A serializable execution is defined to be an execution of the operations of concurrently executing SQL-transactions that produces the same effect as some serial execution of those same SQL-transactions. A serial execution is one in which each SQL-transaction executes to completion before the next SQL-transaction begins.",
+
+	"DataStructures": "SECTION",
+	"DataStructures - all": "https://medium.com/@ashishps/how-i-mastered-data-structures-and-algorithms-eb8c5273c56d",
+
+	"Algorithms": "SECTION",
+
+	"Techniques": "SECTION",
+	"Techniques - UUID": "A UUID (Universally Unique Identifier) is a 128-bit number used to uniquely identify objects or records in computer systems. There are multiple versions of UUIDs.",
+	"Techniques - UUID - unique": "UUIDs are not guaranteed to be unique, instead they are given a certain (typically very low) probability of collision. The probability of generating two UUIDs (especially v4 or v7) that collide is very low, but not zero.",
+	"Techniques - UUIDv4": "e942bbe9-afdc-4c62-a438-4efee77954b3 You can tell it’s UUIDv4 because the digit ‘4’ appears in the 13th position. This is a key identifier for the version of the UUID.",
+	"Techniques - UUIDv7": "01922e13-43f2-79ef-ab97-ca7a7d021d34 UUIDv7 is a time-based version of UUID, meaning that the identifiers are generated in an increasing order.",
+	"Techniques - UUIDv7 - ordered": "Because the UUIDs are time-based, they are ordered, which leads to better indexing performance compared to the randomness of UUIDv4.",
+	"Techniques - ULID": "Universally Unique Lexicographically Sortable Identifier. ULID is a UUID alternative that is also globally unique, but with the added benefit of being lexicographically sortable."
+
+}

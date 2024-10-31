@@ -5,6 +5,12 @@
 	"AWS Regions - AZ - location": "However, the naming doesn’t correspond with the real location of the physical data centre.",
 	"AWS Regions - AZ - AZ ID": "Availability Zone names are unique and you can only use the ID for that account in those Availability Zones. It is across from all AWS accounts, with the same ID.",
 
+	"AWS Regions - infra": "",
+	"AWS Regions - infra - InternetGateway": "",
+	"AWS Regions - infra - RouteTable": "",
+
+	"AWS Regions - IAMS - SecurityGroups": "",
+
 	"AWS SQS": "SECTION",
 	"AWS SQS - desc": "Amazon SQS is a highly reliable, scalable message queuing service that enables asynchronous message-based communication between distributed components of an application.",
 	"AWS SQS - Reliability": "No message is ever lost in the interim, each message is persistently stored in highly available, highly reliable queues.",
