@@ -38,6 +38,18 @@
 	"AWS ECS": "SECTION",
 	"AWS ECS ": "https://ajmmertens.medium.com/building-an-ecs-storage-in-pictures-642b8bfd6e04",
 
+	"AWS EC2": "SECTION",
+
+	"AWS S3": "SECTION",
+
+	"AWS CloudFormation": "SECTION",
+
+	"AWS CodePipeline": "SECTION",
+
+	"AWS KMS": "SECTION",
+
+	"AWS CDK": "SECTION",
+
 	"AWS SQS": "SECTION",
 	"AWS SQS - desc": "Amazon SQS is a highly reliable, scalable message queuing service that enables asynchronous message-based communication between distributed components of an application.",
 	"AWS SQS - Reliability": "No message is ever lost in the interim, each message is persistently stored in highly available, highly reliable queues.",
