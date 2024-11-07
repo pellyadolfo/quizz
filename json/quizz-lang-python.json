@@ -1,0 +1,12 @@
+{
+  "Python": "SECTION",
+
+	"CICD - Bundling": "SECTION",
+	"CICD - Bundling - Packaging - Managers - conda": "conda, an open source environment manager to manage dependencies for Python.",
+	"CICD - Bundling - Packaging - Managers - conda - Miniconda": "",
+	"CICD - Bundling - Packaging - Managers - conda - Anaconda": "",
+
+	"CICD - Building": "SECTION",
+	"CICD - Building - Cython": "Cython is a Python compiler that makes writing C extensions for Python as easy as Python itself. "
+
+}
