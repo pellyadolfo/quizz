@@ -17,6 +17,7 @@
 	"Variables - DataTypes - Built-In - null": "",
 	"Variables - DataTypes - Built-In - undefined": "",
 	"Variables - DataTypes - UserDefined - Inmutable - readonly": "",
+	"Variables - DataTypes - UserDefined - type": "",
 	"Variables - DataTypes - UserDefined - Union": "Union types are used when the property can be more then one value, like string or number. For this reason, they are also called OR and are used by using | symbol.",
 	"Variables - DataTypes - UserDefined - Enum": "An enum is a type of variables which are constants. You have to use the values within it only. The values are numeric by default and starts with 0 and increments by 1.",
 	"Variables - DataTypes - UserDefined - Array - string[]": "",
@@ -91,6 +92,8 @@
 	"Files - .d.ts - autogenerate": "You can simply auto-generate .d.ts files from your .ts files, just by changing a few settings in your tsconfig.json 'compilerOptions': { 'declaration': true } and package.json 'main': 'dist/index.js', 'types': 'dist/index.d.ts',     ",
 
 	"CICD - Bundling - Arch - Functions": "",
+	"CICD - Bundling - Arch - Interfaces": "",
+	"CICD - Bundling - Arch - Interfaces - extensibility": "",
 	"CICD - Bundling - Arch - Classes": "",
 	"CICD - Bundling - Arch - Classes - Abstract": "When we declare a base class with abstract keyword, we cannot create objects for the same. In this method, we generally use the methods of the abstract class in a child class.",
 	"CICD - Bundling - Arch - Classes - Overriding": "",

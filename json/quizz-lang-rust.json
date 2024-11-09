@@ -137,6 +137,7 @@
 	"CICD - Architecture - Structure - Methods - example": "methods are associated functions that are called on a particular instance of a type.",
 	"CICD - Architecture - Structure - Closures": "Closures are functions that can capture the enclosing environment. Closures are powerful anonymous functions that capture their own environment and can be saved in a variable and also passed to other functions as arguments.",
 	"CICD - Architecture - Patterns": "",
+	"CICD - Architecture - Patterns - SingleFlight": "",
 	"CICD - Architecture - OO": "",
 
 	"CICD - Applications - Web - Wasm": "Rust’s compatibility with WebAssembly (Wasm) has opened up new avenues for web development, allowing Rust code to run at near-native speed in web browsers.",
@@ -162,6 +163,7 @@
 	"CICD - Building": "SECTION",
 	"CICD - Building - Crate": "When compiling a crate, the compiler first looks in the crate root file for code to compile.",
 	"CICD - Building - rustc": ".",
+	"CICD - Building - gccrs": "https://blog.rust-lang.org/2024/11/07/gccrs-an-alternative-compiler-for-rust.html",
 	"CICD - Building - cargo - build": "Build a package and all its dependencies: cargo build",
 	"CICD - Building - cargo - release": "Build a package with optimization: cargo build -- release",
 

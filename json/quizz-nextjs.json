@@ -186,6 +186,7 @@
   "Navigation - ServerComponents - HistoryAPI - window.history.replaceState": "Use it to replace the current entry on the browser's history stack. The user is not able to navigate back to the previous state.",
 
 	"DataFetching": "SECTION",
+	"DataFetching - ClientComponents - Form": "Next.js 15 introduces <Form>, a new, purpose-built component designed for client-side navigation and progressive enhancement. Available under next/form, this component makes it easy to build interactive forms with built-in prefetching and optimized data handling.",
 	"DataFetching - ClientComponents - NextRequest": "NextRequest extends the WebRequestAPI with additional convenience methods. NextResponse extends the Web Response API with additional convenience methods.",
 	"DataFetching - ClientComponents - RouteHandler": "Route Handlers allow you to create custom request handlers for a given route using the WebRequestAPI.",
 	"DataFetching - ClientComponents - RouteHandler - methods": "The following HTTP methods are supported: GET, POST, PUT, PATCH, DELETE, HEAD, and OPTIONS. If an unsupported method is called, Next.js will return a 405 Method Not Allowed response.",

@@ -1,12 +1,24 @@
 {
   "Python": "SECTION",
 
+	"Variables": "SECTION",
+	"Variables - DataTypes - Class": ".",
+	"Variables - DataTypes - Class - __init__": "__init__ method in Python is used to initialize objects of a class. It is also called a constructor.",
+
 	"CICD - Bundling": "SECTION",
 	"CICD - Bundling - Packaging - Managers - conda": "conda, an open source environment manager to manage dependencies for Python.",
 	"CICD - Bundling - Packaging - Managers - conda - Miniconda": "",
 	"CICD - Bundling - Packaging - Managers - conda - Anaconda": "",
 
 	"CICD - Building": "SECTION",
-	"CICD - Building - Cython": "Cython is a Python compiler that makes writing C extensions for Python as easy as Python itself. "
+	"CICD - Bundling - Arch - Functions": "",
+	"CICD - Bundling - Arch - Functions - def": "In Python a function is defined using the def keyword: def my_function(): print('Hello from a function')",
+	"CICD - Bundling - Arch - Functions - pass": "The pass statement is used as a placeholder for future code.",
+	"CICD - Bundling - Arch - Functions - decorators": "In Python, a decorator is simply syntactic sugar for applying a higher-order function to another function.",
+	"CICD - Building - Cython": "Cython is a Python compiler that makes writing C extensions for Python as easy as Python itself. ",
+
+	"CICD - Audit": "SECTION",
+	"CICD - Audit - Logging - Built-in - print": "",
+	"CICD - Audit - Logging - Built-in - log": ""
 
 }
