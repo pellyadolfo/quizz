@@ -64,6 +64,14 @@
 	"CICD - Execution - threading - MultiThreaded - threadpool": "For specific operations like file access, DNS lookups, or cryptography, Node.js makes use of libuv’s thread pool to handle these blocking tasks. Each thread in the pool processes one task, and once complete, the results are sent back to the Event Loop.",
 	"CICD - Execution - threading - MultiThreaded - threadpool - UV_THREADPOOL_SIZE": "You can control the size of this thread pool by setting the environment variable UV_THREADPOOL_SIZE.",
 	"CICD - Execution - threading - Worker Threads": "For cases where the Event Loop and thread pool aren’t enough (particularly for CPU-heavy tasks), Node.js introduced Worker Threads. This allows you to run JavaScript code in parallel across multiple threads, truly leveraging multi-core processors. https://levelup.gitconnected.com/node-js-is-not-single-threaded-ae3d2f698a99",
-	"CICD - Execution - node run": "The node --run command, a favorite among developers for running code snippets directly from the command line."
+	"CICD - Execution - Run - child_process": "The child_process module lets you execute shell commands directly within a JavaScript program, making it ideal for running scripts and automating tasks.",
+	"CICD - Execution - Run - node run": "running code snippets directly from the command line.",
+	"CICD - Execution - Run - node -e": "running code snippets directly from the command line.",
+
+	"CICD - Audit": "SECTION",
+	"CICD - Audit - Debug - --inspect-brk": "The --inspect-brk flag in Node enables debugging by pausing execution on the first line, allowing you to connect to Chrome DevTools for a detailed inspection.",
+	"CICD - Audit - Debug - --trace-warnings": "The --trace-warnings flag in Node provides detailed stack traces for warnings, which can help diagnose potential issues more effectively.",
+	"CICD - Audit - Debug - --prof": "The --prof flag in Node enables the V8 profiler, which generates a detailed log that can be used for performance analysis of your script."
+
 
 }

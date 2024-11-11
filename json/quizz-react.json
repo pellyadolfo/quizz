@@ -336,7 +336,7 @@
 	"View - Rerendering - Committing - ConcurrentReact - delay - Transition - useTransition": "useTransition is a React Hook that lets you update the state without blocking the UI. const [isPending, startTransition] = useTransition(). The useTransition hook in React plays a pivotal role in improving the performance of applications by allowing the marking of state updates as non-blocking transitions. This capability enables React to defer rendering for these updates, preventing UI blocking and enhancing overall responsiveness.",  
 	"View - Rerendering - Committing - ConcurrentReact - delay - Transition - startTransition - React18": "It allows developers to mark certain state updates as transitions.",  
 	"View - Rerendering - Committing - ConcurrentReact - delay - Transition - LowPriority": "These marked updates are considered low priority and non-blocking. If there are other higher priority updates (like user input), React will handle these first before restarting the state updates within startTransitions",  
-	"View - Rerendering - Committing - ConcurrentReact - delay - useDeferredValue": "useDeferredValue is a React Hook that lets you defer updating a part of the UI. const deferredValue = useDeferredValue(value)",
+	"View - Rerendering - Committing - ConcurrentReact - delay - useDeferredValue - React18": "useDeferredValue is a React Hook that lets you defer updating a part of the UI. const deferredValue = useDeferredValue(value)",
 
   "CICD": "SECTION",
 	"CICD - Bundling - Arch - Patterns - Base UI Component": "",
