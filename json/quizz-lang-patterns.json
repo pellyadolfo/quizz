@@ -57,5 +57,6 @@
 	"DDD - components - DomainEvents - published - MessageBrokers": "3.Message Brokers: Domain events can also be published to message brokers like RabbitMQ or AWS SNS/SQS for asynchronous processing and integration with other systems.",
 
 	"CleanCode": "SECTION",
-	"CleanCode2": "https://azeynalli1990.medium.com/must-know-clean-code-principles-for-senior-devs-3f04d612bcad"
+	"CleanCode2": "https://azeynalli1990.medium.com/must-know-clean-code-principles-for-senior-devs-3f04d612bcad",
+	"Quizz - Patterns": "https://medium.com/@ashishps/leetcode-was-hard-until-i-learned-these-15-patterns-19d15f6d71f1"
 }

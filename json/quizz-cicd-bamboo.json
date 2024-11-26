@@ -73,5 +73,5 @@
 			"Bamboo - Dashboard - Builds - All build plans": "a list of plans and each plan's latest build result",
 			"Bamboo - Dashboard - Builds - Build Activity": "Bamboo's agents and build queue, showing which plans Bamboo is currently building and which plans are waiting to be built.",
 			"Bamboo - Dashboard - Deploy": "",
-			"Bamboo - Dashboard - Reports": "",
+			"Bamboo - Dashboard - Reports": ""
 }

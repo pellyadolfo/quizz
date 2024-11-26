@@ -111,6 +111,9 @@
 	"Logic - IO - Alloy - alloy-sol-macro - sol! - #[sol(rpc)]": "The sol macro also codegens JSON RPC bindings via the #[sol(rpc)] attribute.",
 
 	"CICD - Architecture": "SECTION",
+	"CICD - Architecture - Structure - Project": ".",
+	"CICD - Architecture - Structure - Project - create bin": "cargo new arbitrageur --bin",
+	"CICD - Architecture - Structure - Project - create lib": "cargo new arbitrageur --lib",
 	"CICD - Architecture - Structure - Workspace": "A workspace is basically a series of packages that share the same output directory as well as cargo.lock.",
 	"CICD - Architecture - Structure - Package": "A package is a bundle of one or more crates that provides a set of functionality.",
 	"CICD - Architecture - Structure - Crate": "A crate is the smallest amount of code that the Rust compiler considers at a time.",
@@ -200,10 +203,13 @@
 
 	"CICD - Building": "SECTION",
 	"CICD - Building - Crate": "When compiling a crate, the compiler first looks in the crate root file for code to compile.",
+	"CICD - Building - cargo - build": "Build a package and all its dependencies: cargo build",
+	"CICD - Building - cargo - build - /target/debug": "Output for cargo build",
+	"CICD - Building - cargo - run": "build and run",
+	"CICD - Building - cargo - release": "Build a package with optimization: cargo build -- release",
+	"CICD - Building - cargo - release - /target/release": "Output for cargo release",
 	"CICD - Building - rustc": ".",
 	"CICD - Building - gccrs": "https://blog.rust-lang.org/2024/11/07/gccrs-an-alternative-compiler-for-rust.html",
-	"CICD - Building - cargo - build": "Build a package and all its dependencies: cargo build",
-	"CICD - Building - cargo - release": "Build a package with optimization: cargo build -- release",
 	"CICD - Building - UnsafeOperations - unsafe": "unsafe is used to perform operations that cannot be checked by the Rust compiler, such as dereferencing raw pointers or calling unsafe functions.",
 	"CICD - Building - UnsafeOperations - PhantomData": "PhantomData is used to indicate that a struct owns data of a type without actually storing that type, which is important for enforcing correct lifetimes and variance.",
 
