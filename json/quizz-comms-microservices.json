@@ -157,6 +157,10 @@
 	"Protocols - REST - Features - Security - Input Validation": "",
 	"Protocols - REST - Features - Security - Encryption": "",
 
+	"Protocols - NgRx": "SECTION",
+	"Protocols - NgRx - goal": " define an entity with the URL and the interface that represents the API contract, and you have a CRUD implemented for you with Store and also caching.",
+	"Protocols - NgRx - ngrx/data": ".",
+
 	"Protocols - JAX-RS": "SECTION",
 
 	"Protocols - JAX-WS": "SECTION",

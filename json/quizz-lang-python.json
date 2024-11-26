@@ -5,6 +5,9 @@
 	"Variables - DataTypes - Class": ".",
 	"Variables - DataTypes - Class - __init__": "__init__ method in Python is used to initialize objects of a class. It is also called a constructor.",
 
+	"Logic": "SECTION",
+	"Logic - os": "https://zlliu.medium.com/10-python-os-sys-things-i-regret-not-knowing-earlier-468c69962920",
+
 	"CICD - Bundling": "SECTION",
 	"CICD - Bundling - Packaging - Managers - conda": "conda, an open source environment manager to manage dependencies for Python.",
 	"CICD - Bundling - Packaging - Managers - conda - Miniconda": "",
