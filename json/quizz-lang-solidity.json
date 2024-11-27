@@ -2,6 +2,7 @@
   "Solidity": "SECTION",
   "Solidity - quizz": "https://www.rareskills.io/post/solidity-interview-questions",
   "Solidity - quizz2": "https://coinsbench.com/master-solidity-must-know-interview-questions-for-ethereum-developers-%EF%B8%8F-practical-only-00cc15a9b9bf",
+  "Solidity - quizz3": "https://leetcode.com/discuss/interview-question/4610367/Lists-of-LeetCode-Blind-75/",
 
 	"Variables": "SECTION",
   "Variables - DataTypes - types": "Solidity is a statically typed language, meaning that the types of variables must be defined at compile time.",

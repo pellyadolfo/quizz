@@ -39,6 +39,9 @@
 	"AWS ECS ": "https://ajmmertens.medium.com/building-an-ecs-storage-in-pictures-642b8bfd6e04",
 
 	"AWS EC2": "SECTION",
+	"AWS EC2 - Instances - R": "R = Memory Optimised. The “R” refers to optimised memory usage of each resource type. R instances are geared for workloads that require more memory in relation to the CPU.",
+	"AWS EC2 - Instances - C": "C = Compute Optimised, and so on.",
+	"AWS EC2 - Instances - M": "M Instances: general-purpose instances and provide a balanced amount of CPU, memory, and network resources.. Examples of M Instance Types: M5, M6g",
 
 	"AWS S3": "SECTION",
 

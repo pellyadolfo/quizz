@@ -1,3 +1,7 @@
 {
-  "Rust": "SECTION"
+  "Rust": "SECTION",
+
+	"Logic": "SECTION",
+	"Logic - Async - Imperative": "Every function is by default async"
+
 }
