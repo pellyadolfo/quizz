@@ -16,6 +16,13 @@
 	"Testing Goal - Unit Testing - Service - from server - MockMVC": "",
 	"Testing Goal - Unit Testing - Server - SOAP - WebServiceTemplate": "",
 	"Testing Goal - Unit Testing - Server - REST - RestTemplate": "",
+
+	"Instrumentation": "Instrumentation is a process to prepare the application for testing or automation. Part of the instrumentation process, may add 'instruments' that allow the testing framework to gain access to parts of the application. Android instrumentation is a set of control methods, or hooks, in the Android system, which control Android components and how the Android system loads apps.",
+	"Instrumentation Testing": "Normally the system runs all the components of an app in the same process. You can allow some components, such as content providers, to run in a separate process, but you typically can't force an app onto the same process as another running app. Instrumentation tests, however, can load both a test package and the app into the same process. Since the app components and their tests are in the same process, your tests can invoke methods in the components, and modify and examine fields in the components Instrumentation allows you to monitor all of the interaction the Android system has with the application, and makes it possible for tests to invoke methods in the app, and modify and examine fields in the app, independently of the app's normal lifecycle.",
+	"Instrumentation Testing - Where": "Instrumentation tests run on a device or an emulator.",
+	"Instrumentation Testing - Products": "",
+	"Instrumentation Testing - Products - Selendroid": "",
+	"Instrumentation Testing - Products - Appium": "",
 	
 	"manual testing types": "SECTION",
 	"Unit Testing": "",

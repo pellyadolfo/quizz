@@ -107,7 +107,7 @@
 	"example Collectors.groupingBy(Function< ? super T,? extends K> classifier, Collector< ? super T,A,D> downstream) - Getting the Sum from Grouped Results": "Map< BlogPostType, Integer > likesPerType = posts.stream().collect(Collectors.groupingBy(BlogPost::getType, Collectors.summingInt(BlogPost::getLikes))),",
 	"example Collectors.groupingBy(Function< ? super T,? extends K> classifier, Collector< ? super T,A,D> downstream) - Getting the Maximum or Minimum from Grouped Results": "Map< BlogPostType, Optional<BlogPost>> maxLikesPerPostType = posts.stream().collect(Collectors.groupingBy(BlogPost::getType, Collectors.maxBy(comparingInt(BlogPost::getLikes)))),",
 	"example Collectors.groupingBy(Function< ? super T,? extends K> classifier, Collector< ? super T,A,D> downstream) - Getting a Summary for an Attribute of Grouped Results": "Map< BlogPostType, IntSummaryStatistics > likeStatisticsPerType = posts.stream().collect(Collectors.groupingBy(BlogPost::getType, Collectors.summarizingInt(BlogPost::getLikes))),",
-	"example Collectors.groupingBy(Function< ? super T,? extends K> classifier, Collector< ? super T,A,D> downstream) - Mapping Grouped Results to a Different Type": "Map< BlogPostType, String> postsPerType = posts.stream().collect(Collectors.groupingBy(BlogPost::getType, Collectors.mapping(BlogPost::getTitle, Collectors.joining(", ", 'Post titles: [', ']')))),",
+	"example Collectors.groupingBy(Function< ? super T,? extends K> classifier, Collector< ? super T,A,D> downstream) - Mapping Grouped Results to a Different Type": "Map< BlogPostType, String> postsPerType = posts.stream().collect(Collectors.groupingBy(BlogPost::getType, Collectors.mapping(BlogPost::getTitle, Collectors.joining(', '', 'Post titles: [', ']')))),",
 	"Collectors.groupingBy(Function< ? super T,? extends K> classifier, Supplier<M> mapFactory, Collector< ? super T,A,D> downstream)": "reduction to Map",
 	"example Collectors.groupingBy(Function< ? super T,? extends K > classifier, Supplier< M > mapFactory, Collector< ? super T,A,D > downstream) - Modifying the Return Map Type": "EnumMap< BlogPostType, List<BlogPost>> postsPerType = posts.stream().collect(groupingBy(BlogPost::getType, () -> new EnumMap< >(BlogPostType.class), toList())),",
 	"Collectors.groupingByConcurrent(Function< ? super T,? extends K > classifier)": "reduction to Map",
@@ -179,5 +179,5 @@
 	"Array to String - StringBuilder.reverse()": "reverses string",
 	"Array to String - StringBuilder.append()": "StringBuilder stringBuilder = new StringBuilder(), for (int i = 0, i < strArray.length, i++) { stringBuilder.append(strArray[i]), }",
 	"Array to String - String.join()": "String joinedString = String.join(' ', strArray),",
-	"Array to String - Collectors.joining()": "String joinedString = Arrays.stream(strArray).collect(Collectors.joining()),",
+	"Array to String - Collectors.joining()": "String joinedString = Arrays.stream(strArray).collect(Collectors.joining()),"
 }
