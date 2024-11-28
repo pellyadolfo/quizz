@@ -5,6 +5,9 @@
 	"Features": "SECTION",
 	"Features - Node Green": "The website https://node.green/ provides an excellent overview over supported ECMAScript features in various versions of Node.js, based on kangax's compat-table",
 
+	"Data": "SECTION",
+	"Data - WebStorageAPI - Node23": "An experimental implementation of the Web Storage API is now available, providing localStorage and sessionStorage functionalities within Node.js.",
+
 	"Logic": "SECTION",
 	"Logic - WebStreamsAPI - ReadableStream": "",
 	"Logic - WebStreamsAPI - ReadableStreamDefaultReader": "",

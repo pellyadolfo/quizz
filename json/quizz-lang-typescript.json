@@ -63,6 +63,7 @@
 	"Variables - Declaration - Assignment - satisfies": "TypeScript satisfies operator allow developers to check and validate the value of a variable against a given type.",
 	"Variables - Declaration - Assignment - :": "The : tells the variable will always be this type. const obj: Record<string, string> = {}",
 	"Variables - Declaration - Assignment - as": "Third way to declare type is using as annotation, I will really suggest not to use this way of declaring types since this is literally like telling lie to TypeScript.",
+	"Variables - Declaration - Declare": "The declare keyword in TypeScript serves a vital purpose: it informs the TypeScript compiler about the existence of code that may not be immediately visible or recognizable. https://javascript.plainenglish.io/mastering-typescript-the-power-of-declare-keyword-4f66a08c2d8a",
 
 	"Logic": "SECTION",
 	"Logic - Sync - Imperative - ControlFlow - Conditions - Props Chaining": "",
