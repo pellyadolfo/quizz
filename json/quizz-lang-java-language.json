@@ -22,7 +22,7 @@
 	"Features - Java9 - VariableHandles": "The API resides under java.lang.invoke and consists of VarHandle and MethodHandles. It provides equivalents of java.util.concurrent.atomic and sun.misc.Unsafe operations upon object fields and array elements with similar performance. With Java 9 Modular system access to sun.misc.Unsafe will not be possible from application code.",
 	"Features - Java9 - Publish-Subscribe": "The class java.util.concurrent.Flow provides interfaces that support the Reactive Streams publish-subscribe framework. These interfaces support interoperability across a number of asynchronous systems running on JVMs. We can use utility class SubmissionPublisher to create custom components.",
 	"Features - Java9 - JVMLogging": "This feature introduces a common logging system for all components of the JVM.",
-	"Features - Java9 - ImmutableSet": "java.util.Set.of() – creates an immutable set of a given elements. In Java 8 creating a Set of several elements would require several lines of code. Now we can do it as simple as: Set<String> strKeySet = Set.of("key1", "key2", "key3");",
+	"Features - Java9 - ImmutableSet": "java.util.Set.of() – creates an immutable set of a given elements. In Java 8 creating a Set of several elements would require several lines of code. Now we can do it as simple as: Set<String> strKeySet = Set.of('key', 'key2', 'key3');",
 	"Features - Java9 - OptionalToStream": "java.util.Optional.stream() gives us an easy way to you use the power of Streams on Optional elements:",
 	"Features - Java10": "",
 	"Features - Java10 - var": "We don’t provide the data type of message. Instead, we mark the message as a var, and the compiler infers the type of message from the type of the initializer present on the right-hand side.",

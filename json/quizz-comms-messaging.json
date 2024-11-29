@@ -90,6 +90,33 @@
 	"Messaging - Formats - WAMP": "",
 	"Messaging - Formats - Channels (Pusher)": "",
 	"Messaging - Formats - ZeroMQ": "",
-	"Messaging - Formats - Custom": ""
+	"Messaging - Formats - Custom": "",
 	
+
+	"Protocols - MQTT": "SECTION",
+
+	"Protocols - AMQP": "SECTION",
+
+	"Protocols - ZeroMQ": "SECTION",
+
+	"Protocols - XMPP": "SECTION",
+	"Protocols - XMPP - Products - Jabber": "",
+
+
+	"Protocols - PointToPoint": "SECTION",
+	"Protocols - PointToPoint - RealTime - Sockets": "",
+	"Protocols - PointToPoint - RealTime - WebSockets": "",
+	"Protocols - PointToPoint - RealTime - WebSockets - Products - Socket.io": "",
+	"Protocols - PointToPoint - RealTime - WebSockets - STOMP": "",
+	"Protocols - PointToPoint - RealTime - WebSockets - WAMP": "",
+	"Protocols - PointToPoint - RealTime - WebSockets - Channels (Pusher)": "",
+
+	"Formats - Protobuff": "SECTION",
+	"Formats - Protobuff - features - binary": "Protobuf is binary-based",
+	"Formats - Protobuff - features - contracts": "Everyone uses the same proto file to generate packages to serialize and deserialize.",
+	"Formats - Protobuff - features - fast": "faster to transport, a lot faster than JSON during serialization and deserialization.",
+
+	"Formats - JSON": "SECTION",
+
+	"Formats - XML": "SECTION"
 }
