@@ -1,30 +1,20 @@
 {			
 
-	"RPC": "SECTION",
+	"Protocols - HTTP": "SECTION",
+	"Protocols - HTTP - 2": "HTTP/2 began as the SPDY protocol, developed primarily at Google",
+	"Protocols - HTTP - 2 - Goal": "Reducing server latency",
+	"Protocols - HTTP - 2 - Features - Binary": "binary framing layer. As opposed to HTTP/1.1, which keeps all requests and responses in plain text format, HTTP/2 uses the binary framing layer to encapsulate all messages in binary format, while still maintaining HTTP semantics, such as verbs, methods, and headers.",
+	"Protocols - HTTP - 2 - Features - Headers - compression": "Small files load more quickly than large ones. To speed up web performance, both HTTP/1.1 and HTTP/2 compress HTTP messages to make them smaller. However, HTTP/2 uses a more advanced compression method called HPACK that eliminates redundant information in HTTP header packets. This eliminates a few bytes from every HTTP packet. Given the volume of HTTP packets involved in loading even a single webpage, those bytes add up quickly, resulting in faster loading.",
+	"Protocols - HTTP - 2 - Features - Prioritization": "Stream prioritization not only solves the possible issue of requests competing for the same resource, but also allows developers to customize the relative weight of requests to better optimize application performance.",
+	"Protocols - HTTP - 2 - Features - Multiplexing": "HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it. In contrast, HTTP/2 is able to use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource. HTTP/2 does this by splitting data into binary-code messages and numbering these messages so that the client knows which stream each binary message belongs to.",
+	"Protocols - HTTP - 2 - Features - Push": "Server push: Typically, a server only serves content to a client device if the client asks for it. However, this approach is not always practical for modern webpages, which often involve several dozen separate resources that the client must request. HTTP/2 solves this problem by allowing a server to 'push' content to a client before the client asks for it. The server also sends a message letting the client know what pushed content to expect – like if Bob had sent Alice a Table of Contents of his novel before sending the whole thing.",
+	"Protocols - HTTP - 3 - Transport": "Both HTTP/1.1 and HTTP/2 use TCP as their transport, whereas HTTP/3 is based on Google’s QUIC – a transport layer network protocol that implements user space congestion control over UDP (User Datagram Protocol).",
 
-	"GWT": "SECTION",
+	"Protocols - SOAP": "SECTION",
 
-	"EJB": "SECTION",
+	"Protocols - JAX-WS": "SECTION",
 
-	"XML-RPC": "SECTION",
 
-	"JAX-RPC": "SECTION",
-
-	"RMI": "SECTION",
-
-	"CORBA": "SECTION",
-
-	"Protocols - GraphQL": "SECTION",
-	"Protocols - GraphQL - History": "GraphQL, a query language and execution engine originally created at Facebook in 2012",
-	"Protocols - GraphQL - Features - Transport": "GraphQL and REST typically use HTTP as their transport layer, and they both leverage the standard HTTP POST method to send and receive data.",
-	"Protocols - GraphQL - Features - Formats": "GraphQL and REST use standard data formats for communication. JSON is the most commonly used format, but other formats, like XML or HTML, can also be used, especially in REST.",
-	"Protocols - GraphQL - Features - Response": "GraphQL uses the 200 status code for all responses, including error responses. The error response is typically included in the response payload itself.",
-	"Protocols - GraphQL - Features - Stateless": "the server does not save response history between requests",
-	"Protocols - GraphQL - Schema": "GraphQL requires a schema that defines the data types and relationships between each type. The schema provides clients with a description of the data that is available to them.",
-	"Protocols - GraphQL - Schema - Introspection": "GraphQL APIs are self-documenting. Clients can query the API schema to discover the types, queries, mutations, and fields it supports. This introspective capability makes it easier to understand and explore the capabilities of a GraphQL API.",
-	"Protocols - GraphQL - Requests - Queries": "Queries allow the client to request the specific data it needs using a defined data schema. They can be used to fetch data from multiple data sources—or even other APIs—without the need to make multiple round-trip calls to the server.",
-	"Protocols - GraphQL - Requests - Mutations": "Mutations in GraphQL allow the client to mutate data on the server. This includes creating or updating existing data objects. GraphQL mutations are in fact RPC.",
-	"Protocols - GraphQL - Requests - Subscriptions": "Subscriptions facilitate bi-directional, real-time communication between the client and the server. The client can subscribe to events and get updated as soon as these events are published, or vice versa.",
 
 	"Protocols - REST": "SECTION",
 	"Protocols - REST - Requirements - Richardson Maturity Model": "",
@@ -75,25 +65,47 @@
 	"Protocols - REST - Features - Security - Input Validation": "",
 	"Protocols - REST - Features - Security - Encryption": "",
 
-	"Protocols - NgRx": "SECTION",
-	"Protocols - NgRx - goal": " define an entity with the URL and the interface that represents the API contract, and you have a CRUD implemented for you with Store and also caching.",
-	"Protocols - NgRx - ngrx/data": ".",
-
 	"Protocols - JAX-RS": "SECTION",
 
-	"Protocols - JAX-WS": "SECTION",
 
-	"Protocols - SOAP": "SECTION",
+	"Protocols - GraphQL": "SECTION",
+	"Protocols - GraphQL - History": "GraphQL, a query language and execution engine originally created at Facebook in 2012",
+	"Protocols - GraphQL - Features - Transport": "GraphQL and REST typically use HTTP as their transport layer, and they both leverage the standard HTTP POST method to send and receive data.",
+	"Protocols - GraphQL - Features - Formats": "GraphQL and REST use standard data formats for communication. JSON is the most commonly used format, but other formats, like XML or HTML, can also be used, especially in REST.",
+	"Protocols - GraphQL - Features - Response": "GraphQL uses the 200 status code for all responses, including error responses. The error response is typically included in the response payload itself.",
+	"Protocols - GraphQL - Features - Stateless": "the server does not save response history between requests",
+	"Protocols - GraphQL - Schema": "GraphQL requires a schema that defines the data types and relationships between each type. The schema provides clients with a description of the data that is available to them.",
+	"Protocols - GraphQL - Schema - Introspection": "GraphQL APIs are self-documenting. Clients can query the API schema to discover the types, queries, mutations, and fields it supports. This introspective capability makes it easier to understand and explore the capabilities of a GraphQL API.",
+	"Protocols - GraphQL - Requests - Queries": "Queries allow the client to request the specific data it needs using a defined data schema. They can be used to fetch data from multiple data sources—or even other APIs—without the need to make multiple round-trip calls to the server.",
+	"Protocols - GraphQL - Requests - Mutations": "Mutations in GraphQL allow the client to mutate data on the server. This includes creating or updating existing data objects. GraphQL mutations are in fact RPC.",
+	"Protocols - GraphQL - Requests - Subscriptions": "Subscriptions facilitate bi-directional, real-time communication between the client and the server. The client can subscribe to events and get updated as soon as these events are published, or vice versa.",
 
-	"Protocols - HTTP": "SECTION",
-	"Protocols - HTTP - 2": "HTTP/2 began as the SPDY protocol, developed primarily at Google",
-	"Protocols - HTTP - 2 - Goal": "Reducing server latency",
-	"Protocols - HTTP - 2 - Features - Binary": "binary framing layer. As opposed to HTTP/1.1, which keeps all requests and responses in plain text format, HTTP/2 uses the binary framing layer to encapsulate all messages in binary format, while still maintaining HTTP semantics, such as verbs, methods, and headers.",
-	"Protocols - HTTP - 2 - Features - Headers - compression": "Small files load more quickly than large ones. To speed up web performance, both HTTP/1.1 and HTTP/2 compress HTTP messages to make them smaller. However, HTTP/2 uses a more advanced compression method called HPACK that eliminates redundant information in HTTP header packets. This eliminates a few bytes from every HTTP packet. Given the volume of HTTP packets involved in loading even a single webpage, those bytes add up quickly, resulting in faster loading.",
-	"Protocols - HTTP - 2 - Features - Prioritization": "Stream prioritization not only solves the possible issue of requests competing for the same resource, but also allows developers to customize the relative weight of requests to better optimize application performance.",
-	"Protocols - HTTP - 2 - Features - Multiplexing": "HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it. In contrast, HTTP/2 is able to use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource. HTTP/2 does this by splitting data into binary-code messages and numbering these messages so that the client knows which stream each binary message belongs to.",
-	"Protocols - HTTP - 2 - Features - Push": "Server push: Typically, a server only serves content to a client device if the client asks for it. However, this approach is not always practical for modern webpages, which often involve several dozen separate resources that the client must request. HTTP/2 solves this problem by allowing a server to 'push' content to a client before the client asks for it. The server also sends a message letting the client know what pushed content to expect – like if Bob had sent Alice a Table of Contents of his novel before sending the whole thing.",
-	"Protocols - HTTP - 3 - Transport": "Both HTTP/1.1 and HTTP/2 use TCP as their transport, whereas HTTP/3 is based on Google’s QUIC – a transport layer network protocol that implements user space congestion control over UDP (User Datagram Protocol)."
+
+
+
+
+
+	"RPC": "SECTION",
+	"CORBA": "SECTION",
+	"Implementation - Communication - RPC - gRPC": "",
+	"Implementation - Communication - RPC - gRPC - Features - HTTP/2": "gRPC leverages the HTTP/2 protocol under the covers.",
+
+	"XML-RPC": "SECTION",
+
+
+
+
+
+	"JAX-RPC": "SECTION",
+
+
+	"RMI": "SECTION",
+	"EJB": "SECTION",
+	"GWT": "SECTION",
+
+	"Protocols - NgRx": "SECTION",
+	"Protocols - NgRx - goal": " define an entity with the URL and the interface that represents the API contract, and you have a CRUD implemented for you with Store and also caching.",
+	"Protocols - NgRx - ngrx/data": "."
 
 
 }
