@@ -97,6 +97,7 @@
 	"CICD - Architecture - Structure - AbstractContract": "",
 	"CICD - Architecture - Structure - Inheritance": ".",
 	"CICD - Architecture - Structure - ABI": "The Contract Application Binary Interface (ABI) is the standard way to interact with contracts in the Ethereum ecosystem, both from outside the blockchain and for contract-to-contract interaction.",
+	"CICD - Architecture - Libraries": "using PriceConverter for uint256;",
 	"CICD - Architecture - Patterns": "",
 	"CICD - Architecture - Patterns - checks-effects-interactions": "The checks-effects-interactions pattern is used to prevent reentrancy attacks by first checking conditions, then performing state changes, and finally interacting with external contracts.",
 	"CICD - Architecture - Patterns - Factory": "https://coinsbench.com/day-12-storage-factory-building-composable-smart-contracts-89ec5bd2448b",
