@@ -81,7 +81,7 @@
 	"Messaging - Datasync - Products - RethinkDB": "",
 
 	"Messaging - Formats": "SECTION",
-	"Messaging - Formats - JMS Format": "",
+	"Messaging - Formats - JMS": "",
 	"Messaging - Formats - AMQP": "",
 	"Messaging - Formats - MQTT": "",
 	"Messaging - Formats - STOMP": "",
