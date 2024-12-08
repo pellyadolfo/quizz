@@ -72,7 +72,6 @@
 	"Variables - DataTypes - Storage - SSTORE - types - non-zero to zero": "5,000 gas",
 	"Variables - DataTypes - Storage - transient": "https://coinsbench.com/transient-storage-in-solidity-a-closer-look-at-eip-1153-f5db99b3698d",
 
-
 	"Logic": "SECTION",
 	"Logic - Sync - Imperative - ControlFlow - Expressions": "",
 	"Logic - Sync - Imperative - ControlFlow - Ternary": "The ternary operator is used in expressions of the form <expression> ? <trueExpression> : <falseExpression>. It evaluates one of the latter two given expressions depending upon the result of the evaluation of the main <expression>. If <expression> evaluates to true, then <trueExpression> will be evaluated, otherwise <falseExpression> is evaluated.",
@@ -93,6 +92,9 @@
 	"Logic - Sync - Imperative - ControlFlow - Invocations - CALLCODE (F2)": "CALLCODE opcode has been deprecated since Solidity v5, being replaced by DELEGATECALL.",
 	"Logic - Sync - Imperative - ControlFlow - Invocations - STATICCALL (FA)": "",
 	"Logic - Sync - Imperative - ControlFlow - Invocations - DELEGATECALL (F4)": "",
+	"Logic - Sync - Imperative - ControlFlow - MoneyHandling": "",
+	"Logic - Sync - Imperative - ControlFlow - MoneyHandling - receive": "The receive() function is triggered whenever a contract receives ETH and the transaction contains no data (msg.data is empty). It is ideal for situations where ETH is sent directly to the contract via tools like Metamask’s 'Send' button or other low-level interaction",
+	"Logic - Sync - Imperative - ControlFlow - MoneyHandling - fallback": "The fallback() function is a more versatile alternative to receive(). It is triggered: When ETH is sent to the contract with data that doesn’t match any function signature. When a non-existent function is called on the contract.",
 	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - require": "ensure that certain conditions are met before a function can proceed. If the condition specified in require is not satisfied, the transaction is reverted, an optional error message can be provided",
 	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - require - gas": "If require fails, the transaction is reverted, and the user receives a gas refund for the unused portion of the transaction's gas limit. However, any gas used before the require statement, including costs for initial operations and data loading, is not refunded.",
 	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - require - gas - message - ": "The error message 'Sender is not the owner' is stored as a string array in the contract's bytecode. Each character in the string takes up space, making error messages surprisingly expensive in terms of gas.",
