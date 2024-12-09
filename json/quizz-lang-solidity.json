@@ -104,6 +104,7 @@
 	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - trycatch": "try / catch can only catch errors from external function calls and contract creation.",
 	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - overflow - <0.8": "",
 	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - overflow - 0.8+": "Starting with Solidity version 0.8.0, integer overflow and underflow throw an error and revert the transaction by default.",
+	"Logic - Sync - Functional - Modifiers": "",
 
 	"CICD - Architecture": "SECTION",
 	"CICD - Architecture - Structure - SPDX": "SPDX License Identifier: This line specifies the license under which the code is released. It’s a best practice in Solidity development.",
