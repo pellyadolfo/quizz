@@ -119,6 +119,10 @@
 	"CICD - Execution - Scopes": "",
 	"CICD - Execution - Scopes - public": "public — Default if not mentioned and allows the class member to be accessed from anywhere.",
 	"CICD - Execution - Scopes - private": "private- The class member can be accessed from only within the class.",
-	"CICD - Execution - Scopes - protected": "protected — The class member can be accessed by itself or an inherited class."
+	"CICD - Execution - Scopes - protected": "protected — The class member can be accessed by itself or an inherited class.",
+	"CICD - Execution - Engines": "",
+	"CICD - Execution - Engines - node-ts": "",
+	"CICD - Execution - Engines - ts-node-dev": "",
+	"CICD - Execution - Engines - tsx": "tsx stands for TypeScript Execute and it's a Node.js enhancement to run TypeScript."
 
 }
