@@ -1,7 +1,6 @@
 {
   "Solidity": "SECTION",
   "Solidity - quizz": "https://www.rareskills.io/post/solidity-interview-questions",
-  "Solidity - quizz2": "https://coinsbench.com/master-solidity-must-know-interview-questions-for-ethereum-developers-%EF%B8%8F-practical-only-00cc15a9b9bf",
   "Solidity - quizz3": "https://leetcode.com/discuss/interview-question/4610367/Lists-of-LeetCode-Blind-75/",
 
 	"Variables": "SECTION",
@@ -114,10 +113,6 @@
 	"Logic - Sync - Imperative - ControlFlow - Iterators - for": ".",
 	"Logic - Sync - Imperative - ControlFlow - Iterators - break": ".",
 	"Logic - Sync - Imperative - ControlFlow - Iterators - continue": ".",
-	"Logic - Sync - Imperative - ControlFlow - Transfer": "",
-	"Logic - Sync - Imperative - ControlFlow - Transfer - transfer()": "",
-	"Logic - Sync - Imperative - ControlFlow - Transfer - send()": "",
-	"Logic - Sync - Imperative - ControlFlow - Transfer - selfdestruct()": "deprecated. selfdestruct removes the contract from the blockchain, sending any remaining Ether to a specified address.",
 	"Logic - Sync - Imperative - ControlFlow - Invocations": "The Ethereum Virtual Machine (EVM) offers four opcodes for making calls between contracts: https://medium.com/rareskills/delegatecall-the-detailed-and-animated-guide-30621d6b2c81",
 	"Logic - Sync - Imperative - ControlFlow - Invocations - CALL (F1)": "",
 	"Logic - Sync - Imperative - ControlFlow - Invocations - CALL (F1) - return": "The call method returns a tuple with two values. The first value is a boolean indicating the success or failure of the transaction. The second value, of type bytes, holds the return value of the function executed by the call, ABI-encoded, if any.",
@@ -127,7 +122,7 @@
 	"Logic - Sync - Imperative - ControlFlow - Invocations - tx.origin": "tx.origin is the address of the EOA (externally ownder account) that originated the transaction",
 	"Logic - Sync - Imperative - ControlFlow - Invocations - msg.sender": "msg.sender is the address of whatever called the currently executing smart contract (could be an EOA or a smart contract).",
 	"Logic - Sync - Imperative - ControlFlow - MoneyHandling": "",
-	"Logic - Sync - Imperative - ControlFlow - MoneyHandling - transfer": ".transfer() reverts on failure. In most cases, this should be the preferred method of transferring ether because it automatically reverts in the event of an error",
+	"Logic - Sync - Imperative - ControlFlow - MoneyHandling - transfer": ".transfer() reverts on failure. In most cases, preferred because it automatically reverts in the event of an error",
 	"Logic - Sync - Imperative - ControlFlow - MoneyHandling - transfer - gas": "Because it only provides 2300 gas, it protects your contract from re-entry attacks.",
 	"Logic - Sync - Imperative - ControlFlow - MoneyHandling - send": ".send() returns a boolean result for success/failure. should be used when the error must be handled in the contract without reverting all state changes.",
 	"Logic - Sync - Imperative - ControlFlow - MoneyHandling - send - gas": "It also has a gas limit of 2300",
@@ -222,7 +217,8 @@
 	"CICD - Execution - Scopes - Functions - fallback": "The fallback function is executed when a contract receives Ether without any data or when a function that doesn't exist is called. It can be used to handle unexpected calls and receive Ether.",
 	"CICD - Execution - Scopes - Functions - overloading": "Function overloading means having multiple functions with the same name but different parameter types or numbers of parameters. Solidity decides which version to use based on the arguments passed during a function call.",
 	"CICD - Execution - Scopes - functionargs - Storage": "State variables of contracts are stored in storage in a compact way such that multiple values sometimes use the same storage slot.",
-	"CICD - Execution - Scopes - functionargs - Memory": "Memory is a temporary data storage location that is used to hold data during the execution of a function. Memory is cleared once the function execution is complete. It is similar to the temporary memory storage used in a computer's RAM. Memory is useful for storing variables that are only needed temporarily during the execution of a function. These variables may include function arguments, local variables, and dynamic arrays that are created during the execution of a function.",
+	"CICD - Execution - Scopes - functionargs - Memory": "Memory is a temporary data storage location that is used to hold data during the execution of a function.",
+	"CICD - Execution - Scopes - functionargs - Memory - lifecycle": "Memory is cleared once the function execution is complete. It is similar to the temporary memory storage used in a computer's RAM. Memory is useful for storing variables that are only needed temporarily during the execution of a function. These variables may include function arguments, local variables, and dynamic arrays that are created during the execution of a function.",
 	"CICD - Execution - Scopes - functionargs - CallData": "Calldata is also a temporary data storage location, but it is used to hold function arguments that are passed in from an external caller, such as a user or another contract. Calldata is read-only and cannot be modified by the function. Calldata is useful for passing large amounts of data to a function without having to copy the data into memory, which can be expensive in terms of gas usage. By using calldata, you can avoid the overhead of copying data into memory and reduce the amount of gas needed to execute the function.",
 	"CICD - Execution - OPCODES - freememeorypointer": "The free memory pointer is a pointer (i.e. shows where to go) to the next available slot of memory. Meaning that if you need to create a new uint256 for exemple, the free memory pointer will let the EVM know where to create the new uint256.",
 
