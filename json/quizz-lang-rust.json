@@ -174,6 +174,7 @@
 	"CICD - Architecture - Structure - Functions - format - return - unwrap_or": "when you have a default value to provide for a return",
 	"CICD - Architecture - Structure - Functions - format - return - unwrap_or_default": "when the type implements Default",
 	"CICD - Architecture - Structure - Functions - format - return - unwrap_or_else": "when the default value needs computation",
+	"CICD - Architecture - Structure - Functions - format - return - RTN": "Return Type Notation will use a new syntax, <T as Trait>::method(..) (or <T>::method(..) if the trait is inferred), to refer to the type returned by the method method on trait Trait for a value of type T. This notation can then be used in bounds and where-clauses. https://medium.com/rustaceans/the-long-awaited-return-type-notation-rfc-is-here-b5cfb8ba6db4",
 	"CICD - Architecture - Structure - Functions - AssociatedFunctions": "Associated functions are functions that are defined on a type generally",
 	"CICD - Architecture - Structure - Functions - AssociatedFunctions - example": "struct Point { x: f64, y: f64, } impl Point { fn origin() -> Point { Point { x: 0.0, y: 0.0 } } }",
 	"CICD - Architecture - Structure - Functions - HOF": "Rust provides Higher Order Functions (HOF). These are functions that take one or more functions and/or produce a more useful function. HOFs and lazy iterators give Rust its functional flavor.",
