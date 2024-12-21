@@ -1,0 +1,11 @@
+{
+
+	"JEST": "SECTION",
+	"JEST ": "",
+
+	"Jasmine": "SECTION",
+	"Jasmine ": "",
+	
+	"Karma": "SECTION",
+	"karma": ""
+}
