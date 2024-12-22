@@ -234,6 +234,7 @@
 	"Logic - DI - Registration - Scope - Module - providers - howToProvide - useFactory": "useFactory - Use a factory method to determine which dependency to use based on a dynamic value",
 	"Logic - DI - Registration - Scope - Component - Constructor": "we can use our dependency in the application by injecting it into the consuming code as a constructor parameter: constructor(private myService: MyService) { }.",
 	"Logic - DI - Registration - Scope - Component - @Inject - Angular14": "In Angular v14, you have a new option to use the inject() function instead of injecting the service into the consumer as a constructor parameter.",
+	"Logic - DI - Registration - Scope - Component - @Inject - InjectionToken": "@Inject(INJECTION_TOKEN) where const export INJECTION_TOKEN = new InjectionToken<UserConfig>('userconfig', { providedIn: 'root', factory: () => defaultUserConfig }); ",
 	"Logic - DI - Registration - Scope - Component - providers": "",
 	"Logic - DI - Registration - Scope - Element": ".",
 	"Logic - DI - Registration - Scope - Null": "Equivalent to undefined. The injectable is not provided in any scope automatically and must be",
