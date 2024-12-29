@@ -58,6 +58,8 @@
 	"Jasmine - Clock - Timeout - setInterval": "You can make setTimeout or setInterval synchronous executing the registered functions only once the clock is ticked forward in time",
 	"Jasmine - Clock - Timeout - tick": "To execute registered functions, move time forward via the jasmine.clock().tick function, which takes a number of milliseconds.",
 	
+	"TestBed": "SECTION",
+
 	"JEST": "SECTION",
 	"JEST ": "https://jestjs.io/docs/using-matchers",
 	"JEST - goal - React": "Jest was primarily developed for React and worked well with Next.js too. For powerful UI-based applications, Jest is a good choice.",
