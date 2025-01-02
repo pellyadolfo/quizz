@@ -94,6 +94,7 @@
   "View - Styling - Components - libs - Headless - TailwindUI": "",
   "View - Styling - Components - libs - Headless - Primefaces": "",
   "View - Styling - Components - libs - Headless - Primefaces - PrimeNG": "",
+  "View - Styling - Components - libs - Headless - Primefaces - PrimeFlex": "",
   "View - Styling - Patterns - Relativistic - MouldableUI": "Mouldable UI is a design paradigm that emphasizes creating user interfaces capable of adapting to various contexts and user needs. https://levelup.gitconnected.com/from-atomic-design-to-relativistic-interfaces-0751b0b46832",
 	"View - Animations - requestAnimationFrame": "Instead of using setTimeout or setInterval for animations, use requestAnimationFrame. This method synchronizes your animations with the browser’s refresh rate, resulting in smoother animations.",
 	"View - Animations - transitions - ViewTransitionsAPI": "The View Transitions API can be used in two scenarios: Single Page Applications (SPAs) and Multi-Page Applications (MPAs).",
