@@ -413,6 +413,7 @@
 
 	"CICD - Bundling": "SECTION",
 	"CICD - Bundling - definition": "Bundling is the process of merging your app’s JavaScript files into one or a few large files.",
+	"CICD - Bundling - Arch - Functions": "",
 	"CICD - Bundling - Arch - Functions - firstclass": "JavaScript is a language with first-class functions, meaning functions are treated like regular variables. This allows us to pass functions into other functions and even return functions from functions.",
 	"CICD - Bundling - Arch - Functions - properties": "In JavaScript, functions aren’t just code — they’re objects too. That means you can attach properties to them, just like you would with any other object. It’s wild. ",
 	"CICD - Bundling - Arch - Functions - Declaration - ES5": "function getGreeting() { return 'Welcome to JavaScript'; }",

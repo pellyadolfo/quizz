@@ -1,6 +1,44 @@
 {
 	"Kotlin": "SECTION",
 	
-	"Logic - Coroutines": "https://medium.com/@joostklitsie/compilers-are-better-than-humans-216e84e2dda4"
+
+	"Data - Variables - DataTypes - Boolean": ".",
+	"Data - Variables - DataTypes - Numbers - Literals - Decimals": ".",
+	"Data - Variables - DataTypes - Numbers - Literals - Longs": ".",
+	"Data - Variables - DataTypes - Numbers - Literals - Hexadecimals": ".",
+	"Data - Variables - DataTypes - Numbers - Literals - Binaries": ".",
+	"Data - Variables - DataTypes - Numbers - UnsignedIntegers - UByte": ".",
+	"Data - Variables - DataTypes - Numbers - UnsignedIntegers - UShort": ".",
+	"Data - Variables - DataTypes - Numbers - UnsignedIntegers - UInt": ".",
+	"Data - Variables - DataTypes - Numbers - UnsignedIntegers - ULong": ".",
+	"Data - Variables - DataTypes - Numbers - Integers - Byte": ".",
+	"Data - Variables - DataTypes - Numbers - Integers - Short": ".",
+	"Data - Variables - DataTypes - Numbers - Integers - Int": ".",
+	"Data - Variables - DataTypes - Numbers - Integers - Long": ".",
+	"Data - Variables - DataTypes - Numbers - Floating - Float": ".",
+	"Data - Variables - DataTypes - Numbers - Floating - Double": ".",
+	"Data - Variables - DataTypes - Numbers - Conversions": ".",
+	"Data - Variables - DataTypes - Numbers - Operations": ".",
+	"Data - Variables - DataTypes - Characters": ".",
+	"Data - Variables - DataTypes - Strings": ".",
+	"Data - Variables - DataTypes - Arrays": ".",
+	"Data - Variables - Typecheck": ".",
+	"Data - Variables - Cast": ".",
+
+	"Logic - Sync - Imperative - ControlFlow - Conditions - if": "",
+	"Logic - Sync - Imperative - ControlFlow - Conditions - when": "",
+	"Logic - Sync - Imperative - ControlFlow - PatternMatching": "No in Kotlin.",
+	"Logic - Sync - Imperative - ControlFlow - Iterators - for": "",
+	"Logic - Sync - Imperative - ControlFlow - Iterators - while": "",
+	"Logic - Sync - Functional - Annotations": ".",
+
+	"CICD - Bundling": "SECTION",
+	"CICD - Bundling - Arch - Functions": "",
+	"CICD - Bundling - Arch - Functions - Inline": "",
+  "CICD - Bundling - Arch - Class": "",
+
+	"CICD - Execution": "SECTION",
+	"CICD - Execution - Threads": "",
+	"CICD - Execution - Coroutines": "https://medium.com/@joostklitsie/compilers-are-better-than-humans-216e84e2dda4"
 	
 }
