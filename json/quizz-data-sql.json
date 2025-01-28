@@ -1,0 +1,72 @@
+{
+	"SQL": "SECTION",
+
+	"SQL - Schema": "A collection of database structural elements such as tables, stored procedures, indexes, functions, and triggers. It shows the overall database architecture, specifies the relationships between various objects of a database, and defines different access permissions for them. Read our database schema guide for a deeper understanding.",
+	"SQL - Entities": ".",
+
+	"SQL - CONSTRAINTS": "SECTION",
+	"SQL - CONSTRAINTS ": "A set of conditions defining the type of data that can be input into each column of a table. Constraints ensure data integrity in a table and block undesired actions.",
+	"SQL - CONSTRAINTS - DEFAULT": "provides a default value for a column.",
+	"SQL - CONSTRAINTS - UNIQUE": "allows only unique values.",
+	"SQL - CONSTRAINTS - NOT NULL": "allows only non-null values.",
+	"SQL - CONSTRAINTS - PRIMARY KEY": "allows only unique and strictly non-null values (NOT NULL and UNIQUE).",
+	"SQL - CONSTRAINTS - FOREIGN KEY": "provides shared keys between two or more tables.",
+
+	"SQL - OPERATORS": "SECTION",
+	"SQL - OPERATORS - Arithmetic": "Arithmetic (+, -, *, /, etc.)",
+	"SQL - OPERATORS - Comparison": "Comparison (>, <, =, >=, etc.)",
+	"SQL - OPERATORS - Compound": "Compound (+=, -=, *=, /=, etc.)",
+	"SQL - OPERATORS - Logical": "Logical (AND, OR, NOT, BETWEEN, etc.)",
+	"SQL - OPERATORS - String": "String (%, _, +, ^, etc.)",
+	"SQL - OPERATORS - Set": "Set (UNION, UNION ALL, INTERSECT, and MINUS (or EXCEPT))",
+
+	"SQL - CLAUSE": "SECTION",
+	"SQL - CLAUSE ": "A condition imposed on a SQL query to filter the data to obtain the desired result. Some examples are WHERE, LIMIT, HAVING, LIKE, AND, OR, ORDER BY, etc.",
+	"SQL - CLAUSE - FROM": "",
+	"SQL - CLAUSE - GROUP BY": "",
+	"SQL - CLAUSE - JOIN": "",
+	"SQL - CLAUSE - WHERE": "checks each row individually",
+	"SQL - CLAUSE - ORDER BY": "",
+	"SQL - CLAUSE - LIMIT": "",
+	"SQL - CLAUSE - HAVING": "works on aggregated data after they are grouped",
+
+	"SQL - DDL": "SECTION",
+	"SQL - DDL - CREATE": "",
+	"SQL - DDL - ALTERTABLE": "",
+	"SQL - DDL - DELETE": "",
+	"SQL - DDL - DROP": "DROP deletes a table from the database completely, including the table structure and all the associated constraints, relationships with other tables, and access privileges. TRUNCATE deletes all rows from a table without affecting the table structure and constraints. DROP works slower than TRUNCATE. Both are irreversible DDL (Data Definition Language) commands.",
+	"SQL - DDL - TRUNCATE": "",
+	"SQL - DDL - ADDCOLUMN": "",
+
+	"SQL - DML": "SECTION",
+	"SQL - DML - INSERT": "",
+	"SQL - DML - UPDATE": "",
+	"SQL - DML - DELETE": "",
+
+	"SQL - DCL": "SECTION",
+	"SQL - DCL - GRANT": "",
+	"SQL - DCL - REVOKE": "",
+
+	"SQL - TCL": "SECTION",
+	"SQL - TCL - COMMIT": "",
+	"SQL - TCL - SET TRANSACTION": "",
+	"SQL - TCL - ROLLBACK": "",
+	"SQL - TCL - SAVEPOINT": "",
+
+	"SQL - DQL": "SECTION",
+	"SQL - DQL - SELECT": "",
+	"SQL - DQL - SELECT - DISTINCT": "",
+	"SQL - DQL - SELECT - JOINS": "A clause used to combine and retrieve records from two or multiple tables. SQL tables can be joined based on the relationship between the columns of those tables.",
+	"SQL - DQL - SELECT - JOINS - (INNER) JOIN": "returns only those records that satisfy a defined join condition in both (or all) tables. It's a default SQL join.",
+	"SQL - DQL - SELECT - JOINS - LEFT (OUTER) JOIN": "returns all records from the left table and those records from the right table that satisfy a defined join condition.",
+	"SQL - DQL - SELECT - JOINS - RIGHT (OUTER) JOIN": "returns all records from the right table and those records from the left table that satisfy a defined join condition.",
+	"SQL - DQL - SELECT - JOINS - FULL (OUTER) JOIN": "returns all records from both (or all) tables. It can be considered as a combination of left and right joins.",
+
+	"SQL - INDEX": "A special data structure related to a database table and used for storing its important parts and enabling faster data search and retrieval. Indexes are especially efficient for large databases, where they significantly enhance query performance.",
+	"SQL - INDEX - Unique": "Unique index – doesn't allow duplicates in a table column and hence helps maintain data integrity.",
+	"SQL - INDEX - Clustered": "Clustered index – defines the physical order of records of a database table and performs data searching based on the key values. A table can have only one clustered index.",
+	"SQL - INDEX - Non-clustered": "Non-clustered index – keeps the order of the table records that don't match the physical order of the actual data on the disk. It means that the data is stored in one place and a non-clustered index – in another one. A table can have multiple non-clustered indexes.",
+	"SQL - INDEX - B-Tree": "B-trees, short for balanced trees, are the most common type of database index. A B-tree index is an ordered list of values divided into ranges. By associating a key with a row or range of rows, B-trees provide excellent retrieval performance for a wide range of queries, including exact match and range searches.",
+	"SQL - INDEX - Bitmap": "In a bitmap index, the database stores a bitmap for each index key. In a conventional B-tree index, one index entry points to a single row. In a bitmap index, each index key stores pointers to multiple rows. Bitmap indexes are primarily designed for data warehousing or environments in which queries reference many columns in an ad hoc fashion."
+
+}
