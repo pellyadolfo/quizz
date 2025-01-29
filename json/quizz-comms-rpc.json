@@ -20,19 +20,6 @@
 
 	"Clients - NgRx": "SECTION",
 	"Clients - NgRx - goal": " define an entity with the URL and the interface that represents the API contract, and you have a CRUD implemented for you with Store and also caching.",
-	"Clients - NgRx - ngrx/data": ".",
-
-	"Clients - GraphQL": "SECTION",
-	"Clients - GraphQL - History": "GraphQL, a query language and execution engine originally created at Facebook in 2012",
-	"Clients - GraphQL - Features - Transport": "GraphQL and REST typically use HTTP as their transport layer, and they both leverage the standard HTTP POST method to send and receive data.",
-	"Clients - GraphQL - Features - Formats": "GraphQL and REST use standard data formats for communication. JSON is the most commonly used format, but other formats, like XML or HTML, can also be used, especially in REST.",
-	"Clients - GraphQL - Features - Response": "GraphQL uses the 200 status code for all responses, including error responses. The error response is typically included in the response payload itself.",
-	"Clients - GraphQL - Features - Stateless": "the server does not save response history between requests",
-	"Clients - GraphQL - Schema": "GraphQL requires a schema that defines the data types and relationships between each type. The schema provides clients with a description of the data that is available to them.",
-	"Clients - GraphQL - Schema - Introspection": "GraphQL APIs are self-documenting. Clients can query the API schema to discover the types, queries, mutations, and fields it supports. This introspective capability makes it easier to understand and explore the capabilities of a GraphQL API.",
-	"Clients - GraphQL - Requests - Queries": "Queries allow the client to request the specific data it needs using a defined data schema. They can be used to fetch data from multiple data sources—or even other APIs—without the need to make multiple round-trip calls to the server.",
-	"Clients - GraphQL - Requests - Mutations": "Mutations in GraphQL allow the client to mutate data on the server. This includes creating or updating existing data objects. GraphQL mutations are in fact RPC.",
-	"Clients - GraphQL - Requests - Subscriptions": "Subscriptions facilitate bi-directional, real-time communication between the client and the server. The client can subscribe to events and get updated as soon as these events are published, or vice versa."
-
+	"Clients - NgRx - ngrx/data": "."
 
 }
