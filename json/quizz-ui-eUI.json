@@ -1,0 +1,27 @@
+{
+  "eUI": "SECTION",
+  "eUI - Feb2010": "The eUI platform is a comprehensive suite of tools and services designed to streamline the development process of web applications. This platform provides a foundational starting point to accelerate the application development initiation phase.",
+
+
+  "eUI - Feb2010": "",
+  "eUI - Feb2010": "",
+  "eUI - Feb2010": "",
+
+	"Data - DataFetching - HttpClientModule - HttpClient - Interceptor": "In eUI, a suite of HTTP interceptors is provided to alleviate the development workload associated with eUI applications. ",
+  "Data - DataFetching - HttpClientModule - HttpClient - Interceptor - CachePreventionInterceptor": "This interceptor instructs intermediary proxies to avoid serving a cached version of a resource. It ensures that each server in the chain verifies the resource's validity. The mechanism employed by this interceptor involves modifying the HTTP headers to set Cache-Control to No-cache.",
+  "Data - DataFetching - HttpClientModule - HttpClient - Interceptor - CorsSecurityInterceptor": "Sets the withCredentials options on the Ajax Request to send the JSESSIONID cookie to another domain. That is necessary when EU Login protects the other domain. Using this JSESSIONID cookie, an already authenticated user can be used to call the service.",
+  "Data - DataFetching - HttpClientModule - HttpClient - Interceptor - CsrfPreventionInterceptor": "Adds a specific HTTP header to each Ajax request. That is the X-Requested-With: XMLHttpRequest. This ensures that the request is set by a piece of JavaScript code in the application. It is only possible to add request headers using JavaScript. Using normal HTML elements like iframe, img, ... therefore cannot trigger correct service requests and are blocked. This prevents dynamically-loaded content from forging a request in the name of the currently logged-in user (XSS attack). Be aware that this assumes that cross-site scripting (XSS) is already put in place, which is the default setting in Angular applications.",
+  "Data - DataFetching - HttpClientModule - HttpClient - Interceptor - AddLangParamInterceptor": "This interceptor is used to add the current user language as a parameter to your request if needed. Of course, this has nothing to do with the Translation Service that we utilize. It's a standalone interceptor to provide flexibility for some API calls that need a language key to be passed.",
+  "Data - DataFetching - HttpClientModule - HttpClient - Interceptor - EuLoginSessionTimeoutHandlingInterceptor": "Checks all Ajax HTTP responses for the specific EU Login HTTP response that is sent when the authentication session has become invalid. When the authentication session is invalid, we need to re-authenticate. The browser refreshes the current URL and lets the EU Login client redirect to the official EU Login page.",
+  "Data - DataFetching - HttpClientModule - HttpClient - Interceptor - HttpErrorHandlerInterceptor": "In order to handle Http errors using the httpErrorHandler parameter, the HttpErrorHandlerInterceptor must be added to your project.",
+
+	"Logic - Services - ErrorHandling - ErrorHandler": "The CoreModule handles the Error in the Angular application at 2 levels: Javascript exceptions, Http Response errors.",
+	"Logic - Services - ErrorHandling - ErrorHandler - JavascriptExceptions": "The Javascript exceptions thrown by the application at run-time are being caught by the CoreModule ErrorHandler. Currently, the handler only forwards the error to the LogService to log the error.",
+	"Logic - Services - ErrorHandling - ErrorHandler - HttpResponseErrors": "The CoreModule has an Http Error Handler interceptor that will catch the Http Response from all the Http request whose status is not 200. The interceptor is in charge of either: redirects to an error page., executes a callback function. For example, it notifies the user of the error, does nothing.",
+
+	"eUI - Feb2010": "",
+  "eUI - Feb2010": "",
+  "eUI - Feb2010": "",
+  "eUI - Feb2010": ""
+
+}

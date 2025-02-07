@@ -581,8 +581,8 @@
 	"Logic - Services - DI - Registration - Scope - NullInjector - Injectable - providedIn": "providedIn: 'null'.",
 	"Logic - Services - DI - Registration - Scope - Any": "Provides a unique instance in each lazy loaded module while all eagerly loaded modules share one instance.",
 	"Logic - Services - DI - Registration - Scope - Any - Injectable - providedIn": "providedIn: 'any'. This option is DEPRECATED.",
-	"Logic - ErrorHandling - ErrorHandler": "Provides a hook for centralized exception handling.",
-	"Logic - ErrorHandling - ErrorHandler - handleError": "@Injectable() export class GlobalErrorHandler implements ErrorHandler { ... handleError(error: any) { ... } .. }",
+	"Logic - Services - ErrorHandling - ErrorHandler": "Provides a hook for centralized exception handling.",
+	"Logic - Services - ErrorHandling - ErrorHandler - handleError": "@Injectable() export class GlobalErrorHandler implements ErrorHandler { ... handleError(error: any) { ... } .. }",
 
   "CICD - Bundling": "SECTION",
 	"CICD - Bundling - Optimization - CodeReduction - Resources - OptimizeImages - NgOptimizedImage": "The NgOptimizedImage directive makes it easy to adopt performance best practices for loading images.",
