@@ -1,5 +1,12 @@
 {
 	"Browser": "SECTION",
+	"Browser ": "https://developer.mozilla.org/en-US/docs/Web/API",
+
+	"Data": "SECTION",
+	"Data - CookieStoreAPI": ".",
+	"Data - WebStorageAPI": "The Web Storage API provides mechanisms by which browsers can store key/value pairs, in a much more intuitive fashion than using cookies.",
+	"Data - WebStorageAPI - localStorage": "localStorage does the same thing, but persists even when the browser is closed and reopened.",
+	"Data - WebStorageAPI - sessionStorage": "sessionStorage maintains a separate storage area for each given origin that's available for the duration of the page session (as long as the browser tab is open, including page reloads and restores).",
 
 	"View - Rendering": "SECTION",
 	"View - Rendering - DOM": "The DOM is not part of the JavaScript language, but is instead a Web API which defines the structure and properties of elements on a webpage.",
