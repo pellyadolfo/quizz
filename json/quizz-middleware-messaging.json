@@ -92,9 +92,6 @@
 	"Messaging - Formats - ZeroMQ": "",
 	"Messaging - Formats - Custom": "",
 	"Messaging - Formats - Protobuff": "",
-	"Messaging - Formats - Protobuff - features - binary": "Protobuf is binary-based",
-	"Messaging - Formats - Protobuff - features - contracts": "Everyone uses the same proto file to generate packages to serialize and deserialize.",
-	"Messaging - Formats - Protobuff - features - fast": "faster to transport, a lot faster than JSON during serialization and deserialization.",
 	"Messaging - Formats - JSON": "",
 	"Messaging - Formats - XML": "",
 
