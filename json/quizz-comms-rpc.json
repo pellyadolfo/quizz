@@ -1,25 +1,48 @@
 {			
 
-
-
-
-
-
-
 	"RPC": "SECTION",
-	"RPC - CORBA": "SECTION",
-	"RPC - gRPC": "",
-	"RPC - gRPC - Features - HTTP/2": "gRPC leverages the HTTP/2 protocol under the covers.",
 
 	"Protocols - XML-RPC": "SECTION",
+
 	"Protocols - JAX-RPC": "SECTION",
 
-	"APIs - RMI": "SECTION",
-	"APIs - EJB": "SECTION",
-	"APIs - GWT": "SECTION",
+	"Impl - CORBA": "SECTION",
 
-	"Clients - NgRx": "SECTION",
-	"Clients - NgRx - goal": " define an entity with the URL and the interface that represents the API contract, and you have a CRUD implemented for you with Store and also caching.",
-	"Clients - NgRx - ngrx/data": "."
+	"Impl - gRPC": "SECTION",
+	"Impl - gRPC - description": "Protocol Buffers are a language-neutral, platform-neutral extensible mechanism for serializing structured data.",
+	"Impl - gRPC - Features - HTTP/2": "gRPC leverages the HTTP/2 protocol under the covers.",
+	"Impl - gRPC - ProtocolBuffers": "",
+	"Impl - gRPC - ProtocolBuffers - IDL": "By default, gRPC uses protocol buffers as the Interface Definition Language (IDL) for describing both the service interface and the structure of the payload messages. It is possible to use other alternatives if desired.",
+	"Impl - gRPC - ProtocolBuffers - Format": "It’s like JSON, except it’s smaller and faster, and it generates native language bindings. You define how you want your data to be structured once, then you can use special generated source code to easily write and read your structured data to and from a variety of data streams and using a variety of languages.",
+	"Impl - gRPC - ProtocolBuffers - Parts": "Protocol buffers are a combination of the definition language (created in .proto files), the code that the proto compiler generates to interface with data, language-specific runtime libraries, the serialization format for data that is written to a file (or sent across a network connection), and the serialized data.",
+	"Impl - gRPC - ProtocolBuffers - Parts - definition": "Protocol buffer messages and services are described by engineer-authored .proto files.",
+	"Impl - gRPC - ProtocolBuffers - Parts - definition - proto": "message Person { optional string name = 1; optional int32 id = 2; optional string email = 3; }",
+	"Impl - gRPC - ProtocolBuffers - Parts - compiler": "The proto compiler is invoked at build time on .proto files to generate code in various programming languages (covered in Cross-language Compatibility later in this topic) to manipulate the corresponding protocol buffer. Each generated class contains simple accessors for each field and methods to serialize and parse the whole structure to and from raw bytes.",
+	"Impl - gRPC - ProtocolBuffers - Parts - compiler - protoc": "The same messages can be read by code written in any supported programming language. You can have a Java program on one platform capture data from one software system, serialize it based on a .proto definition, and then extract specific values from that serialized data in a separate Python application running on another platform.",
+	"Impl - gRPC - ProtocolBuffers - Parts - compiler - languages": "The following languages are supported directly in the protocol buffers compiler, protoc: C++ C# Java Kotlin Objective-C PHP Python Ruby",
+	"Impl - gRPC - ProtocolBuffers - Parts - code": "",
+	"Impl - gRPC - ProtocolBuffers - Parts - runtimes": "",
+	"Impl - gRPC - ProtocolBuffers - Parts - serialization - format": "",
+	"Impl - gRPC - ProtocolBuffers - Parts - serialization - data": "",
+	"Impl - gRPC - Services": "Like many RPC systems, gRPC is based around the idea of defining a service, specifying the methods that can be called remotely with their parameters and return types.",
+	"Impl - gRPC - Services - definition": "You define gRPC services in ordinary proto files, with RPC method parameters and return types specified as protocol buffer messages:",
+	"Impl - gRPC - Services - Types": "",
+	"Impl - gRPC - Services - Types - UnaryRPCs": "Unary RPCs where the client sends a single request to the server and gets a single response back, just like a normal function call. rpc SayHello(HelloRequest) returns (HelloResponse);",
+	"Impl - gRPC - Services - Types - UnaryRPCs - Lifecycle": "",
+	"Impl - gRPC - Services - Types - ServerStreamingRPCs": "Server streaming RPCs where the client sends a request to the server and gets a stream to read a sequence of messages back. The client reads from the returned stream until there are no more messages. gRPC guarantees message ordering within an individual RPC call. rpc LotsOfReplies(HelloRequest) returns (stream HelloResponse);",
+	"Impl - gRPC - Services - Types - ServerStreamingRPCs - Lifecycle": "",
+	"Impl - gRPC - Services - Types - ClientStreamingRPCs": "Client streaming RPCs where the client writes a sequence of messages and sends them to the server, again using a provided stream. Once the client has finished writing the messages, it waits for the server to read them and return its response. Again gRPC guarantees message ordering within an individual RPC call. rpc LotsOfGreetings(stream HelloRequest) returns (HelloResponse);",
+	"Impl - gRPC - Services - Types - ClientStreamingRPCs - Lifecycle": "",
+	"Impl - gRPC - Services - Types - BidirectionalStreamingRPCs": "Bidirectional streaming RPCs where both sides send a sequence of messages using a read-write stream. The two streams operate independently, so clients and servers can read and write in whatever order they like: for example, the server could wait to receive all the client messages before writing its responses, or it could alternately read a message then write a message, or some other combination of reads and writes. The order of messages in each stream is preserved. rpc BidiHello(stream HelloRequest) returns (stream HelloResponse);",
+	"Impl - gRPC - Services - Types - BidirectionalStreamingRPCs - Lifecycle": "",
+	"Impl - gRPC - Services - Metadata": "Metadata is information about a particular RPC call (such as authentication details) in the form of a list of key-value pairs, where the keys are strings and the values are typically strings, but can be binary data. Keys are case insensitive and consist of ASCII letters, digits, and special characters -, _, . and must not start with grpc- (which is reserved for gRPC itself). Binary-valued keys end in -bin while ASCII-valued keys do not. User-defined metadata is not used by gRPC, which allows the client to provide information associated with the call to the server and vice versa. Access to metadata is language dependent.",
+	"Impl - gRPC - Services - Channels": "A gRPC channel provides a connection to a gRPC server on a specified host and port. It is used when creating a client stub. Clients can specify channel arguments to modify gRPC’s default behavior, such as switching message compression on or off. A channel has state, including connected and idle. How gRPC deals with closing a channel is language dependent. Some languages also permit querying channel state.",
+
+
+	"Impl - RMI": "SECTION",
+	
+	"Impl - EJB": "SECTION",
+
+	"Impl - GWT": "SECTION"
 
 }

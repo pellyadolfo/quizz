@@ -1,0 +1,45 @@
+{
+	"NgRx": "SECTION",
+	"NgRx - desc": "NgRx is a framework for building reactive applications in Angular.",
+	"NgRx - goal": "define an entity with the URL and the interface that represents the API contract, and you have a CRUD implemented for you with Store and also caching.",
+	"NgRx - ngrx/data": ".",
+
+
+
+	"NgRx - View": "SECTION",
+	"NgRx - View - description": "Component is a library for building reactive Angular templates. It provides a set of declarables that can work with or without zone.js. They give more control over rendering and provide further reactivity for Angular applications.",
+	"NgRx - View - PushPipe": "The ngrxPush pipe serves as a drop-in replacement for the async pipe. It contains intelligent handling of change detection to enable us running in zone-full as well as zone-less mode without any changes to the code.",
+
+
+
+
+
+
+
+	"NgRx - State": "SECTION",
+	"NgRx - Signals": "NgRx Signals is a standalone library that provides a reactive state management solution and a set of utilities for Angular Signals.",
+
+	"NgRx - Data": "SECTION",
+	"NgRx - Data - description": "NgRx Data is an extension that offers a gentle introduction to NgRx by simplifying management of entity data while reducing the amount of explicitness.",
+	"NgRx - Data - abstraction": "NgRx Data is an abstraction over the Store, Effects, and Entity that radically reduces the amount of code you'll write. As with any abstraction, while you gain simplicity, you lose the explicitness of direct interaction with the supporting NgRx libraries.",
+	"NgRx - Data - goal": "With NgRx Data you can develop large entity models quickly with very little code and without knowing much NgRx at all. Yet all of NgRx remains accessible to you, when and if you want it.",
+
+
+	"NgRx - Effects": "Effects are an RxJS powered side effect model for Store. Effects use streams to provide new sources of actions to reduce state based on external interactions such as network requests, web socket messages and time-based events.",
+	"NgRx - Operators": "NgRx Operators is a utility library with frequently used RxJS operators for managing state and side effects.",
+
+	
+	"NgRx - Storage": "SECTION",
+	"NgRx - Entity": "Entity provides an API to manipulate and query entity collections. Reduces boilerplate for creating reducers that manage a collection of models. Provides performant CRUD operations for managing entity collections. Extensible type-safe adapters for selecting entity information.",
+	"NgRx - Entity - description": "An entity is an object with long-lived data values that you read from and write to a database. An entity refers to some 'thing' in the application domain. Examples include a Customer, Order, LineItem, Product, Person and User.",
+	"NgRx - Entity - Interfaces": "",
+	"NgRx - Entity - Adapter": "",
+	"NgRx - Store": "",
+	"NgRx - Store - Architecture": "",
+	"NgRx - Store - Architecture - Actions": "Actions are one of the main building blocks in NgRx. Actions express unique events that happen throughout your application. From user interaction with the page, external interaction through network requests, and direct interaction with device APIs, these and more events are described with actions.",
+	"NgRx - Store - Architecture - Reducers": "Reducers in NgRx are responsible for handling transitions from one state to the next state in your application. Reducer functions handle these transitions by determining which actions to handle based on the action's type.",
+	"NgRx - Store - Architecture - Selectors": "Selectors are pure functions used for obtaining slices of store state. @ngrx/store provides a few helper functions for optimizing this selection. Selectors provide many features when selecting slices of state: Portability, Memoization, Composition, Testability, Type Safety",
+	"NgRx - ComponentStore": "ComponentStore is a stand-alone library that helps to manage local/component state. It's an alternative to reactive push-based 'Service with a Subject' approach.",
+	"NgRx - RouterStore": "Bindings to connect the Angular Router with Store. During each router navigation cycle, multiple actions are dispatched that allow you to listen for changes in the router's state. You can then select data from the state of the router to provide additional information to your application."
+
+}

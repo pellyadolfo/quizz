@@ -51,6 +51,7 @@
 	"Variables - DataTypes - UserDefined - Conditional": "Conditional types allow you to create types that depend on other types. type IsArray<T> = T extends any[] ? true : false;",
 	"Variables - DataTypes - UserDefined - Conditional - infer": "not annotating and letting TS infer it. The infer keyword allows for type inference in conditional types.",
 	"Variables - DataTypes - UserDefined - Mapped": "Mapped types allow you to create new types based on old ones by transforming properties. type ReadonlyUser = Readonly<User>;",
+	"Variables - DataTypes - UserDefined - Mapped - union": "This type is a union of strings. This is important because a mapped type only works with a union of strings or numbers or symbols. type PokemonType = 'fire' | 'water' | 'grass'; -> Now, you can create mapped type to create properties for each type: type PokemonTypeColorMap = { [Type in PokemonType]: string; };",
 	"Variables - DataTypes - UserDefined - Branded": "Branded types add semantic meaning to primitive types, helping to reduce errors when similar types (like IDs) are used inappropriately. type UserId = string & { __brand: 'UserId' };",
 	"Variables - DataTypes - Operations - DataTypes - TypeAliases": "Type aliases create a new name for a type. Type aliases are sometimes similar to interfaces, but can name primitives, unions, tuples, and any other types that you’d otherwise have to write by hand.",
 	"Variables - DataTypes - Operations - TypeGuards": "A type guard is some expression that performs a runtime check that guarantees the type in some scope.",
