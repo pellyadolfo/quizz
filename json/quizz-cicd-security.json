@@ -7,7 +7,14 @@
   "Web - JWE": "",
   "Web - JWKS": "",
   "Web - OIDC": "",
-  "Web - CAS": ""
+  "Web - CAS": "",
+
+	"Web - OAuth2": "",
+	"Web - OWASP": "",
+	"Web - OpenID": "",
+
+  "Web - HTTP - CSP": "Content Security Policy (CSP) is a feature that helps to prevent or minimize the risk of certain types of security threats.",
+  "Web - WS-Security": ""
 
 }
 

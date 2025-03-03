@@ -95,6 +95,12 @@
 	"Messaging - Formats - JSON": "",
 	"Messaging - Formats - XML": "",
 
+	"Messaging - Formats - eBusiness - EDI": "",
+	"Messaging - Formats - eBusiness - ebMS3": "",
+	"Messaging - Formats - eBusiness - AS4": "",
+	"Messaging - Formats - eBusiness - SBDH": "",
+	"Messaging - Formats - eBusiness - XHE": "",
+
 	"Messaging - Protocols": "SECTION",
 	"Messaging - Protocols - MQTT": "",
 	"Messaging - Protocols - AMQP": "",

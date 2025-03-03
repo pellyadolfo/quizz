@@ -117,7 +117,12 @@
   "Cryptography - DigitalSignature - Operations - SplitKey - Computation - Schemes - MPP - TSS - DKLS19": "",
   "Cryptography - DigitalSignature - Operations - SplitKey - Computation - Schemes - MPP - TSS - MPC-CMP": "",
   "Cryptography - DigitalSignature - Operations - MultiSig": "Requires multiple private keys to approve transactions, reducing reliance on a single key.",
+  "Cryptography - DigitalSignature - Applications - Documents - EU - XML-DSig": "",
+  "Cryptography - DigitalSignature - Applications - Documents - EU - XML-DSig - XAdES": "XML Advanced Electronic Signature, a set of extensions to the XML-DSig recommendations.",
+  "Cryptography - DigitalSignature - Applications - Documents - EU - CAdES": "CMS Advanced Electronic Signatures",
+  "Cryptography - DigitalSignature - Applications - Documents - EU - PAdES": "PDF Advanced Electronic Signatures",
   "Cryptography - DigitalSignature - Applications - Identification - Blockchain - Keys - Private - SeedPhrase": "",
+  "Cryptography - DigitalSignature - Regulations - eiDAS": "",
 
   "Cryptography - DigitalCertificate": "SECTION",
 	"Cryptography - DigitalCertificate - desc": "Digital certificates or digital identification cards, are just like physical ID proofs. These certificates are files that use cryptography and PKI to authenticate the servers, devices, websites, etc.",

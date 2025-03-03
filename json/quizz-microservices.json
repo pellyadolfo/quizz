@@ -40,6 +40,8 @@
 	"Client - ServiceDiscovery - SelfRegistration": "A service instance is responsible for registering itself with the service registry. On startup the service instance registers itself (host and IP address) with the service registry and makes itself available for discovery. The client must typically periodically renew its registration so that the registry knows it is still alive. On shutdown, the service instance unregisters itself from the service registry.",
 	"Client - ServiceDiscovery - 3rdPartyRegistration": "A 3rd party registrar is responsible for registering and unregistering a service instance with the service registry. When the service instance starts up, the registrar registers the service instance with the service registry. When the service instance shuts downs, the registrar unregisters the service instance from the service registry.",
 	"Client - ServiceDiscovery - Product": "Eureka",
+	"Client - ServiceDiscovery - Standards - BDXL": "Business Document Metadata Service Location (BDXL)",
+	"Client - ServiceDiscovery - Standards - SMP": "Service Metadata Publishing (SMP)",
 	"Client - Caching": "",
 
 	"Interaction": "SECTION",
