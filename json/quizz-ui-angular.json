@@ -598,6 +598,8 @@
 	"Logic - Services - ErrorHandling - ErrorHandler - all": "This class intercepts all the unhandled errors in your app (not just HTTP errors but any error), it's the final place to consider for when you can't do anything to it.",
 
   "CICD - Bundling": "SECTION",
+	"CICD - Bundling - Arch - Components - Types - Dumb": "All Dumb Components do is present themselves to the DOM. Hence they are also referred to as “Presentational Components” or something called “Isolated Components”.",
+	"CICD - Bundling - Arch - Components - Types - Smart": "Smart Components are those components who know how to handle data, How to fetch data from services, How to interact with services and keep track of the state and care about how the app works as a whole. They are called containers as they send data to Dumb Components via property bindings.",
 	"CICD - Bundling - Optimization - CodeReduction - Resources - OptimizeImages - NgOptimizedImage": "The NgOptimizedImage directive makes it easy to adopt performance best practices for loading images.",
 	"CICD - Bundling - Optimization - CodeReduction - TreeShakable - Providers": "Tree shaking is the ability to remove code that is not referenced in an application from the final bundle.",
 	"CICD - Bundling - Optimization - CodeReduction - TreeShakable - Providers - Angular6": "Tree-shakable providers give Angular the ability to remove services that are not used in your application from the final output. This significantly reduces the size of your bundles.",
