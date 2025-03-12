@@ -9,12 +9,17 @@
   "Web - OIDC": "",
   "Web - CAS": "",
 
+	"Web - OAuth": "",
 	"Web - OAuth2": "",
 	"Web - OWASP": "",
 	"Web - OpenID": "",
+	"Web - MFA": "",
+	"Web - SSO": "",
 
   "Web - HTTP - CSP": "Content Security Policy (CSP) is a feature that helps to prevent or minimize the risk of certain types of security threats.",
-  "Web - WS-Security": ""
+  "Web - WS-Security": "",
+
+	"Standards - NIS2": "https://digital-strategy.ec.europa.eu/en/policies/nis2-directive"
 
 }
 
