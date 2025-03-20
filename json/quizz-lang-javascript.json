@@ -614,6 +614,7 @@
 	"CICD - Bundling - Optimization - CodeSplitting - Loading - Lazy - technique - Imports - Dynamic": "Dynamic Imports allow these chunks to be loaded on demand.",
 	"CICD - Bundling - Optimization - CodeSplitting - Loading - Lazy - technique - Imports - Conditional": "not all components need to be loaded on every page.",
 	"CICD - Bundling - Optimization - CodeSplitting - Loading - Lazy - compression": "Image compression reduces the file size of images without significant loss of visual quality..",
+	"CICD - Bundling - Optimization - CodeSplitting - Webpack": "Webpack automatically supports code splitting when using dynamic imports (import()). Ensure your Webpack configuration is optimized for code splitting.",
 	"CICD - Bundling - Optimization - CodeFetching": ".",
 	"CICD - Bundling - Optimization - CodeFetching - Location - CDN": "A Content Delivery Network (CDN) is a network of servers distributed across various locations worldwide. By serving your JavaScript files (and other assets) from a CDN, you can reduce the latency for users accessing your site from different geographical regions.",
 	"CICD - Building - Optimization - CodeFetching - Memoization": "Memoization is an optimization technique that involves caching the results of expensive function calls and returning the cached result when the same inputs occur again.",
