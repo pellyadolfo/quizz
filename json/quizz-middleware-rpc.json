@@ -9,6 +9,7 @@
 	"Impl - CORBA": "SECTION",
 
 	"Impl - gRPC": "SECTION",
+	"Impl - gRPC ": "A high-performance RPC protocol that uses Protocol Buffers (protobuf) instead of JSON, making it faster and more efficient than REST. ",
 	"Impl - gRPC - ProtocolBuffers": "Protocol Buffers are a language-neutral, platform-neutral extensible mechanism for serializing structured data.",
 	"Impl - gRPC - ProtocolBuffers - features - binary": "Protobuf is binary-based",
 	"Impl - gRPC - ProtocolBuffers - features - contracts": "Everyone uses the same proto file to generate packages to serialize and deserialize.",

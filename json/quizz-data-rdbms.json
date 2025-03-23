@@ -85,11 +85,6 @@
 	"SQL - DQL - VIEW - View - MaterializedVIew - faster": "Because the data is pre-computed, querying a materialized view is faster than executing a query against the base table of the view.",
 
 	"SQL - INDEX": "A special data structure related to a database table and used for storing its important parts and enabling faster data search and retrieval. Indexes are especially efficient for large databases, where they significantly enhance query performance.",
-	"SQL - INDEX - Unique": "Unique index – doesn't allow duplicates in a table column and hence helps maintain data integrity.",
-	"SQL - INDEX - Clustered": "Clustered index – defines the physical order of records of a database table and performs data searching based on the key values. A table can have only one clustered index.",
-	"SQL - INDEX - Non-clustered": "Non-clustered index – keeps the order of the table records that don't match the physical order of the actual data on the disk. It means that the data is stored in one place and a non-clustered index – in another one. A table can have multiple non-clustered indexes.",
-	"SQL - INDEX - B-Tree": "B-trees, short for balanced trees, are the most common type of database index. A B-tree index is an ordered list of values divided into ranges. By associating a key with a row or range of rows, B-trees provide excellent retrieval performance for a wide range of queries, including exact match and range searches.",
-	"SQL - INDEX - Bitmap": "In a bitmap index, the database stores a bitmap for each index key. In a conventional B-tree index, one index entry points to a single row. In a bitmap index, each index key stores pointers to multiple rows. Bitmap indexes are primarily designed for data warehousing or environments in which queries reference many columns in an ad hoc fashion.",
 
 	"Indexes": "SECTION"
 
