@@ -223,6 +223,8 @@
 	"Cryptography - DigitalCertificate - Email - PGP": "A program used for encrypting emails.",
 
 	"Quantum": "SECTION",
+  "Quantum - PQC - NIST": "",
+  "Quantum - Impact - Blockchain": "https://www.linkedin.com/pulse/quantum-computers-vs-blockchain-security-showdown-steve-vaile-imc3e/",
   "Quantum - Falcom": "",
   "Quantum - Dilithium": "",
   "Quantum - VPU": ""

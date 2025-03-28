@@ -1,6 +1,6 @@
 {
 	"Kubernetes": "SECTION",
-
+	"Kubernetes - LayersAsDevops": "Kubernetes layers you need to know as a DevOps engineer: LoadBalancer > IngressController > KubeProxy > Service Mesh > Sidecars > Application",
 
 	"BuildingBlocks": "SECTION",
   "BuildingBlocks - CLUSTER": "A Cluster is a group of nodes managed by a control pane.",
