@@ -2,12 +2,6 @@
 	"Browser": "SECTION",
 	"Browser ": "https://developer.mozilla.org/en-US/docs/Web/API",
 
-	"Data": "SECTION",
-	"Data - CookieStoreAPI": ".",
-	"Data - WebStorageAPI": "The Web Storage API provides mechanisms by which browsers can store key/value pairs, in a much more intuitive fashion than using cookies.",
-	"Data - WebStorageAPI - localStorage": "localStorage does the same thing, but persists even when the browser is closed and reopened.",
-	"Data - WebStorageAPI - sessionStorage": "sessionStorage maintains a separate storage area for each given origin that's available for the duration of the page session (as long as the browser tab is open, including page reloads and restores).",
-
 	"View - Rendering": "SECTION",
 	"View - Rendering - DOM": "The DOM is not part of the JavaScript language, but is instead a Web API which defines the structure and properties of elements on a webpage.",
 	"View - Rendering - DOM - access": ".",
@@ -110,7 +104,6 @@
 	"View - Animations - transitions - ViewTransitionsAPI": "The View Transitions API can be used in two scenarios: Single Page Applications (SPAs) and Multi-Page Applications (MPAs).",
 	"View - Animations - transitions - startViewTransition": "The startViewTransition() method of the Document interface starts a new same-document (SPA) view transition and returns a ViewTransition object to represent it.",
 
-
 	"Logic - Events - browser - click": "",
 	"Logic - Events - browser - dblclick": "",
 	"Logic - Events - browser - mousedown": "",
@@ -151,6 +144,13 @@
 	"Logic - Devices - Clipboard": "navigator.clipboard",
 	"Logic - Devices - Orientation": "window.addListener('deviceorientation, handleOrientationFunction)",
 
+	"Storage": "SECTION",
+	"Storage - CookieStoreAPI": ".",
+	"Storage - WebStorageAPI": "The Web Storage API provides mechanisms by which browsers can store key/value pairs, in a much more intuitive fashion than using cookies.",
+	"Storage - WebStorageAPI - localStorage": "localStorage does the same thing, but persists even when the browser is closed and reopened.",
+	"Storage - WebStorageAPI - sessionStorage": "sessionStorage maintains a separate storage area for each given origin that's available for the duration of the page session (as long as the browser tab is open, including page reloads and restores).",
+	"Storage - IndexedDB": ".",
+
   "CICD - Applications - Authentication": "",
   "CICD - Applications - Authentication - custom - Cookie": "",
   "CICD - Applications - Authentication - custom - Session": "When a user signs up or signs in, we create a session for them. This session is stored in a database and a cookie with a session token is set in the user's browser. Whenever the user sends a request to the server, we validate the session and if everything is fine, we return the session and the user.",
@@ -180,6 +180,14 @@
   "CICD - Applications - Authentication - libs - Supabase": "",
   "CICD - Applications - Authentication - libs - Clerk": "",
   "CICD - Applications - Authentication - libs - Lucia": "",
-  "CICD - Applications - Authentication - libs - AuthKit": ""
+  "CICD - Applications - Authentication - libs - AuthKit": "",
+
+	"CICD - Execution - Environment - Google V8": "V8 is a browser engine",
+	"CICD - Execution - Environment - Blink": "Google Blink Engine",
+	"CICD - Execution - Environment - Webkit": "Apple Safari (webkit) is more power efficient Engine",
+	"CICD - Execution - Environment - Chromium": "Apple macOS Chromium (blink) is faster",
+	"CICD - Execution - Environment - Gecko": "Mozilla Firefox/Gecko Engine",
+	"CICD - Execution - Environment - Gecko - Goanna": "fork of Firefox/Gecko",
+	"CICD - Execution - Environment - Ladybird - 2024": "Google Blink Engine"
 
 }

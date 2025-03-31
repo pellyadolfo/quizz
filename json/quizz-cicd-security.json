@@ -1,9 +1,42 @@
 {
 
   "Web": "SECTION",
+
+  "Web - HTTP - CSP": "Content Security Policy (CSP) is a feature that helps to prevent or minimize the risk of certain types of security threats.",
+  "Web - WS-Security": "",
+
+  "Web - JWT": "open standard (RFC 7519) for securely transmitting information between parties as a JSON object. ◾ a compact and self-contained way to represent a set of claims securely between two parties.",
+  "Web - JWT - Structure - Header": "Specifies the algorithm used to sign the token (e.g., HS256, RS256) and the type of the token, which is always JWT.",
+  "Web - JWT - Structure - Payload": "◾ Contains the claims (statements) about an entity (typically, the user) and additional data.",
+  "Web - JWT - Structure - Payload - Claims": "",
+  "Web - JWT - Structure - Payload - Claims - Registered": "Registered claims (standardized): iss (issuer), exp (expiration time), sub (subject), aud (audience) etc.",
+  "Web - JWT - Structure - Payload - Claims - Public": "Public claims (customizable by your application).",
+  "Web - JWT - Structure - Payload - Claims - Private": "Private claims (application-specific agreements).",
+  "Web - JWT - Structure - Signature": "◾ Used to verify the token's authenticity and integrity.",
+  "Web - JWT - Structure - Signature - Structure": "◾ Created by taking - a. the encoded header b. the encoded payload c. a secret d. signing it with the algorithm specified in the header",
+  "Web - JWT - Usage - Benefits - Auth": "",
+  "Web - JWT - Usage - Benefits - Statelessness": "server doesn't need to store session information.",
+  "Web - JWT - Usage - Benefits - Security": "can be signed using various algorithms",
+  "Web - JWT - Usage - Benefits - Decentralization": "ideal for single sign-on (SSO).",
+  "Web - JWT - Usage - BestPractices - Algorithm - Asymmetry": "Prioritize Asymmetry: Use RS256 (RSA) or ES256 (Elliptic Curve) for stronger security.",
+  "Web - JWT - Usage - BestPractices - Algorithm - HS256": "Avoid HS256: HMAC-based signing (HS256) requires careful key management.",
+  "Web - JWT - Usage - BestPractices - Algorithm - none": "Never Use 'none': This disables signing, rendering JWTs completely insecure.",
+  "Web - JWT - Usage - BestPractices - KeyManagement - keys": "◾ Generate robust, cryptographically secure keys (256-bit or higher)",
+  "Web - JWT - Usage - BestPractices - KeyManagement - rotate": "◾ Regularly rotate keys.",
+  "Web - JWT - Usage - BestPractices - Storage": "Store keys securely, never in source code or version control.",
+  "Web - JWT - Usage - BestPractices - ClaimUsage - PII": "Avoid storing sensitive or personally identifiable information (PII) directly in JWT claims.",
+  "Web - JWT - Usage - BestPractices - ClaimUsage - Standard": "Utilize standard claims (iss, exp, aud, sub) consistently.",
+  "Web - JWT - Usage - BestPractices - ClaimUsage - Encrypt": "For sensitive data, encrypt the JWT payload.",
+  "Web - JWT - Usage - BestPractices - TokenHandling - HTTPS": "Transmit JWTs exclusively over HTTPS to prevent interception.",
+  "Web - JWT - Usage - BestPractices - TokenHandling - HttpOnly": "Store JWTs in HttpOnly cookies to protect against cross-site scripting (XSS) attacks.",
+  "Web - JWT - Usage - BestPractices - TokenHandling - Expiration": "Set short expiration times and consider refresh tokens for longer sessions.",
+  "Web - JWT - Usage - BestPractices - TokenHandling - Revoke": "Implement mechanisms for revoking compromised tokens =>blacklists, short-lived tokens.",
+  "Web - JWT - Usage - BestPractices - ValidationAndVerification - verify": "ALWAYS verify the JWT signature using the appropriate algorithm and key before processing the claims.",
+  "Web - JWT - Usage - BestPractices - ValidationAndVerification - claims": "Check all relevant claims (exp, iss, aud) for validity and relevance to your application.",
+
   "Web - CORS": "https://javascript.plainenglish.io/cors-the-friendly-gatekeeper-of-the-web-and-how-to-fix-it-650e33179d24",
   "Web - XSS": "https://javascript.plainenglish.io/how-to-secure-your-frontend-in-2024-with-code-best-practices-for-modern-web-development-dc60921bb93a",
-  "Web - JWT": "",
+
   "Web - JWE": "",
   "Web - JWKS": "",
   "Web - OIDC": "",
@@ -15,9 +48,6 @@
 	"Web - OpenID": "",
 	"Web - MFA": "",
 	"Web - SSO": "",
-
-  "Web - HTTP - CSP": "Content Security Policy (CSP) is a feature that helps to prevent or minimize the risk of certain types of security threats.",
-  "Web - WS-Security": "",
 
 	"Standards - NIS2": "https://digital-strategy.ec.europa.eu/en/policies/nis2-directive"
 
