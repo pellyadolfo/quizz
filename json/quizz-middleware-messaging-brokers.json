@@ -41,6 +41,11 @@
   "Kafka - Usage - Strength": "Distributed and partitioned for scalability and fault-tolerance. Optimized for event-driven architectures and real-time analytics. Includes stream processing capabilities via Kafka Streams and KSQL.",
   "Kafka - Usage - Advantages": "Kafka can handle multiple producers and consumers, while providing disk-based data retention and high scalability. ",
 	"Kafka - Usage - UseCase": "Streaming IoT data or powering real-time financial dashboards.",
+	"Kafka - Usage - UseCases - LogProcessing ": "Log Processing and Analysis: Efficiently handles massive volumes of log data for analysis and insight generation.",
+	"Kafka - Usage - UseCases - DataStreaming ": "Data Streaming for Recommendations: Powers real-time data streaming to deliver personalized recommendations.",
+	"Kafka - Usage - UseCases - SystemMonitoring ": "System Monitoring and Alerting: Facilitates real-time monitoring and alerting systems for timely responses to system metrics.",
+	"Kafka - Usage - UseCases - ChangeDataCapture ": "Change Data Capture (CDC): Captures and processes database changes to keep data in sync across systems.",
+	"Kafka - Usage - UseCases - SystemMigration ": "System Migration: Supports the seamless migration of systems by ensuring data consistency and availability.",
 	"Kafka - Usage - UseCases - MonitorLag ": "Use Kafka Manager or Prometheus to track consumer lag.",
 	"Kafka - Usage - UseCases - StreamProcessing ": "Use Kafka Streams or Flink for real-time processing.",
 

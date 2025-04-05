@@ -223,6 +223,7 @@
 	"Cryptography - DigitalCertificate - Email - PGP": "A program used for encrypting emails.",
 
 	"Quantum": "SECTION",
+  "Quantum - CBOM": "A Cryptographic Bill of Materials (CBOM) is an extension of the SBOM, and it goes into further detail to describe cryptographic components in the software and their dependencies. The components of a CBOM include the cryptographic algorithms and libraries used in the software products throughout your organization. It would include details such as their versions, and their dependencies on other software components and libraries. A CBOM can also contain metadata about the cryptographic algorithms and libraries, such as license information and known vulnerabilities.",
   "Quantum - PQC - NIST": "",
   "Quantum - Impact - Blockchain": "https://www.linkedin.com/pulse/quantum-computers-vs-blockchain-security-showdown-steve-vaile-imc3e/",
   "Quantum - Falcom": "",
