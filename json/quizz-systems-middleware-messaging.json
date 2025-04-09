@@ -9,7 +9,7 @@
 	"Messaging - EIP - Messaging Systems. ": "",
 
 	"Messaging - EDA": "SECTION",
-	"Messaging - EDA - definition": "Event-Driven Architecture is a software design approach in which components of the system communicate by sending and receiving events.",
+	"Messaging - EDA - definition": "Event-Driven Architecture is a software design approach in which components of the system communicate asynchronously by sending and receiving events.",
 	"Messaging - EDA - Components": ".",
 	"Messaging - EDA - Components - Producers": "Event Producers: Components that emit events.",
 	"Messaging - EDA - Components - Consumers": "Event Consumers: Components that respond to events.",

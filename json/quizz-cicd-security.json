@@ -1,8 +1,11 @@
 {
 
-  "Transport": "SECTION",
+	"Client": "SECTION",
+	"Client - WebAuthenticationAPI": "Web Authentication API (WebAuthn) is a W3C and FIDO specification that allows registration and authentication of users using public key cryptography instead of a password.",
+
+	"Transport": "SECTION",
   "Transport - HTTP - CSP": "Content Security Policy (CSP) is a feature that helps to prevent or minimize the risk of certain types of security threats.",
-  "Transport - HTTPS": ".",
+  "Transport - UseHTTPS": "TLS/HTTPS.",
   "Transport - HSTS": ".",
   "Transport - WS-Security": "",
 
@@ -93,7 +96,9 @@
 	"Access - Authorization - OAuth2 - Features - Usage": "Supports mobile & web apps better.",
 	"Access - Authorization - OAuth2 - access_token": "Used to call APIs on behalf of the user. Think of this as a pass granting limited rights to a third-party service.",
 	"Access - Authentication": "who is the user. Authentication verifies identity (e.g., login)",
-	"Access - Authentication - BASIC": "",
+	"Access - Authentication - HTTP - HTTP Basic": "",
+	"Access - Authentication - HTTP - HTTP Digest": "",
+	"Access - Authentication - Token Based": "",
 	"Access - Authentication - APIKey": "API keys are supposed to be a secret that only the client and server know. Like Basic authentication, API key-based authentication is only considered secure if used together with other security mechanisms such as HTTPS/SSL.",
 	"Access - Authentication - Credentials": "The First Line of Defense. The classic method—username and password. But is it enough? Weak passwords are easily cracked; multi-factor authentication (MFA) is essential. The best practice? Use passphrases, password managers, and regular updates.",
 	"Access - Authentication - SSHKeys": "The Lock and Key for Secure Access. Used for remote access to systems without needing passwords. Stronger than traditional credentials—keys are complex and hard to guess. Must be properly managed to prevent unauthorized use or key leaks.",
@@ -123,6 +128,14 @@
 	"Access - SSO - Protocols - OIDC": ".",
 	"Access - SSO - MFA": "",
   "Access - SSO - CAS": "",
+
+  "Processing": "SECTION",
+	"Processing - AllowList": "",
+	"Processing - InputValidations": "",
+	"Processing - InputValidations - Message Size": "",
+	"Processing - InputValidations - SQL Injection": "",
+	"Processing - InputValidations - JSON Threat Protection": "",
+	"Processing - InputValidations - XML Threat Protection": "",
 
 	"Web - OWASP": "",
   "Web - CORS": "https://javascript.plainenglish.io/cors-the-friendly-gatekeeper-of-the-web-and-how-to-fix-it-650e33179d24",
