@@ -109,6 +109,7 @@
 	"Kafka - Components - Consumer - Balanced": "Ensure even consumer distribution across partitions.",
 	"Kafka - Components - Consumer - Group": "A set of consumers that work together.",
 	"Kafka - Components - Consumer - Tuning": ".",
+	"Kafka - Components - KafkaStreams": "Kafka Streams is a lightweight library developed by Apache Kafka that enables real-time stream processing of data stored in Kafka topics.",
 
 	"NATS": "SECTION",
   "NATS - Features - MesageModel": "Subject-based (pub-sub)",

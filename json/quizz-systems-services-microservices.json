@@ -150,8 +150,11 @@
 	"Service - Publishing - Features - Audit - Observability - Health check API": "A service has an health check API endpoint (e.g. HTTP /health) that returns the health of the service. The API endpoint handler performs various checks, such as: the status of the connections to the infrastructure services used by the service instance, the status of the host, e.g. disk space, application specific logic A health check client - a monitoring service, service registry or load balancer - periodically invokes the endpoint to check the health of the service instance.",
 	"Service - Publishing - Features - Audit - Observability - Log deployments and changes": "Log every deployment and every change to the (production) environment.",
 	"Service - Publishing - Features - Audit - Observability - Tools - Prometheus": "Prometheus is an open-source toolkit for monitoring and alerting based on an embedded times-series database, a query DSL and various mechanics for scraping metrics data off endpoints.",
+	"Service - Publishing - Features - Audit - Observability - Tools - Graphana": ".",
+	"Service - Publishing - Features - Audit - Observability - Tools - ELKStack": ".",
 	"Service - Publishing - Features - Audit - Observability - Tools - Jaeger": ".",
 	"Service - Publishing - Features - Audit - Observability - Tools - Zipkin": ".",
+	"Service - Publishing - Features - Audit - Observability - Tools - SpringCloudSleuth": "Spring Cloud Sleuth provides Spring Boot auto-configuration for distributed tracing. Spring Cloud Sleuth will not work with Spring Boot 3.x onward. The last major version of Spring Boot that Sleuth will support is 2.x.",
 
 	"Service - Processing": "SECTION",
 	"Service - Processing - Patterns": "Build your microservices using a microservice chassis framework, which handles cross-cutting concerns",

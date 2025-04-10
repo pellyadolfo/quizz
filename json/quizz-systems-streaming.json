@@ -1,0 +1,11 @@
+{
+
+	"DataStreaming": "SECTION",
+	"DataStreaming - KafkaStreams": "",
+	"DataStreaming - ApacheFlink": "",
+
+	"RealTime": "SECTION",
+	"RealTime - Sockets - WebSockets": "",
+	"RealTime - ApacheStorm": ""
+
+}
