@@ -6,6 +6,11 @@
 
 	"RealTime": "SECTION",
 	"RealTime - Sockets - WebSockets": "",
-	"RealTime - ApacheStorm": ""
+	"RealTime - ApacheStorm": "",
+
+
+	"Cloud - Brokers - AWS Kinesis": "",
+	"Cloud - Brokers - Spark Streams": ""
+
 
 }
