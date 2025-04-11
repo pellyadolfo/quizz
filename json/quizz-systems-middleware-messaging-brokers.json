@@ -123,7 +123,7 @@
 	"Kafka - Components - Broker - Topics - Partitions - Strategies": "",
 	"Kafka - Components - Broker - Cluster": "A Kafka cluster consists of several brokers where each partition is replicated across multiple brokers to provide high availability and redundancy.",
 	"Kafka - Components - Broker - Cluster - Node": ".",
-	"Kafka - Components - Broker - Cluster - Node - Replica": "Replication is for replicating nodes within a Kafka cluster.",
+	"Kafka - Components - Broker - Cluster - Node - Replica": "Replication is for replicating nodes within a Kafka cluster. ensure fault tolerance",
 	"Kafka - Components - Broker - Cluster - Node - Replica - InSyncReplicas": "A set of replicas (leader + followers) that are fully caught up with the leader. Only ISR members can become leaders.",
 	"Kafka - Components - Broker - Cluster - Manage - ZooKeeper": "In Apache Kafka, ZooKeeper, a distributed coordination service, manages cluster metadata, broker registration, leader election, and topic/partition information, ensuring the reliability and coordination of the Kafka cluster.",
 	"Kafka - Components - Broker - Cluster - Manage - ZooKeeper - deprecated": "its role has been reduced significantly in newer versions (with plans to fully remove it in Kafka 4.0 via KIP-500)",
