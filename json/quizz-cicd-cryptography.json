@@ -219,7 +219,9 @@
   "Cryptography - DigitalCertificate - Management - PKI - Certificates": "",
   "Cryptography - DigitalCertificate - Management - PKI - Certificates - X509Certificate": "",
 	"Cryptography - DigitalCertificate - Web - SSL": "Protocols used for secure communication over the internet.",
+	"Cryptography - DigitalCertificate - Web - SSL - 3WayHandshake": "we have stuck with the 3-way handshake for many decades, and it is now seen as too slow in a modern “always-on, always-connected” world. In a normal Web connection, the client sends a SYN TCP request, the server then replies with a TCP SYN/ACK, and then the client sends back an ACK. This obviously slows down the connection, and where we might close a connection, and want it opened up again in a short interval. In fact, HTTP was meant to be stateless, and where we disconnect after a connection is made. Most browsers overcome this with a keep-alive packet.",
 	"Cryptography - DigitalCertificate - Web - TLS": "Protocols used for secure communication over the internet.",
+	"Cryptography - DigitalCertificate - Web - TLS - 0-RTT": "0-RTT (Zero Round Trip Time) and which is integrated into TLS 1.3. This will allow a client to immediately reconnect without the requirement for the three-way handshake. Basically, it allows data to be sent by a client without waiting for the server to respond.",
 	"Cryptography - DigitalCertificate - Email - PGP": "A program used for encrypting emails.",
 
 	"Quantum": "SECTION",

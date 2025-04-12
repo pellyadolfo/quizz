@@ -62,6 +62,7 @@
 	"SQL - Querying - DQL - VIEW - View": "A view is a virtual table that fetches data dynamically whenever queried.",
 	"SQL - Querying - DQL - VIEW - View - MaterializedVIew": "A materialized view is a pre-computed data set derived from a query and stored for later use.",
 	"SQL - Querying - DQL - VIEW - View - MaterializedVIew - faster": "Because the data is pre-computed, querying a materialized view is faster than executing a query against the base table of the view.",
+	"SQL - Querying - DQL - EXPLAIN ANALYZE": "",
 
 	"SQL - DataModel": "SECTION",
 	"SQL - DataModel - Objects - Schema": "A collection of database structural elements such as tables, stored procedures, indexes, functions, and triggers. It shows the overall database architecture, specifies the relationships between various objects of a database, and defines different access permissions for them. Read our database schema guide for a deeper understanding.",
@@ -72,6 +73,7 @@
 	"SQL - DataModel - DDL": "",
 	"SQL - DataModel - DDL - CREATE": "",
 	"SQL - DataModel - DDL - ALTERTABLE": "",
+	"SQL - DataModel - DDL - PARTITIONOF": "CREATE TABLE orders_202301 PARTITION OF",
 	"SQL - DataModel - DDL - DELETE": "",
 	"SQL - DataModel - DDL - DROP": "DROP deletes a table from the database completely, including the table structure and all the associated constraints, relationships with other tables, and access privileges. TRUNCATE deletes all rows from a table without affecting the table structure and constraints. DROP works slower than TRUNCATE. Both are irreversible DDL (Data Definition Language) commands.",
 	"SQL - DataModel - DDL - TRUNCATE": "",
