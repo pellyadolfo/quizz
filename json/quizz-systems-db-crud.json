@@ -23,6 +23,7 @@
 	"Consuming - Caching - Strategies - Eviction - FIFO": "𝐅𝐢𝐫𝐬𝐭 𝐈𝐧, 𝐅𝐢𝐫𝐬𝐭 𝐎𝐮𝐭 (𝐅𝐈𝐅𝐎) - Evicts the oldest stored item first, regardless of usage. - Simple to implement but may remove still-relevant data. - Example: Simple queue-based caching systems.",
 	"Consuming - Caching - Strategies - Eviction - RR": "𝐑𝐚𝐧𝐝𝐨𝐦 𝐑𝐞𝐩𝐥𝐚𝐜𝐞𝐦𝐞𝐧𝐭 (𝐑𝐑) - Randomly evicts an item when the cache is full. - Low overhead, but less predictable performance. - Example: Some network routers use RR for managing limited memory, avoiding complex eviction policies.",
 	"Consuming - Caching - Strategies - Eviction - TT": "𝐓𝐰𝐨-𝐓𝐢𝐞𝐫𝐞𝐝 𝐂𝐚𝐜𝐡𝐢𝐧𝐠 - Uses a fast in-memory cache (e.g., Redis) & a slower persistent cache (e.g., disk-based). - Optimizes speed & storage by balancing hot and cold data. - Example: A CDN stores frequently accessed content in RAM (L1 cache) while keeping less-accessed content on disk (L2 cache) to balance performance and cost.",
+	"Consuming - Caching - Tools - VarnishCache": ".",
 
 	"Querying": "SECTION",
 	"Querying - Transactions": "https://medium.com/@patrickkoss/interview-so-how-do-you-do-a-transaction-with-nosql-databases-c3d80bc7d314",
