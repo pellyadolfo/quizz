@@ -7,7 +7,7 @@
 	"AI - Types - ASI": "Artificial Super Intelligence This is where it gets a little theoretical and a touch scary. ASI refers to AI technology that will match and then surpass the human mind. To be classed as an ASI, the technology would have to be more capable than a human in every single way possible. Not only could these AI things carry out tasks, but they would even be capable of having emotions and relationships.",
 
 	"NLP": "SECTION",
-	"NLP - RAG": "RAG (Retreival Augmented Generator) are based on NLP technique to combine rule based output from the LLM itself. This technique is a step further from LLM making your product more customized based on your requirement (can be dashboards, user stories, etc.) E.g. hashtag#Chatbot hashtag#Midjourney content generators, text to speech converter are a few examples",
+
 
 	"ML": "SECTION",
 	"ML - 1980": "Machine learning (ML) is a subset of artificial intelligence (AI) that focuses on teaching computers and machines to replicate human learning processes, enabling them to enhance their performance over time. To do this, they use algorithms and statistical models to analyze and understand hidden patterns in datasets.",
@@ -69,8 +69,8 @@
 	"GenerativeAI - Tools - CrewAI": "",
 	"GenerativeAI - Tools - LangGraph": "",
 	"GenerativeAI - Tools - CopilotKit": "",
-	"GenerativeAI - Tools - LangChain": "",
-	"GenerativeAI - Tools - LlamaIndex": "",
+	"GenerativeAI - Tools - LangChain": "LangChain specializes in workflow orchestration, making it ideal for complex multi-step processes that chain together multiple LLM operations. It excels in applications requiring tool/API integrations, agent-based systems with reasoning capabilities, and scenarios needing extensive prompt engineering. LangChain also provides frameworks for evaluation and comparison of different approaches.",
+	"GenerativeAI - Tools - LlamaIndex": "LlamaIndex focuses on document processing and data retrieval. Its strengths lie in handling complex document ingestion, advanced indexing of knowledge bases, and providing structured data access for LLMs. LlamaIndex is particularly valuable for customizing retrieval strategies, processing diverse document formats, and implementing query transformations and routing.",
 	"GenerativeAI - Tools - Generator - Images - DALL-E": "text-to-image models developed by OpenAI using deep learning methodologies to generate digital images from natural language descriptions known as prompts.",
 	"GenerativeAI - Tools - Generator - Images - DALL-E 2": "",
 	"GenerativeAI - Tools - Generator - Images - DALL-E 3": "",
@@ -90,17 +90,30 @@
 	"PredictiveAI - Tools - MicrosoftAzureML": "",
 	"PredictiveAI - Tools - VertexAI": "Google",
 
+	"RAG": "SECTION",
+	"RAG ": "RAG (Retrieval Augmented Generator) are based on NLP technique to combine rule based output from the LLM itself. This technique is a step further from LLM making your product more customized based on your requirement (can be dashboards, user stories, etc.) E.g. hashtag#Chatbot hashtag#Midjourney content generators, text to speech converter are a few examples",
+	"RAG - Features - core": "Retrieves information and generates responses.",
+	"RAG - Features - autonomy": "Limited autonomy with static retrieval and predefined responses.",
+	"RAG - Features - learning": "It does not adapt or learn over time. It retrieves and generates responses based on pre-trained models,",
+	"RAG _ UseCase": "Static content creation, Q&A, and structured knowledge bases.",
+
+	"AIAgents": "SECTION",
+	"AIAgents - Features - core": "A step up from RAG. Can execute tasks dynamically with minimal intervention.",
+	"AIAgents - Features - autonomy": "High autonomy adapting to tasks with minimal intervention.",
+	"AIAgents - Features - learning": "Learn based on agent type and input data.",
+	"AIAgents - A2A": "Agent-to-Agent Protocol by Google. AI agents connect to each other. A2A focuses on how different AI agents talk to each other, no matter which company or framework they come from. It’s like giving AI agents a shared language so they can collaborate, delegate tasks, and work as a team. This is horizontal integration, connecting agents to other agents.",
+	"AIAgents - MCP": "Model Context Protocol by Anthropic. AI agent connects to tools",
+	"AIAgents - ReactAgent": "ReactAgent is an experimental autonomous agent that uses GPT-4 language model to generate and compose React components from user stories. It is built with React, TailwindCSS, Typescript, Radix UI, Shandcn UI, and OpenAI API.",
+
 	"AgenticAI": "SECTION",
-	"AgenticAI ": "Agentic AI is an emerging field that leverages an array of different AI techniques to enable an ‘agent’ to tackle complex tasks autonomously - without human intervention. To do so, it combines the reasoning power of an LLM with an array of tools it can use to perceive and interact with its environment, as well as ML techniques like reinforcement learning. Agents represent the next real step forward in the field of AI.",
+	"AgenticAI ": "Agentic AI is an emerging field that leverages an array of different AI techniques to enable an ‘agent’ to tackle complex tasks autonomously - without human intervention. To do so, it combines the reasoning power of an LLM with an array of tools it can use to perceive and interact with its environment, as well as ML techniques like reinforcement learning. Agents represent the next real step forward in the field of AI",
+	"AgenticAI - Features - core": "Combines retrieval, generation and dynamic actions.",
+	"AgenticAI - Features - autonomy": "Very high autonomy combining self-learning and decision making.",
+	"AgenticAI - Features - learning": ".",
 	"AgenticAI - Workflow - Perception": "The agent observes its environment using sensors or inputs (text, APIs, context, tools).",
 	"AgenticAI - Workflow - Brain": "It processes observations via a core LLM, enhanced with memory, planning, and retrieval components.",
 	"AgenticAI - Workflow - Action": "It executes a task, invokes a tool, or responds — influencing the environment.",
 	"AgenticAI - Workflow - Learning": "(Implicit or Explicit) – Feedback is integrated to improve future decisions.",
-	"AgenticAI - Examples - SelfDrivingCars": "One of the most exciting uses of Agentic AI is in autonomous vehicles. These AI systems perceive their surroundings, make driving decisions, and learn from every trip. Over time, they get better at navigating and handling new challenges on the road. For example, Tesla’s Full Self-Driving system is an example of Agentic AI that continuously learns from the driving environment and adjusts its behavior to improve safety and efficiency.",
-
-	"AIAgents": "SECTION",
-	"AIAgents - A2A": "Agent-to-Agent Protocol by Google. AI agents connect to each other. A2A focuses on how different AI agents talk to each other, no matter which company or framework they come from. It’s like giving AI agents a shared language so they can collaborate, delegate tasks, and work as a team. This is horizontal integration, connecting agents to other agents.",
-	"AIAgents - MCP": "Model Context Protocol by Anthropic. AI agent connects to tools",
-	"AIAgents - ReactAgent": "ReactAgent is an experimental autonomous agent that uses GPT-4 language model to generate and compose React components from user stories. It is built with React, TailwindCSS, Typescript, Radix UI, Shandcn UI, and OpenAI API."
+	"AgenticAI - Examples - SelfDrivingCars": "One of the most exciting uses of Agentic AI is in autonomous vehicles. These AI systems perceive their surroundings, make driving decisions, and learn from every trip. Over time, they get better at navigating and handling new challenges on the road. For example, Tesla’s Full Self-Driving system is an example of Agentic AI that continuously learns from the driving environment and adjusts its behavior to improve safety and efficiency."
 
 }

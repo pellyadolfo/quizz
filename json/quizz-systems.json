@@ -23,7 +23,7 @@
 	"Apps - ByState - Stateless - Examples - Serverless": "Serverless architectures: Serverless architectures are designed to respond to events in isolation and do not retain context from previous actions and therefore do not need to maintain state. Serverless architectures are ideal for asynchronous, stateless apps that can be started instantaneously.",
 
 	"Systems - Distributed": "SECTION",
-	"Systems - Distributed - Principles - Consistency": "In distributed systems, consistency models 𝗱𝗲𝗳𝗶𝗻𝗲 𝗵𝗼𝘄 𝗱𝗮𝘁𝗮 𝘂𝗽𝗱𝗮𝘁𝗲𝘀 𝗮𝗿𝗲 𝘀𝗲𝗲𝗻 𝗮𝗰𝗿𝗼𝘀𝘀 𝗻𝗼𝗱𝗲𝘀. Strong consistency and eventual consistency 𝗿𝗲𝗽𝗿𝗲𝘀𝗲𝗻𝘁 𝗯𝗼𝘁𝗵 𝗲𝗻𝗱𝘀 𝗼𝗳 𝘁𝗵𝗲 𝗰𝗼𝗻𝘀𝗶𝘀𝘁𝗲𝗻𝗰𝘆 𝘀𝗽𝗲𝗰𝘁𝗿𝘂𝗺 (sequential and causal consistency in between).",
+	"Systems - Distributed - Principles - Consistency": "In distributed systems, consistency models define how updates are seen across nodes. Strong consistency and eventual consistency 𝗿𝗲𝗽𝗿𝗲𝘀𝗲𝗻𝘁 𝗯𝗼𝘁𝗵 𝗲𝗻𝗱𝘀 𝗼𝗳 𝘁𝗵𝗲 𝗰𝗼𝗻𝘀𝗶𝘀𝘁𝗲𝗻𝗰𝘆 𝘀𝗽𝗲𝗰𝘁𝗿𝘂𝗺 (sequential and causal consistency in between).",
 	"Systems - Distributed - Principles - Consistency - Strong": "↳ Every read sees the latest write ↳ Higher latency, lower availability, higher integrity ↳ Ideal for real-time correctness",
 	"Systems - Distributed - Principles - Consistency - Sequential": ".",
 	"Systems - Distributed - Principles - Consistency - Causal": ".",
