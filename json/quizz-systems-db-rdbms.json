@@ -1,7 +1,6 @@
 {
 	"SQL": "SECTION",
-
-	"SQL - Comamnds": "SECTION",
+	"SQL - Comamnds": "",
 	"SQL - Comamnds - CONSTRAINTS": "",
 	"SQL - Comamnds - CONSTRAINTS ": "A set of conditions defining the type of data that can be input into each column of a table. Constraints ensure data integrity in a table and block undesired actions.",
 	"SQL - Comamnds - CONSTRAINTS - DEFAULT": "provides a default value for a column.",
@@ -25,8 +24,7 @@
 	"SQL - Comamnds - CLAUSE - ORDER BY": "",
 	"SQL - Comamnds - CLAUSE - LIMIT": "",
 	"SQL - Comamnds - CLAUSE - HAVING": "works on aggregated data after they are grouped",
-
-	"SQL - Querying": "SECTION",
+	"SQL - Querying": "",
 	"SQL - Querying - TCL": "",
 	"SQL - Querying - TCL - COMMIT": "",
 	"SQL - Querying - TCL - SET TRANSACTION": "",
@@ -66,8 +64,7 @@
 	"SQL - Querying - DQL - VIEW - View - MaterializedVIew": "A materialized view is a pre-computed data set derived from a query and stored for later use.",
 	"SQL - Querying - DQL - VIEW - View - MaterializedVIew - faster": "Because the data is pre-computed, querying a materialized view is faster than executing a query against the base table of the view.",
 	"SQL - Querying - DQL - EXPLAIN ANALYZE": "",
-
-	"SQL - DataModel": "SECTION",
+	"SQL - DataModel": "",
 	"SQL - DataModel - Objects - Schema": "A collection of database structural elements such as tables, stored procedures, indexes, functions, and triggers. It shows the overall database architecture, specifies the relationships between various objects of a database, and defines different access permissions for them. Read our database schema guide for a deeper understanding.",
 	"SQL - DataModel - Objects - Entities": ".",
 	"SQL - DataModel - Objects - Table": ".",
