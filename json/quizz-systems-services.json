@@ -2,6 +2,7 @@
 
 	"Layer4": "SECTION",
 	"Layer4 - Protocols - TCPIP": "",
+	"Layer4 - Networking - VPC": "",
 	"Layer4 - Networking - VPN": "",
 	"Layer4 - Networking - NetworkFirewalls - Layer4": "TCPIP - network firewalls look at data packets and their state.",
 	"Layer4 - Networking - ReverseProxy": "A Reverse Proxy is a type of proxy server that retrieves resources on behalf of a client from one or more servers. Operate at the Application Layer,",
@@ -73,6 +74,9 @@
 	"Processing - Serverless - Tools - NotionAPI": "Notion’s API allows developers to use its robust database and organization tools as a backend.",
 	"Processing - Serverless - Tools - AWSAmplify": "AWS Amplify is a powerful toolset for building serverless applications. It provides backend services like authentication, storage, and APIs without needing to code backend logic.",
 	"Processing - Serverless - Tools - Bubble": "Bubble is a no-code platform that lets you build full-stack applications without touching backend code.",
-	"Processing - Serverless - Tools - Hasura": "Hasura is a GraphQL engine that lets you build scalable APIs over your databases instantly."
+	"Processing - Serverless - Tools - Hasura": "Hasura is a GraphQL engine that lets you build scalable APIs over your databases instantly.",
+	"Processing - Serverless - Tools - SpringCloudFunction": "",
+	"Processing - Serverless - Tools - AWSLambda": "",
+	"Processing - Serverless - Tools - AzureFunctions": ""
 
 }
