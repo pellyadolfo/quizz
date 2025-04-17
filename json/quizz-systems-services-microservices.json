@@ -7,7 +7,7 @@
 	"Microservices - NanoServices": "",
 	"Microservices - SelfContainedSystems": "",
 	"Microservices - SystemOfSystems": "",
-	"Microservices - Microservice": "Define an architecture that structures the application as a set of loosely coupled, collaborating services.",
+	"Microservices - Microservice": "Loosely coupled collaborating services / self-contained deployment units.",
 	"Microservices - Microservice - Principles - IDEALS": "IDEALS is considered an equivalent of the SOLID principles from object oriented design in the world of microservices.",
 	"Microservices - Microservice - Principles - IDEALS - InterfaceSegregation": "Interfaces catering to the specific needs of each type of client.",
 	"Microservices - Microservice - Principles - IDEALS - Deployability": "Deployability (is on you) acknowledges that in the microservice era, which is also the DevOps era, there are critical design decisions and technology choices developers need to make regarding packaging, deploying and running microservices. ",
