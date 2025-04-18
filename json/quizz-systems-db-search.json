@@ -1,0 +1,17 @@
+{
+
+	"Elastic": "SECTION",
+	
+
+	"Kibana": "SECTION",
+
+
+	"Logstash": "SECTION",
+
+
+	"Solr": "SECTION",
+
+
+	"Graphana": "SECTION"
+
+}

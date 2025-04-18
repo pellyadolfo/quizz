@@ -129,7 +129,7 @@
 	"DataModel - Types - TimeSeriesDB - InfluxDB": "for time-stamped data like logs and metrics",
 	"DataModel - Types - TimeSeriesDB - TimescaleDB": "extension for PostgreSQL.",
 	"DataModel - Types - InMemoryDB": "",
-	"DataModel - Types - InMemoryDB - Redis": "for caching and real-time data processing",
+	"DataModel - Types - InMemoryDB - Redis": "for caching and real-time data processing. https://www.linkedin.com/posts/alexandre-zajac_softwareengineering-systemdesign-programming-activity-7315273057915289600-XxIa/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"DataModel - Types - InMemoryDB - Memcache": "for high-performance distributed memory object caching.",
 	"DataModel - Types - NewSQL": "",
 	"DataModel - Types - NewSQL - GoogleSpanner": "for combining NoSQL scalability with traditional RDBMS features",
