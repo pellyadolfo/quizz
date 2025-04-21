@@ -1,7 +1,0 @@
-{
-
-	"JavaContainers ": "SECTION",
-	"JavaContainers - Micronaut": "Like Quarkus, Micronaut is also optimized for building microservices and serverless applications, but it takes a different approach with ahead-of-time (AOT) compilation.",
-	"JavaContainers - Quarkus": "",
-	"JavaContainers - SpringBoot": ""
-}

@@ -1,0 +1,39 @@
+{
+
+	"CI - Plan": "SECTION",
+	"CI - Plan - JIRA": "",
+	"CI - Plan - Confluence": "",
+
+	"CI - Code": "SECTION",
+	"CI - Code - Git": "",
+	"CI - Code - Git ": "https://www.linkedin.com/posts/adityajaiswal7_devops-shack-branching-strategies-activity-7317894569495252993-2pBY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CI - Code - SonarQube": "",
+
+	"CI - Build": "SECTION",
+	"CI - Build - Gradle": "",
+	"CI - Build - Webpack": "",
+
+	"CI - Test": "SECTION",
+
+	"CI - Release": "SECTION",
+	"CI - Release - Bitbucket": "",
+	"CI - Release - Jenkins": "",
+	"CI - Release - Jenkins ": "https://www.linkedin.com/posts/suvarna-machani-771b36279_automating-deployments-with-jenkins-activity-7318268260762693632-_EPB/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CI - Release - Jenkins  ": "https://www.linkedin.com/posts/prashant-powar1992_jenkins-activity-7318514714219528193-4h06/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CI - Release - Jenkins   ": "https://www.linkedin.com/posts/marianne-gleason_jenkins-cicd-pipeline-project-with-aws-activity-7317694709823348736-JNFo/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CI - Release - Jenkins    ": "https://www.linkedin.com/posts/adityajaiswal7_devops-shack-jenkins-pipeline-issues-and-activity-7318863142325796864-gwa5/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CI - Release - Jenkins     ": "https://www.linkedin.com/posts/s-wakhare_jenkins-activity-7317114190836465664-JzD1/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CI - Release - Gitlab": "",
+	"CI - Release - GithubActions": "",
+	"CI - Release - AWSCodePipeline": "",
+	"CI - Release - AzureDevopsServer": "",
+	"CI - Release - TravisCI": "",
+	"CI - Release - CircleCI": "",
+	"CI - Release - Chef": "",
+	"CI - Release - Puppet": "",
+	"CI - Release - Ansible": "",
+	"CI - Release - Ansible ": "https://www.linkedin.com/posts/ahmedalibutt_ansible-activity-7317603949593681920-GXnd/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CI - Release - Ansible  ": "https://www.linkedin.com/posts/mohamad-mahdi-bayat_ansible-comprehensive-guide-activity-7317405944143843330-ig4A?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CI - Release - Ansible   ": "https://www.linkedin.com/posts/adityajaiswal7_devops-shack-real-world-ansible-scenarios-activity-7317403751047208961-Q-Qn/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ"
+
+}
