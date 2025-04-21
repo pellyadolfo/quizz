@@ -268,9 +268,6 @@
 	"Middleware - ServiceMesh - Functions - observability - tracing": ".",
 	"Middleware - ServiceMesh - Functions - observability - monitoring": ".",
 	"Middleware - ServiceMesh - Functions - error - FailureHandling": ".",
-	"Middleware - ServiceMesh - Tools - Istio": "",
-	"Middleware - Caching": "",
-	"Middleware - Caching - Tools - Redis": "",
-	"Middleware - Caching - Tools - Memcache": ""
+	"Middleware - ServiceMesh - Tools - Istio": ""
 
 }
