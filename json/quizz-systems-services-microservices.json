@@ -160,6 +160,9 @@
 	"Interaction - SOAP - Tools - JAX-WS": "",
 	"Interaction - REST": "",
 	"Interaction - REST - Tools - JAX-RS": "",
+	"Interaction - GraphQL": "",
+	"Interaction - gRPC": "",
+	"Interaction - WebSockets": "",
 
 	"Service - Processing": "SECTION",
 	"Service - Processing - Patterns - Chassis": "A base framework or even another service which can be reused across different services. This pattern cuts down on the redundancy factor and complexity across services by abstracting the common logic to a separate layer.",

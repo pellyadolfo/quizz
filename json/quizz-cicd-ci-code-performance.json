@@ -1,0 +1,24 @@
+{
+
+	"Networking": "SECTION",
+	"Networking - Scaling": ".",
+	"Networking - Caching - CDN": ".",
+
+	"Infra": "SECTION",
+	"Infra - Throttling": ".",
+	"Infra - RateLimiting": ".",
+
+	"Processing": "SECTION",
+	"Processing - JWTAuthentication": ".",
+	"Processing - NoStickySessions": ".",
+	
+	"Data": "SECTION",
+	"Data - ConnectionPool": ".",
+	"Data - Timeouts": ".",
+	"Data - LIMITQueries": ".",
+	"Data - Indexes": ".",
+	"Data - Sharding": ".",
+	"Data - ReadReplicas": "."
+
+}
+
