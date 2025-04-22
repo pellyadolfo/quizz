@@ -2,21 +2,25 @@
 
 	"Networking": "SECTION",
 	"Networking - Scaling": ".",
-	"Networking - Caching - CDN": ".",
+	"Networking - Caching": "Save frequently requested data in memory or edge locations. This reduces database hits and avoids repeating the same processing.",
+	"Networking - Caching - CDN": "Store static files like images, scripts, and stylesheets on edge servers closer to your users. This reduces round-trip time and speeds up content delivery.",
 
 	"Infra": "SECTION",
 	"Infra - Throttling": ".",
 	"Infra - RateLimiting": ".",
+	"Infra - LoadBalancing": "Avoid server overload by distributing user requests across multiple servers. This keeps traffic flowing smoothly and improves uptime.",
 
 	"Processing": "SECTION",
 	"Processing - JWTAuthentication": ".",
 	"Processing - NoStickySessions": ".",
+	"Processing - Async": "Run background jobs using worker systems to handle heavy tasks. This keeps your app responsive by freeing up the main thread.",
+	"Processing - Compression": "Use formats like Gzip or Brotli to compress files before sending them. Smaller files mean faster transfers and less bandwidth usage.",
 	
 	"Data": "SECTION",
-	"Data - ConnectionPool": ".",
+	"Data - ConnectionPool": "Reuse existing database connections instead of opening a new one for each request. This lowers latency and increases database efficiency.",
 	"Data - Timeouts": ".",
 	"Data - LIMITQueries": ".",
-	"Data - Indexes": ".",
+	"Data - Indexes": "Speed up queries by indexing key fields in your database. This makes searches faster and improves overall data access times.",
 	"Data - Sharding": ".",
 	"Data - ReadReplicas": "."
 

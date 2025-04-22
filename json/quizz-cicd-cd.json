@@ -1,9 +1,19 @@
 {
 
 	"CD - Deploy": "SECTION",
-	"CD - Deploy - JavaContainers - Micronaut": "Like Quarkus, Micronaut is also optimized for building microservices and serverless applications, but it takes a different approach with ahead-of-time (AOT) compilation.",
-	"CD - Deploy - JavaContainers - Quarkus": "",
-	"CD - Deploy - JavaContainers - SpringBoot": "",
+	"CD - Deploy - Strategies": "",
+	"CD - Deploy - Strategies - BlueGreen": "",
+	"CD - Deploy - Strategies - Canary": "",
+	"CD - Deploy - Strategies - GracefulShutdown": "",
+	"CD - Deploy - Strategies - RollingUpdates": "",
+	"CD - Deploy - Strategies - FeatureToggles": "",
+	"CD - Deploy - Strategies - ShadowDeployments": "",
+	"CD - Deploy - Strategies - ZeroDowntime": "",
+	"CD - Deploy - Containers": "",
+	"CD - Deploy - Containers - Micronaut": "Like Quarkus, Micronaut is also optimized for building microservices and serverless applications, but it takes a different approach with ahead-of-time (AOT) compilation.",
+	"CD - Deploy - Containers - Quarkus": "",
+	"CD - Deploy - Containers - SpringBoot": "",
+	"CD - Deploy - ArgoCD": "https://www.linkedin.com/posts/feki-ayman_argo-cd-up-and-running-activity-7319948035772305409-sSc8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 
 	"CD - Operations": "SECTION",
 	"CD - Operations - IaC - Terraform ": "https://www.linkedin.com/posts/emmanuel-oluyemi-43588a217_terraform-activity-7317506043549286400-gjRm/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
@@ -16,6 +26,7 @@
 	"CD - Operations - IaC - Terraform        ": "https://www.linkedin.com/posts/rahul-d-mane_terraform-state-management-and-backend-activity-7319588107715067905-T6a0/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Operations - IaC - Terraform         ": "https://www.linkedin.com/posts/emmanuel-oluyemi-43588a217_%F0%9D%90%8C%F0%9D%90%9A%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%AB-%F0%9D%90%93%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%9F%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%A6-%F0%9D%90%A2%F0%9D%90%A7-%F0%9D%9F%8F%F0%9D%9F%92-activity-7313919940116336642-qGsZ/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Operations - IaC - Terraform          ": "https://www.linkedin.com/posts/feki-ayman_%F0%9D%97%97%F0%9D%97%B2%F0%9D%97%BD%F0%9D%97%B9%F0%9D%97%BC%F0%9D%98%86-%F0%9D%97%AE-%F0%9D%97%A6%F0%9D%97%B0%F0%9D%97%AE%F0%9D%97%B9%F0%9D%97%AE%F0%9D%97%AF%F0%9D%97%B9%F0%9D%97%B2-%F0%9D%97%98%F0%9D%97%9E%F0%9D%97%A6-activity-7319959324527616000-IP8i?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CD - Operations - IaC - Terraform           ": "https://www.linkedin.com/posts/gaurang-radadiya-65559ba2_deploying-aws-infrastructure-with-terraform-activity-7319280263761391616-gNMN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Operations - IaC - AWSCloudFormation ": "https://www.linkedin.com/posts/riyazsayyad_imagine-youre-an-aws-cloud-learner-but-activity-7317743496688214016-p_b9/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 
 	"CD - Monitor": "SECTION",

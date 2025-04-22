@@ -5,7 +5,7 @@
 	"CI - Plan - Confluence": "",
 
 	"CI - Code": "SECTION",
-	"CI - Code - Git": "",
+	"CI - Code - Git": "https://www.linkedin.com/posts/activity-7320073716007116802-3PID?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CI - Code - Git ": "https://www.linkedin.com/posts/adityajaiswal7_devops-shack-branching-strategies-activity-7317894569495252993-2pBY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CI - Code - SonarQube": "",
 
@@ -23,6 +23,8 @@
 	"CI - Release - Jenkins   ": "https://www.linkedin.com/posts/marianne-gleason_jenkins-cicd-pipeline-project-with-aws-activity-7317694709823348736-JNFo/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CI - Release - Jenkins    ": "https://www.linkedin.com/posts/adityajaiswal7_devops-shack-jenkins-pipeline-issues-and-activity-7318863142325796864-gwa5/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CI - Release - Jenkins     ": "https://www.linkedin.com/posts/s-wakhare_jenkins-activity-7317114190836465664-JzD1/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CI - Release - Jenkins      ": "https://www.linkedin.com/posts/ashish-thakur-3b468b201_devops-activity-7319248543599185920-tNOh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+
 	"CI - Release - Gitlab": "",
 	"CI - Release - GithubActions": "",
 	"CI - Release - AWSCodePipeline": "",
@@ -35,6 +37,9 @@
 	"CI - Release - Ansible ": "https://www.linkedin.com/posts/ahmedalibutt_ansible-activity-7317603949593681920-GXnd/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CI - Release - Ansible  ": "https://www.linkedin.com/posts/mohamad-mahdi-bayat_ansible-comprehensive-guide-activity-7317405944143843330-ig4A?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CI - Release - Ansible   ": "https://www.linkedin.com/posts/adityajaiswal7_devops-shack-real-world-ansible-scenarios-activity-7317403751047208961-Q-Qn/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CI - Release - Ansible    ": "https://www.linkedin.com/posts/mohammed-yasir-khan_configuration-management-activity-7318686007074160640-uVJi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CI - Release - Ansible     ": "https://www.linkedin.com/posts/fariborz-fallahzadeh_mastering-ansible-for-devops-engineering-activity-7319787542583640065-zCoB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+
 	"CI - Repos - Bamboo": "",
 	"CI - Repos - SonatypeNexus": "",
 	"CI - Repos - JFrogArtifactory": ""
