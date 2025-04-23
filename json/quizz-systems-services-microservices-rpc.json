@@ -9,8 +9,8 @@
 	"Impl - CORBA": "SECTION",
 
 	"Impl - gRPC": "SECTION",
-	"Impl - gRPC - Features - Transport": "gRPC is designed for HTTP/2",
 	"Impl - gRPC ": "A high-performance RPC protocol that uses Protocol Buffers (protobuf) instead of JSON, making it faster and more efficient than REST. ",
+	"Impl - gRPC - Features - HTTP/2": "gRPC leverages the HTTP/2 protocol under the covers.",
 	"Impl - gRPC - ProtocolBuffers": "Protocol Buffers are a language-neutral, platform-neutral extensible mechanism for serializing structured data.",
 	"Impl - gRPC - ProtocolBuffers - features - binary": "Protobuf is binary-based",
 	"Impl - gRPC - ProtocolBuffers - features - contracts": "Everyone uses the same proto file to generate packages to serialize and deserialize.",
@@ -27,7 +27,6 @@
 	"Impl - gRPC - ProtocolBuffers - Parts - runtimes": "",
 	"Impl - gRPC - ProtocolBuffers - Parts - serialization - format": "",
 	"Impl - gRPC - ProtocolBuffers - Parts - serialization - data": "",
-	"Impl - gRPC - Features - HTTP/2": "gRPC leverages the HTTP/2 protocol under the covers.",
 	"Impl - gRPC - Services": "Like many RPC systems, gRPC is based around the idea of defining a service, specifying the methods that can be called remotely with their parameters and return types.",
 	"Impl - gRPC - Services - definition": "You define gRPC services in ordinary proto files, with RPC method parameters and return types specified as protocol buffer messages:",
 	"Impl - gRPC - Services - Types": "",
@@ -41,7 +40,6 @@
 	"Impl - gRPC - Services - Types - BidirectionalStreamingRPCs - Lifecycle": "",
 	"Impl - gRPC - Services - Metadata": "Metadata is information about a particular RPC call (such as authentication details) in the form of a list of key-value pairs, where the keys are strings and the values are typically strings, but can be binary data. Keys are case insensitive and consist of ASCII letters, digits, and special characters -, _, . and must not start with grpc- (which is reserved for gRPC itself). Binary-valued keys end in -bin while ASCII-valued keys do not. User-defined metadata is not used by gRPC, which allows the client to provide information associated with the call to the server and vice versa. Access to metadata is language dependent.",
 	"Impl - gRPC - Services - Channels": "A gRPC channel provides a connection to a gRPC server on a specified host and port. It is used when creating a client stub. Clients can specify channel arguments to modify gRPC’s default behavior, such as switching message compression on or off. A channel has state, including connected and idle. How gRPC deals with closing a channel is language dependent. Some languages also permit querying channel state.",
-
 
 	"Impl - RMI": "SECTION",
 	
