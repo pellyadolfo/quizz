@@ -34,6 +34,7 @@
 	"REST - Client - Tools - SpringWebFluxWebClient": "WebClient is part of the Spring WebFlux framework and provides a reactive, non-blocking alternative to RestTemplate. It’s designed for modern applications that require high concurrency and low-latency interactions, leveraging Project Reactor for its reactive programming model. Supports reactive programming paradigms, making it suitable for high-throughput and low-latency applications. Ideal for applications that benefit from reactive programming and require non-blocking IO operations.",
 	"REST - Request": ".",
 	"REST - Request - ServiceDiscovery": ".",
+	"REST - Request - Queries - FileUploads": "REST is not limited, you can POST or PUT whatever content you want to (within reason, of course).",
 	"REST - Request - HTTPMethods - GET": "Use GET requests to retrieve resource representation/information only – and not to modify it in any way.",
 	"REST - Request - HTTPMethods - GET - Response - ifItem": "Responses if item: 200 (OK), single user. 404 (Not Found), if ID not found or invalid.",
 	"REST - Request - HTTPMethods - GET - Response - ifCollection": "Responses if collection: 200 (OK), list of users.",
