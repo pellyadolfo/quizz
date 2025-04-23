@@ -1,5 +1,6 @@
 {
 	"SOAP ": "SECTION",
+	"SOAP - Features - Transport": "SOAP can be sent over different transports. HTTP is just one of them. For example: SMTP, TCP/IP",
 
 	"JAX-WS ": "SECTION"
 

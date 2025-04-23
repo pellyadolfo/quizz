@@ -17,7 +17,7 @@
 	"REST - Requirements - Richardson Maturity Model - Level3": "Level 3: Hypermedia controls Level 3, the highest level, uses HATEOAS to deal with discovering the possibilities of your API towards the clients.",
 
 	"REST - Protocol": "SECTION",
-	"REST - Protocol - Layer7": "Typically HTTP but nothing makes HTTP mandatory. Can be SNMP, SMTP and others to use.",
+	"REST - Protocol - Transport": "Typically HTTP but nothing makes HTTP mandatory. Can be SNMP, SMTP and others to use.",
 	"REST - Protocol - Design": ".",
 	"REST - Protocol - Design - 1-ObjectModel": "(1) Identify Object Model. Identifying the objects which will be presented as resources.",
 	"REST - Protocol - Design - 2-ResourceURIs": "(2) Decide the resource URIs.",
