@@ -84,6 +84,8 @@
 	"SQL - DataModel - DML - DELETE": "",
 	"SQL - DataModel - DCL": "",
 	"SQL - DataModel - DCL - GRANT": "",
-	"SQL - DataModel - DCL - REVOKE": ""
+	"SQL - DataModel - DCL - REVOKE": "",
+
+	"PL-SQL": "SECTION"
 
 }
