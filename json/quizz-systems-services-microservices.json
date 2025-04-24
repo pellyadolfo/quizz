@@ -95,7 +95,8 @@
 	"Interaction - REST": "",
 	"Interaction - GraphQL": "",
 	"Interaction - gRPC": "",
-	"Interaction - WebSockets": "",
+	"Interaction - MQTT": "",
+	"Interaction - WebSocket": "",
 
 	"Service": "SECTION",
 	"Service - Publishing - Features - Reliability": ".",
