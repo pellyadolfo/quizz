@@ -115,8 +115,9 @@
 	"AIAgents - Features - core": "A step up from RAG. Can execute tasks dynamically with minimal intervention.",
 	"AIAgents - Features - autonomy": "High autonomy adapting to tasks with minimal intervention.",
 	"AIAgents - Features - learning": "Learn based on agent type and input data.",
-	"AIAgents - A2A": "Agent-to-Agent Protocol by Google. AI agents connect to each other. A2A focuses on how different AI agents talk to each other, no matter which company or framework they come from. It’s like giving AI agents a shared language so they can collaborate, delegate tasks, and work as a team. This is horizontal integration, connecting agents to other agents.",
-	"AIAgents - MCP": "Model Context Protocol by Anthropic. AI agent connects to tools",
+	"AIAgents - Connect - A2A": "Agent-to-Agent Protocol by Google. AI agents connect to each other. A2A focuses on how different AI agents talk to each other, no matter which company or framework they come from. It’s like giving AI agents a shared language so they can collaborate, delegate tasks, and work as a team. This is horizontal integration, connecting agents to other agents.",
+	"AIAgents - Connect - MCP": "Model Context Protocol by Anthropic. AI agent connects to tools",
+	"AIAgents - Connect - FunctionCalling": "Use 𝗙𝘂𝗻𝗰𝘁𝗶𝗼𝗻 𝗖𝗮𝗹𝗹𝗶𝗻𝗴 when the model needs to do something — search, fetch, trigger, retrieve",
 	"AIAgents - ReactAgent": "ReactAgent is an experimental autonomous agent that uses GPT-4 language model to generate and compose React components from user stories. It is built with React, TailwindCSS, Typescript, Radix UI, Shandcn UI, and OpenAI API.",
 
 	"AgenticAI": "SECTION",

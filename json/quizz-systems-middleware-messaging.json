@@ -9,7 +9,7 @@
 	"Messaging - EIP - Messaging Systems. ": "",
 
 	"Messaging - EDA": "SECTION",
-	"Messaging - EDA - definition": "components of the system communicate asynchronously by sending and receiving events instead of direct function calls handling global state changes across components that aren’t directly connected through props or context..",
+	"Messaging - EDA - definition": "Components of the system not directly connected communicate asynchronously by events instead of direct function calls.",
 	"Messaging - EDA - Components": ".",
 	"Messaging - EDA - Components - Producers": "Event Producers: Components that emit events.",
 	"Messaging - EDA - Components - Consumers": "Event Consumers: Components that respond to events.",
