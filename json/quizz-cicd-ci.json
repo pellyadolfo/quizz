@@ -10,12 +10,14 @@
 	"CI - Code - Git 2": "https://www.linkedin.com/posts/vishal-machan1997_git-activity-7320109954189643776-Z0hF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CI - Code - Git 3": "https://www.linkedin.com/posts/haithem-mihoubi_gitops-activity-7318299321399992320-852I/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CI - Code - Git 4": "https://www.linkedin.com/posts/vaibhav-shah-devops_gitops-devops-kubernetes-activity-7321045480799424512-DAkD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
-	"CI - Code - SonarQube": "",
+	"CD - Code - Tools - Gitlab": "",
+	"CI - Code - Tools - SonarQube": "",
 
 	"CI - Package": "SECTION",
-	"CI - Package - Repos - Nexus": "",
-	"CI - Package - Repos - Bamboo": "",
-	"CI - Package - Repos - JFrogArtifactory": "",
+	"CI - Package - VM - WMWare": "",
+	"CI - Package - VM - WMWare 0": "https://www.linkedin.com/posts/shivanshshukla_vmware-vsphere-l1l2interviews-activity-7320904888907890689-rVDN/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CI - Package - Containers - SpringBoot": "",
+	"CI - Package - Containers - Docker": "",
 
 	"CI - Build": "SECTION",
 	"CI - Build - Steps - Compilation": "Convert source code to executable binaries",
@@ -29,6 +31,8 @@
 	"CI - Integrate - Runtime - JVM": "",
 	"CI - Integrate - Runtime - NodeJS": "",
 	"CI - Integrate - Runtime - Browser": "",
+	"CI - Integrate - Repos - Nexus": "",
+	"CI - Integrate - Repos - JFrogArtifactory": "",
 
 	"CI - Test": "SECTION",
 	"CI - Test - Steps - UnitTests": "Verify individual components",

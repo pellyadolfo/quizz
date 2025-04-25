@@ -90,6 +90,11 @@
 	"GenerativeAI - LLMs - MCP - MCPServers": "Lightweight programs that expose specific capabilities through the MCP interface, connecting to local or remote data sources.",
 	"GenerativeAI - LLMs - MCP - LocalDataSources": "Files and databases that MCP servers can securely access.",
 	"GenerativeAI - LLMs - MCP - RemoteServices": "External services available over the Internet that MCP servers can connect to.",
+	"GenerativeAI - LLMs - MCP - Servers - Firecrawl MCP": "Enhances web scraping for Cursor, Claude, and other LLM clients via Firecrawl. Key Features: - Scraping - Crawling - Deep research - Data extraction",
+	"GenerativeAI - LLMs - MCP - Servers - MindsDB MCP": "Connect and unify data across various platforms and databases and query them from any MCP client (Cursor, Calude Desktop etc.) 100% open-source from MindsDB.",
+	"GenerativeAI - LLMs - MCP - Servers - GitHub MCP": "Automate GitHub workflows, analyze repository data, and build AI tools that interact with GitHub's ecosystem. 100% open-source.",
+	"GenerativeAI - LLMs - MCP - Servers - Linkup MCP": "Provide state-of-the-art deep web search capabilities to your MCP clients, rivaling Perplexity and OpenAI. Powered by Linkup. ",
+	"GenerativeAI - LLMs - MCP - Servers - Opik MCP": "This enables traceability into AI Agents and lets you monitor your LLM applications, by Comet. Tools include: - Creating projects - Enable tracing - Getting tracing stats, etc. ",
 
 	"PredictiveAI": "SECTION",
 	"PredictiveAI ": "Predictive AI goes beyond simply predicting outcomes; it recommends optimal actions or decisions based on complex data analysis and optimization algorithms.",
@@ -117,7 +122,7 @@
 	"AIAgents - Features - learning": "Learn based on agent type and input data.",
 	"AIAgents - Connect - A2A": "Agent-to-Agent Protocol by Google. AI agents connect to each other. A2A focuses on how different AI agents talk to each other, no matter which company or framework they come from. It’s like giving AI agents a shared language so they can collaborate, delegate tasks, and work as a team. This is horizontal integration, connecting agents to other agents.",
 	"AIAgents - Connect - MCP": "Model Context Protocol by Anthropic. AI agent connects to tools",
-	"AIAgents - Connect - FunctionCalling": "Use 𝗙𝘂𝗻𝗰𝘁𝗶𝗼𝗻 𝗖𝗮𝗹𝗹𝗶𝗻𝗴 when the model needs to do something — search, fetch, trigger, retrieve",
+	"AIAgents - Connect - FunctionCalling": "𝗙𝘂𝗻𝗰𝘁𝗶𝗼𝗻 𝗖𝗮𝗹𝗹𝗶𝗻𝗴 𝘁𝗿𝗮𝗻𝘀𝗹𝗮𝘁𝗲𝘀 𝗻𝗮𝘁𝘂𝗿𝗮𝗹 𝗹𝗮𝗻𝗴𝘂𝗮𝗴𝗲 𝗶𝗻𝘁𝗼 𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲𝗱 𝗔𝗣𝗜. It follows a linear, stateless workflow where each interaction stands alone, requiring predefined functions at design time. Use 𝗙𝘂𝗻𝗰𝘁𝗶𝗼𝗻 𝗖𝗮𝗹𝗹𝗶𝗻𝗴 when the model needs to do something — search, fetch, trigger, retrieve",
 	"AIAgents - ReactAgent": "ReactAgent is an experimental autonomous agent that uses GPT-4 language model to generate and compose React components from user stories. It is built with React, TailwindCSS, Typescript, Radix UI, Shandcn UI, and OpenAI API.",
 
 	"AgenticAI": "SECTION",
