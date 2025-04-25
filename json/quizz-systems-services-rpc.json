@@ -1,0 +1,19 @@
+{			
+
+	"RPC": "SECTION",
+
+	"XML-RPC": "SECTION",
+
+	"JAX-RPC": "SECTION",
+
+	"CORBA": "SECTION",
+
+	"gRPC": "SECTION",
+
+	"RMI": "SECTION",
+	
+	"EJB": "SECTION",
+
+	"GWT": "SECTION"
+
+}
