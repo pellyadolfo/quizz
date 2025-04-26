@@ -1,5 +1,17 @@
 {
 
+	"Services - Design": "",
+	"Services - Design - APIFirst": "The API-first approach, also known as 'design-first' emphasizes the design and documentation of the API as the primary starting point for development. In this approach, the API contract is defined upfront, specifying the resources, endpoints, data structures, and communication protocols before writing any code.",
+	"Services - Design - APIFirst - DefineAPIContract": "Create a detailed specification of the API using tools like OpenAPI (formerly Swagger), API Blueprint, or RAML. This specification serves as a contract between the API provider and consumers, ensuring a clear understanding of the API’s functionality and behavior.",
+	"Services - Design - APIFirst - RefineAPIContract": "Collaborate with stakeholders, including product owners, developers, and potential consumers, to review and refine the API contract until it meets the required functionality and adheres to best practices.",
+	"Services - Design - APIFirst - GenerateClientLibraries": "Use the API specification to automatically generate client libraries, documentation, and other artifacts that facilitate API consumption and integration.",
+	"Services - Design - APIFirst - ImplementAPI:": "With the contract in place, developers can begin implementing the API logic, adhering strictly to the defined contract.",
+	"Services - Design - CodeFirst:": "In contrast to the API-first approach, the code-first approach, also known as 'implementation-first' focuses on writing the application code first and then generating the API contract from the implemented code. This approach is often preferred when the application logic is well-understood, and the API is primarily an interface for exposing the existing functionality.",
+	"Services - Design - CodeFirst - DevelopApplicationLogic:": "Write the application code, including business logic, data models, and other components, without initially considering the API.",
+	"Services - Design - CodeFirst - DefineAPIContract:": "Use code annotations, decorators, or other language-specific mechanisms to define the API contract based on the existing code.",
+	"Services - Design - CodeFirst - GenerateAPISpecification:": "Tools like Swagger, NSwag, or Swashbuckle analyze the code and generate the API specification (e.g., OpenAPI, Swagger JSON/YAML) based on the defined contract.",
+	"Services - Design - CodeFirst - IterateAndRefine:": "Review and refine the generated API specification to ensure it aligns with best practices and meets the desired functionality.",
+
 	"Layer4": "SECTION",
 	"Layer4 - Protocols - TCPIP": "",
 	"Layer4 - Networking - VPC": "",
