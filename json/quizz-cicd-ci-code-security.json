@@ -5,7 +5,7 @@
 
 	"Transport": "SECTION",
   "Transport - HTTP - CSP": "The Content-Security-Policy header allows you to restrict which resources (such as JavaScript, CSS, Images, etc.) can be loaded, and the URLs that they can be loaded from..",
-  "Transport - HTTP - UseHTTPS": "TLS/HTTPS.",
+  "Transport - HTTP - UseHTTPS": "with SSL, TLS or mTLS.",
   "Transport - HTTP - UseHTTPS - HSTS": "The HTTP Strict-Transport-Security response header (often abbreviated as HSTS) informs browsers that the site should only be accessed using HTTPS, and that any future attempts to access it using HTTP should automatically be upgraded to HTTPS.",
   "Transport - WS-Security": "Web Services Security (WS-Security, WSS) is an extension to SOAP to apply security to Web services.",
 

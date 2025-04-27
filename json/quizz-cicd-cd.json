@@ -31,12 +31,18 @@
 	"CD - Release - Tools - Ansible 4": "https://www.linkedin.com/posts/fariborz-fallahzadeh_mastering-ansible-for-devops-engineering-activity-7319787542583640065-zCoB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Release - Tools - Ansible 5": "https://www.linkedin.com/posts/subhasmita-das-a582b4171-devops_ansible-interview-q-and-a-activity-7320387236103876608-PXMl/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Release - Tools - Ansible 6": "https://www.linkedin.com/posts/gobikrishnasubramaniyam_ansible-2025-activity-7321743569029865472-B5N5?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CD - Release - Tools - Ansible 7": "https://www.linkedin.com/posts/narayanareddy10_ansible-interview-q-and-a-activity-7320102782064119810-i0J8/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CD - Release - Tools - Ansible 8": "https://www.linkedin.com/posts/rahul-vishwakarma-29495510a_devops-infrastructureascode-ansible-activity-7321584009749192704-uwpV/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 
 	"CD - Deploy": "SECTION",
 	"CD - Deploy - Steps": "",
 	"CD - Deploy - Strategies": "",
 	"CD - Deploy - Strategies - PreDeploymentChecks": "",
-	"CD - Deploy - Strategies - BlueGreenRelease": "Maintain two identical production environments. Deploy new version to inactive environment. Switch traffic after verification",
+	"CD - Deploy - Strategies - BlueGreenRelease": "Maintain two identical production environments. Ensures ZeroDowntime.",
+	"CD - Deploy - Strategies - BlueGreenRelease - Deploy2Versions  - Blue": "Current stable version",
+	"CD - Deploy - Strategies - BlueGreenRelease - Deploy2Versions  - Green": "New version to be tested",
+	"CD - Deploy - Strategies - BlueGreenRelease - UseIngress": "Ingress to switch traffic between them",
+	"CD - Deploy - Strategies - BlueGreenRelease - UseGreen": "Once verified route all traffic to green version",
 	"CD - Deploy - Strategies - CanaryRelease": "Gradually roll out to a small percentage of users. Monitor performance before full rollout",
 	"CD - Deploy - Strategies - ShadowDeployment": "",
 	"CD - Deploy - Strategies - RollingUpdates": "Incrementally update instances in batches. Ensures continuous availability",
@@ -97,7 +103,9 @@
 	"CD - Automation - IaC - Terraform 18": "https://www.linkedin.com/posts/learnwithshruthi_solving-azure-challenges-with-terraform-activity-7320709648146173954-YP_S/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Automation - IaC - Terraform 19": "https://www.linkedin.com/posts/activity-7319193618093682688-CsRn/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Automation - IaC - Terraform 20": "https://www.linkedin.com/posts/activity-7320744501570899970-3DDo/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
-
+	"CD - Automation - IaC - Terraform 21": "https://www.linkedin.com/posts/manish-kumar-00562b28_terraform-iac-devops-activity-7319904652928434176-0p7z/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CD - Automation - IaC - Terraform 22": "https://www.linkedin.com/posts/shubhra-shankha-roy_terraform-state-management-and-infrastructure-activity-7319731166612242432-wAhz/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CD - Automation - IaC - Terraform 23": "https://www.linkedin.com/posts/mohammed-yasir-khan_terraform-activity-7319302125409202176-977J/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Automation - IaC - AWSCloudFormation ": "https://www.linkedin.com/posts/riyazsayyad_imagine-youre-an-aws-cloud-learner-but-activity-7317743496688214016-p_b9/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Automation - ConfigurationManagement": ""
 
