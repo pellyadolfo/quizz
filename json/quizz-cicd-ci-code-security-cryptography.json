@@ -218,6 +218,9 @@
 	"Cryptography - DigitalCertificate - Management - PKI - Functions - KeyManagement": "Manages the lifecycle of cryptographic keys and certificates.",
   "Cryptography - DigitalCertificate - Management - PKI - Certificates": "",
   "Cryptography - DigitalCertificate - Management - PKI - Certificates - X509Certificate": "",
+	"Cryptography - DigitalCertificate - UseCases - SSH": ".",
+	"Cryptography - DigitalCertificate - UseCases - FTPS": ".",
+	"Cryptography - DigitalCertificate - UseCases - PGP": "A program used for encrypting emails.",
 	"Cryptography - DigitalCertificate - UseCases - SSL": "Protocols used for secure communication over the internet.",
 	"Cryptography - DigitalCertificate - UseCases - SSL - 3WayHandshake": "we have stuck with the 3-way handshake for many decades, and it is now seen as too slow in a modern “always-on, always-connected” world. In a normal Web connection, the client sends a SYN TCP request, the server then replies with a TCP SYN/ACK, and then the client sends back an ACK. This obviously slows down the connection, and where we might close a connection, and want it opened up again in a short interval. In fact, HTTP was meant to be stateless, and where we disconnect after a connection is made. Most browsers overcome this with a keep-alive packet.",
 	"Cryptography - DigitalCertificate - UseCases - TLS": "Transport Layer Security (TLS) used for secure communication over the internet. TLS, which was formerly called SSL.",
@@ -243,7 +246,6 @@
 	"Cryptography - DigitalCertificate - UseCases - HTTPS - Steps - 5. SecureConnection": "Now that both the browser and server have the session key, they establish a secure channel for communication. This session key is symmetric, meaning it's used for both encrypting and decrypting the data transferred between the browser and the server.",
 	"Cryptography - DigitalCertificate - UseCases - HTTPS - Steps - 6. DataHandler": "Any data transmitted between the browser and the server is now encrypted with the session key. This ensures that even if the data is intercepted, it cannot be read or tampered with without the session key.",
 	"Cryptography - DigitalCertificate - UseCases - HTTPS - Steps - 7. HTTPSCommunication": "Throughout the user's browsing session, all interactions between the client and the server occur over this secure, encrypted connection. This guarantees that sensitive information remains confidential, and the integrity of the data is maintained, protecting it from eavesdropping or tampering.",
-	"Cryptography - DigitalCertificate - Email - PGP": "A program used for encrypting emails.",
 
 	"Quantum": "SECTION",
   "Quantum - CBOM": "A Cryptographic Bill of Materials (CBOM) is an extension of the SBOM, and it goes into further detail to describe cryptographic components in the software and their dependencies. The components of a CBOM include the cryptographic algorithms and libraries used in the software products throughout your organization. It would include details such as their versions, and their dependencies on other software components and libraries. A CBOM can also contain metadata about the cryptographic algorithms and libraries, such as license information and known vulnerabilities.",

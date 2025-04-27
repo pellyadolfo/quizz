@@ -103,7 +103,7 @@
 	"PredictiveAI - Tools - VertexAI": "Google",
 
 	"RAG": "SECTION",
-	"RAG ": "RAG (Retrieval Augmented Generator) are based on NLP technique to combine rule based output from the LLM itself. This technique is a step further from LLM making your product more customized based on your requirement (can be dashboards, user stories, etc.) E.g. hashtag#Chatbot hashtag#Midjourney content generators, text to speech converter are a few examples",
+	"RAG ": "RAG (Retrieval Augmented Generator) = NLP + LLM. RAG are based on NLP technique to combine rule based output from the LLM itself. This technique is a step further from LLM making your product more customized based on your requirement (can be dashboards, user stories, etc.) E.g. hashtag#Chatbot hashtag#Midjourney content generators, text to speech converter are a few examples",
 	"RAG - Features - process": "Retrieves information > Reranking > Generates responses.",
 	"RAG - Features - autonomy": "Limited autonomy with static retrieval and predefined responses.",
 	"RAG - Features - learning": "It does not adapt or learn over time. It retrieves and generates responses based on pre-trained models,",
@@ -117,6 +117,12 @@
 	"RAG - SelfRAG": "Self-RAG is a smarter RAG.😎 It introduces self-awareness into the process by grading its own outputs. If the retrieved data isn’t good enough, it rewrites the query and tries again — before even thinking about generating a response. This iterative loop leads to sharper answers and better precision without human oversight. + Adds a layer of validation before generation + Reduces irrelevant answers + Makes LLMs less naive and more cautious + Perfect for ambiguous queries, noisy data, or multi-hop reasoning.",
 
 	"AIAgents": "SECTION",
+	"AIAgents - Definition": "An AI agent is a system designed to reason through complex problems, create actionable plans, and execute these plans using a suite of tools.",
+	"AIAgents - LLM": "LLMs provide the core reasoning, comprehension, and language generation abilities that agents require. ",
+	"AIAgents - Cycle - Think": "The agent processes available data and context.",
+	"AIAgents - Cycle - Plan": "It decides on a strategy to achieve a goal or answer a question.",
+	"AIAgents - Cycle - Act": "It executes the chosen plan (e.g., makes an API call, retrieves data, or interfaces with a user).",
+	"AIAgents - Cycle - Reflect": "It evaluates the outcome of its actions, checks for errors or new insights, and uses those reflections to inform the next iteration of thought. These four steps form a feedback loop that enables agents to adapt their approach as new information arrives.",
 	"AIAgents - Features - core": "A step up from RAG. Can execute tasks dynamically with minimal intervention.",
 	"AIAgents - Features - autonomy": "High autonomy adapting to tasks with minimal intervention.",
 	"AIAgents - Features - learning": "Learn based on agent type and input data.",
