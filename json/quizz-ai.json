@@ -8,7 +8,6 @@
 
 	"NLP": "SECTION",
 
-
 	"ML": "SECTION",
 	"ML - 1980": "Machine learning (ML) is a subset of artificial intelligence (AI) that focuses on teaching computers and machines to replicate human learning processes, enabling them to enhance their performance over time. To do this, they use algorithms and statistical models to analyze and understand hidden patterns in datasets.",
 	"ML - Supervised": "Supervised learning is the most widely used type of machine learning. It involves training a model on a labeled dataset, which means that each training example is paired with an output label. The model learns to predict the output from the input data.",
@@ -83,24 +82,20 @@
 	"GenerativeAI - Tools - Generator - Images - DALL-E 3": "",
 	"GenerativeAI - Tools - Generator - Images - MidJourney": "",
 	"GenerativeAI - Tools - Generator - Images - StableDiffusion": "",
-	"GenerativeAI - LLMs": "Large language models (LLMs) are a form of generative AI that focus on producing text.",
-	"GenerativeAI - LLMs - MCP ": "MCP stands for Model Context Protocol, and it’s essentially a universal connector for AI applications. MCP is poised to become the standard for Al integration. MCP acts as a bridge between reasoning engines (like LLMs) and function executors (like custom APIs). Think of it as the USB-C of the AI world, allowing different AI tools and models to interact seamlessly with various data sources. With MCP, developers can focus on building innovative applications instead of spending time on complex integrations. allowing LLMs to easily access external data and tools, thereby enhancing their capabilities.",
-	"GenerativeAI - LLMs - MCP - MCPHosts": "Applications that need contextual AI capabilities, such as chatbots or IDEs.",
-	"GenerativeAI - LLMs - MCP - MCPClients": "These maintain a one-on-one connection with MCP servers and handle protocol specifics.",
-	"GenerativeAI - LLMs - MCP - MCPServers": "Lightweight programs that expose specific capabilities through the MCP interface, connecting to local or remote data sources.",
-	"GenerativeAI - LLMs - MCP - LocalDataSources": "Files and databases that MCP servers can securely access.",
-	"GenerativeAI - LLMs - MCP - RemoteServices": "External services available over the Internet that MCP servers can connect to.",
-	"GenerativeAI - LLMs - MCP - Servers - Firecrawl MCP": "Enhances web scraping for Cursor, Claude, and other LLM clients via Firecrawl. Key Features: - Scraping - Crawling - Deep research - Data extraction",
-	"GenerativeAI - LLMs - MCP - Servers - MindsDB MCP": "Connect and unify data across various platforms and databases and query them from any MCP client (Cursor, Calude Desktop etc.) 100% open-source from MindsDB.",
-	"GenerativeAI - LLMs - MCP - Servers - GitHub MCP": "Automate GitHub workflows, analyze repository data, and build AI tools that interact with GitHub's ecosystem. 100% open-source.",
-	"GenerativeAI - LLMs - MCP - Servers - Linkup MCP": "Provide state-of-the-art deep web search capabilities to your MCP clients, rivaling Perplexity and OpenAI. Powered by Linkup. ",
-	"GenerativeAI - LLMs - MCP - Servers - Opik MCP": "This enables traceability into AI Agents and lets you monitor your LLM applications, by Comet. Tools include: - Creating projects - Enable tracing - Getting tracing stats, etc. ",
 
-	"PredictiveAI": "SECTION",
-	"PredictiveAI ": "Predictive AI goes beyond simply predicting outcomes; it recommends optimal actions or decisions based on complex data analysis and optimization algorithms.",
-	"PredictiveAI - Tools - IBMWatson": "",
-	"PredictiveAI - Tools - MicrosoftAzureML": "",
-	"PredictiveAI - Tools - VertexAI": "Google",
+	"LLMs": "SECTION",
+	"LLMs ": "Large language models (LLMs) are a form of generative AI that focus on producing text.",
+	"LLMs - MCP ": "MCP stands for Model Context Protocol, and it’s essentially a universal connector for AI applications. MCP is poised to become the standard for Al integration. MCP acts as a bridge between reasoning engines (like LLMs) and function executors (like custom APIs). Think of it as the USB-C of the AI world, allowing different AI tools and models to interact seamlessly with various data sources. With MCP, developers can focus on building innovative applications instead of spending time on complex integrations. allowing LLMs to easily access external data and tools, thereby enhancing their capabilities.",
+	"LLMs - MCP - MCPHosts": "Applications that need contextual AI capabilities, such as chatbots or IDEs.",
+	"LLMs - MCP - MCPClients": "These maintain a one-on-one connection with MCP servers and handle protocol specifics.",
+	"LLMs - MCP - MCPServers": "Lightweight programs that expose specific capabilities through the MCP interface, connecting to local or remote data sources.",
+	"LLMs - MCP - LocalDataSources": "Files and databases that MCP servers can securely access.",
+	"LLMs - MCP - RemoteServices": "External services available over the Internet that MCP servers can connect to.",
+	"LLMs - MCP - Servers - Firecrawl MCP": "Enhances web scraping for Cursor, Claude, and other LLM clients via Firecrawl. Key Features: - Scraping - Crawling - Deep research - Data extraction",
+	"LLMs - MCP - Servers - MindsDB MCP": "Connect and unify data across various platforms and databases and query them from any MCP client (Cursor, Calude Desktop etc.) 100% open-source from MindsDB.",
+	"LLMs - MCP - Servers - GitHub MCP": "Automate GitHub workflows, analyze repository data, and build AI tools that interact with GitHub's ecosystem. 100% open-source.",
+	"LLMs - MCP - Servers - Linkup MCP": "Provide state-of-the-art deep web search capabilities to your MCP clients, rivaling Perplexity and OpenAI. Powered by Linkup. ",
+	"LLMs - MCP - Servers - Opik MCP": "This enables traceability into AI Agents and lets you monitor your LLM applications, by Comet. Tools include: - Creating projects - Enable tracing - Getting tracing stats, etc. ",
 
 	"RAG": "SECTION",
 	"RAG ": "RAG (Retrieval Augmented Generator) = NLP + LLM. RAG are based on NLP technique to combine rule based output from the LLM itself. This technique is a step further from LLM making your product more customized based on your requirement (can be dashboards, user stories, etc.) E.g. hashtag#Chatbot hashtag#Midjourney content generators, text to speech converter are a few examples",
@@ -140,6 +135,12 @@
 	"AgenticAI - Workflow - Brain": "It processes observations via a core LLM, enhanced with memory, planning, and retrieval components.",
 	"AgenticAI - Workflow - Action": "It executes a task, invokes a tool, or responds — influencing the environment.",
 	"AgenticAI - Workflow - Learning": "(Implicit or Explicit) – Feedback is integrated to improve future decisions.",
-	"AgenticAI - Examples - SelfDrivingCars": "One of the most exciting uses of Agentic AI is in autonomous vehicles. These AI systems perceive their surroundings, make driving decisions, and learn from every trip. Over time, they get better at navigating and handling new challenges on the road. For example, Tesla’s Full Self-Driving system is an example of Agentic AI that continuously learns from the driving environment and adjusts its behavior to improve safety and efficiency."
+	"AgenticAI - Examples - SelfDrivingCars": "One of the most exciting uses of Agentic AI is in autonomous vehicles. These AI systems perceive their surroundings, make driving decisions, and learn from every trip. Over time, they get better at navigating and handling new challenges on the road. For example, Tesla’s Full Self-Driving system is an example of Agentic AI that continuously learns from the driving environment and adjusts its behavior to improve safety and efficiency.",
+
+	"PredictiveAI": "SECTION",
+	"PredictiveAI ": "Predictive AI goes beyond simply predicting outcomes; it recommends optimal actions or decisions based on complex data analysis and optimization algorithms.",
+	"PredictiveAI - Tools - IBMWatson": "",
+	"PredictiveAI - Tools - MicrosoftAzureML": "",
+	"PredictiveAI - Tools - VertexAI": "Google"
 
 }

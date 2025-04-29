@@ -136,6 +136,7 @@
 	"Access - Authorization - OAuth2 - Features - Security": "Simpler, uses HTTPS (not cryptographic signatures).",
 	"Access - Authorization - OAuth2 - Features - Tokens": "Uses Bearer Tokens (like JWT).",
 	"Access - Authorization - OAuth2 - Features - Usage": "Supports mobile & web apps better.",
+	"Access - Authorization - PKCE": "PKCE (RFC 7636) is an extension to the Authorization Code flow to prevent CSRF and authorization code injection attacks.",
 	"Access - Authentication": "who is the user. Authentication verifies identity (e.g., login)",
 	"Access - Authentication - Types - RBAC": "RBAC (Role-Based Access Control) grants access based on user roles",
 	"Access - Authentication - Types - ABAC": "ABAC (Attribute-Based Access Control) considers attributes",
@@ -220,9 +221,11 @@
 	"UI - XSS - Sanitize - Angular": ".",
 	"UI - XSS - Sanitize - Tools - DOMPurify": ".",
 	"UI - XSS - Escape": ".",
+	"UI - XSS - PKCE": "PKCE was originally designed to protect the authorization code flow in mobile apps, but its ability to prevent authorization code injection makes it useful for every type of OAuth client, even web apps that use client authentication.",
 	"UI - XSS - NoEval()": "Functions like eval(), setTimeout() with dynamic strings, and innerHTML are vulnerable to XSS attacks. They allow an attacker to inject arbitrary code into your site.",
   "UI - CORS": "https://javascript.plainenglish.io/cors-the-friendly-gatekeeper-of-the-web-and-how-to-fix-it-650e33179d24",
   "UI - CORS - CORSPolicies": "Configure your CORS policy to restrict allowed origins, HTTP methods, and headers.",
+  "UI - CSRF": "Cross-site request forgery (also known as CSRF) is a web security vulnerability that allows an attacker to induce users to perform actions that they do not intend to perform.",
 	"UI - Standards - NIS2": "https://digital-strategy.ec.europa.eu/en/policies/nis2-directive"
 
 }

@@ -1,5 +1,18 @@
 {
 
+	"AzureServices": "SECTION",
+	"AzureServices ": "These are the capabilities or solutions that Azure offers to help you build and run applications, manage data, secure infrastructure, and more. Azure Services are like blueprints for building houses.",
+	"AzureServices - Examples - AzureVirtualMachines": "",
+	"AzureServices - Examples - AzureKubernetesService": "AKS",
+	"AzureServices - Examples - AzureSQLDatabase": "",
+	"AzureServices - Examples - AzureBlobStorage": "",
+
+	"AzureResources": "SECTION",
+	"AzureResources ": "These are the actual instances you create when you use those services. Resources are what you deploy, configure, monitor, and manage inside Azure. Azure Resources are the actual houses you build using those blueprints.",
+	"AzureResources - Examples - VM": "A specific Virtual Machine you provision",
+	"AzureResources - Examples - cluster": "A Kubernetes cluster you deploy",
+	"AzureResources - Examples - storage": "A Storage Account you set up",
+
 	"Network": "SECTION",
 
 	"Storage": "SECTION",
