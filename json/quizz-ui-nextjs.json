@@ -209,9 +209,9 @@
 	"DataFetching - ServerComponents - WebAPI - fetch - Cache - Next14": "In Next.js 14, fetch requests use the force-cache strategy by default, meaning data is cached by default. const res = await fetch('https://api.weijunext.com/');",
 	"DataFetching - ServerComponents - WebAPI - fetch - Cache - Next15": "In Next.js 15, fetch requests will use the no-store strategy by default, meaning they won’t cache by default. If you want to cache data in Next.js 15, you need to explicitly specify the caching parameters. For example: const res = await fetch('https://api.weijunext.com/', { cache: 'force-cache' });",
 
-	"CICD - Bundling": "SECTION",
-	"CICD - Bundling - Optimization - external packages": "Next.js 15 introduces stable configuration options for optimizing the bundling of external packages in both the App Router and Pages Router. These improvements aim to enhance cold-start performance and provide developers with more control over how external dependencies are included in their applications.",
-  "CICD - Bundling - Tools - JSX - transpilation - transpilePackages": "Next.js can automatically transpile and bundle dependencies from local packages (like monorepos) or from external dependencies (node_modules). This replaces the next-transpile-modules package. module.exports = { transpilePackages: ['package-name'], }",
+	"CICD - Packaging": "SECTION",
+	"CICD - Packaging - Optimization - external packages": "Next.js 15 introduces stable configuration options for optimizing the bundling of external packages in both the App Router and Pages Router. These improvements aim to enhance cold-start performance and provide developers with more control over how external dependencies are included in their applications.",
+  "CICD - Packaging - Tools - JSX - transpilation - transpilePackages": "Next.js can automatically transpile and bundle dependencies from local packages (like monorepos) or from external dependencies (node_modules). This replaces the next-transpile-modules package. module.exports = { transpilePackages: ['package-name'], }",
 
 	"CICD - Building": "SECTION",
 	"CICD - Building - Compilation - Type - ByPlace - SSG": "Next is a popular Static Site Generator (SSG) where architectures are also spoken of as the Jamstack architecture, which stands for JavaScript, APIs, and Markup. These are js, Gatsby and Hugo that has come to be recently eminent.",
@@ -221,18 +221,6 @@
 	"CICD - Building - Tools - next.config.js - NextConfig": "The NextConfig type enables editor intellisense for every possible option.",
 	"CICD - Building - Exporting - .out - next export": "Creates .out file.",
 	"CICD - Building - Exporting - .out - ": "next export has been removed in favor of 'output: export' in next.config.js.",
-
-	"CICD - Deploying": "SECTION",
-	"CICD - Deploying - Multi-Zones": "An interesting feature offered by Next.js is Multi-Zones, an approach to micro-frontends. It allows a large application to be divided into smaller, independent Next.js applications, each serving a specific set of paths on the same domain. This modularization can improve build times and reduce code complexity.",
-	"CICD - Deploying - Multi-Zones - multiapp": "Each zone is a standard Next.js application configured with a basePath to prevent conflicts.",
-	"CICD - Deploying - Multi-Zones - navigation": "Navigation within a zone is seamless (soft navigation), while navigating between zones triggers a full page reload (hard navigation).",
-	"CICD - Deploying - Multi-Zones - proxies": "An HTTP proxy or a designated Next.js application can be used to route requests to the correct zone.",
-	"CICD - Deploying - Multi-Zones - anchor": "Anchor tags (<a>) should be used for links between zones.",
-	"CICD - Deploying - Multi-Zones - code": "Code sharing can be facilitated through monorepos or NPM packages, and feature flags can help coordinate feature releases across zones.",
-	"CICD - Deploying - server": "By default, Next.js includes its own server with next start.",
-	"CICD - Deploying - SST": "https://levelup.gitconnected.com/deploy-next-js-to-aws-using-sst-fa2f50c5737a",
-	"CICD - Deploying - assetPrefix": "In Next.js, publishing static assets to a CDN and managing them through the assetPrefix configuration is a very efficient method. It can help optimize your application's load time and reduce server load. module.exports = { assetPrefix: isProd ? 'https://yourcdn.example.com' : '', };",
-	"CICD - Deploying - next/after API": "The next/after API is another experimental feature in Next.js 15 RC. This feature enables developers to perform secondary tasks or cleanup operations without blocking the primary response. This addition provides more flexibility in handling post-response logic, allowing for cleaner and more efficient code management. Potential use cases include analytics logging, resource cleanup, or additional data fetching after the initial response.",
 
 	"CICD - Execution": "SECTION",
 	"CICD - Execution - HMR": "That’s why Next.js introduced the Hot Module Replacement (HMR) mechanism, more commonly known as Fast Refresh. The HMR feature ensures that any edits you make in your code are quickly reflected in the browser without requiring a full page reload, enhancing your development experience as a result.",
@@ -244,6 +232,18 @@
   "CICD - Execution - SEO - Structured Data": "Implement structured data using JSON-LD to help search engines understand the content of your pages and provide rich results. Next.js can handle inline scripts where you can place your JSON-LD structured data.",
   "CICD - Execution - SEO - Accessibility (A11y)": "Making your website accessible is not only a good practice for usability; it also impacts SEO. Ensuring your website is accessible to all users, including those with disabilities, can positively influence your rankings.",
   "CICD - Execution - SEO - Mobile-Friendliness": "With the increasing use of mobile devices, having a mobile-friendly website is crucial. Next.js’s responsive design capabilities can help ensure that your website looks good on all devices, which is important for both user experience and SEO.",
-  "CICD - Execution - SEO - Content Quality": "Regularly update your website with high-quality, relevant content that addresses your audience’s needs. This is vital for SEO and helps retain visitors."
+  "CICD - Execution - SEO - Content Quality": "Regularly update your website with high-quality, relevant content that addresses your audience’s needs. This is vital for SEO and helps retain visitors.",
+
+	"CICD - Deploying": "SECTION",
+	"CICD - Deploying - Multi-Zones": "An interesting feature offered by Next.js is Multi-Zones, an approach to micro-frontends. It allows a large application to be divided into smaller, independent Next.js applications, each serving a specific set of paths on the same domain. This modularization can improve build times and reduce code complexity.",
+	"CICD - Deploying - Multi-Zones - multiapp": "Each zone is a standard Next.js application configured with a basePath to prevent conflicts.",
+	"CICD - Deploying - Multi-Zones - navigation": "Navigation within a zone is seamless (soft navigation), while navigating between zones triggers a full page reload (hard navigation).",
+	"CICD - Deploying - Multi-Zones - proxies": "An HTTP proxy or a designated Next.js application can be used to route requests to the correct zone.",
+	"CICD - Deploying - Multi-Zones - anchor": "Anchor tags (<a>) should be used for links between zones.",
+	"CICD - Deploying - Multi-Zones - code": "Code sharing can be facilitated through monorepos or NPM packages, and feature flags can help coordinate feature releases across zones.",
+	"CICD - Deploying - server": "By default, Next.js includes its own server with next start.",
+	"CICD - Deploying - SST": "https://levelup.gitconnected.com/deploy-next-js-to-aws-using-sst-fa2f50c5737a",
+	"CICD - Deploying - assetPrefix": "In Next.js, publishing static assets to a CDN and managing them through the assetPrefix configuration is a very efficient method. It can help optimize your application's load time and reduce server load. module.exports = { assetPrefix: isProd ? 'https://yourcdn.example.com' : '', };",
+	"CICD - Deploying - next/after API": "The next/after API is another experimental feature in Next.js 15 RC. This feature enables developers to perform secondary tasks or cleanup operations without blocking the primary response. This addition provides more flexibility in handling post-response logic, allowing for cleaner and more efficient code management. Potential use cases include analytics logging, resource cleanup, or additional data fetching after the initial response."
 
 }
