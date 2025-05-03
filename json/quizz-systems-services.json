@@ -29,6 +29,8 @@
 	"Layer4 - Networking - ForwardProxy - Functions - ContentFiltering": "Organizations use Forward Proxies to control and monitor internet usage within their network. Proxies can filter out malicious content, restrict access to certain websites, and enforce usage policies.",
 	"Layer4 - Networking - ForwardProxy - Functions - Anonymity": "Forward Proxies provide a level of anonymity for clients by masking their IP addresses. This is particularly useful for users seeking to access the internet without revealing their identity.",
 	"Layer4 - Networking - LoadBalancer": "A Load Balancer is a network distributor at Layer 4 or 7 of OSI Model.",
+	"Layer4 - Networking - LoadBalancer - Types - Hardware": "Expensive but provide high performance.",
+	"Layer4 - Networking - LoadBalancer - Types - Software": "Cost-effective and flexible (Nginx, HAProxy).",
 	"Layer4 - Networking - LoadBalancer - Functions - TrafficDistribution": "Distributes requests across multiple servers.",
 	"Layer4 - Networking - LoadBalancer - Functions - HighAvailability": "Prevents overload, ensures uptime, and reroutes traffic on failure.",
 	"Layer4 - Networking - LoadBalancer - Functions - Scalability": "Optimizes routing for minimal latency and resource efficiency.",

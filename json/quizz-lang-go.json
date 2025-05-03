@@ -1,5 +1,6 @@
 {
-  "Rust": "SECTION",
+  "Go": "SECTION",
+  "Go ": "https://medium.com/@akshatkapil2249/why-big-tech-is-quietly-abandoning-golang-09328a520a4c",
 
 	"Logic": "SECTION",
 	"Logic - Async - Imperative": "Every function is by default async"

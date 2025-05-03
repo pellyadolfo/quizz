@@ -1,4 +1,12 @@
 {
+	"Azure": "SECTION",
+	"Azure 0": "https://www.linkedin.com/posts/careerbytecode_100-azure-real-time-handson-projects-ugcPost-7321076948636491777-a6n5/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"Azure 1": "",
+	"Azure 2": "",
+	"Azure 3": "",
+	"Azure 4": "",
+	"Azure 5": "",
+	"Azure 6": "",
 
 	"AzureServices": "SECTION",
 	"AzureServices ": "These are the capabilities or solutions that Azure offers to help you build and run applications, manage data, secure infrastructure, and more. Azure Services are like blueprints for building houses.",
@@ -26,6 +34,8 @@
 	"CICD - CI": "SECTION",
 
 	"CICD - CD": "SECTION",
-	"CICD - CD - Operate - Cloud - Azure": "https://www.linkedin.com/posts/praveen-singampalli_azure-interview-questionsasnwers-activity-7316303076049461249-m2YD/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ"
+	"CICD - CD - Operate - Cloud - Azure 0": "https://www.linkedin.com/posts/praveen-singampalli_azure-interview-questionsasnwers-activity-7316303076049461249-m2YD/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CICD - CD - Operate - Cloud - Azure 1": "https://www.linkedin.com/posts/muhammadhamza012_azure-vm-and-disk-activity-7321922651277406208-6MPZ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CICD - CD - Operate - Cloud - Azure 2": "https://www.linkedin.com/posts/adityajaiswal7_200-azure-devops-interview-questions-and-activity-7323685128789000193-WHLs/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ"
 	
 }

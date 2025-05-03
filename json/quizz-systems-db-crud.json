@@ -34,6 +34,8 @@
 	"DataOptimization": "SECTION",
 	"DataOptimization - Archiving": "We implement archiving strategies to keep active data lean and fast, moving older data to separate storage.",
 	"DataOptimization - Scaling - Replication": "We design robust replication setups to distribute read loads and enhance availability. It's like cloning your database for peak performance.",
+	"DataOptimization - Scaling - Replication - MasterSlave": "Master-Slave Replication: The master database handles writes, while replicas handle read requests.",
+	"DataOptimization - Scaling - Replication - MultiMaster": "Multi-Master Replication: Multiple databases handle both read and write operations.",
 	"DataOptimization - Scaling - Sharding": "Throughout the user's browsing session, all interactions between the client and the server occur over this secure, encrypted connection. This guarantees that sensitive information remains confidential, and the integrity of the data is maintained, protecting it from eavesdropping or tampering.",
 	"DataOptimization - Scaling - Partitioning": "We use partitioning to break large tables into manageable chunks, improving query performance and simplifying maintenance.",
 	"DataOptimization - Indexing ": "A special data structure related to a database table and used for storing its important parts and enabling faster data search and retrieval. Indexes are especially efficient for large databases, where they significantly enhance query performance.",

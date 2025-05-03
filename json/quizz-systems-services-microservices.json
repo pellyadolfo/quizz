@@ -62,6 +62,7 @@
 	"Microservices - Client - Caching - Strategies - Read - CacheAside": "This strategy grants applications explicit control over the caching process.",
 	"Microservices - Client - Caching - Strategies - Read - ReadThrough": "The cache acts as the primary data source. If data isn't in the cache, it's retrieved from the database and stored in the cache.",
 	"Microservices - Client - Caching - Strategies - Read - RefreshAhead": "The cache proactively refreshes data before it expires.",
+	"Microservices - Client - Caching - Strategies - Eviction": "Cache Invalidation.",
 	"Microservices - Client - Caching - Strategies - Eviction - LRU": "𝐋𝐞𝐚𝐬𝐭 𝐑𝐞𝐜𝐞𝐧𝐭𝐥𝐲 𝐔𝐬𝐞𝐝 (𝐋𝐑𝐔) - Removes the least recently accessed item first. - Works well when older data is less likely to be used again. - Example: Browsers use LRU to discard old pages from memory when opening new tabs.",
 	"Microservices - Client - Caching - Strategies - Eviction - LFU": "𝐋𝐞𝐚𝐬𝐭 𝐅𝐫𝐞𝐪𝐮𝐞𝐧𝐭𝐥𝐲 𝐔𝐬𝐞𝐝 (𝐋𝐅𝐔) - Evicts the least accessed items over time. - Prioritizes keeping frequently used items in cache. - Example: CDNs use LFU to keep trending videos in cache while removing rarely watched ones.",
 	"Microservices - Client - Caching - Strategies - Eviction - MRU": "𝐌𝐨𝐬𝐭 𝐑𝐞𝐜𝐞𝐧𝐭𝐥𝐲 𝐔𝐬𝐞𝐝 (𝐌𝐑𝐔) - Opposite of LRU – evicts the most recently accessed item first. - Useful when recent data becomes obsolete quickly. - Example: In a music streaming app, the last played song is less likely to be played again, making MRU a better choice.",
