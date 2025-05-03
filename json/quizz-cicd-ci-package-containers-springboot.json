@@ -1,4 +1,16 @@
 {
+	"SpringBoot": "SECTION",
+	"SpringBoot 0": "https://www.linkedin.com/posts/praveen-bishnoi_springboot-interview-questions-activity-7316800647125684224-ziy9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"SpringBoot 1": "",
+	"SpringBoot 2": "",
+	"SpringBoot 3": "",
+	"SpringBoot 4": "",
+	"SpringBoot 5": "",
+	"SpringBoot 6": "",
+	"SpringBoot 7": "",
+	"SpringBoot 8": "",
+	"SpringBoot 9": "",
+
 	"SpringBootApplication - DevTools, Actuators": "SECTION",
 	"SpringBootApplication - Goals": "Provide a radically faster and widely accessible getting-started experience for all Spring development. Be opinionated out of the box but get out of the way quickly as requirements start to diverge from the defaults. Provide a range of non-functional features that are common to large classes of projects (such as embedded servers, security, metrics, health checks, and externalized configuration). Absolutely no code generation and no requirement for XML configuration.",
 	"SpringBootApplication - Containers": "Spring Boot supports the following embedded servlet containers: Tomcat 9.0 (servlets 4.0), Jetty 9.4 (servlets 3.1), Undertow 2.0 (servlets 4.0)",

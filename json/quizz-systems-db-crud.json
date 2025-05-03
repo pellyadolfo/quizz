@@ -1,5 +1,18 @@
 {
 
+	"CRUD": "SECTION",
+	"CRUD 0": "https://jennyttt.medium.com/dirty-read-non-repeatable-read-and-phantom-read-bd75dd69d03a",
+	"CRUD 1": "https://www.linkedin.com/posts/pooja-jain-898253106_data-engineering-activity-7321851326538166272-Kg31?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CRUD 2": "https://www.linkedin.com/posts/pooja-jain-898253106_data-engineering-sql-activity-7323324225564377089-dEPj?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CRUD 3": "https://www.linkedin.com/posts/curiouslearner_databases-softwaredevelopment-activity-7313896415380881408--I7q/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CRUD 4": "https://www.linkedin.com/posts/anubhav-shukla_databasedesign-denormalization-performanceoptimization-activity-7313594101579321346-7jMW?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CRUD 5": "https://www.linkedin.com/posts/riyazsayyad_cdn-is-the-secret-to-faster-more-secure-activity-7313519474391822338-_I2d?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CRUD 6": "https://www.linkedin.com/posts/brijpandeyji_as-applications-evolve-to-handle-more-complexity-activity-7312692773990682624-cOBh?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CRUD 7": "https://www.linkedin.com/posts/pooja-jain-898253106_data-sql-analytics-activity-7310971374947155968-qxMn?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CRUD 8": "",
+	"CRUD 9": "",
+	"CRUD10": "",
+
 	"Querying": "SECTION",
 	"Querying - Transactions": "https://medium.com/@patrickkoss/interview-so-how-do-you-do-a-transaction-with-nosql-databases-c3d80bc7d314",
 	"Querying - Transactions - Principles - ACID": "ACID: Atomicity, Consistency, Isolation, Durability",
