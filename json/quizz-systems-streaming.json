@@ -1,0 +1,30 @@
+{
+
+	"DataStreaming": "SECTION",
+	"DataStreaming - KafkaStreams": "",
+	"DataStreaming - ApacheFlink": "",
+
+	"RealTime": "SECTION",
+	"RealTime 0": "https://www.linkedin.com/posts/vishal-machan1997_real-time-interview-questions-part-3-activity-7318325845519937537-QOxF/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"RealTime 1": "https://www.linkedin.com/posts/yash-binjalbhavi_serverless-websocket-chat-application-on-activity-7322987178949505026-yglk/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"RealTime 2": "",
+	"RealTime 3": "",
+	"RealTime 4": "",
+	"RealTime 5": "",
+	"RealTime 6": "",
+	"RealTime 7": "",
+	"RealTime 8": "",
+	"RealTime 9": "",
+	"RealTime - Sockets - WebSockets": "",
+	"RealTime - ApacheStorm": "",
+
+	"PushNotifications": "SECTION",
+	"PushNotifications 0": "https://www.linkedin.com/posts/kiruthii_push-notification-using-fcm-in-react-native-activity-7324647384817246208-MhxD?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+
+	"WebSocket": "SECTION",
+
+	"Cloud - Brokers - AWS Kinesis": "",
+	"Cloud - Brokers - Spark Streams": ""
+
+
+}
