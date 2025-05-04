@@ -67,7 +67,7 @@
 	"Kubernetes 64": "https://www.linkedin.com/posts/swapna-adhav-05075462_kubernetes-essential-yaml-files-activity-7324720698105516032-7eIu?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"Kubernetes 65": "https://www.linkedin.com/posts/feki-ayman_5-kubernetes-projects-you-should-explore-activity-7322492313601998848-S4aL?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"Kubernetes 66": "https://www.linkedin.com/posts/devops-expert_kubernetes-security-cheat-sheet-activity-7322469665257967618-MRHo?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
-	"Kubernetes 67": "",
+	"Kubernetes 67": "https://www.linkedin.com/posts/mohammed-aseem-akram_kubernetes-project-guide-activity-7324734545172320256-xvY4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"Kubernetes 68": "",
 	"Kubernetes 69": "",
 	"Kubernetes - Releases - 1.33": "Octarine",
@@ -630,22 +630,6 @@
   "K8s Market - Extensions - DNS": "While the other addons are not strictly required, all Kubernetes clusters should have cluster DNS, as many examples rely on it. Cluster DNS is a DNS server, in addition to the other DNS server(s) in your environment, which serves DNS records for Kubernetes services. Containers started by Kubernetes automatically include this DNS server in their DNS searches.",
   "K8s Market - Extensions - Web UI": "Dashboard is a general purpose, web-based UI for Kubernetes clusters. It allows users to manage and troubleshoot applications running in the cluster, as well as the cluster itself.",
   "K8s Market - Extensions - Container Resource Monitoring": "Container Resource Monitoring records generic time-series metrics about containers in a central database, and provides a UI for browsing that data..",
-  "K8s Market - Extensions - Cluster-level Logging": "A Cluster-level logging mechanism is responsible for saving container logs to a central log store with search/browsing interface.",
-  "K8s Market - Implementations": "https://collabnix.github.io/kubetools/",
-  "K8s Market - Implementations - Minikube": ".",
-  "K8s Market - Providers": ".",
-  "K8s Market - Providers - Cloud - ControlPlane": "Not need to manage ControlPlane",
-  "K8s Market - Providers - Cloud - AWS EKS": ".",
-  "K8s Market - Providers - Cloud - GKE": "Google Kubernetes Engine",
-  "K8s Market - Providers - Cloud - AKS": "Azure kubernetes Service",
-  "K8s Market - Providers - Cloud - Digital Ocean": "Digital Ocean Kubernetes",
-  "K8s Market - Providers - Cloud - IBM KubernetesService": "IBM Cloud",
-  "K8s Market - Providers - OnPremisse": "",
-  "K8s Market - Providers - OnPremisse - kubeadm": "",
-  "K8s Market - Providers - OnPremisse - K3s": "",
-  "K8s Market - Providers - OnPremisse - Rancher": "",
-  "K8s Market - Providers - OnPremisse - OpenShift": ""
-
-
+  "K8s Market - Extensions - Cluster-level Logging": "A Cluster-level logging mechanism is responsible for saving container logs to a central log store with search/browsing interface."
 
 }
