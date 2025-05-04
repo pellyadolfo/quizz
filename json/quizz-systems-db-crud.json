@@ -42,7 +42,7 @@
 	"Querying - Transactions - XA": "XA is a two-phase commit protocol that is natively supported by many databases and transaction monitors.",
 	"Querying - Transactions - TransactionalMonitor": "",
 	"Querying - QueryOptimization": "Fine-tune SQL queries, eliminate expensive operations, and leverage indexes effectively to improve execution speed and reduce database load.",
-	"Querying - ConnectionPooling": "Reduce the overhead of opening/closing database connections by reusing existing ones, improving performance under heavy traffic.",
+	"Querying - ConnectionPooling": "Opening and closing database connections has significant overhead. Reduce the overhead of opening/closing database connections by reusing existing ones, improving performance under heavy traffic.",
 
 	"DataOptimization": "SECTION",
 	"DataOptimization - Archiving": "We implement archiving strategies to keep active data lean and fast, moving older data to separate storage.",
