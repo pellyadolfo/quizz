@@ -134,6 +134,7 @@
   "CD - Operation - COS - Kubernetes - Cloud - IBM KubernetesService": "",
 
 	"CD - Observability": "SECTION",
+	"CD - Observability 0": "https://www.linkedin.com/posts/abhijeet-kamble-164888264_syswatch-a-script-for-server-analysis-activity-7323546525773512704-heuB/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Observability - Scope": "Observability (logs, traces, metrics, events): Monitoring + Alerting/visualization + Distributed systems tracing infrastructure + Log aggregation/analytics: Log aggregation - Application metrics - Audit logging - Distributed tracing - Exception tracking - Health check API - Log deployments and changes",
 	"CD - Observability - Scope - Logging": "Check application logs for errors - Centralizes logs from different microservices (Microservice 1, Microservice 2). - Allows for easier tracking and troubleshooting of issues.",
 	"CD - Observability - Scope - Logging - Scope - Aggregation": "Use a centralized logging service that aggregates logs from each service instance. The users can search and analyze the logs. They can configure alerts that are triggered when certain messages appear in the logs.",
@@ -355,7 +356,7 @@
 	"CD - Automation - Devops98": "https://www.linkedin.com/posts/saad-almutairi-x_devopscommandscheatsheet1746457872-activity-7325175860540465152-Xf3z?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Automation - Devops99": "https://www.linkedin.com/feed/?nis=true&=",
 	"CD - Automation - Devops100": "https://www.linkedin.com/posts/aditya-reddy-chowdari-00b824210_everyone-says-do-devops-but-nobody-warns-activity-7325101033238523904-JH3q?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
-	"CD - Automation - Devops101": "",
+	"CD - Automation - Devops101": "https://www.linkedin.com/posts/activity-7312533454296891393-eQHQ/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Automation - Devops102": "",
 	"CD - Automation - Devops103": "",
 	"CD - Automation - Devops104": "",
