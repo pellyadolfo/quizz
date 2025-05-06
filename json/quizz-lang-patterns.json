@@ -73,6 +73,10 @@
 	"Principles - CleanCode - Tests - Readable": "Write unit tests to verify your code's correctness. Test-driven development (TDD) can help you write cleaner code by forcing you to consider edge cases and expected behavior upfront. Well-tested code is more reliable and easier to refactor.",
 	"Principles - CleanCode - Tests - FIRST": "Tests should be F.I.R.S.T.: Fast Independent Repeatable Self-Validating Timely",
 	"Principles - CleanCode - CodeSmells - ": ".",
-	"Principles - Quizz - Patterns": "https://medium.com/@ashishps/leetcode-was-hard-until-i-learned-these-15-patterns-19d15f6d71f1"
+	"Principles - Quizz - Patterns": "https://medium.com/@ashishps/leetcode-was-hard-until-i-learned-these-15-patterns-19d15f6d71f1",
+
+	"Concurrency": "SECTION",
+	"Concurrency - RaceCondition": "The race condition is when the user is on page 2 and viewing comments, and the POST call to save the newly created comment is still in progress. In a normal development environment, this works as expected. Additionally, this is typically seen late in the development cycle, mixed with complex business logic, etc.",
+	"Concurrency - Deadlock": ""
 
 }
