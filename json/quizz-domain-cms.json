@@ -1,7 +1,14 @@
 {
 
 
-	"CMS": "SECTION"
+	"CMS": "SECTION",
 
+	"Magnolia": "SECTION",
+
+
+	"Jahia": "SECTION",
+
+
+	"Liferay": "SECTION"
 
 }
