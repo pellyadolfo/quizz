@@ -246,6 +246,7 @@
 
 	"UI": "SECTION",
 	"UI - OWASP": "",
+	"UI - OWASP - Top10": "",
 	"UI - SensitiveInfo": "",
 	"UI - SensitiveInfo - .env": "",
   "UI - XSS": "",
