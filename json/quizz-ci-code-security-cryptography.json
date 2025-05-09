@@ -85,6 +85,7 @@
   "Cryptography - Keys - Hashing - Applications - Storage - Data - Formats - PatriciaTrie": "A Patricia trie (the Practical Algorithm To Retrieve Information Coded in Alphanumeric) is a binary radix trie resulting from the application of the PATRICIA algorithm to alphnumeric data.",
   "Cryptography - Keys - Hashing - Applications - Storage - Data - Formats - MerkelPatriciaTrie": "Merkle Patricia Trie is a data structure that stores key-value pairs, just like a map. In additional to that, it also allows us to verify data integrity and the inclusion of a key-value pair.",
   "Cryptography - Keys - Hashing - Applications - Storage - Data - Formats - VerkleTrie": "Verkle Trees have a tree-like structure similar to Merkle Trees, but with a more efficient vector commitment scheme. Instead of hashing the d nodes, each node commits to the d nodes themselves using a vector commitment scheme.",
+  "Cryptography - Keys - Hashing - Applications - Storage - Data - Formats - Bitcoin": "Bitcoin runs on SHA256—a one-way cryptographic function. It’s what secures your sats with trillions of hashes per second.",
 	"Cryptography - Keys - Encryption - Symmetric": "Symmetric encryption is a type of encryption key management solution where only one key (a secret key) is used to both encrypt and decrypt electronic data. In case of symmetric encryption, only public keys are used.",
   "Cryptography - Keys - Encryption - Symmetric - Operations - Encryption": "",
 	"Cryptography - Keys - Encryption - Symmetric - Operations - Encryption - Algorithms": "",
