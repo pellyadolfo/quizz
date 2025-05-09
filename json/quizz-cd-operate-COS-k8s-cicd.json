@@ -1,6 +1,7 @@
 {
 
 	"kubectl": "SECTION",
+	"CD - Automation - Devops57": "https://www.linkedin.com/posts/vsadhwani_when-you-dont-remember-which-kubectl-command-activity-7313224446008295425-Bxa7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 
 	"CD": "SECTION",
   "CD - Deploy": "",
@@ -16,7 +17,16 @@
 	"CD - Deploy 460 - AZURE": "https://www.linkedin.com/posts/activity-7316659110672760832-iBCf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Deploy 480": "https://www.linkedin.com/posts/codefresh_3-software-deployment-with-kubernetescodefreshpdf-activity-7305556488930951168-1J5C?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Deploy 67": "https://www.linkedin.com/posts/mohammed-aseem-akram_kubernetes-project-guide-activity-7324734545172320256-xvY4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
-	"CD - Deploy 500": "",
+	"CD - Deploy 2": "DEPLOY - https://www.linkedin.com/posts/codefresh_3-software-deployment-with-kubernetescodefreshpdf-activity-7305556488930951168-1J5C?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CD - Deploy 3": "DEPLOY - https://www.linkedin.com/posts/adityajaiswal7_rollback-101-in-devops-devops-shack-activity-7321027621675220992-kQYQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CD - Deploy 4": "https://www.linkedin.com/posts/adityajaiswal7_rollback-101-in-devops-devops-shack-activity-7321027621675220992-kQYQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CD - Deploy 500": "DEPLOY  - https://www.linkedin.com/posts/bhumikakr258_splunk-searchheadclustering-splunkarchitecture-activity-7320834224402419714-X6eH/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CD - Deploy 501": "",
+	"CD - Deploy 502": "",
+	"CD - Deploy 503": "",
+	"CD - Deploy 504": "",
+	"CD - Deploy 505": "",
+	"CD - Deploy 506": "",
   "CD - Deploy - DisasterRecovery - Backup": "Backups of etcd (cluster state and configuration)",
   "CD - Deploy - DisasterRecovery - Backup - Tools - Velero": "",
   "CD - Deploy - DisasterRecovery - Backup - Tools - KastenK10": "",
