@@ -92,6 +92,11 @@
 	"TestingLibrary - PuppeteerTestingLibrary": ".",
 	"TestingLibrary - TestcafeTestingLibrary": ".",
 	"TestingLibrary - NightwatchTestingLibrary": ".",
-	"TestingLibrary - WebdriverIOTestingLibrary": "."
+	"TestingLibrary - WebdriverIOTestingLibrary": ".",
+
+	"Cypres": "SECTION",
+	"Cypres ": "E2E",
+
+	"Playwright": "SECTION"
 
 }

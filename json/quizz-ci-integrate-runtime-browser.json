@@ -2,6 +2,19 @@
 	"Browser": "SECTION",
 	"Browser ": "https://developer.mozilla.org/en-US/docs/Web/API",
 
+	"Patterns": "SECTION",
+	"Patterns - SPA": "",
+	"Patterns - MPA": "",
+	"Patterns - MFE": "Micro Frontends (MFE) is an architectural pattern where a frontend application is decomposed into smaller, semi-independent 'micro' applications. Each micro frontend is owned by a separate team and can be developed, tested, and deployed independently, while still integrating into a unified user interface.",
+
+	"Data": "SECTION",
+	"Data - Forms - FormDataAPI": "The FormData API is a web API that allows you to construct a set of key/value pairs representing form fields and their values, which can be sent using fetch or XMLHttpRequest",
+	"Data - Forms - FormDataAPI - location": "placed in server or ServerAction",
+	"Data - Forms - FormDataAPI - content": "contains all params of the form as title: formData.get('title')",
+	"Data - Forms - FormDataAPI - destructuring": "const { title, amount } = Object.fromEntries(formData);",
+	"Data - Forms - FormDataAPI - noreset": "return formData as default value to prevent reset",
+	"Data - Forms - FormDataAPI - updates": "Since we only care about the value of the inputs on the submit event and not before, there’s no need for the change handler to update state. ",
+
 	"View - Rendering": "SECTION",
 	"View - Rendering - DOM": "The DOM is not part of the JavaScript language, but is instead a Web API which defines the structure and properties of elements on a webpage.",
 	"View - Rendering - DOM - access": ".",

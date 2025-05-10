@@ -663,6 +663,7 @@
 	"CI - Building - Compilation - Type - ByPlace - SSR - libs - FastHTML": "https://blog.stackademic.com/level-up-your-ssr-game-with-fasthtml-react-vue-and-more-weve-got-you-covered-dc363c19218b",
 	"CI - Building - Compilation - Type - ByPlace - SSR vs CSR": "By leveraging modern JavaScript capabilities, static site generation, and third-party services, you can build fast, SEO-friendly applications without the need for server-side rendering.",
 	"CI - Building - tools - Babel": "Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.",
+	"CI - Building - tools - Babel - 6to5": "6to5 has been renamed to Babel in 2015",
 	"CI - Building - tools - Optiflow": "https://itnext.io/optiflow-a-compiler-based-solution-for-next-generation-javascript-performance-e51c8c8de6ee",
 	"CI - Building - tools - Vite - 2020": "Vite is a modern build tool that champions speed and efficiency. https://vitejs.dev/ Vite pre-configures Rollup for you with sensible defaults and powerful plugins while giving you an insanely fast development server.",
   "CI - Building - tools - Vite - simplicity": "Vite comes with a sensible set of defaults, and its configuration is minimal and straightforward. This ease of use means I can spend less time wrestling with my build tool and more time actually building my app.",
