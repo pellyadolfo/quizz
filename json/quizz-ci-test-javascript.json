@@ -1,10 +1,12 @@
 {
 
 	"Mocha": "SECTION",
+	"Mocha  ": "A flexible testing framework that allows you to use any assertion library. It’s often paired with Chai for assertions.",
 	"Mocha - goal - backend": "For complex back-end applications, Mocha is a proper fit. Mocha is better suited for applications designed with Node.js",
 	"Mocha ": "Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases.",
 
 	"Jasmine": "SECTION",
+	"Jasmine ": "A behavior-driven development framework for testing JavaScript code. It has a clean and easy-to-read syntax.",
 	"Jasmine - goal - Angular": "Jasmine works better with Angular.js. Jasmine works better with light and simple projects.",
 	"Jasmine - link": "https://jasmine.github.io/pages/docs_home.html",
 	"Jasmine - describe": "The describe function is for grouping related specs, typically each test file has one at the top level. The string parameter is for naming the collection of specs, and will be concatenated with specs to make a spec's full name. This aids in finding specs in a large suite. If you name them well, your specs read as full sentences in traditional BDD style.",
@@ -62,6 +64,7 @@
 
 	"JEST": "SECTION",
 	"JEST ": "https://jestjs.io/docs/using-matchers",
+	"Jest": "A comprehensive testing framework developed by Facebook. Jest is easy to set up and comes with a built-in assertion library, mocking support, and code coverage. https://www.robinwieruch.de/react-testing-tutorial/.",
 	"JEST - goal - React": "Jest was primarily developed for React and worked well with Next.js too. For powerful UI-based applications, Jest is a good choice.",
 
 	"Chai": "SECTION",
@@ -94,9 +97,17 @@
 	"TestingLibrary - NightwatchTestingLibrary": ".",
 	"TestingLibrary - WebdriverIOTestingLibrary": ".",
 
-	"Cypres": "SECTION",
-	"Cypres ": "E2E",
+	"Cypress": "SECTION",
+	"Cypress ": "E2E",
+	"Cypress  ": "Cypress is built on Node.js, Cypress is an open-source Javascript/Typescript framework that enables unit testing, integration testing, and end-to-end testing. Unlike Protractor or WebdriverIO, Cypress runs on its own browser so we can expect fewer failures.",
 
-	"Playwright": "SECTION"
+	"Playwright": "SECTION",
+
+	"Vitest": "SECTION",
+
+	"Storybook": "SECTION",
+	
+	"Protractor": "SECTION",
+	"Protractor ": "Protractor has recently announced the end of support 2022."
 
 }

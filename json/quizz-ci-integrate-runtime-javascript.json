@@ -3,7 +3,7 @@
 	"Runtime": "SECTION",
 	"Runtime 0": "https://medium.com/@martin.musinn/event-loop-explained-76be3bd438af",
 	"Runtime 1": "",
-	"Runtime - EventLoop": "",
+	"Runtime - EventLoop": "It is essential to understand that the event loop is not part of JS itself.",
 	"Runtime - EventLoop - location": "The event loop is not part of the JS engine like V8. The event loop is provided by the environment of the browser, or Node.js.",
 	"Runtime - EventLoop - parts": "The event loop is responsible for handling the task queue, while the JS engine, such as V8, Spider Monkey, etc, manages the call stack.",
 	"Runtime - EventLoop - how": "An event loop is something that pulls stuff out of the queue and places it onto the function execution stack whenever the function stack becomes empty. The event loop is the secret by which JavaScript gives us an illusion of being multithreaded even though it is single-threaded.",

@@ -767,17 +767,6 @@
 	"CI - Integration - Execution - Memory - Leaks - sources - DOMReferences": "Detached elements are removed from the DOM but are still referenced in JavaScript. When you keep a reference to a DOM element even after it’s removed from the page, it persists in memory.",
 	"CI - Integration - Execution - Memory - Leaks - sources - Timers": "If the timer is linked to a component that gets removed, the interval continues to run, holding onto resources.",
 
-	"CI - Test": "SECTION",
-	"CI - Test - Jest": "A comprehensive testing framework developed by Facebook. Jest is easy to set up and comes with a built-in assertion library, mocking support, and code coverage. https://www.robinwieruch.de/react-testing-tutorial/.",
-	"CI - Test - Jasmine": "A behavior-driven development framework for testing JavaScript code. It has a clean and easy-to-read syntax.",
-	"CI - Test - Mocha": "A flexible testing framework that allows you to use any assertion library. It’s often paired with Chai for assertions.",
-	"CI - Test - Chai": ".",
-	"CI - Test - Vitest": ".",
-	"CI - Test - Playwright": ".",
-	"CI - Test - Storybook": ".",
-	"CI - test - Protractor": "Protractor has recently announced the end of support 2022.",
-	"CI - test - Cypress": "Cypress is built on Node.js, Cypress is an open-source Javascript/Typescript framework that enables unit testing, integration testing, and end-to-end testing. Unlike Protractor or WebdriverIO, Cypress runs on its own browser so we can expect fewer failures.",
-
 	"CD - Monitor": "SECTION",
 	"CD - Monitor - Debug - BrowserDeveloperTools": "",
 	"CD - Monitor - Debug - breakpoints": "",
