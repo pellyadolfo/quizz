@@ -244,7 +244,6 @@
 	"CI - Testing - TestCases - Positive": "These verify that the API works as expected under normal conditions.",
 	"CI - Testing - TestCases - SchemaValidation": "Schema validation ensures that the structure, data types, and format of API responses and requests match the expected schema (usually defined in JSON Schema, OpenAPI/Swagger, or XML Schema). It checks if the API adheres to its contract, preventing unexpected data issues.",
 	"CI - Testing - TestCases - SchemaValidation - Manual - Postman": "Use the pm.response.to.have.jsonSchema() assertion.",
-	"CI - Testing - TestCases - SchemaValidation - Manual - Swagger": "Automatically validates responses against the API spec.",
 	"CI - Testing - TestCases - SchemaValidation - Manual - Ajv": "Fast JSON schema JS validator",
 	"CI - Testing - TestCases - SchemaValidation - Automated - chai-json-schema": ".",
 	"CI - Testing - TestCases - SchemaValidation - Automated - Pact": "Contract testing with schema validation",
@@ -296,6 +295,10 @@
 	"CD - Deploy - Migration - FacadePattern": "Create a facade service that routes to appropriate version",
 	"CD - Deploy - Migration - StranglerFig": "The Strangler Fig is a metaphor for incrementally building a new application around the legacy application. The legacy application is the tree, and the new application is the Strangler Fig. Over time, functionality is migrated from the legacy application to the Strangler Fig application. The Strangler Fig application gradually increases in size while the legacy application shrinks. Moreover, new functionality can be implemented directly in the Strangler Fig application.",
 	"CD - Observability": "Observability (logs, traces, metrics, events): Monitoring + Alerting/visualization + Distributed systems tracing infrastructure + Log aggregation/analytics: Log aggregation - Application metrics - Audit logging - Distributed tracing - Exception tracking - Health check API - Log deployments and changes",
+	"CD - Observability - Tools": "",
+	"CD - Observability - Documentation - Tools - Swagger": "Automatically validates responses against the API spec.",
+	"CD - Observability - Documentation - Tools - Swagger - Springfox - deprecated": "Avoid SpringFox (Swagger 2.x) for Spring Boot 3.1.x.",
+	"CD - Observability - Documentation - Tools - Swagger - OpenAPI": "Use SpringDoc OpenAPI v2.x (springdoc-openapi-starter-webmvc-ui).",
 	"CD - Automation - Configure - Externalize": "Externalize all application configuration including the database credentials and network location. On startup, a service reads the configuration from an external source, e.g. OS environment variables, etc.",
 
 	"CICD": "SECTION",

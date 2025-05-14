@@ -1,0 +1,27 @@
+{
+  "Zig": "SECTION",
+  "Zig 0": "https://app.studyraid.com/en/courses/2423/mastering-zig-programming-language",
+  "Zig 1": "",
+  "Zig 2": "",
+  "Zig 3": "",
+  "Zig 4": "",
+  "Zig 5": "",
+
+	"Variables": "SECTION",
+	"Variables - DataTypes - Optional": "Zig introduces optional types, denoted by a question mark (?), to handle the possibility of null values. This feature encourages developers to explicitly handle null cases, reducing the risk of null pointer exceptions.",
+
+	"Logic": "SECTION",
+	"Logic - ErrorHandling": "Zig takes a unique approach to error handling. Errors are treated as values, and functions that can fail return an error union. This design encourages explicit error handling and makes it easier to write robust code.",
+
+	"CI - Building": "SECTION",
+	"CI - Building ": "Zig provides powerful compile-time capabilities, allowing developers to perform complex computations and generate code at compile-time. This feature enables the creation of highly optimized and generic code without runtime overhead.",
+	"CI - Building - CompileTime": "Compile times: Zig generally offers faster compile times than Rust.",
+	"CI - Building - Reflection": "Zig provides powerful compile-time capabilities, allowing developers to perform complex computations and generate code at compile-time. This feature enables the creation of highly optimized and generic code without runtime overhead.",
+	"CI - Building - CrossCompilation": "Zig provides built-in support for cross-compilation, making it easy to target different platforms and architectures without the need for complex toolchains or build systems.",
+	"CI - Building - C": "Zig offers excellent interoperability with C, allowing developers to easily integrate existing C libraries or gradually migrate C codebases to Zig.",
+
+	"CI - Integration": "SECTION",
+	"CI - Integration- Execution - Memory": "Zig gives developers full control over memory allocation and deallocation. Unlike languages with garbage collection or automatic reference counting, Zig requires explicit memory management."
+
+
+}
