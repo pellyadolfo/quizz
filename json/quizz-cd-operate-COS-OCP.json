@@ -1,6 +1,16 @@
 {
-  "OCP - OpenShift Container Platform": "SECTION",
-  "OCP": "OpenShift Container Platform is a cloud-based Kubernetes container platform. The foundation of OpenShift Container Platform is based on Kubernetes and therefore shares the same technology.",
+  "OCP": "SECTION",
+  "OCP 0": "https://www.linkedin.com/posts/sunnysudershan_red-hat-build-of-keycloak-v260-activity-7327986852588634114-k9CV?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+  "OCP 1": "",
+  "OCP 2": "",
+  "OCP 3": "",
+  "OCP 4": "",
+  "OCP 5": "",
+  "OCP 6": "",
+  "OCP 7": "",
+  "OCP 8": "",
+  "OCP 9": "",
+  "OCP ": "OpenShift Container Platform is a cloud-based Kubernetes container platform. The foundation of OpenShift Container Platform is based on Kubernetes and therefore shares the same technology.",
 
   "Arch": "SECTION",
   "Arch - Machine": "A fundamental unit that describes the host for a node. The nodes in a cluster are the machines (VMs, physical servers, etc) that run your applications and cloud workflows.",

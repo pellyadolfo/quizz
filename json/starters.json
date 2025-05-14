@@ -1,0 +1,38 @@
+{
+
+	"SpringBoot": "SECTION",
+	"SpringBoot - base": "",
+	"SpringBoot - base - starter": "mvn archetype:generate -DgroupId=com.example.demo -DartifactId=springboot -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false",
+	"SpringBoot - base - code - pom.xml": "Update",
+	"SpringBoot - base - code - pom.xml - dependency - spring-boot-starter-web": "< dependency >< groupId >org.springframework.boot</ groupId >< artifactId >spring-boot-starter-web</ artifactId ></ dependency >",
+	"SpringBoot - base - code - pom.xml - build - spring-boot-maven-plugin": "< build >< plugins >< plugin >< groupId >org.springframework.boot</ groupId >< artifactId >spring-boot-maven-plugin</ artifactId ></ plugin ></ plugins ></ build >",
+	"SpringBoot - base - code - src/com.example.demo/DemoApplication.java": "Add",
+	"SpringBoot - base - code - src/com.example.demo/DemoApplication.java - SpringApplication": "@SpringBootApplication public class DemoApplication { public static void main(String[] args) { SpringApplication.run(DemoApplication.class, args); }",
+	"SpringBoot - base - code - src/com.example.demo/DemoController.java": "Add",
+	"SpringBoot - base - code - src/com.example.demo/DemoController.java - RestController": "@RestController @RequestMapping('/api') public class DemoController { ... } ",
+	"SpringBoot - base - code - src/com.example.demo/DemoController.java - GetMapping": "@GetMapping('/hello') public String sayHello() { return 'Hello from Spring Boot!'; } ",
+	"SpringBoot - base - code - src/com.example.demo/DemoController.java - PostMapping": "@PostMapping('/hello') public String greetUser(@RequestBody String name) { return 'Hello, ' + name + '!'; }",
+	"SpringBoot - custom": "",
+	"SpringBoot - custom - Dockerize - DockerFile": "FROM adoptopenjdk:11-jre-hotspot-focal@sha256:eac1c6cff5fded2dd35fc94bb23e7862a08277bd71f9b352a99df5bc740459c3 < br/ > ARG JAR_FILE=build/libs/zero2hero-0.0.1-SNAPSHOT.jar < br/ > COPY ${JAR_FILE} zeroToHero.jar < br/ > ENTRYPOINT ['java','-jar','/zeroToHero.jar'] < br/ > EXPOSE 8080",
+	"SpringBoot - custom - Dockerize - CreateImage": "docker build -t 16-bits/zero2hero:0.0.1",
+	"SpringBoot - custom - Dockerize - RunImage": "docker run --name <NAME-TO-BE-SHOW> -p8080:8080 -d <IMAGE_ID>",
+	"SpringBoot - run": "mvn spring-boot:run",
+
+	"React": "SECTION",
+	"React - base": "",
+	"React - base - starter": "npx create-react-app react",
+	"React - base - code - src/App.js": "Update",
+	"React - base - code - src/App.js - stateIn": "const [name, setName] = useState('');",
+	"React - base - code - src/App.js - stateOut": "const [response, setResponse] = useState('');",
+	"React - base - code - src/App.js - jsIn": "const postHello = async () => { try { const res = await fetch('http://localhost:8080/api/hello', { method: 'POST', headers: { 'Content-Type': 'text/plain', }, body: name, }); const text = await res.text(); setResponse(text); } catch (err) { setResponse('Error: ' + err.message); } };",
+	"React - base - code - src/App.js - jsOut": "const getHello = async () => { try { const res = await fetch('http://localhost:8080/api/hello'); const text = await res.text(); setResponse(text); } catch (err) { setResponse('Error: ' + err.message); }};",
+	"React - base - code - src/App.js - formIn1": "< input type='text' value={name} onChange={(e) => setName(e.target.value)}  placeholder='Enter your name' />",
+	"React - base - code - src/App.js - formIn2": "< button onClick={postHello} > Hello Me </ button >",
+	"React - base - code - src/App.js - formOut1": "< button onClick={getHello} > Call Hello API </ button >",
+	"React - base - code - src/App.js - formOut2": "< p >{response}</ p >",
+	"React - custom": "",
+	"React - custom - Dockerize - DockerFile": "FROM adoptopenjdk:11-jre-hotspot-focal@sha256:eac1c6cff5fded2dd35fc94bb23e7862a08277bd71f9b352a99df5bc740459c3 < br/ > ARG JAR_FILE=build/libs/zero2hero-0.0.1-SNAPSHOT.jar < br/ > COPY ${JAR_FILE} zeroToHero.jar < br/ > ENTRYPOINT ['java','-jar','/zeroToHero.jar'] < br/ > EXPOSE 8080",
+	"React - custom - Dockerize - Image": "docker build -t 16-bits/zero2hero:0.0.1",
+	"React - run": "npm run start"
+
+}
