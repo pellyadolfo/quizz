@@ -1,4 +1,5 @@
 {
+
   "Zig": "SECTION",
   "Zig 0": "https://app.studyraid.com/en/courses/2423/mastering-zig-programming-language",
   "Zig 1": "",
@@ -22,6 +23,5 @@
 
 	"CI - Integration": "SECTION",
 	"CI - Integration- Execution - Memory": "Zig gives developers full control over memory allocation and deallocation. Unlike languages with garbage collection or automatic reference counting, Zig requires explicit memory management."
-
 
 }

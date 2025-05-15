@@ -1,4 +1,17 @@
 {
+
+	"Controllers": "SECTION",
+	"Controllers ": "Spring Data modules that support the repository programming model ship with a variety of web support. The web related components require Spring MVC JARs to be on the classpath.",
+	"Controllers - HATEOAS": "Some of them even provide integration with Spring HATEOAS.",
+	"Controllers - @EnableSpringDataWebSupport": "The integration support is enabled by using the @EnableSpringDataWebSupport annotation in your JavaConfig configuration class,",
+	"Controllers - @HateoasAwareSpringDataWebConfiguration":  "If you use Spring HATEOAS, register this one *instead* of @EnableSpringDataWebSupport",
+	"Controllers - DomainClassConverter": "The DomainClassConverter lets you use domain types in your Spring MVC controller method signatures directly, so that you need not manually lookup the instances through the repository.",
+	"Controllers - HandlerMethodArgumentResolvers": "HandlerMethodArgumentResolver implementations to let Spring MVC resolve Pageable and Sort instances from request parameters.",
+	"Controllers - HandlerMethodArgumentResolvers - PageableHandlerMethodArgumentResolver": "enables Pageable as valid controller method arguments",
+	"Controllers - HandlerMethodArgumentResolvers - PageableHandlerMethodArgumentResolver - PageableHandlerMethodArgumentResolverCustomizer": "To customize, register a bean implementing the PageableHandlerMethodArgumentResolverCustomizer interface, respectively. Its customize() method gets called, letting you change settings.",
+	"Controllers - HandlerMethodArgumentResolvers - SortHandlerMethodArgumentResolver": "enables Sort as valid controller method arguments",
+	"Controllers - HandlerMethodArgumentResolvers - SortHandlerMethodArgumentResolver - SortHandlerMethodArgumentResolverCustomizer": "To customize, register a bean implementing the SortHandlerMethodArgumentResolverCustomizer interface, respectively. Its customize() method gets called, letting you change settings.",
+
 	"Repository": "SECTION",
 	"Repository ": "It takes the domain class to manage as well as the ID type of the domain class as type arguments. This interface acts primarily as a marker interface to capture the types to work with and to help you to discover interfaces that extend this one.",
 	"Repository - Config - Repository Instances": ".",
@@ -122,19 +135,7 @@
 	"Repository - Events - @DomainEvents": "Entities managed by repositories are aggregate roots. In a Domain-Driven Design application, these aggregate roots usually publish domain events. Spring Data provides an annotation called @DomainEvents that you can use on a method of your aggregate root to make that publication as easy as possible,.",
 	"Repository - Events - @AfterDomainEventPublication": "",
 	"Auditing": ".",
-	
-	"Controllers": "SECTION",
-	"Controllers ": "Spring Data modules that support the repository programming model ship with a variety of web support. The web related components require Spring MVC JARs to be on the classpath.",
-	"Controllers - HATEOAS": "Some of them even provide integration with Spring HATEOAS.",
-	"Controllers - @EnableSpringDataWebSupport": "The integration support is enabled by using the @EnableSpringDataWebSupport annotation in your JavaConfig configuration class,",
-	"Controllers - @HateoasAwareSpringDataWebConfiguration":  "If you use Spring HATEOAS, register this one *instead* of @EnableSpringDataWebSupport",
-	"Controllers - DomainClassConverter": "The DomainClassConverter lets you use domain types in your Spring MVC controller method signatures directly, so that you need not manually lookup the instances through the repository.",
-	"Controllers - HandlerMethodArgumentResolvers": "HandlerMethodArgumentResolver implementations to let Spring MVC resolve Pageable and Sort instances from request parameters.",
-	"Controllers - HandlerMethodArgumentResolvers - PageableHandlerMethodArgumentResolver": "enables Pageable as valid controller method arguments",
-	"Controllers - HandlerMethodArgumentResolvers - PageableHandlerMethodArgumentResolver - PageableHandlerMethodArgumentResolverCustomizer": "To customize, register a bean implementing the PageableHandlerMethodArgumentResolverCustomizer interface, respectively. Its customize() method gets called, letting you change settings.",
-	"Controllers - HandlerMethodArgumentResolvers - SortHandlerMethodArgumentResolver": "enables Sort as valid controller method arguments",
-	"Controllers - HandlerMethodArgumentResolvers - SortHandlerMethodArgumentResolver - SortHandlerMethodArgumentResolverCustomizer": "To customize, register a bean implementing the SortHandlerMethodArgumentResolverCustomizer interface, respectively. Its customize() method gets called, letting you change settings.",
-	
+		
 	"DAO": "SECTION",
 	"DAO ": "The Data Access Object (DAO) support in Spring is aimed at making it easy to work with data access technologies (such as JDBC, Hibernate, or JPA) in a consistent way. This lets you switch between persistence technologies fairly easily, and it also lets you code without worrying about catching exceptions that are specific to each technology..",
 	"DAO - @Repository": "The best way to guarantee that your Data Access Objects (DAOs) or repositories provide exception translation is to use the @Repository annotation. This annotation also lets the component scanning support find and configure your DAOs and repositories without having to provide XML configuration entries for them.",
