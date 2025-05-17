@@ -285,6 +285,7 @@
   "Data - Inputs - DataFetching - ClientComponents - Hooks - Libs - useQuery - SSR/SSG": "Libraries like React Query support hydration for server-rendered data.",
   "Data - Inputs - DataFetching - ClientComponents - Hooks - Libs - SWR": "React Hooks for data fetching. Standing for “stale-while-revalidate,” SWR is a strategy and library that makes fetching, caching, and updating data in your React applications a breeze. SWR (by Vercel) fetches data once and revalidates only when needed.",
   "Data - Inputs - DataFetching - ClientComponents - libs - axios": ".",
+  "Data - Inputs - DataFetching - ClientComponents - libs - Alova": "https://javascript.plainenglish.io/say-goodbye-to-axios-in-2025-04fc0772c01e",
   "Data - Inputs - DataFetching - ClientComponents - libs - tRPC": ".",
   "Data - Inputs - DataFetching - ClientComponents - ServerFunctions": "Client Components can import Server Functions.",
 	"Data - Inputs - DataFetching - ServerComponents": "In a React Server Component, data fetching is straightforward. Since these components allow you to execute code on the server, you can directly access the data layer (e.g. database) from the UI: ",
