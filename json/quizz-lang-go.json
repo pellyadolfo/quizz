@@ -1,8 +1,20 @@
 {
   "Go": "SECTION",
-  "Go ": "https://medium.com/@akshatkapil2249/why-big-tech-is-quietly-abandoning-golang-09328a520a4c",
+  "Go 0": "https://medium.com/@akshatkapil2249/why-big-tech-is-quietly-abandoning-golang-09328a520a4c",
+  "Go 1": "https://www.linkedin.com/feed/update/urn:li:activity:7329613656210456576/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+  "Go 2": "",
+  "Go 3": "",
+  "Go 4": "",
+  "Go 5": "",
+  "Go 6": "",
+  "Go 7": "",
+  "Go 8": "",
+  "Go 9": "",
 
 	"Logic": "SECTION",
-	"Logic - Async - Imperative": "Every function is by default async"
+	"Logic - Async - Imperative": "Every function is by default async",
+
+	"CI - Applications": "SECTION",
+	"CI - Applications - Web - frameworks - Gin": ""
 
 }

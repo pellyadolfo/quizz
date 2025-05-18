@@ -1,5 +1,13 @@
 {
 	"Rust": "SECTION",
+	"Rust 0": "https://medium.com/rustaceans/rusts-ownership-model-is-a-hidden-design-superpower-ca94627d8fed",
+	"Rust 1": "https://medium.com/rustaceans/rust-in-2025-the-programming-language-reshaping-the-future-of-software-development-47e93ac59fcf",
+	"Rust 2": "",
+	"Rust 3": "",
+	"Rust 4": "",
+	"Rust 5": "",
+	"Rust 6": "",
+	"Rust 7": "",
 	"Rust - description": "Rust is a systems programming language that focuses on safety, concurrency, and performance. It was developed by Mozilla Research and first appeared in 2010. Rust aims to address common pitfalls in programming, such as memory safety issues, data races, and undefined behavior, often found in languages like C and C++.",
 
 	"Variables": "SECTION",
@@ -203,12 +211,13 @@
 	"CI - Architecture - Patterns - SingleFlight": "https://medium.com/rustaceans/singleflight-scenario-implementation-based-on-tokio-notify-b70e7697d6e8",
 	"CI - Architecture - OO": "",
 
+	"CI - Applications": "SECTION",
 	"CI - Applications - Web - Wasm": "Rust’s compatibility with WebAssembly (Wasm) has opened up new avenues for web development, allowing Rust code to run at near-native speed in web browsers.",
 	"CI - Applications - Systems - Linux Kernel": "",
 	"CI - Applications - Systems - Blockchain": "",
 	"CI - Applications - Systems - Browsers": "At Google, we are driving the adoption of Rust in platforms like Android and Chromium to reduce memory safety vulnerabilities.",
 	"CI - Applications - Systems - Android": "Google recently rewrote the protected virtual machine firmware within the Android virtualization framework using the Rust programming language.",
-	"CI - Applications - Web - frameworks - Actix": "",
+	"CI - Applications - Web - frameworks - Actix-Web": "",
 	"CI - Applications - Web - frameworks - Rocket": "",
 	"CI - Applications - Web - frameworks - Loco": "",
 	"CI - Applications - Web - frameworks - Warp": "",
