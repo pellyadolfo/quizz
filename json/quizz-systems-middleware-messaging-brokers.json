@@ -46,6 +46,11 @@
   "ActiveMQ - Usage - UseCase": "Integrating legacy systems with modern apps or cross-protocol communication.",
 
   "RabbitMQ": "SECTION",
+  "RabbitMQ 0": "https://www.linkedin.com/posts/rushikesh-patil-3a37051b5_implementing-rabbitmq-in-spring-mvc-a-hands-on-activity-7329366444582797312-GpSc/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+  "RabbitMQ 1": "",
+  "RabbitMQ 2": "",
+  "RabbitMQ 3": "",
+  "RabbitMQ 4": "",
   "RabbitMQ - Features": "It was developed by Rabbit Technologies Ltd., which was a joint venture between LShift and CohesiveFT. It is now a Free and Open Source Software (FOSS). ",
   "RabbitMQ - Features - 2007": "RabbitMQ was originally released in 2007.",
   "RabbitMQ - Features - MesageModel": "Queue based (push)",
