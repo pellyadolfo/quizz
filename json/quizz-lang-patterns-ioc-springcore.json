@@ -1,4 +1,5 @@
 {
+	
 	"Container": "SECTION",
 	"Container ": "A Spring IoC container manages one or more beans. These beans are created with the configuration metadata that you supply to the container, for example, in the form of XML <bean/> definitions.",
 	"Container - Responsibility": "Spring IoC container is responsible for instantiating, configuring, and assembling the aforementioned beans.",
@@ -53,14 +54,14 @@
 	"Components - Specializations - @Configuration - Singleton": "Ensures that the beans defined in this class are created only once (Singleton) by enabling CGLIB proxying.",
 	"Components - Specializations - @Configuration - BeanFactory": "Supports bean factory methods, which can return other Spring beans.",
 	"Components - Specializations - @Configuration - Purpose": "Use @Configuration when creating a class that defines multiple beans with interdependencies",
+	"Components - Specializations - @Controller": "specialization of @Component for any class that fulfills the role or stereotype of presentation layer.",
+	"Components - Specializations - @Controller - HTTP": "Handles HTTP requests and returns views (HTML).",
+	"Components - Specializations - @RestController": "@Controller + @ResponseBody on every method.",
 	"Components - Specializations - @Repository": "specialization of @Component for any class that fulfills the role or stereotype of a repository (also known as Data Access Object or DAO).",
 	"Components - Specializations - @Repository - DataAccessException": "Translates database exceptions (e.g., JDBC SQLException) into Spring’s unchecked DataAccessException.",
 	"Components - Specializations - @Repository - Transactional": "Enables declarative transaction management (@Transactional).",
 	"Components - Specializations - @Service": "specialization of @Component for any class that fulfills the role or stereotype of service layer.",
 	"Components - Specializations - @Service - BusinessLogic": "Business logic (transactional methods, orchestration).",
-	"Components - Specializations - @Controller": "specialization of @Component for any class that fulfills the role or stereotype of presentation layer.",
-	"Components - Specializations - @Controller - HTTP": "Handles HTTP requests and returns views (HTML).",
-	"Components - Specializations - @RestController": "@Controller + @ResponseBody on every method.",
 
 	"Beans": "SECTION",
 	"Beans - Annotation": "Method-level (annotates a method)",

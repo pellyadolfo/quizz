@@ -1,4 +1,7 @@
 {
+
+	"PL-SQL": "SECTION",
+
 	"SQL": "SECTION",
 	"SQL - Comamnds": "",
 	"SQL - Comamnds - CONSTRAINTS": "",
@@ -86,6 +89,27 @@
 	"SQL - DataModel - DCL - GRANT": "",
 	"SQL - DataModel - DCL - REVOKE": "",
 
-	"PL-SQL": "SECTION"
+	"DataModel": "SECTION",
+	"DataModel - ForeignKey": "Creates a relationship/link between two tables",
+	"DataModel - ForeignKey - Duplicates": "Can contain duplicate values (for one-to-many relationships)",
+	"DataModel - ForeignKey - Null": "Can contain NULL values (unless marked as NOT NULL)",
+	"DataModel - ForeignKey - Quantity": "Multiple unique constraints per table allowed",
+	"DataModel - ForeignKey - Purpose": "Multiple foreign keys can exist in a table",
+	"DataModel - ForeignKey - References": "References PK of another table",
+	"DataModel - ForeignKey - Indexing": "May or may not be indexed",
+	"DataModel - UniqueConstraint": "",
+	"DataModel - UniqueConstraint - NoDuplicates": "Must contain unique values (no duplicates)",
+	"DataModel - UniqueConstraint - Null": "Can contain NULL values (unless combined with NOT NULL)",
+	"DataModel - UniqueConstraint - Quantity": "Multiple unique constraints per table allowed",
+	"DataModel - UniqueConstraint - Purpose": "Ensures data integrity for non-primary key columns",
+	"DataModel - UniqueConstraint - Relationships": "Not typically used for relationships",
+	"DataModel - UniqueConstraint - Indexing": "Creates a unique index on the column(s)",
+	"DataModel - PrimaryKey": "Uniquely identifies each record in a table",
+	"DataModel - PrimaryKey - NoDuplicates": "Must contain unique values (no duplicates)",
+	"DataModel - PrimaryKey - Null": "Cannot contain NULL values",
+	"DataModel - PrimaryKey - Quantity": "Only one primary key per table",
+	"DataModel - PrimaryKey - Purpose": "Identifies each record uniquely in a table",
+	"DataModel - PrimaryKey - Relationships": "Used as foreign keys in other tables",
+	"DataModel - PrimaryKey - Clustering": " Often used as the clustering key (physical ordering of data)"
 
 }
