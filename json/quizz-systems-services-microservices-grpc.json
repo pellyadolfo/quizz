@@ -1,6 +1,16 @@
 {			
 
 	"gRPC": "SECTION",
+	"gRPC 0": "https://www.linkedin.com/posts/zoranmilosevic_how-does-grpc-work-rpc-remote-procedure-activity-7330914027549675520-zlpW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"gRPC 1": "",
+	"gRPC 2": "",
+	"gRPC 3": "",
+	"gRPC 4": "",
+	"gRPC 5": "",
+	"gRPC 6": "",
+	"gRPC 7": "",
+	"gRPC 8": "",
+	"gRPC 9": "",
 	"gRPC - Protocol": "A high-performance RPC protocol that uses Protocol Buffers (protobuf) instead of JSON, making it faster and more efficient than REST. ",
 	"gRPC - Protocol - HTTP/2": "gRPC leverages the HTTP/2 protocol under the covers.",
 	"gRPC - Request": ".",
