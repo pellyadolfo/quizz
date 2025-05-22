@@ -28,6 +28,9 @@
 	"Processing - NoStickySessions": ".",
 	"Processing - Async": "Run background jobs using worker systems to handle heavy tasks. This keeps your app responsive by freeing up the main thread.",
 	"Processing - Compression": "Use formats like Gzip or Brotli to compress files before sending them. Smaller files mean faster transfers and less bandwidth usage.",
+	"Processing - VM - VirtualThreads": ".",
+	"Processing - VM - VirtualThreads - SpringBoot": "spring.threads.virtual.enabled=true - This enables virtual thread-per-request, making it extremely cheap to scale HTTP connections.",
+	"Processing - VM - StructuredConcurrency": ".",
 	
 	"Data": "SECTION",
 	"Data - ConnectionPool": "Reuse existing database connections instead of opening a new one for each request. This lowers latency and increases database efficiency.",
