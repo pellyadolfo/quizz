@@ -150,6 +150,10 @@
 	"CI - Building - BuildSystem - gradle": "The Spring Boot Gradle Plugin provides Spring Boot support in Gradle, allowing you to package executable jar or war archives, run Spring Boot applications, and use the dependency management provided by spring-boot-dependencies. ",
 	"CI - Building - BuildSystem - ant": "It is possible to build a Spring Boot project using Apache Ant+Ivy. The spring-boot-antlib “AntLib” module is also available to help Ant create executable jars.",
 
+	"CD - Deployment": "SECTION",
+	"CD - Deployment - EverythingAsCode": "https://medium.com/@vermatanisha666/spring-boot-3-5-the-update-that-fixed-everything-wrong-with-java-microservices-db71c45814d4",
+	"CD - Deployment - EverythingAsCode - SoC": "Critics argue this approach violates separation of concerns, creating tighter coupling between application code and infrastructure. Supporters counter that this unified model allows for true infrastructure-as-code with compile-time validation and version-controlled changes.",
+
 	"CI - Integration": "SECTION",
 	"CI - Integration - Threads - ThreadPoolTaskExecutor": "In the absence of a TaskExecutor bean in the context, Spring Boot auto-configures a ThreadPoolTaskExecutor with sensible defaults that can be automatically associated to asynchronous task execution (@EnableAsync) and Spring MVC asynchronous request processing.",
 	"CI - Integration - Threads - Multiplicity": "The thread pool uses 8 core threads that can grow and shrink according to the load.",
@@ -274,5 +278,4 @@
 	"CD - Monitor - Actuators - endpoint jolokia": "Exposes JMX beans over HTTP (when Jolokia is on the classpath, not available for WebFlux).",
 	"CD - Monitor - Actuators - endpoint logfile": "Returns the contents of the logfile (if logging.file or logging.path properties have been set). Supports the use of the HTTP Range header to retrieve part of the log file’s content.",
 	"CD - Monitor - Actuators - endpoint prometheus": "Exposes metrics in a format that can be scraped by a Prometheus server."
-
 }

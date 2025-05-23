@@ -13,6 +13,9 @@
 	"Performance 9": "",
 	"Performance 10": "",
 
+	"Client": "SECTION",
+	"Client - ArrowFuntions": "https://javascript.plainenglish.io/the-javascript-interview-question-thats-failing-senior-developers-929a884294e7",
+
 	"Networking": "SECTION",
 	"Networking - Scaling": ".",
 	"Networking - Caching": "Save frequently requested data in memory or edge locations. This reduces database hits and avoids repeating the same processing.",
@@ -28,6 +31,7 @@
 	"Processing - NoStickySessions": ".",
 	"Processing - Async": "Run background jobs using worker systems to handle heavy tasks. This keeps your app responsive by freeing up the main thread.",
 	"Processing - Compression": "Use formats like Gzip or Brotli to compress files before sending them. Smaller files mean faster transfers and less bandwidth usage.",
+	"Processing - Server - SpringBoot - 3.5": "A comprehensive analysis of Spring Boot 3.5 reveals remarkable performance enhancements across all critical metrics when compared to version 3.0.",
 	"Processing - VM - VirtualThreads": ".",
 	"Processing - VM - VirtualThreads - SpringBoot": "spring.threads.virtual.enabled=true - This enables virtual thread-per-request, making it extremely cheap to scale HTTP connections.",
 	"Processing - VM - StructuredConcurrency": ".",

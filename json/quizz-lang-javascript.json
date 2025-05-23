@@ -408,6 +408,7 @@
 	"CI - Packaging - Arch - Functions - Declaration - default params": "function greet(name = 'Guest') { ... }",
 	"CI - Packaging - Arch - Functions - Expression - ES6 - ArrowWithBody": "const getGreeting = () => { return 'Welcome to JavaScript'; }",
 	"CI - Packaging - Arch - Functions - Expression - ES6 - Arrow": "const getGreeting = () => 'Welcome to JavaScript';",
+	"CI - Packaging - Arch - Functions - Expression - ES6 - Arrow - Performance": "https://javascript.plainenglish.io/the-javascript-interview-question-thats-failing-senior-developers-929a884294e7",
 	"CI - Packaging - Arch - Functions - Pure": "If I call a pure function, it will only take the data passed as parameters, perform an X operation, and return the output as a value. Pure functions do not print the output, call another function, perform another Y operation, etc. They only return a value.",
 	"CI - Packaging - Arch - Functions - Currying": "Currying refers to the process of transforming a function that accepts multiple arguments into a series of functions that each only accepts one argument. This allows for more flexible use of functions, reduces repetitive code, and increases code readability. https://javascript.info/currying-partials",
 	"CI - Packaging - Arch - Functions - Currying - formula": "curry(f) :: (a,b,c) -> f(a) -> f(b)-> f(c)",
