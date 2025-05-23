@@ -64,6 +64,10 @@
 	"Components - Specializations - @Service - BusinessLogic": "Business logic (transactional methods, orchestration).",
 
 	"Beans": "SECTION",
+	"Beans - Bean": "A bean is an object that is instantiated, assembled, and managed by a container.",
+	"Beans - Bean - Java": "In the context of Java, a bean is a reusable software component that adheres to specific conventions (e.g., having a no-argument constructor, being serializable, and providing getters and setters).",
+	"Beans - Bean - Spring": "In Spring, a bean is any object that is managed by the Spring IoC (Inversion of Control) container.",
+	"Beans - Bean - Lifecycle": "Managed by the Spring Framework.",
 	"Beans - Annotation": "Method-level (annotates a method)",
 	"Beans - BeanDefinition ": "Within the container itself, these bean definitions are represented as BeanDefinition objects. BeanDefinition is essentially a recipe for creating one or more objects",
 	"Beans - BeanDefinition - Metadata": "Beans - BeanDefinition objects contain the following metadata: (1) A package-qualified class name: typically, the actual implementation class of the bean being defined. (2) Bean behavioral configuration elements, which state how the bean should behave in the container (scope, lifecycle callbacks, and so forth) (3) References to other beans that are needed for the bean to do its work. These references are also called collaborators or dependencies. (4) Other configuration settings to set in the newly created object — for example, the size limit of the pool or the number of connections to use in a bean that manages a connection pool.",

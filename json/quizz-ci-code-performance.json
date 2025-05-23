@@ -27,6 +27,8 @@
 	"Infra - LoadBalancing": "Avoid server overload by distributing user requests across multiple servers. This keeps traffic flowing smoothly and improves uptime.",
 
 	"Processing": "SECTION",
+	"Processing - Asynchronous": "For write-intensive operations, we can leverage message queues like Kafka or RabbitMQ to handle tasks asynchronously, reducing the immediate load on the database.",
+	"Processing - LoadBalancing": "Add a load balancer to distribute queries across multiple database instances, ensuring no single node becomes a bottleneck.",
 	"Processing - JWTAuthentication": ".",
 	"Processing - NoStickySessions": ".",
 	"Processing - Async": "Run background jobs using worker systems to handle heavy tasks. This keeps your app responsive by freeing up the main thread.",
@@ -37,12 +39,33 @@
 	"Processing - VM - StructuredConcurrency": ".",
 	
 	"Data": "SECTION",
+	"Data - Archiving": "Archive older, less-used data to a separate storage system to keep the active dataset manageable. This helps maintain fast query performance on current data.",
 	"Data - ConnectionPool": "Reuse existing database connections instead of opening a new one for each request. This lowers latency and increases database efficiency.",
 	"Data - Timeouts": ".",
 	"Data - LIMITQueries": ".",
 	"Data - Indexes": "Speed up queries by indexing key fields in your database. This makes searches faster and improves overall data access times.",
 	"Data - Sharding": ".",
-	"Data - ReadReplicas": "."
+	"Data - ReadReplicas": ".",
+	"Data - Performance": ".",
+	"Data - Performance": ".",
+	"Data - Performance - Caching": "Integrate caching solutions like Redis or Memcached to store frequently accessed data in memory, reducing the load on the database. Use query-level caching for expensive operations to further enhance performance.",
+	"Data - Performance - Replication": "Use master-slave replication where the master handles writes, and the replicas handle reads, improving both performance and reliability. In more complex systems, multi-master replication can be used to handle writes from multiple locations.",
+	"Data - Performance - HorizontalScaling": "Implement sharding to distribute data across multiple nodes. For example, we can shard based on user ID or geographic regions to evenly distribute the load. Partition large tables logically, such as by time ranges (e.g., monthly partitions for a logging system).",
+	"Data - Performance - DatabaseSchemaDesign": "Start with a normalized schema to eliminate redundancy and ensure consistency. For performance-critical applications, we can selectively denormalize certain tables to optimize read-heavy operations.",
+	"Data - Database - Metrics - QueryPerformance": "Measure execution time and use EXPLAIN plans to optimize queries.",
+	"Data - Database - Metrics - ResponseTime": "Track round-trip time for queries, aiming for low latency.",
+	"Data - Database - Metrics - Throughput": "Monitor how many queries the database handles per second/minute.",
+	"Data - Database - Metrics - DatabaseConnections": "Monitor the number of active connections and optimize connection pooling.",
+	"Data - Database - Metrics - DiskI/O": "Measure read/write speeds, queue length, and disk throughput.",
+	"Data - Database - Metrics - CPUUsage": "Track CPU utilization to ensure the database is not overburdened.",
+	"Data - Database - Metrics - MemoryUsage": "Monitor memory consumption to avoid excessive usage leading to slowdowns.",
+	"Data - Database - Metrics - LockContention": "Track lock conflicts and deadlocks to avoid delays.",
+	"Data - Database - Metrics - CacheHitRatio": "Monitor cache hit ratios to ensure frequently accessed data is cached.",
+	"Data - Database - Metrics - NetworkLatency": "Measure round-trip time for data transfer between the application and database.",
+	"Data - Database - Metrics - SlowQueryLogs": "Capture and analyze slow queries for optimization.",
+	"Data - Database - Metrics - IndexOptimization": "Ensure efficient indexing and monitor index fragmentation.",
+	"Data - Database - Metrics - QueryExecutionPlan:": "Mentioned briefly but should include advice on using query profiling tools like EXPLAIN in SQL databases.",
+	"Data - Database - Metrics - DatabaseSchemaDesign": "Optimizing schema design impacts performance and should be addressed."
 
 }
 

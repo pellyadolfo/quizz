@@ -9,6 +9,7 @@
 	"Principles - OOP - Composition": "Combonig smaller objects to create larger more complex objects.",
 	"Principles - OOP - Association": "A relationship where and object uses or depends on other object.",
 	"Principles - OOP - DependencyInversion": "High level modules should not depend on low level modules, but both should depend on abstractions",
+	"Principles - OOP - DependencyInjection": "Dependency Injection (DI) is a technique used in object-oriented programming to achieve Inversion of Control (IoC).",
 	"Principles - SOLID": "S.O.L.I.D., the first five principles of object-oriented programming. S.O.L.I.D. stands for: S - Single-responsibility principle, O - Open-closed principle, L - Liskov substitution principle, I - Interface segregation principle, D - Dependency Inversion Principle",
 	"Principles - SOLID - S - SingleResponsibility": "Single-responsibility principle. This principle states that an object / class should only have one responsibility and that it should be completely encapsulated by the class. A reason to change",
 	"Principles - SOLID - O - OpenClosed": "Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification. You will get loose coupling.",
