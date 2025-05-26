@@ -1,13 +1,5 @@
 {			
 
-	"Messaging - EIP": "SECTION",
-	"Messaging - EIP ": "Enterprise Integration Patterns",
-	"Messaging - EIP - Integration Style. File Transfer": "How can I integrate multiple applications so that they work together and can exchange information? Have each application produce files containing information that other applications need to consume. Integrators take the responsibility of transforming files into different formats. Produce the files at regular intervals according to the nature of the business.",
-	"Messaging - EIP - Integration Style. Shared Database": "How can I integrate multiple applications so that they work together and can exchange information? Integrate applications by having them store their data in a single Shared Database.",
-	"Messaging - EIP - Integration Style. Remote Procedure Invocation": "How can I integrate multiple applications so that they work together and can exchange information? Develop each application as a large-scale object or component with encapsulated data. Provide an interface to allow other applications to interact with the running application.",
-	"Messaging - EIP - Integration Style. Messaging": "How can I integrate multiple applications so that they work together and can exchange information? Use Messaging to transfer packets of data frequently, immediately, reliably, and asynchronously, using customizable formats.",
-	"Messaging - EIP - Messaging Systems. ": "",
-
 	"Messaging - EDA": "SECTION",
 	"Messaging - EDA - definition": "Components of the system not directly connected communicate asynchronously by events instead of direct function calls.",
 	"Messaging - EDA - Components": ".",
