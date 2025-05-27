@@ -2,6 +2,16 @@
 
 	"Cloud": "SECTION",
 	"Cloud 0": "https://www.linkedin.com/posts/shahjahanali_for-cloud-computing-learning-activity-7331555974190653440-kTPG/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"Cloud 1": "",
+	"Cloud 2": "",
+	"Cloud 3": "",
+	"Cloud 4": "",
+	"Cloud 5": "",
+	"Cloud 6": "",
+	"Cloud 7": "",
+	"Cloud 8": "",
+	"Cloud 9": "",
+	"Cloud 10": "",
 
 	"Twelve-Factor App": "SECTION",
 	"Twelve-Factor App ": "The twelve-factor app is a methodology for building software-as-a-service apps that: Use declarative formats for setup automation, to minimize time and cost for new developers joining the project, Have a clean contract with the underlying operating system, offering maximum portability between execution environments, Are suitable for deployment on modern cloud platforms, obviating the need for servers and systems administration, Minimize divergence between development and production, enabling continuous deployment for maximum agility, And can scale up without significant changes to tooling, architecture, or development practices. The twelve-factor methodology can be applied to apps written in any programming language, and which use any combination of backing services (database, queue, memory cache, etc).",

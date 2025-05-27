@@ -4,6 +4,9 @@
 	"DataStreaming - KafkaStreams": "",
 	"DataStreaming - ApacheFlink": "",
 
+	"HTTPStreaming": "SECTION",
+	"HTTPStreaming ": "https://dev.to/pubnub/what-is-http-streaming-2ihb",
+
 	"WebSocket": "SECTION",
 	"WebSocket - Tools - Comkit": "ComKit is a Swift library that provides a simplified way to build WebSocket clients and servers. It abstracts away the complexities of working with SwiftNIO, making it easier to develop WebSocket-based applications in Swift. ",
 

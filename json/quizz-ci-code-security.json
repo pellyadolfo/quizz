@@ -55,7 +55,6 @@
 	"UI - OWASP": "",
 	"UI - OWASP - Top10": "",
 	"UI - SensitiveInfo": "",
-	"UI - SensitiveInfo - .env": "",
   "UI - Vulnerabilities - XSS": "Cross-Site Scripting (XSS).",
 	"UI - Vulnerabilities - XSS - Encode": "Always encode data before outputting to HTML.",
 	"UI - Vulnerabilities - XSS - Content-Security-Policy": ".",
@@ -74,7 +73,7 @@
 	"UI - Vulnerabilities - CSRF": "Cross-Site Request Forgery (CSRF) is a type of security attack on web applications. In a CSRF attack, the attacker tricks a legitimate user into submitting a request that they did not intend to..",
 	"UI - Vulnerabilities - CSP": "Content Security Policy (CSP) Headers. Implementing a Content Security Policy (CSP) is a crucial step in securing your web application against various types of attacks, including Cross-Site Scripting (XSS).",
 	"UI - Vulnerabilities - IDOR": "Insecure Direct Object References (IDOR) refer to a security weakness where an application provides direct access to objects based on user-supplied input..",
-	"UI - env": "One of the key aspects of frontend application security is protecting sensitive information like API keys, database credentials, and other confidential data. Use env variables so they don’t get leaked into the git repository. Especially when the repository is open source and public.",
+	"UI - SensitiveInfo - .env": "One of the key aspects of frontend application security is protecting sensitive information like API keys, database credentials, and other confidential data. Use env variables so they don’t get leaked into the git repository. Especially when the repository is open source and public.",
 	"UI - WebAuthenticationAPI": "Web Authentication API (WebAuthn) is a W3C and FIDO specification that allows registration and authentication of users using public key cryptography instead of a password.",
 	"UI - Standards - NIS2": "https://digital-strategy.ec.europa.eu/en/policies/nis2-directive",
 
