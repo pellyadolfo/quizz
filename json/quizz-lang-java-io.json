@@ -1,25 +1,47 @@
 {
-	"IO": ".",
+	"IO": "SECTION",
 
+	"IOStreams": "SECTION",
+	"IOStreams - ByteStreams": "",
+	"IOStreams - ByteStreams - FileInputStream": "",
+	"IOStreams - ByteStreams - FileOutputStream": "",
+	"IOStreams - CharacterStreams": "",
+	"IOStreams - CharacterStreams - InputStreamReader": "",
+	"IOStreams - CharacterStreams - OutputStreamWriter": "",
+	"IOStreams - CharacterStreams - FileReader": "",
+	"IOStreams - CharacterStreams - FileWriter": "",
+	"IOStreams - CharacterStreams - BufferedInputStream": "",
+	"IOStreams - CharacterStreams - BufferedOutputStream": "",
+	"IOStreams - Scanner": "",
+	"IOStreams - BufferedStreams - BufferedReader": "",
+	"IOStreams - BufferedStreams - BufferedWriter": "",
+	"IOStreams - DataStreams - DataInputStream": "",
+	"IOStreams - DataStreams - DataOutputStream": "",
+	"IOStreams - ObjectStreams - ObjectInputStream": "",
+	"IOStreams - ObjectStreams - ObjectOutputStream": "",
+	"IOStreams - ": "",
+	"IOStreams - PrintStream": "",
+	"IOStreams - PrintWriter": "",
 
-	"Logic - IOStreams - ByteStreams": "",
-	"Logic - IOStreams - ByteStreams - FileInputStream": "",
-	"Logic - IOStreams - ByteStreams - FileOutputStream": "",
-	"Logic - IOStreams - CharacterStreams": "",
-	"Logic - IOStreams - CharacterStreams - InputStreamReader": "",
-	"Logic - IOStreams - CharacterStreams - OutputStreamWriter": "",
-	"Logic - IOStreams - CharacterStreams - FileReader": "",
-	"Logic - IOStreams - CharacterStreams - FileWriter": "",
-	"Logic - IOStreams - CharacterStreams - BufferedInputStream": "",
-	"Logic - IOStreams - CharacterStreams - BufferedOutputStream": "",
-	"Logic - IOStreams - Scanner": "",
-	"Logic - IOStreams - BufferedStreams - BufferedReader": "",
-	"Logic - IOStreams - BufferedStreams - BufferedWriter": "",
-	"Logic - IOStreams - DataStreams - DataInputStream": "",
-	"Logic - IOStreams - DataStreams - DataOutputStream": "",
-	"Logic - IOStreams - ObjectStreams - ObjectInputStream": "",
-	"Logic - IOStreams - ObjectStreams - ObjectOutputStream": "",
-	"Logic - IOStreams - ": "",
-	"Logic - IOStreams - PrintStream": "",
-	"Logic - IOStreams - PrintWriter": ""
+	"InternetAddressResolutionSPI": "SECTION",
+	"InternetAddressResolutionSPI - Java18": "In Java 18, a new Service Provider Interface (SPI) was introduced for customizable hostname and IP address resolution via JEP 418. This enhancement allows developers to replace the default DNS resolver with their own implementation, enabling better control over how Java applications resolve internet addresses.",
+
+	"DatagramSocketAPI": "SECTION",
+	"DatagramSocketAPI ": "The DatagramSocket API is part of Java's original (pre-NIO) networking package (java.net) and provides a connectionless, unreliable mechanism for sending and receiving UDP (User Datagram Protocol) packets. Unlike TCP, UDP does not guarantee delivery, ordering, or duplicate protection, making it suitable for low-latency applications like video streaming, gaming, and DNS lookups.",
+	"DatagramSocketAPI - Components - DatagramSocket": "The main class for sending/receiving UDP packets. Binds to a local port for communication.",
+	"DatagramSocketAPI - Components - DatagramPacket": "Represents a single UDP packet (data + destination address/port).",
+	"DatagramSocketAPI - Components - InetAddress": "Represents an IP address (used in DatagramPacket).",
+
+	"JavaIO": "SECTION",
+	"JavaIO - NVM": "Non-volatile mapped byte buffers are a Java NIO feature that allows direct memory mapping of non-volatile memory (NVM) devices, providing persistent memory capabilities to Java applications.",
+	"JavaIO - NVM - Create": "MappedByteBuffer buffer = channel.map(FileChannel.MapMode.READ_WRITE, 0, size);",
+
+	"HTTP/2 Client": "SECTION",
+
+	"BasicHTTPServer": "SECTION",
+	"BasicHTTPServer - Java18": "Java 18 includes an easy-to-use built-in HTTP server (via jdk.httpserver) that lets you quickly spin up a lightweight web server without external dependencies like Spring Boot or Tomcat.",
+
+	"Security - KeyEncapsulationMechanismAPI": "SECTION",
+	"Security - KeyEncapsulationMechanismAPI - Java21": "The Key Encapsulation Mechanism (KEM) API is a new cryptographic feature introduced in Java 21 as part of Java's ongoing post-quantum cryptography preparations. This API provides a standardized way to implement KEM algorithms, which are essential for quantum-resistant cryptography."
+
 }
