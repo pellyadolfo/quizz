@@ -175,27 +175,6 @@
 	"Additional - Collectors.mapping(Function< ? super T,? extends U > mapper, Collector< ? super U,A,R > downstream)": "Adapts a Collector accepting elements of type U to one accepting elements of type T by applying a mapping function to each input element before accumulation.",
 	"Additional - Collectors.flatMapping​(Function< ? super T,? extends Stream< ? extends U>> mapper, Collector< ? super U,A,R> downstream) (Java 9)": "Adapts a Collector accepting elements of type U to one accepting elements of type T by applying a flat mapping function to each input element before accumulation.",
 	"Additional - Collectors.takeWhile​(Predicate< ? super T> predicate) (Java 9)": "Returns, if this stream is ordered, a stream consisting of the longest prefix of elements taken from this stream that match the given predicate.",
-	"Additional - Collectors.dropWhile​(Predicate< ? super T> predicate) (Java 9)": "Returns, if this stream is ordered, a stream consisting of the remaining elements of this stream after dropping the longest prefix of elements that match the given predicate.",
-
-	"Logic - IOStreams - ByteStreams": "",
-	"Logic - IOStreams - ByteStreams - FileInputStream": "",
-	"Logic - IOStreams - ByteStreams - FileOutputStream": "",
-	"Logic - IOStreams - CharacterStreams": "",
-	"Logic - IOStreams - CharacterStreams - InputStreamReader": "",
-	"Logic - IOStreams - CharacterStreams - OutputStreamWriter": "",
-	"Logic - IOStreams - CharacterStreams - FileReader": "",
-	"Logic - IOStreams - CharacterStreams - FileWriter": "",
-	"Logic - IOStreams - CharacterStreams - BufferedInputStream": "",
-	"Logic - IOStreams - CharacterStreams - BufferedOutputStream": "",
-	"Logic - IOStreams - Scanner": "",
-	"Logic - IOStreams - BufferedStreams - BufferedReader": "",
-	"Logic - IOStreams - BufferedStreams - BufferedWriter": "",
-	"Logic - IOStreams - DataStreams - DataInputStream": "",
-	"Logic - IOStreams - DataStreams - DataOutputStream": "",
-	"Logic - IOStreams - ObjectStreams - ObjectInputStream": "",
-	"Logic - IOStreams - ObjectStreams - ObjectOutputStream": "",
-	"Logic - IOStreams - ": "",
-	"Logic - IOStreams - PrintStream": "",
-	"Logic - IOStreams - PrintWriter": ""
+	"Additional - Collectors.dropWhile​(Predicate< ? super T> predicate) (Java 9)": "Returns, if this stream is ordered, a stream consisting of the remaining elements of this stream after dropping the longest prefix of elements that match the given predicate."
 
 }

@@ -1,0 +1,25 @@
+{
+	"IO": ".",
+
+
+	"Logic - IOStreams - ByteStreams": "",
+	"Logic - IOStreams - ByteStreams - FileInputStream": "",
+	"Logic - IOStreams - ByteStreams - FileOutputStream": "",
+	"Logic - IOStreams - CharacterStreams": "",
+	"Logic - IOStreams - CharacterStreams - InputStreamReader": "",
+	"Logic - IOStreams - CharacterStreams - OutputStreamWriter": "",
+	"Logic - IOStreams - CharacterStreams - FileReader": "",
+	"Logic - IOStreams - CharacterStreams - FileWriter": "",
+	"Logic - IOStreams - CharacterStreams - BufferedInputStream": "",
+	"Logic - IOStreams - CharacterStreams - BufferedOutputStream": "",
+	"Logic - IOStreams - Scanner": "",
+	"Logic - IOStreams - BufferedStreams - BufferedReader": "",
+	"Logic - IOStreams - BufferedStreams - BufferedWriter": "",
+	"Logic - IOStreams - DataStreams - DataInputStream": "",
+	"Logic - IOStreams - DataStreams - DataOutputStream": "",
+	"Logic - IOStreams - ObjectStreams - ObjectInputStream": "",
+	"Logic - IOStreams - ObjectStreams - ObjectOutputStream": "",
+	"Logic - IOStreams - ": "",
+	"Logic - IOStreams - PrintStream": "",
+	"Logic - IOStreams - PrintWriter": ""
+}
