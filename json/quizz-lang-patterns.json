@@ -88,8 +88,24 @@
 	"Algorithms - TreeTraversal - BFS": "Breadth-First Search. BFS visits nodes level by level, starting from the root node and progressing outward layer by layer. Imagine exploring a family tree; BFS would visit all siblings (nodes at the same level) before moving down to their children (next level).",
 	"Algorithms - TreeTraversal - DFS": "Depth-First Search. DFS explores as far as possible along one branch (path) before backtracking and exploring another branch. There are further variations of DFS, but here we'll focus on a basic approach.",
 
-	"Concurrency": "SECTION",
-	"Concurrency - RaceCondition": "The race condition is when the user is on page 2 and viewing comments, and the POST call to save the newly created comment is still in progress. In a normal development environment, this works as expected. Additionally, this is typically seen late in the development cycle, mixed with complex business logic, etc.",
-	"Concurrency - Deadlock": ""
+	"FunctionalProgramming": "SECTION",
+	"FunctionalProgramming ": "https://levelup.gitconnected.com/functional-purity-and-how-to-control-side-effects-in-large-systems-6a6bdc7790d3",
+	"FunctionalProgramming - Data  - Inmutability": "Data is never modified after creation; instead, new data is created. Example: In FP, instead of modifying an array, you create a new array with changes.",
+	"FunctionalProgramming - Data  - ReferentialTransparency": "An expression can be replaced with its value without changing the program's behavior. Example: If x = 2 + 3, you can replace x with 5 anywhere in the code.",
+	"FunctionalProgramming - Data  - Monads": "Handle side effects and chaining computations (e.g., Promise in JavaScript, Maybe in Haskell).",
+	"FunctionalProgramming - Data  - Functors": "Structures that can be mapped over (e.g., Array.map).",
+	"FunctionalProgramming - Logic - ControlFlow - Recursion": "FP favors recursion over iterative loops (like for, while).Example: Calculating factorial using recursion instead of a loop.",
+	"FunctionalProgramming - Logic - Functions  - Purity": "A function always returns the same output for the same input. It has no side effects (does not modify external state). Example: Mathematical functions like f(x) = x + 1.",
+	"FunctionalProgramming - Logic - Functions  - SideEffects": "Functions should not modify global state, mutate inputs, or perform I/O unpredictably. Example: A pure function does not modify a global variable.",
+	"FunctionalProgramming - Logic - Functions  - HOF": "Higher-order functions take functions as arguments or return them. Example: map, filter, and reduce in JavaScript.",
+	"FunctionalProgramming - Logic - Functions  - FirstClass": "Functions are treated as values (can be passed as arguments, returned from other functions, and assigned to variables).",
+	"FunctionalProgramming - Logic - Functions  - Composition": "Combining simple functions to build more complex ones. Example: h(x) = f(g(x)) where g and f are composed into h.",
+	"FunctionalProgramming - Logic - Functions  - PatternMatching": "Deconstructing data structures to handle different cases elegantly. Example: match in Rust or case in Haskell.",
+	"FunctionalProgramming - Logic - Functions  - LazyEvaluation": "Delays computation until the result is needed. Example: Infinite data structures (like streams in Haskell).",
+	"FunctionalProgramming - Logic - Functions  - Closures": "A function captures ('closes over') its surrounding environment. Example: A nested function accessing variables from its parent scope.",
+	"FunctionalProgramming - Logic - Functions  - Currying": "Converting a multi-argument function into a sequence of single-argument functions.",
+	"FunctionalProgramming - Logic - Functions  - PartialApplication": "Fixing some arguments of a function to create a new function.",
+	"FunctionalProgramming - Logic - Functions  - TailCallOptimization": "Optimizes recursive functions to avoid stack overflow by reusing stack frames. Example: Some functional languages optimize tail-recursive functions."
+
 
 }
