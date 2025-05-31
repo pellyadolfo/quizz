@@ -5,7 +5,6 @@
 
 	"App": "SECTION",
 	"App - Fetching ": "Fetching, essentially, is the process of grabbing data from the database and making it available to the application.",
-	"App - Fetching - hibernate.jdbc.fetch_size": "Used to specify number of rows to be fetched in a select query.",
 	"App - Fetching - Strategies - Static": "Static definition of fetching strategies is done in the mappings. The statically-defined fetch strategies is used in the absence of any dynamically defined strategies.",
 	"App - Fetching - Strategies - Static - @Fetch": "FetchType",
 	"App - Fetching - Strategies - Static - @Fetch - JPA - FetchType": "FetchType, on the other hand, defines whether will load data eagerly or lazily.",
@@ -31,6 +30,7 @@
 	"App - Fetching - Strategies - Static - @Fetch - Hibernate - FetchMode.JOIN": "FetchMode.JOIN loads relations eagerly through the use of an SQL outer join.",
 	"App - Fetching - Strategies - Static - @Fetch - Hibernate - FetchMode.BATCH": "Performs a separate SQL select to load a number of related data items using an IN-restriction as part of the SQL WHERE-clause based on a batch size.",
 	"App - Fetching - Strategies - Static - @Fetch - Hibernate - FetchMode.SUBSELECT": "Performs a separate SQL select to load associated data based on the SQL restriction used to load the owner.",
+	"App - Fetching - Strategies - Static - @Fetch - Hibernate - hibernate.jdbc.fetch_size": "Used to specify number of rows to be fetched in a select query.",
 	"App - Fetching - Strategies - Dynamic": "Dynamic definition is really use-case centric. There are multiple ways to define dynamic fetching: fetch profiles, HQL/JPQL, entity graphs",
 	"App - Fetching - Strategies - Dynamic - JPA - EntityGraphs": "JPA 2.1 introduced entity graphs so the application developer has more control over fetch plans.",
 	"App - Fetching - Strategies - Dynamic - JPA - EntityGraphs - Types": ".",
