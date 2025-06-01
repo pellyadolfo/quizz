@@ -64,9 +64,9 @@
 	"CI - Coding": "SECTION",
 	"CI - Coding - Security": "",
 
-	"CI - Deployments": "SECTION",
-	"CI - Deployments - SelfManaged": "",
+	"CD - Deployments": "SECTION",
+	"CD - Deployments - SelfManaged": "",
 
-	"CI - Operation": "SECTION",
-	"CI - Operation - MongoDB Shell": ""
+	"CD - Operation": "SECTION",
+	"CD - Operation - MongoDBShell": ""
 }
