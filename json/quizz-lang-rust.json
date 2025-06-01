@@ -207,7 +207,7 @@
 	"CI - Architecture - Structure - Functions - Methods - example": "methods are associated functions that are called on a particular instance of a type.",
 	"CI - Architecture - Structure - Functions - Closures": "Closures are functions that can capture the enclosing environment. Closures are powerful anonymous functions that capture their own environment and can be saved in a variable and also passed to other functions as arguments.",
 	"CI - Architecture - Structure - Functions - HRTBs": "Higher-Ranked Trait Bounds (HRTB) allow for functions that accept generic parameters with lifetimes that are themselves generic.",
-	"CI - Architecture - Patterns": "",
+	"CI - Architecture - Patterns": "https://medium.com/@vermatanisha666/how-rust-killed-the-gang-of-four-the-hidden-war-between-ownership-and-design-patterns-405220e02026",
 	"CI - Architecture - Patterns - SingleFlight": "https://medium.com/rustaceans/singleflight-scenario-implementation-based-on-tokio-notify-b70e7697d6e8",
 	"CI - Architecture - OO": "",
 

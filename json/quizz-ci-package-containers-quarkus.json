@@ -1,7 +1,55 @@
 {
-	"Quarkus": "SECTION"
+	"Quarkus": "SECTION",
+	"Quarkus ": "Quarkus is an open-source stack of technologies with MicroProfile support aimed at optimizing Jakarta EE for building microservices.",
+	"Quarkus - 1.0 - March 2020": "First stable release.",
+	"Quarkus - 2.0 - July 2021": "Major improvements in Dev UI, Reactive SQL, and Hibernate Reactive.",
+	"Quarkus - 3.0 - June 2023": "Big upgrade to Jakarta EE 10, new extensions, and performance improvements.",
+	"Quarkus - 4.0": ".",
 
+	"Quarkus - Controllers": "",
+	"Quarkus - Controllers - Patterns": "Quarkus supports both imperative and reactive programming models.",
+	"Quarkus - Controllers - Patterns - Imperative": "Imperative programming is the traditional way of writing Java applications, where commands are executed sequentially.",
+	"Quarkus - Controllers - Patterns - Reactive": "Reactive programming is an event-driven approach that allows for handling large volumes of asynchronous data efficiently. It’s especially useful in scenarios involving streaming, real-time data, or services that need to handle numerous concurrent requests.",
+	"Quarkus - Controllers - RESTEasy": "",
+	"Quarkus - Controllers - JakartaREST": "Jakarta RESTful Web Services, commonly known as Jakarta REST or JAX-RS, provides a standardized, annotation-based API for building RESTful web services in Java. It's a key specification in the Jakarta EE umbrella specification, enabling the creation of scalable and interoperable web services using the REST architectural style.",
+	"Quarkus - Controllers - JAX-RS": "",
+	"Quarkus - Controllers - Vert.X": "",
+	"Quarkus - Controllers - JakartaBeanValidation": "",
+	"Quarkus - Controllers - JakartaRESTfulWebServices": "",
+	"Quarkus - Controllers - JakartaJSONProcessing": "",
+	"Quarkus - Controllers - JakartaJSONBinding": "",
+	"Quarkus - Controllers - MicroProfileOpenAPI": "",
+	"Quarkus - Controllers - MicroProfileRESTClient": "",
+	"Quarkus - Controllers - MicroProfileReactiveStreamsOperators": "",
+	"Quarkus - Controllers - MicroProfileGraphQL": "",
+	"Quarkus - Controllers - MicroProfileLongRunningActions": "",
 
+	"Quarkus - Services": "",
+	"Quarkus - Services - ApacheKafka": "",
+	"Quarkus - Services - MicroProfile Reactive Messaging": "",
+	"Quarkus - Services - JavaCDI": "",
+	"Quarkus - Services - ApacheCamel": "",
 
+	"Quarkus - Repository": "",
+	"Quarkus - Repository - JakartaTransactions": "",
+	"Quarkus - Repository - JakartaPersistence": "",
+	"Quarkus - Repository - JakartaJakartaBatch": "",
+	"Quarkus - Repository - Hibernate": "",
+	"Quarkus - Repository - JPA": "",
+
+	"CI - Coding - MicroProfileJWTRBAC": "",
+	"CI - Coding - MicroProfileFaultTolerance": "",
+
+	"CI - Building - HotSpot": "",
+	"CI - Building - GraalVM": "",
+
+	"CD - Deploying - Kubernetes": "",
+
+	"CD - Monitoring - OpenTelemetry": "",
+	"CD - Monitoring - MicroProfileTelemetry": "",
+
+	"CD - Operation - MicroProfileConfig": "",
+	"CD - Operation - MicroProfileContextPropagation": "",
+	"CD - Operation - MicroProfileHealth": ""
 	
 }

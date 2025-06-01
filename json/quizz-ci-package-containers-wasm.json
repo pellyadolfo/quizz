@@ -1,0 +1,13 @@
+{
+  "WASM": "SECTION",
+
+  "WASM - Compile": "SECTION",
+
+  "WASM - Use": "SECTION",
+
+  "CI- Package": "SECTION",
+  "CI- Package - WASI": "WASI (WebAssembly System Interface) is a modular system interface for WebAssembly (Wasm) that enables developers to run Wasm programs on any platform, including the browser, the cloud, and the edge. WASI is designed to be secure, fast, and portable, allowing developers to write their programs once and run them anywhere.",
+  "CI- Package - WASIX": "WASIX is the long term stabiliization and support of the existing WASI ABI plus additional non-invasive syscall extensions that complete the missing gaps sufficiently enough to enable real, practical and useful applications to be compiled now. It aims to speed up the ecosystem around the WASI so that the WASM’ification of code bases around the world can really start today.",
+  "CI- Package - Tools - Wasmer": "https://wasmer.io/"
+
+}
