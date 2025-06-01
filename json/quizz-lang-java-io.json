@@ -23,6 +23,14 @@
 	"IOStreams - PrintStream": "",
 	"IOStreams - PrintWriter": "",
 
+	"JavaIO": "SECTION",
+	"JavaIO - NVM": "Non-volatile mapped byte buffers are a Java NIO feature that allows direct memory mapping of non-volatile memory (NVM) devices, providing persistent memory capabilities to Java applications.",
+	"JavaIO - NVM - Create": "MappedByteBuffer buffer = channel.map(FileChannel.MapMode.READ_WRITE, 0, size);",
+
+	"JavaNIO": "SECTION",
+	"JavaNIO 1": "",
+	"JavaNIO 2 - Java7": "",
+
 	"InternetAddressResolutionSPI": "SECTION",
 	"InternetAddressResolutionSPI - Java18": "In Java 18, a new Service Provider Interface (SPI) was introduced for customizable hostname and IP address resolution via JEP 418. This enhancement allows developers to replace the default DNS resolver with their own implementation, enabling better control over how Java applications resolve internet addresses.",
 
@@ -32,9 +40,6 @@
 	"DatagramSocketAPI - Components - DatagramPacket": "Represents a single UDP packet (data + destination address/port).",
 	"DatagramSocketAPI - Components - InetAddress": "Represents an IP address (used in DatagramPacket).",
 
-	"JavaIO": "SECTION",
-	"JavaIO - NVM": "Non-volatile mapped byte buffers are a Java NIO feature that allows direct memory mapping of non-volatile memory (NVM) devices, providing persistent memory capabilities to Java applications.",
-	"JavaIO - NVM - Create": "MappedByteBuffer buffer = channel.map(FileChannel.MapMode.READ_WRITE, 0, size);",
 
 	"HTTP/2 Client": "SECTION",
 
