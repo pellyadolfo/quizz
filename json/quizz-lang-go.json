@@ -14,6 +14,11 @@
 	"Logic": "SECTION",
 	"Logic - Async - Imperative": "Every function is by default async",
 
+	"CI - Integration": "SECTION",
+	"CI - Integration - Gin": "",
+	"CI - Integration - Fiber": "An Express-inspired web framework written in Go. Fiber is a Go web framework built on top of Fasthttp, the fastest HTTP engine for Go. It's designed to ease things up for fast development with zero memory allocation and performance in mind.",
+	"CI - Integration - Echo": "",
+
 	"CI - Applications": "SECTION",
 	"CI - Applications - Web - frameworks - Gin": ""
 
