@@ -166,7 +166,7 @@
 	"Features - Java21 - Language - ScopedValues": "Introduced.",
 	"Features - Java21 - Language - RecordPatterns": "Refined.",
 	"Features - Java21 - API - EncapsulationAPI": "Key Encapsulation Mechanism API (JEP 452). Introduced. A new KEM API to enable applications to use KEM algorithms.",
-	"Features - Java21 - JVM - VirtualThreads": "Java 21 introduced some new changes.",
+	"Features - Java21 - JVM - StructuredConcurrency": "Java 21 introduced some new changes.",
 	"Features - Java22": "",
 	"Features - Java22 - UnnamedVariablesAndPatterns": "",
 	"Features - Java22 - StatementsBeforeSuper": "",
