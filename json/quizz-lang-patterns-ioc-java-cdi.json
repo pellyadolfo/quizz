@@ -1,0 +1,52 @@
+{
+	
+	"CDI": "SECTION",
+	"CDI - CDI - JSR-330": "",
+	"CDI - CDI - JSR-250": "",
+	"CDI - CDI - 1.0": "",
+	"CDI - CDI - 2.0": "",
+	"CDI - CDI - 3.0": "",
+	"CDI - URL": "https://jakarta.ee/specifications/cdi/3.0/jakarta-cdi-spec-3.0",
+
+	"Container": "SECTION",
+	"Container - JavaContainer": "In Java SE, the CDI container must be explicitly bootstrapped by the user.",
+	"Container - JavaContainer - SeContainerInitializer": "This is performed by the SeContainerInitializer abstract class and its static method newInstance().",
+	"Container - JavaContainer - SeContainerInitializer - service": "SeContainerInitializer is a ServiceProvider of the service jakarta.enterprise.inject.se.SeContainerInitializer declared in META-INF/services. This class allows a user to configure the CDI container before it is bootstrapped.",
+	"Container - JavaContainer - Lifecycle - Create": "In Java SE, the CDI container must be explicitly bootstrapped by the user. This is performed by the SeContainerInitializer abstract class and its static method newInstance().",
+	"Container - JavaContainer - Lifecycle - Initialize": "The SeContainerInitializer.initialize() method bootstraps the container and returns a SeContainer instance.",
+	"Container - JavaContainer - Lifecycle - Shutdown": "User can shutdown the container manually by calling the close() method on SeContainer or automatically using try-with-resources since SeContainer extends AutoCloseable interface.",
+	"Container - JakartaContainer": ".",
+	
+	"@Stereotype": "SECTION",
+	"@Stereotype ": "A stereotype in CDI is a meta-annotation that groups together: Scope, Interceptor bindings, Other stereotypes, Additional qualifiers",
+	"@Stereotype - Declaration - @ManagedBean - JSR-250": "A managed bean is a bean that is implemented by a Java class. This class is called the bean class of the managed bean. The basic lifecycle and semantics of managed beans are defined by the Managed Beans specification.",
+	"@Stereotype - Declaration - @Named - JSR-330": "@Named belongs to javax.inject API. It marks class to be autodetected as a bean and requires you to specify a name.",
+	"@Stereotype - Resolution - Classes - Inject - Primary @Inject (JSR-330)": "@Inject is part of a Java CDI (Contexts and Dependency Injection)",
+	"@Stereotype - Resolution - Classes - Inject - Primary @Resource (JSR-250)": "Spring also supports injection by using the JSR-250 @Resource annotation on fields or bean property setter methods. @Resource(name='myMovieFinder') public void setMovieFinder(MovieFinder movieFinder) { ... }",
+	"@Stereotype - @Model": "",
+	"@Stereotype - @Mock": "",
+
+	"Beans": "SECTION",
+	"Beans - @Produces": "",
+	"Beans - Requirements": "In the context of Java, a bean is a reusable software component that adheres to specific conventions (e.g., having a no-argument constructor, being serializable, and providing getters and setters).",
+	"Beans - Requirements - Inner": "It is not an inner class.",
+	"Beans - Requirements - NoAbstract": "It is a non-abstract class, or is annotated @Decorator.",
+	"Beans - Requirements - Extension": "It does not implement jakarta.enterprise.inject.spi.Extension.",
+	"Beans - Requirements - @Vetoed": "It is not annotated @Vetoed or in a package annotated @Vetoed.",
+	"Beans - Requirements - Constructor": "It has an appropriate constructor - either: the class has a constructor with no parameters, or the class declares a constructor annotated @Inject.",
+
+	"DI": "SECTION",
+	"DI - Lifecycle": "",
+	"DI - Lifecycles - BeanManager": "",
+	"DI - Lifecycle - Mechanisms1 - @PostConstruct/@PreDestroy (JSR-250)": "The JSR-250 @PostConstruct and @PreDestroy annotations are generally considered best practice for receiving lifecycle callbacks in a modern Spring application. Using these annotations means that your beans are not coupled to Spring specific interfaces",
+	"DI - Scope": ".",
+	"DI - Scope - @RequestScoped": "The request context is provided by a built-in context object for the built-in scope type @RequestScoped.",
+	"DI - Scope - @SessionScoped": "The session context is provided by a built-in context object for the built-in passivating scope type @SessionScoped.",
+	"DI - Scope - @ApplicationScoped": "The application context is provided by a built-in context object for the built-in scope type @ApplicationScoped.",
+	"DI - Scope - @ConversationScoped": "The conversation context is provided by a built-in context object for the built-in passivating scope type @ConversationScoped.",
+	"DI - Method": ".",
+
+	"Environment ": "SECTION",
+	"Environment": "The Environment is an abstraction integrated in the container that models two key aspects of the application environment: profiles and properties."
+
+}
