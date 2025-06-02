@@ -670,7 +670,6 @@
 	"CI - Packaging - Modules - Config - module-info.java - requires transitive": "The dependency is mandatory at both compile-time and runtime and exposed to dependents.",
 	"CI - Packaging - Modules - Config - module-info.java - requires static": "The dependency is mandatory at compile-time but optional at runtime and not exposed to dependents.",
 	"CI - Packaging - Modules - Migration": "Designed to be backward-compatible (non-modular JARs still work via the 'unnamed module'). Gradual adoption possible (e.g., automatic modules for libraries not yet modularized).",
-	"CI - Packaging - Modules - Tools - JLinker - Java 9": "Create a tool that can assemble and optimize a set of modules and their dependencies into a custom run-time image as defined in JEP 220.",
 	"CI - Packaging - External - JNI": "",
 	"CI - Packaging - External - ForeignMemoryAccessAPI - Java14": "The Foreign Memory Access API is a modern Java feature (introduced in Java 14 as an incubator module and finalized in Java 22) that provides safe and efficient access to memory outside the Java heap, including native memory, persistent memory, and memory-mapped files.",
 	"CI - Packaging - External - ForeignMemoryAccessAPI - Components - MemorySegment": "Represents a contiguous region of memory.",
@@ -717,8 +716,6 @@
 	"CI - Packaging - Jar - MRJAR": "Multi-Release JAR (MRJAR) files, introduced in Java 9 and fully supported in Java 11, allow a single JAR file to contain different versions of class files targeting different Java versions. This enables backward compatibility while leveraging newer Java features where available.",
 	"CI - Packaging - Jar - MRJAR - JVM": "A single JAR can include version-specific implementations. The JVM automatically selects the right class files based on the runtime version.",
 	"CI - Packaging - Jar - MRJAR - MANIFEST.MF": "Multi-Release: true",
-	"CI - Packaging - Tools - JLink": "Create a minimal runtime (optional)",
-	"CI - Packaging - Tools - JLink - Java9": "jlink is a command-line tool introduced in Java 9 as part of Project Jigsaw (Java Platform Module System - JPMS). It allows you to create custom, minimized Java runtime images containing only the modules your application needs.",
 	"CI - Packaging - Tools - JPackage": "The packaging tool simplifies distribution of Java applications by providing native installation experiences for end users, eliminating the need for manual Java installation or complex deployment scripts."
 
 }

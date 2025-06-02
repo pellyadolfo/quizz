@@ -607,7 +607,7 @@
 	"Schema - Scenarios - SpringBoot - or spring.jpa.hibernate.ddl-auto": "Hibernate's behavior regarding table creation is controlled by the hibernate.hbm2ddl.auto property (or spring.jpa.hibernate.ddl-auto in Spring Boot)",
 	"Schema - Scenarios - create": "Drops existing tables and creates new ones every time the SessionFactory starts",
 	"Schema - Scenarios - create-drop": "Same as create, but also drops tables when SessionFactory closes (good for testing)",
-	"Schema - Scenarios - Update": "Updates the schema if needed (adds new columns, but won't remove columns or change data types)",
+	"Schema - Scenarios - Update": "Updates the schema if needed (adds new columns, but won't remove columns or change data types). Performance killer.",
 	"Schema - Scenarios - validate": "Validates the schema against your entities but makes no changes",
 	"Schema - Scenarios - none": "Does nothing with the schema (uses existing tables)"
 }
