@@ -12,7 +12,8 @@
 
 	"Camel": "SECTION",
 
-	"SpringIntegration": "SECTION"
+	"SpringIntegration": "SECTION",
+	"SpringIntegration ": "Spring Integration provides an extension of the Spring programming model to support the well known Enterprise Integration Patterns."
 
 
 }
