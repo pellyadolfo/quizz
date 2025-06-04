@@ -46,6 +46,11 @@
 
 	"CI - Coding - MicroProfileJWTRBAC": "",
 	"CI - Coding - MicroProfileFaultTolerance": "",
+	"CI - Coding - Migration - Spring - spring-boot-starter-web": "quarkus-resteasy (JAX-RS) or quarkus-vertx-web (Reactive)",
+	"CI - Coding - Migration - Spring - spring-data-jpa": "quarkus-hibernate-orm-panache",
+	"CI - Coding - Migration - Spring - spring-security": "quarkus-elytron-security or quarkus-oidc",
+	"CI - Coding - Migration - Spring - spring-cloud-config": "quarkus-config-yaml + Vault extensions",
+	"CI - Coding - Migration - Spring - spring-kafka": "quarkus-kafka-client",
 
 	"CI - Building - HotSpot": "",
 	"CI - Building - GraalVM": "",
