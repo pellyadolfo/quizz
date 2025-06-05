@@ -6,6 +6,12 @@
 	"Quarkus - 3.0 - June 2023": "Big upgrade to Jakarta EE 10, new extensions, and performance improvements.",
 	"Quarkus - 4.0": ".",
 
+	"Quarkus - Application": "SECTION",
+	"Quarkus - Application - Bootstrap - Automatic": "Quarkus applications typically start via io.quarkus.runtime.Quarkus, which initializes the framework automatically when the application runs.",
+	"Quarkus - Application - Bootstrap - Automatic - main": "Quarkus applications typically start via io.quarkus.runtime.Quarkus, which initializes the framework automatically when the application runs.",
+	"Quarkus - Application - Bootstrap - Custom": "If you do need custom logic at startup, you can define a main method in a class annotated with @io.quarkus.runtime.annotations.QuarkusMain.",
+	"Quarkus - Application - Bootstrap - Custom - Checks": "Running pre-startup checks (e.g., environment validation).",
+
 	"Quarkus - Controllers": "SECTION",
 	"Quarkus - Controllers ": "",
 	"Quarkus - Controllers - Patterns": "Quarkus supports both imperative and reactive programming models.",
@@ -98,7 +104,7 @@
 	"CD - Deploying - Libs - quarkus-container-image-jib": "Docker image building.",
 	"CD - Deploying - Libs - quarkus-openshift": "OpenShift support.",
 
-	"CI - Monitoring": "SECTION",
+	"CD - Monitoring": "SECTION",
 	"CD - Monitoring - OpenTelemetry": "",
 	"CD - Monitoring - MicroProfileTelemetry": "",
 	"CD - Monitoring - Libs": "",
@@ -106,7 +112,7 @@
 	"CD - Monitoring - Libs - quarkus-smallrye-metrics": "Metrics.",
 	"CD - Monitoring - Libs - quarkus-smallrye-opentracing": "Distributed tracing.",
 
-	"CI - Operation": "SECTION",
+	"CD - Operation": "SECTION",
 	"CD - Operation - MicroProfileConfig": "",
 	"CD - Operation - MicroProfileContextPropagation": "",
 	"CD - Operation - MicroProfileHealth": ""
