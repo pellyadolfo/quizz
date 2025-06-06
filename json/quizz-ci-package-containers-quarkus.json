@@ -86,9 +86,19 @@
 	"CI - Coding - Security - Libs - quarkus-oidc": "OpenID Connect support.",
 	"CI - Coding - Security - Libs - quarkus-keycloak-authorization": "Keycloak integration.",
 
+  "CI - Packaging": "SECTION",
+	"CI - Packaging - Maven": "./mvnw clean package -Dquarkus.container-image.build=true",
+	"CI - Packaging - Docker": "docker push my-docker-username/my-quarkus-app:1.0.0",
+	"CI - Packaging - Jib": "./mvnw package -Dquarkus.container-image.build=true -Dquarkus.container-image.builder=jib",
+
 	"CI - Building": "SECTION",
 	"CI - Building - HotSpot": "",
 	"CI - Building - GraalVM": "",
+
+	"CI - Integration": "SECTION",
+	"CI - Integration - Manifest": "Quarkus auto-generates target/kubernetes/kubernetes.yml.",
+	"CI - Integration - Manifest - apply": "kubectl apply -f target/kubernetes/kubernetes.yml",
+	"CI - Integration - Manifest - generate": "This will create: Deployment (manages Pods). Service (exposes the app internally). Ingress (if enabled, exposes externally).",
 
 	"CI - Testing": "SECTION",
 	"CI - Testing - Libs": "",
