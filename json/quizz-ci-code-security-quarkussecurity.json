@@ -1,4 +1,31 @@
 {
-	"QuarkusSecurity": "SECTION"
+	"QuarkusSecurity": "SECTION",
+	"QuarkusSecurity - Mechanism": "Quarkus Security uses HttpAuthenticationMechanism to extract the authentication credentials from the HTTP request and delegates them to IdentityProvider to convert the credentials to SecurityIdentity.",
+	"QuarkusSecurity - HttpAuthenticationMechanism": "The primary mechanism for securing HTTP applications in Quarkus is the HttpAuthenticationMechanism interface.",
+	"QuarkusSecurity - HttpAuthenticationMechanism - Fail": "When Quarkus Security rejects an authentication request, HttpAuthenticationMechanism returns an authentication challenge to the client. The type of challenge depends on the authentication mechanism.",
+	"QuarkusSecurity - IdentityProvider": "IdentityProvider verifies the authentication credentials and maps them to SecurityIdentity.",
+	"QuarkusSecurity - SecurityIdentity": "SecurityIdentity, which has the username, roles, original authentication credentials, and other attributes.",
+	"QuarkusSecurity - SecurityIdentity - Inject": "You can inject a SecurityIdentity instance for every authenticated resource to get the authenticated identity information.",
+	"QuarkusSecurity - SecurityIdentity - SecurityIdentityAugmentor": "Because Quarkus Security is customizable, you can, for example, add authorization roles to SecurityIdentity and register and prioritize one or more SecurityAugmentor implementations.",
+	"QuarkusSecurity - SecurityIdentity - SecurityIdentityAugmentor - Invokation": "Registered instances of SecurityIdentityAugmentor are invoked during the final stage of the security authentication process.",
+
+	"Auth": "SECTION",
+	"Auth - Mechanisms": "The Quarkus Security framework supports multiple authentication mechanisms, which can also be combined. Some supported authentication mechanisms are built into Quarkus, while others require you to add an extension.",
+	"Auth - Mechanisms - Credentials - Basic": "",
+	"Auth - Mechanisms - Credentials - FormBased": "",
+	"Auth - Mechanisms - Tickets - Kerberos": "",
+	"Auth - Mechanisms - Certificates - mTLS": "Quarkus provides mutual TLS (mTLS) authentication so that you can authenticate users based on their X.509 certificates.",
+	"Auth - Mechanisms - Certificates - mTLS - Certificates": ".",
+	"Auth - Mechanisms - Certificates - mTLS - Certificates - Config - KeyStore": "configure the quarkus.http.ssl.certificate.trust-store-file property with the name of the file that holds all the certificates your application trusts. quarkus.http.ssl.certificate.key-store-file-type=JKS  # or P12 or PEM",
+	"Auth - Mechanisms - Certificates - mTLS - Certificates - Config - TrustStore": "quarkus.http.ssl.certificate.trust-store-file-type=JKS  # or P12 or PEM",
+	"Auth - Mechanisms - Certificates - mTLS - Certificates - Supported - PEM": ".pem, .crt, and .key are read as PEM certificates and keys.",
+	"Auth - Mechanisms - Certificates - mTLS - Certificates - Supported - JKS": ".jks, .keystore, and .truststore are read as JKS keystores and truststores.",
+	"Auth - Mechanisms - Certificates - mTLS - Certificates - Supported - PKCS12": ".p12, .pkcs12, and .pfx are read as PKCS12 keystores and truststores.",
+	"Auth - Mechanisms - Certificates - WebAuthn": "",
+	"Auth - Mechanisms - Tokens - JWT": "",
+	"Auth - Mechanisms - Tokens - OIDC": "",
+
+	"Authz": "SECTION",
+	"Authz - Mechanisms - OAuth2": ""
 
 }

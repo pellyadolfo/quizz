@@ -97,7 +97,7 @@
 	"CI - Testing - Libs - quarkus-rest-client": "REST client testing.",
 	"CI - Testing - Libs - quarkus-mockito": "Mocking support.",
 
-	"CI - Deploying": "SECTION",
+	"CD - Deploying": "SECTION",
 	"CD - Deploying - Kubernetes": "",
 	"CD - Deploying - Libs": "",
 	"CD - Deploying - Libs - quarkus-kubernetes": "Kubernetes deployment.",
