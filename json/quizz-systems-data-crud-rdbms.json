@@ -1,4 +1,12 @@
 {
+	"RDBMS": "SECTION",
+	"RDBMS 0": "https://www.linkedin.com/posts/ajayyadav1996_sql-handwritten-notes-activity-7324313678801985536-SXvy/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"RDBMS 1": "https://www.linkedin.com/posts/ashishps1_the-internal-architecture-of-postgresql-explained-activity-7315224649435385858-iCp3?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"RDBMS 2": "https://www.linkedin.com/posts/sakshiku945_100-sql-commands-activity-7323194415949197312-7wD8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"RDBMS 3": "https://www.linkedin.com/posts/ajay026_repost-sql-dataengineering-activity-7336743830903238660-cOi9/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"RDBMS 4": "",
+	"RDBMS 5": "",
+	"RDBMS 6": "",
 
 	"PL-SQL": "SECTION",
 
@@ -37,7 +45,7 @@
 	"Querying - SQL - DQL - SELECT - DISTINCT": "",
 	"Querying - SQL - DQL - SELECT - JOIN": "A SQL clause used to combine and retrieve records from two or multiple tables. https://www.naukri.com/code360/library/sql-joins-interview-questions",
 	"Querying - SQL - DQL - SELECT - JOIN - Tools": "",
-	"Querying - SQL - DQL - SELECT - JOIN - Tools - LEFT JOIN": "All data from the left table but common data from the right table.",
+	"Querying - SQL - DQL - SELECT - JOIN - Tools - LEFT JOIN": "All data from the left table and common data from the right table.",
 	"Querying - SQL - DQL - SELECT - JOIN - Tools - ANTI LEFT JOIN": "All records from the left table that DON'T have a match in the right table.",
 	"Querying - SQL - DQL - SELECT - JOIN - Tools - INNER JOIN": "Only common data from both the tables.",
 	"Querying - SQL - DQL - SELECT - JOIN - Tools - OUTER JOIN": "All the data from both the tables keeping null values with no common keys.",

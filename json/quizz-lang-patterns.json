@@ -105,7 +105,23 @@
 	"FunctionalProgramming - Logic - Functions  - Closures": "A function captures ('closes over') its surrounding environment. Example: A nested function accessing variables from its parent scope.",
 	"FunctionalProgramming - Logic - Functions  - Currying": "Converting a multi-argument function into a sequence of single-argument functions.",
 	"FunctionalProgramming - Logic - Functions  - PartialApplication": "Fixing some arguments of a function to create a new function.",
-	"FunctionalProgramming - Logic - Functions  - TailCallOptimization": "Optimizes recursive functions to avoid stack overflow by reusing stack frames. Example: Some functional languages optimize tail-recursive functions."
+	"FunctionalProgramming - Logic - Functions  - TailCallOptimization": "Optimizes recursive functions to avoid stack overflow by reusing stack frames. Example: Some functional languages optimize tail-recursive functions.",
+
+	"IoC": "SECTION",
+	"IoC - Spring - 2003": "Introduced XML-based IoC (BeanFactory, ApplicationContext). Popularized DI before Java had a standard.",
+	"IoC - JSR250 - 2006": "JSR-250: Common Annotations (2006). Introduced @PostConstruct, @PreDestroy, @Resource. Used in Java EE 5 (not full DI, but lifecycle management).",
+	"IoC - JSR299 - 2009": "JSR-299: CDI. Java Contexts and Dependency Injection (CDI, 2009). First official DI standard for Java EE (later Jakarta EE). Features: @Inject (from JSR-330), scopes (@RequestScoped), events, interceptors.",
+	"IoC - JSR299 - Implementations - Weld": "Implemented by Weld (reference implementation).",
+	"IoC - JSR330 - 2009": "JSR-330: Dependency Injection for Java (2009). Minimal DI standard (@Inject, @Singleton, @Named).",
+	"IoC - JSR330 - Implementations - Guice": "Google.",
+	"IoC - JSR330 - Implementations - Spring 3+": ".",
+	"IoC - JSR330 - Implementations - Dagger1": "Dagger (Square, later Google).",
+	"IoC - JSR330 - Implementations - Dagger2": ".",
+	"IoC - JSR365 - 2017": "CDI 2.0+ - Jakarta EE (Formerly Java EE) - Async events, @ConfigProperty, better modularity.",
+	"IoC - Jakarta EE 9+ - ": "CDI 3.0 - Jakarta EE 9+ - Supports GraalVM, MicroProfile.",
+	"IoC - JSR365 - Implementations - Micronaut": "Compile-time DI (like Dagger) for serverless/cloud. Works with Jakarta CDI annotations.",
+	"IoC - JSR365 - Implementations - Arc": "Quarkus (2019). Optimized for Kubernetes + GraalVM. Uses CDI Lite (subset of CDI for faster startup).",
+	"IoC - JSR365 - Implementations - Spring 5+": "Spring 5+ (2017–Present). Still dominant but now aligns with JSR-330 (@Inject). Spring Native (GraalVM support) competes with Micronaut/Quarkus."
 
 
 }

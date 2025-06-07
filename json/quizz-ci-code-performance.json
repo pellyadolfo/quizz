@@ -9,7 +9,7 @@
 	"Performance 5": "https://medium.com/@yewang222/i-tried-running-a-billion-requests-through-5-web-frameworks-heres-what-survived-e7e8c418fd3b",
 	"Performance 6": "https://www.linkedin.com/posts/piyush-ranjan-9297a632_boost-your-api-performance-key-strategies-activity-7331522789146783744-Iryu?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"Performance 7": "https://www.linkedin.com/posts/santhoshjampala_approach-for-handling-sudden-increase-in-activity-7334335401706311683-5FbZ?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
-	"Performance 8": "",
+	"Performance 8": "https://www.linkedin.com/posts/riyazsayyad_cdn-is-the-secret-to-faster-more-secure-activity-7313519474391822338-_I2d/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"Performance 9": "",
 	"Performance 10": "",
 
@@ -27,12 +27,11 @@
 	"Infra - LoadBalancing": "Avoid server overload by distributing user requests across multiple servers. This keeps traffic flowing smoothly and improves uptime.",
 
 	"Processing": "SECTION",
-	"Processing - Asynchronous": "For write-intensive operations, we can leverage message queues like Kafka or RabbitMQ to handle tasks asynchronously, reducing the immediate load on the database.",
 	"Processing - LoadBalancing": "Add a load balancer to distribute queries across multiple database instances, ensuring no single node becomes a bottleneck.",
 	"Processing - JWTAuthentication": ".",
 	"Processing - NoStickySessions": ".",
-	"Processing - Async": "Run background jobs using worker systems to handle heavy tasks. This keeps your app responsive by freeing up the main thread.",
 	"Processing - Compression": "Use formats like Gzip or Brotli to compress files before sending them. Smaller files mean faster transfers and less bandwidth usage.",
+	"Processing - Async": "Run background jobs using worker systems to handle heavy tasks. This keeps your app responsive by freeing up the main thread.",
 	"Processing - Server - SpringBoot - 3.5": "A comprehensive analysis of Spring Boot 3.5 reveals remarkable performance enhancements across all critical metrics when compared to version 3.0.",
 	"Processing - Server - ByPerformance": "",
 	"Processing - Server - ByPerformance - Quarkus": "Quarkus killing SpringBoot",
@@ -40,6 +39,7 @@
 	"Processing - Server - ByPerformance - SpringBoot": "",
 
 	"Middleware": "SECTION",
+	"Middleware - Asynchronous": "For write-intensive operations, we can leverage message queues like Kafka or RabbitMQ to handle tasks asynchronously, reducing the immediate load on the database.",
 	"Middleware - VM - VirtualThreads": ".",
 	"Middleware - VM - VirtualThreads - SpringBoot": "spring.threads.virtual.enabled=true - This enables virtual thread-per-request, making it extremely cheap to scale HTTP connections.",
 	"Middleware - VM - StructuredConcurrency": ".",
