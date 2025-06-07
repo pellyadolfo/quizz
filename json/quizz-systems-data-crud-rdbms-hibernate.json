@@ -609,5 +609,8 @@
 	"Schema - Scenarios - create-drop": "Same as create, but also drops tables when SessionFactory closes (good for testing)",
 	"Schema - Scenarios - Update": "Updates the schema if needed (adds new columns, but won't remove columns or change data types). Performance killer.",
 	"Schema - Scenarios - validate": "Validates the schema against your entities but makes no changes",
-	"Schema - Scenarios - none": "Does nothing with the schema (uses existing tables)"
+	"Schema - Scenarios - none": "Does nothing with the schema (uses existing tables)",
+	"Schema - Validation - Approach - NewProjects": "For new projects: Define validations in code first (DDD-style), then generate DB schema via Hibernate hbm2ddl.",
+	"Schema - Validation - Approach - Legacy": "For legacy DBs: Use Hibernate Tools or JPA Buddy for reverse engineering."
+
 }
