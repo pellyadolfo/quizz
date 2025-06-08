@@ -68,6 +68,7 @@
 	"Integration Testing": "Integration tests validate how your code interacts with other parts of the system.",
 	"E2E Testing": "",
 	"Smoke Testing": "",
+	"SliceTesting": "Slice testing is a testing methodology that isolates and tests specific parts of a program or system to understand its behavior or to identify potential issues related to a particular data element or variable. It can be used in various contexts, including software testing, data analysis, and even in fields like genetics. In software testing, slice testing involves creating smaller, more manageable subsets of a program for testing. This can be done by statically identifying the code that affects a specific variable or by dynamically executing slices with specific input values. Static slicing extracts code that determines a variable's value, while dynamic slicing executes these extracted slices with specific variable values. This approach simplifies the testing process by decomposing the program into smaller, independent components. ",
 
 	"automated testing": "SECTION",
 	"Automated Testing": "",

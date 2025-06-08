@@ -6,6 +6,8 @@
 
 	"XML-RPC": "SECTION",
 
+	"JSON-RPC": "SECTION",
+
 	"JAX-RPC": "SECTION",
 
 	"CORBA": "SECTION",

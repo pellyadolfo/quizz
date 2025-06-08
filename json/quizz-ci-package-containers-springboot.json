@@ -262,6 +262,7 @@
 	"CD - Testing - DevTools - DebugRemote - parts": "Remote devtools support is provided in two parts: a server-side endpoint that accepts connections and a client application that you run in your IDE.",
 	"CD - Testing - DevTools - DebugRemote - enabling": "spring.devtools.remote.secret - The server component is automatically enabled when the spring.devtools.remote.secret property is set.",
 	"CD - Testing - DevTools - DebugRemote - acccessing": "spring.devtools.remote.proxy.host, spring.devtools.remote.proxy.port - If you need to use a proxy to access the remote application, configure the spring.devtools.remote.proxy.host and spring.devtools.remote.proxy.port properties.",
+	"CI - Testing - SliceTesting - Spring3.2": "Spring Boot 3’s support for Slice Testing and Testcontainers integration made my test suite run 3x faster. No more waiting for the whole context to load for every test. Each layer was isolated and fast.",
 
 	"CD - Operate": "SECTION",
 	"CD - Operate - JMX": "Java Management Extensions (JMX) provide a standard mechanism to monitor and manage applications. By default, Spring Boot creates an MBeanServer bean with an ID of mbeanServer and exposes any of your beans that are annotated with Spring JMX annotations (@ManagedResource, @ManagedAttribute, or @ManagedOperation).",
@@ -309,5 +310,6 @@
 	"CD - Monitor - Actuators - endpoint heapdump": "Returns a GZip compressed hprof heap dump file.",
 	"CD - Monitor - Actuators - endpoint jolokia": "Exposes JMX beans over HTTP (when Jolokia is on the classpath, not available for WebFlux).",
 	"CD - Monitor - Actuators - endpoint logfile": "Returns the contents of the logfile (if logging.file or logging.path properties have been set). Supports the use of the HTTP Range header to retrieve part of the log file’s content.",
-	"CD - Monitor - Actuators - endpoint prometheus": "Exposes metrics in a format that can be scraped by a Prometheus server."
+	"CD - Monitor - Actuators - endpoint prometheus": "Exposes metrics in a format that can be scraped by a Prometheus server.",
+	"CD - Monitor - Tracing - Spring3.2": "Spring Boot 3.2 has native support for Micrometer + OpenTelemetry. That meant traces, logs, and metrics flowed into Grafana and Jaeger with almost no extra code. management.tracing.enabled: true - management.tracing.enabled.sampling.probability: 1.0"
 }
