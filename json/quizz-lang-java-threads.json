@@ -182,12 +182,15 @@
 	"Threads - Virtual - ConcurrencyModel - StructuredConcurrency - StructuredTaskScope - ShutdownOnSuccess": "",
 	"Threads - Virtual - ConcurrencyModel - StructuredConcurrency - Example": "try (var scope = StructuredTaskScope.ShutdownOnSuccess<String>()) { scope.fork(() -> fetchFromApi1()); scope.fork(() -> fetchFromApi2()); scope.join(); return scope.result(); }",
 	"Threads - Virtual - ConcurrencyModel - StructuredConcurrency - Error": "try (var scope = new StructuredTaskScope.ShutdownOnFailure()) { scope.fork(() -> slowService()); scope.fork(() -> flakyService()); scope.join(); scope.throwIfFailed(); }",
-	"Threads - Virtual - ConcurrencyModel - Locks - Pinning": "Virtual threads in Java (introduced in Java 19 as a preview feature and stabilized in Java 21) are lightweight threads that allow efficient scaling to millions of concurrent operations. However, synchronization can cause 'pinning' where the virtual thread gets bound to a carrier thread, reducing scalability benefits.",
-	"Threads - Virtual - ConcurrencyModel - Locks - Pinning - Avoid - ReentrantLock": ".",
-	"Threads - Virtual - ConcurrencyModel - Locks - Pinning - Avoid - ConcurrentDataStructures": ".",
-	"Threads - Virtual - ConcurrencyModel - Locks - Pinning - Avoid - AtomicClasses": ".",
-	"Threads - Virtual - ConcurrencyModel - Locks - Pinning - Avoid - Semaphore": ".",
-	"Threads - Virtual - ConcurrencyModel - Locks - Pinning - Avoid - CountDownLatch": ".",
-	"Threads - Virtual - ConcurrencyModel - Locks - Pinning - Avoid - Phaser": "."
+	"Threads - Virtual - ConcurrencyModel - Synchronized - Pinning": "Synchronization of VirtualThreats can cause 'pinning' where the virtual thread gets bound to a carrier thread, reducing scalability benefits.",
+	"Threads - Virtual - ConcurrencyModel - Synchronized - Pinning - eg": "If the read(buf) method blocks due to unavailable data, the virtual thread remains pinned, occupying the carrier thread and preventing it from executing other virtual threads.",
+	"Threads - Virtual - ConcurrencyModel - Synchronized - Pinning - Fix - Locks": "We needed to fix this problem by using Java Lock objects.",
+	"Threads - Virtual - ConcurrencyModel - Synchronized - Pinning - Fix - Locks - Avoid - ReentrantLock": ".",
+	"Threads - Virtual - ConcurrencyModel - Synchronized - Pinning - Fix - Locks - Avoid - ConcurrentDataStructures": ".",
+	"Threads - Virtual - ConcurrencyModel - Synchronized - Pinning - Fix - Locks - Avoid - AtomicClasses": ".",
+	"Threads - Virtual - ConcurrencyModel - Synchronized - Pinning - Fix - Locks - Avoid - Semaphore": ".",
+	"Threads - Virtual - ConcurrencyModel - Synchronized - Pinning - Fix - Locks - Avoid - CountDownLatch": ".",
+	"Threads - Virtual - ConcurrencyModel - Synchronized - Pinning - Fix - Locks - Avoid - Phaser": ".",
+	"Threads - Virtual - ConcurrencyModel - Synchronized - NoPinning - Java24": "Now in Java 24, JVM handling of synchronization allows virtual threads to unmount from their carrier threads even when blocked within synchronized blocks or methods."
 
 }
