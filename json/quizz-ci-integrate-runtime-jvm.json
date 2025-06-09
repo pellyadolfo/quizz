@@ -67,6 +67,7 @@
 	"CI - Building - BytecodeToNative - AoT - GraalVM - Distributions - OracleGraalVMCommunityEdition": ".",
 	"CI - Building - BytecodeToNative - AoT - GraalVM - Distributions - OracleGraalVMEnterpriseEdition": ".",
 	"CI - Building - BytecodeToNative - AoT - GraalVM - Distributions - Mandrel": "Mandrel is a downstream distribution of the Oracle GraalVM CE. Mandrel’s main goal is to provide a way to build native executables specifically designed to support Quarkus.",
+	"CI - Building - BytecodeToNative - AoT - GraalVM - AoT": "It supports ahead-of-time (AOT) compilation, reducing runtime overhead dramatically. ",
 	"CI - Building - BytecodeToNative - AoT - ExcelsiorJET": "",
 	"CI - Building - BytecodeToNative - AoT - AzulZulu": "",
 	"CI - Building - BytecodeToNative - AoT - AndroidRuntime": "",
@@ -224,7 +225,7 @@
 	"CI - Integration - Memory - Heap - GC - Types - GC Interface (Java 10)": "Before Java10, the garbage collector code was fragmented in places scattered all over the HotSpot sources. As the JEP states: Adding a new garbage collector should be a matter of implementing a well documented set of interfaces, rather than figuring out all the places in HotSpot that needs changing. The aim is to refactor the HotSpot code so that GC implementations are mostly contained within source files in their respective directories, with as little code as possible outside of them. This code should also be used minimally outside of these directories (any code shared between GC’s should be placed in a helper class), and there should be very few GC specific if-else branches. Finally, as is usually the case, performance should not regress because of any changes made. This should also greatly improve the overall code quality.",
 	"CI - Integration - Memory - Heap - GC - Types - GC1 - Parallel G1 (Java 10)": "The aim of this JEP is pretty much what it says on the tin – to parallelise G1’s full GC algorithm to improve performance. Due to the fact that G1 divides the memory up into regions, this change will most likely result in a little more wasted space (compared to a single-threaded algorithm), but in return you get a little boost to throughput and potentially your application’s performance as it’ll be spending less time performing full collections.",
 	"CI - Integration - Memory - Heap - GC - Types - GC1 - XX:ParallelGCThreads (Java 10)": "You can also customise how many threads are used with the option -XX:ParallelGCThreads, though keep in mind that this will also affect the number of threads used for the Young and Mixed / minor collections too.",
-	"CI - Integration - Memory - Heap - GC - Types - ZGC - Java11": "",
+	"CI - Integration - Memory - Heap - GC - Types - ZGC - Java11": "ZGC (-XX:+UseZGC) shines in ultra-low-latency scenarios.",
 	"CI - Integration - Memory - Heap - GC - Types - Shenandoah - Java12": "Shenandoah is an ultra-low-pause-time garbage collector introduced in Java as an experimental feature (JEP 189 in Java 12) and later stabilized (JEP 379 in Java 15). It is designed to reduce GC pause times dramatically, even with large heaps, making it ideal for latency-sensitive applications.",
 	"CI - Integration - Memory - Heap - GC - Types - GenerationalZGC - Java15": "",
 
