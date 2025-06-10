@@ -100,6 +100,7 @@
 	"Data - Scaling - QueryOptimization - LIMITQueries": ".",	
 	"Data - Design - Denormalize": "For performance-critical applications, we can selectively denormalize certain tables to optimize read-heavy operations.",
 	"Data - Design - Normalize": "Start with a normalized schema to eliminate redundancy and ensure consistency.",
+	"Data - Design - LEFTJOIN": "Each LEFT JOIN in the original query scanned full tables and recalculated aggregates per row. With pre-aggregated CTEs, the query planner works with far less data.",
 
 	"CI - Coding": "SECTION",
 	"CI - Coding - ArrowFuntions": "https://javascript.plainenglish.io/the-javascript-interview-question-thats-failing-senior-developers-929a884294e7",
@@ -137,8 +138,17 @@
 	"CI - Integration - VM - StructuredConcurrency": ".",
 	"CI - Integration - Execution - Loading - AoT": "",
 	"CI - Integration - Execution - Linking - AoT": "",
+	"CI - Integration - Execution - Bootstrap": "",
+	"CI - Integration - Execution - Bootstrap - SpringBoot - LazyInitialization": "spring.main.lazy-initialization=true",
+	"CI - Integration - Execution - Bootstrap - SpringBoot - ComponentScanning": "Spring Boot’s @ComponentScan scans all packages under your root, which can be slow if you have a large codebase. Limit the scan scope to specific packages. @ComponentScan(basePackages = {'com.yourapp.core', 'com.yourapp.service'})",
+	"CI - Integration - Execution - Bootstrap - SpringBoot - AutoConfigurations": "Disable Unused Auto-Configurations Spring Boot auto-configures features like JPA, JDBC, or Thymeleaf, even if you don’t use them. Exclude unnecessary configurations to skip their initialization.",
+	"CI - Integration - Execution - Bootstrap - SpringBoot - OptimizeDI": "Spring’s dependency injection can be slow if you have circular dependencies or over-inject beans. Use constructor injection and avoid @Autowired on fields. Constructor injection resolves dependencies at bean creation, avoiding runtime reflection.",
+	"CI - Integration - Execution - Bootstrap - SpringBoot - DisableSpringBootDevTools": "Use Spring Boot DevTools Sparingly. Spring Boot DevTools is great for development, but it adds overhead by enabling features like automatic restarts. Disable it in production.",
 	"CI - Integration - Execution - GC - ZGC": "ZGC (-XX:+UseZGC) shines in ultra-low-latency scenarios.",
-	"CI - Integration - Memory - CDS": "Enable Class Data Sharing with -Xshare:on to speed up startup and reduce memory footprint."
+	"CI - Integration - Memory - CDS": "Enable Class Data Sharing with -Xshare:on to speed up startup and reduce memory footprint.",
+
+	"CI - Monitor": "SECTION",
+	"CI - Monitor - SQL - EXPLAIN": "Monitor the execution plan (EXPLAIN ANALYZE) to verify benefit — sometimes a subquery performs better than a CTE, depending on the database."
 
 }
 

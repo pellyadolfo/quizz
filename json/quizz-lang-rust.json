@@ -5,7 +5,7 @@
 	"Rust 2": "https://medium.com/rustaceans/a-plugin-system-for-rust-but-not-only-using-webassembly-26bb3d327c10",
 	"Rust 3": "https://medium.com/rustaceans/turbocharge-your-rust-docker-builds-a-journey-to-faster-ci-cd-bf776e484e17",
 	"Rust 4": "https://medium.com/rustaceans/rust-powered-apis-with-axum-a-complete-2025-guide-213a28bb44ac",
-	"Rust 5": "",
+	"Rust 5": "https://medium.com/rustaceans/mastering-async-rust-conquering-the-hard-mode-for-fearless-concurrent-applications-527b77b67c8a",
 	"Rust 6": "",
 	"Rust 7": "",
 	"Rust - description": "Rust is a systems programming language that focuses on safety, concurrency, and performance. It was developed by Mozilla Research and first appeared in 2010. Rust aims to address common pitfalls in programming, such as memory safety issues, data races, and undefined behavior, often found in languages like C and C++.",
