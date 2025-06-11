@@ -1,0 +1,25 @@
+{
+
+	"Actors": "SECTION",
+	"actors 0": "",
+	"actors 1": "",
+	"actors 2": "",
+	"actors 3": "",
+	"actors 4": "",
+	"Actors - Usage - Stateful": "Each actor manages its own state thread-safely (no locks, no shared mutable state).",
+	"Actors - Usage - Scale": "Akka Cluster allows actors to scale horizontally seamlessly (remote actors behave like local ones).",
+	"Actors - Usage - Latency": "Actors handle millions of messages per second with minimal overhead.",
+	"Actors - Usage - Performance - InMemory": "Actors communicate via direct in-memory messaging (no serialization/network hops).",
+	"Actors - Usage - Performance - InMemory - NoSerialization": "No serialization/deserialization (for local actors).",
+	"Actors - Usage - Performance - InMemory - NetworkLatency": "No network latency (unless using remote actors).",
+	"Actors - Usage - Performance - InMemory - Throughput": "Mailboxes optimize throughput (vs. broker queue overhead).",
+	"Actors - Usage - FaultTolerance - Hierarchies": "Actors use supervision hierarchies (self-healing at the component level).",
+	"Actors - Usage - FaultTolerance - Concurrency - NoRaceConditions": "No locks, no race conditions (each actor processes messages sequentially).",
+	"Actors - Usage - FaultTolerance - Concurrency - Easier": "Easier to reason about than threaded code + broker consumers.",
+	"Actors - Avoid - Persistence": "You need persistent message storage (use a broker + DB).",
+	"Actors - Avoid - FanOut ": "You need pub-sub with fan-out (actors are 1:1 or 1:few by default).",
+
+	"Akka": "SECTION",
+	"Akka - ": ""
+
+}
