@@ -73,6 +73,14 @@
 	"CloudComponents - Databases - DataWarehousing": "Redshift / Azure Synapse Analytics / BigQuery",
 	"CloudComponents - Databases - InMemoryDatabase": "ElastiCache (Redis/Memcached) / Azure Cache for Redis / Cloud Memorystore",
 
+	"Cloud - AWS": "",
+	"Cloud - Azure": "",
+	"Cloud - Hashicorp": "",
+	"Cloud - GCP": "",
+	"Cloud - Akamai": "",
+	"Cloud - DigitalOcean": "",
+	"Cloud - IBM Cloud": "",
+
 	"Multitenancy": "SECTION",
 	"Multitenancy ": "Multi-tenancy is a cloud computing architecture where multiple customers (tenants) share the same computing resources while keeping their data and applications isolated. It allows cloud providers to serve multiple users efficiently from a single infrastructure."
 

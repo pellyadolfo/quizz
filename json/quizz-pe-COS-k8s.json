@@ -749,6 +749,19 @@
   "K8s Market - Extensions - DNS": "While the other addons are not strictly required, all Kubernetes clusters should have cluster DNS, as many examples rely on it. Cluster DNS is a DNS server, in addition to the other DNS server(s) in your environment, which serves DNS records for Kubernetes services. Containers started by Kubernetes automatically include this DNS server in their DNS searches.",
   "K8s Market - Extensions - Web UI": "Dashboard is a general purpose, web-based UI for Kubernetes clusters. It allows users to manage and troubleshoot applications running in the cluster, as well as the cluster itself.",
   "K8s Market - Extensions - Container Resource Monitoring": "Container Resource Monitoring records generic time-series metrics about containers in a central database, and provides a UI for browsing that data..",
-  "K8s Market - Extensions - Cluster-level Logging": "A Cluster-level logging mechanism is responsible for saving container logs to a central log store with search/browsing interface."
+  "K8s Market - Extensions - Cluster-level Logging": "A Cluster-level logging mechanism is responsible for saving container logs to a central log store with search/browsing interface.",
+	"K8s Market - Implementations": "https://collabnix.github.io/kubetools/",
+  "K8s Market - Implementations - Minikube": ".",
+	"K8s Market - OnPremisse": "",
+  "K8s Market - OnPremisse - kubeadm": "",
+  "K8s Market - OnPremisse - K3s": "",
+  "K8s Market - OnPremisse - Rancher": "",
+  "K8s Market - OnPremisse - OCP": "Openshift",
+  "K8s Market - Cloud - ControlPlane": "Not need to manage ControlPlane",
+  "K8s Market - Cloud - AWS EKS": "",
+  "K8s Market - Cloud - Azure AKS": "Azure kubernetes Service",
+  "K8s Market - Cloud - Google GKE": "Google Kubernetes Engine",
+  "K8s Market - Cloud - DigitalOceanKubernetes": "",
+  "K8s Market - Cloud - IBM KubernetesService": ""
 
 }
