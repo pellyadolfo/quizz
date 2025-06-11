@@ -11,6 +11,8 @@
 	"Data - Structured - Types - OLPT": "",
 	"Data - Structured - Types - OLAP": "",
 	"Data - SemiStructured": "It includes some variability and inconsistency within data that makes it difficult to store until you don't process and organize it. ➡ Having sources such as XML, JSON, dictionary, Entity Relationship Graph data and more. These can be further segregated as Document, Graph, Wide Columnar, Key-Value and others. ",
-	"Data - Unstructured": "Unstructured Database - Unorganized, unstructured data that can be in any raw format from social media post, chats, to images, videos, unstructured log files, PDF's and more.  ➡ To handle these, we can access HDFS, S3, Blob Storage or Cloud Storage."
+	"Data - Unstructured": "Unstructured Database - Unorganized, unstructured data that can be in any raw format from social media post, chats, to images, videos, unstructured log files, PDF's and more.  ➡ To handle these, we can access HDFS, S3, Blob Storage or Cloud Storage.",
 
+	"DataLake": "https://www.linkedin.com/posts/pooja-jain-898253106_data-engineering-bigdata-activity-7338520608026017793-9TvX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ"
+	
 }

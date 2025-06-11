@@ -47,7 +47,7 @@
 	"Patterns - Propagation - Bulkhead - Partition": "Partition resources (thread pools, connections, instances).",
 	"Patterns - Propagation - Bulkhead - Tools - Resilience4j": "",
 	"Patterns - Propagation - Redundancy": "",
-	"Patterns - SelfHrealing - AutoRestart": "Auto-restart unhealthy containers (Kubernetes).",
+	"Patterns - SelfHealing - AutoRestart": "Auto-restart unhealthy containers (Kubernetes).",
 	"Patterns - Test - HealthCheck": "Detect and recover from failures automatically.",
 	"Patterns - Test - HealthCheck - LivenessProbes": "Liveness probes (is the service running?).",
 	"Patterns - Test - HealthCheck - ReadinessProbes": "Readiness probes (can it accept traffic?).",
