@@ -1,0 +1,38 @@
+{
+
+
+	"BareMetal": "SECTION",
+
+	"VMs": "SECTION",
+
+	"Cloud": "SECTION",
+
+	"ContainersOnVM": "SECTION",
+	"ContainersOnVM ": "Perhaps most surprising is a growing number of companies returning to simpler deployment models — running containers directly on virtual machines with basic orchestration tools like Docker Compose for local development and systemd or supervisor for production.",
+	"ContainersOnVM - Tools - DockerCompose": "Perhaps most surprising is a growing number of companies returning to simpler deployment models — running containers directly on virtual machines with basic orchestration tools like Docker Compose for local development and systemd or supervisor for production.",
+
+  "ContainerOrchestrator": "SECTION",
+  "ContainerOrchestrator - Tools - Kubernetes": "",
+	"ContainerOrchestrator - Tools - AWS ECS": "SECTION",
+  "ContainerOrchestrator - Tools - AWS ECS ": "ECS (Elastic Container Service) has been around longer than Kubernetes itself, while App Runner takes simplicity even further by abstracting away nearly all container management concerns.",
+
+	"ServerlessContainerPlatforms": "SECTION",
+	"ServerlessContainerPlatforms ": "Serverless container platforms enable developers to run containers without managing the underlying infrastructure, offering a streamlined experience for deploying and scaling containerized applications. These platforms handle tasks like server provisioning, scaling, and maintenance, allowing developers to focus on application code",
+	"ServerlessContainerPlatforms - Features": "These platforms handle scaling (including down to zero), networking, and operation of the container runtime environment with minimal configuration. Developers simply provide a container image, and the platform does the rest.",
+	"ServerlessContainerPlatforms - Tools - GoogleCloudRun": "",
+	"ServerlessContainerPlatforms - Tools - AzureContainerApps": "",
+	"ServerlessContainerPlatforms - Tools - AWS Fargate": "",
+
+	"WorkloadOrchestrator": "SECTION",
+	"WorkloadOrchestrator - Tools": ".",
+	"WorkloadOrchestrator - Tools - HashicorpNomad": "HashiCorp’s Nomad has existed in Kubernetes’ shadow for years, but that’s changing. Its architecture is deliberately simpler while still offering surprising flexibility — it can orchestrate not just containers but also traditional applications and batch jobs.",
+
+	"InternalDeveloperPlatforms": "SECTION",
+	"InternalDeveloperPlatforms ": "internal developer platforms that abstract away infrastructure complexity.",
+	"InternalDeveloperPlatforms - Tools": "This approach allows organizations to retain Kubernetes’ power while addressing its usability challenges. It requires investment in platform engineering but can dramatically improve developer experience.",
+	"InternalDeveloperPlatforms - Tools - Backstage": "",
+	"InternalDeveloperPlatforms - Tools - Porter": "",
+	"InternalDeveloperPlatforms - Tools - Humanitec": ""
+
+}
+
