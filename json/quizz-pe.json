@@ -1,6 +1,5 @@
 {
 
-
 	"BareMetal": "SECTION",
 
 	"VMs": "SECTION",
@@ -13,7 +12,7 @@
 
   "ContainerOrchestrator": "SECTION",
   "ContainerOrchestrator - Tools - Kubernetes": "",
-	"ContainerOrchestrator - Tools - AWS ECS": "SECTION",
+	"ContainerOrchestrator - Tools - AWS ECS": "",
   "ContainerOrchestrator - Tools - AWS ECS ": "ECS (Elastic Container Service) has been around longer than Kubernetes itself, while App Runner takes simplicity even further by abstracting away nearly all container management concerns.",
 
 	"ServerlessContainerPlatforms": "SECTION",
@@ -28,7 +27,19 @@
 	"WorkloadOrchestrator - Tools - HashicorpNomad": "HashiCorp’s Nomad has existed in Kubernetes’ shadow for years, but that’s changing. Its architecture is deliberately simpler while still offering surprising flexibility — it can orchestrate not just containers but also traditional applications and batch jobs.",
 
 	"InternalDeveloperPlatforms": "SECTION",
+	"InternalDeveloperPlatforms 0": "https://internaldeveloperplatform.org/core-components/",
+	"InternalDeveloperPlatforms 1": "",
+	"InternalDeveloperPlatforms 2": "",
+	"InternalDeveloperPlatforms 3": "",
+	"InternalDeveloperPlatforms 4": "",
+	"InternalDeveloperPlatforms 5": "",
 	"InternalDeveloperPlatforms ": "internal developer platforms that abstract away infrastructure complexity.",
+	"InternalDeveloperPlatforms - Components": "",
+	"InternalDeveloperPlatforms - Components - ApplicationConfigurationManagement": "Manage application configuration in a dynamic, scalable and reliable way.",
+	"InternalDeveloperPlatforms - Components - InfrastructureOrchestration": "Orchestrate your infrastructure in a dynamic and intelligent way depending on the context.",
+	"InternalDeveloperPlatforms - Components - EnvironmentManagement": "Enable developers to create new and fully provisioned environments whenever needed.",
+	"InternalDeveloperPlatforms - Components - DeploymentManagement": "Implement a delivery pipeline for Continuous Delivery or even Continuous Deployment (CD).",
+	"InternalDeveloperPlatforms - Components - RoleBasedAccessControl": "Manage who can do what in a scalable way.",
 	"InternalDeveloperPlatforms - Tools": "This approach allows organizations to retain Kubernetes’ power while addressing its usability challenges. It requires investment in platform engineering but can dramatically improve developer experience.",
 	"InternalDeveloperPlatforms - Tools - Backstage": "",
 	"InternalDeveloperPlatforms - Tools - Porter": "",

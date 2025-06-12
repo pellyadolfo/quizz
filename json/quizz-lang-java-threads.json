@@ -1,4 +1,8 @@
 {
+
+	"JavaThreads": "SECTION",
+	"JavaThreads ": "https://www.linkedin.com/posts/kumarg21_java-multithreading-activity-7338898193302134784-LoSz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+
 	"Process": "SECTION",
 	"Process.": "A Process is a program in execution. It has its own address space, a call stack, and link to any resources such as open files. A computer system normally has multiple processes running at a time. The operating system keeps track of all these processes and facilitates their execution by sharing the processing time of the CPU among them.",
 	"Process - Java.lang.Process": "Java.lang.Process encapsulates the runtime information of a program in execution. Methods provided by the Process is used to perform input, output, waiting for the process o complete, checking exit status of the process and destroying process.",
