@@ -1,6 +1,14 @@
 {
 	"IO": "SECTION",
 
+
+	"Input": "SECTION",
+	"Input - ProgramLineArguments": "",
+	"Input - Console - Console": "Console Class has been becoming a preferred way for reading user’s input from the command line, Introduced in JDK 1.6. In addition, it can be used for reading password-like input without echoing the characters entered by the user; the format string syntax can also be used (like System.out.printf()).",
+	"Input - Console - Scanner": "Scanner Class is probably the most preferred method to take input, Introduced in JDK 1.5. The main purpose of the Scanner class is to parse primitive types and strings using regular expressions; however, it is also can be used to read input from the user in the command line.",
+	"Input - File - FileInputStream": "",
+	"Input - File - FileReader": "",
+
 	"IOStreams": "SECTION",
 	"IOStreams - ByteStreams": "",
 	"IOStreams - ByteStreams - FileInputStream": "",
@@ -40,8 +48,13 @@
 	"DatagramSocketAPI - Components - DatagramPacket": "Represents a single UDP packet (data + destination address/port).",
 	"DatagramSocketAPI - Components - InetAddress": "Represents an IP address (used in DatagramPacket).",
 
-
-	"HTTP/2 Client": "SECTION",
+	"HTTP clients": "SECTION",
+	"HTTP/2 Client (Java 9)": "So for Java 9, a new API has been introduced that is cleaner and clearer to use and that also adds support for HTTP/2. The new API handles HTTP connections through three classes. (1) HttpClient handles the creation and sending of requests. (2) HttpRequest is used to construct a request to be sent via the HttpClient. (3) HttpResponse holds the response from the request that has been sent. java.net has introduced the HttpClient class as well as HttpRequest and HttpResponse",
+	"HTTP/2 Client - HttpClient": "",
+	"HTTP/2 Client - HttpRequest": "",
+	"HTTP/2 Client - HttpResponse": "",
+	"HTTP/2 Client - example - sync)": "HttpResponse < String > httpResponse = httpClient.send(httpRequest, HttpResponse.BodyHandler.asString()),",
+	"HTTP/2 Client - example - async)": "CompletableFuture > httpResponse = httpClient.sendAsync(httpRequest, HttpResponse.BodyHandler.asString()),",
 
 	"BasicHTTPServer": "SECTION",
 	"BasicHTTPServer - Java18": "Java 18 includes an easy-to-use built-in HTTP server (via jdk.httpserver) that lets you quickly spin up a lightweight web server without external dependencies like Spring Boot or Tomcat.",

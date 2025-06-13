@@ -10,28 +10,6 @@
 	"hashcode - Arrays.hashcode() (Java 5)": "Returns a hash code based on the contents of the specified array.",
 	"hashcode - Arrays.hashcode() vs Object.hash()": "Arrays.hashCode(Object[]) and Objects.hash(Object...) behave exactly the same way, because Objects.hash(Object...) completely delegates to Arrays.hashCode(Object[]).",
 
-	"String": "SECTION",
-	"String ": "",
-	"String - String Pool": "String pool (String intern pool) is a special storage area in Method Area. When a string is created and if the string already exists in the pool, the reference of the existing string will be returned, instead of creating a new object. If a string is mutable, changing the string with one reference will lead to the wrong value for the other references.",
-	"String - Inmutability": "String is immutable in Java. An immutable class is simply a class whose instances cannot be modified. All information in an instance is initialized when the instance is created and the information can not be modified. ",
-	"String - Thread Safe": "Immutable objects are naturally thread-safe Because immutable objects can not be changed, they can be shared among multiple threads freely. This eliminates the requirements of doing synchronization.",
-	"String - String#join(CharSequence delimiter, CharSequence... elements)": "Returns a new String composed of copies of the CharSequence elements joined together with a copy of the specified delimiter",
-	"String - String#join(CharSequence delimiter, Iterable<? extends CharSequence> elements)": "Returns a new String composed of copies of the CharSequence elements joined together with a copy of the specified delimiter.",
-	"String - String#split(String regex)": "Splits this string around matches of the given regular expression.",
-	"String - String#split(String regex, int limit)": "Splits this string around matches of the given regular expression",
-	"String - String#repeat (Java 11)": "This method allows concatenating a String with itself a given number of times: var string = 'foo bar ', var result = string.repeat(2), // foo bar foo bar",
-	"String - String#isBlank (Java 11)": "That one is super straightforward. Now, we can check if a String instance is empty or contains whitespace ",
-	"String - String#strip (Java 11)": "We can easily get rid of all the whitespace from each String now ",
-	"String - String#lines (Java 11)": "Using this new method, we can easily split a String instance into a Stream<String> of separate lines",
-	"String - Compact Strings (Java 9)": "Until now, the String was stored as a char[]: From now on, it’ll be a byte[]: This means that whenever we create a String if all the characters of the String can be represented using a byte — LATIN-1 representation, a byte array will be used internally, such that one byte is given for one character. In other cases, if any character requires more than 8-bits to represent it, all the characters are stored using two bytes for each — UTF-16 representation. So basically, whenever possible, it’ll just use a single byte for each character.",
-
-	"HTTP clients": "SECTION",
-	"HTTP/2 Client (Java 9)": "So for Java 9, a new API has been introduced that is cleaner and clearer to use and that also adds support for HTTP/2. The new API handles HTTP connections through three classes. (1) HttpClient handles the creation and sending of requests. (2) HttpRequest is used to construct a request to be sent via the HttpClient. (3) HttpResponse holds the response from the request that has been sent. java.net has introduced the HttpClient class as well as HttpRequest and HttpResponse",
-	"HTTP/2 Client - HttpClient": "",
-	"HTTP/2 Client - HttpRequest": "",
-	"HTTP/2 Client - HttpResponse": "",
-	"HTTP/2 Client - example - sync)": "HttpResponse < String > httpResponse = httpClient.send(httpRequest, HttpResponse.BodyHandler.asString()),",
-	"HTTP/2 Client - example - async)": "CompletableFuture > httpResponse = httpClient.sendAsync(httpRequest, HttpResponse.BodyHandler.asString()),",
 
 	"locale": "SECTION",
 	"Language Tag Extensions (Java 7)": "The Java SE 7 release conforms to the IETF BCP 47 standard, which supports adding extensions to a Locale. Any single character can be used to denote an extension, but there are two predefined extension codes: 'u' specifies a Unicode locale extension, and 'x' specifies a private use extension.",
@@ -56,4 +34,6 @@
 	"Language Tag Extensions - extension - Private - x-linux": "",
 	"Common Locale Data Repository (Java 8)": "The Unicode Consortium's Common Locale Data Repository is the de-facto standard for locale data on many platforms. Although CLDR locale data is bundled with the JRE as of JDK 8, it is not enabled by default. To turn it on, the end user must explicitly set the system property java.locale.providers, e.g.: java.locale.providers=JRE,CLDR",
 	"Common Locale Data Repository - default (Java 9)": "By enabling the use of CLDR data by default, de-facto standard locale data will be provided to users without any further action on their part."
+
+
 }
