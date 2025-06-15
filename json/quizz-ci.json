@@ -65,7 +65,7 @@
 	"CI - Code - Git 46": "https://www.linkedin.com/posts/josifha-ashmi-j-1770b4193_git-statergies-activity-7332343826319122432-Uvkj?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CI - Code - Git 47": "https://www.linkedin.com/posts/muneesmmw_%F0%9D%97%A0%F0%9D%97%AE%F0%9D%98%80%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-%F0%9D%97%9A%F0%9D%97%B6t-%F0%9D%97%97%F0%9D%97%B2%F0%9D%98%83%F0%9D%97%A2%F0%9D%97%BD%F0%9D%98%80-activity-7335224912980152320-m7A7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CI - Code - Git 48": "https://www.linkedin.com/posts/dhruv-rana-cloudspikes_gitops-activity-7336595193338478596-gHni?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
-	"CI - Code - Git 49": "",
+	"CI - Code - Git 49": "https://www.linkedin.com/posts/codefresh_2gitops-20-the-future-of-devops-ebook-v4-activity-7305556358601293824-FuUl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CI - Code - Git 50": "",
 	"CD - Code - Tools - Gitlab": "",
 	"CI - Code - Tools - SonarQube": "",
@@ -103,6 +103,9 @@
 	"CI - Build - Steps - Versioning": "Assign unique version numbers to build artifacts",
 	"CI - Build - Tools - Gradle": "",
 	"CI - Build - Tools - Webpack": "",
+	"CI - Build - Tools - Maven": "",
+	"CI - Build - Tools - Skaffold": "Skaffold is a command-line tool that simplifies the process of building, pushing, and deploying container-based applications, particularly for those working with Kubernetes.",
+	"CI - Build - Tools - Skaffold - Supports": "Skaffold supports different types of builders like Docker, Buildpacks, Jib, Bazel, Custom build script, and ko.",
 
 	"CI - Integrate": "SECTION",
 	"CI - Integrate - Runtime - JVM": "",

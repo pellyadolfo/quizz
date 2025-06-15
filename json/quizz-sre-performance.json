@@ -73,9 +73,11 @@
 	"Service - Processing - Server - ByPerformance - SpringBoot": "",
 
 	"Middleware": "SECTION",
+	"Middleware - QueueAndForwardPattern": "",
+	"Middleware - BuffferFirstPattern": "The 'buffer-first' pattern, also known as the 'buffer fill pattern, is a design pattern that involves collecting data from multiple sources into a buffer before processing or sending it in batches.",
 	"Middleware - Asynchronous": "For write-intensive operations, we can leverage message queues like Kafka or RabbitMQ to handle tasks asynchronously, reducing the immediate load on the database.",
 	"Middleware - Brokers": "https://medium.com/@vermatanisha666/why-spring-boot-3-5-is-killing-the-need-for-message-queues-d040687b5c87",
-	
+
 	"Data": "SECTION",
 	"Data - Scaling": ".",
 	"Data - Scaling - Archiving": "Archive older, less-used data to a separate storage system to keep the active dataset manageable. This helps maintain fast query performance on current data.",
@@ -136,7 +138,9 @@
 	"CI - Integration - VM - VirtualThreads - SpringBoot": "spring.threads.virtual.enabled=true - This enables virtual thread-per-request, making it extremely cheap to scale HTTP connections.",
 	"CI - Integration - VM - VirtualThreads - EnableVirtualThreads": "Leverage Java 21’s virtual threads (-XX:+EnableVirtualThreads).",
 	"CI - Integration - VM - StructuredConcurrency": ".",
+	"CI - Integration - Execution - Loading - CDS": "Enable Class Data Sharing with -Xshare:on to speed up startup and reduce memory footprint.",
 	"CI - Integration - Execution - Loading - AoT": "",
+	"CI - Integration - Execution - Loading - Lazy": "",
 	"CI - Integration - Execution - Linking - AoT": "",
 	"CI - Integration - Execution - Bootstrap": "",
 	"CI - Integration - Execution - Bootstrap - SpringBoot - LazyInitialization": "spring.main.lazy-initialization=true",
@@ -145,9 +149,18 @@
 	"CI - Integration - Execution - Bootstrap - SpringBoot - OptimizeDI": "Spring’s dependency injection can be slow if you have circular dependencies or over-inject beans. Use constructor injection and avoid @Autowired on fields. Constructor injection resolves dependencies at bean creation, avoiding runtime reflection.",
 	"CI - Integration - Execution - Bootstrap - SpringBoot - DisableSpringBootDevTools": "Use Spring Boot DevTools Sparingly. Spring Boot DevTools is great for development, but it adds overhead by enabling features like automatic restarts. Disable it in production.",
 	"CI - Integration - Execution - GC - ZGC": "ZGC (-XX:+UseZGC) shines in ultra-low-latency scenarios.",
-	"CI - Integration - Memory - CDS": "Enable Class Data Sharing with -Xshare:on to speed up startup and reduce memory footprint.",
 
 	"CI - Monitor": "SECTION",
+	"CI - Monitor - JFR - Disable": "Java Flight Recorder was turned off in production and only enabled for diagnostics. -XX:+FlightRecorder — only when needed",
+	"CI - Monitor - Profiling": "",
+	"CI - Monitor - Profiling - Tools - JProfiler": "JProfiler is a top choice for many developers. With an intuitive UI, JProfiler provides interfaces for viewing system performance, memory usage, potential memory leaks, and thread profiling.",
+	"CI - Monitor - Profiling - Tools - YourKit": "YourKit Java Profiler runs on many different platforms, and provides separate installations for each supported operating system (Windows, MacOS, Linux, Solaris, FreeBSD, etc.). Like JProfiler, YourKit has core features for visualizing threads, garbage collections, memory usage, and memory leaks with support for local and remote profiling via ssh tunneling.",
+	"CI - Monitor - Profiling - Tools - VisualVM": "Java VisualVM is a simplified, yet robust profiling tool for Java applications. This is a free, open-source profiler. This tool was bundled with the Java Development Kit (JDK) up to JDK 8, but was removed in JDK 9, and is now distributed as a standalone tool.",
+	"CI - Monitor - Profiling - Tools - NetBeansProfiler": "The NetBeans Profiler is bundled with Oracle’s open-source NetBeans IDE. While this profiler shares a lot of similarities with Java VisualVM, it’s a good choice when we want everything wrapped in one program (IDE + Profiler). All the other profilers discussed above provide plugins to enhance IDEs integration.",
+	"CI - Monitor - Profiling - Tools - IntelliJProfiler": "IntelliJ Profiler is a simple, yet powerful tool for CPU and memory allocations profiling. It combines the power of two popular Java profilers: JFR and Async profiler.",
+	"CI - Monitor - Profiling - Tools - JavaMissionControl": "",
+	"CI - Monitor - Profiling - Tools - NewRelic": "",
+	"CI - Monitor - Profiling - Tools - Prefix": "",
 	"CI - Monitor - SQL - EXPLAIN": "Monitor the execution plan (EXPLAIN ANALYZE) to verify benefit — sometimes a subquery performs better than a CTE, depending on the database."
 
 }

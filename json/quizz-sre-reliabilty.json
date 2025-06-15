@@ -9,6 +9,13 @@
 	"Reliability 5": "",
 	"Reliability 6": "",
 
+
+	"HA": "SECTION",
+	"HA ": "https://www.linkedin.com/posts/sai-venkat-p-34238017a_devops-activity-7339932185526747136-SUVs/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+
+	"Threats": "SECTION",
+	"Threats - BackPressure": "Backpressure resilience refers to the ability of a system to handle situations where data is produced faster than it can be consumed, preventing the system from becoming overwhelmed and potentially crashing. https://hackernoon.com/backpressure-isnt-a-bug-its-a-feature-for-building-resilient-systems",
+
 	"Patterns": "SECTION",
 	"Patterns - Load - Idempotency": "Handle duplicate requests safely.",
 	"Patterns - Load - Idempotency - How": "Design operations so repeating them has no side effects. Use idempotency keys (e.g., in payment processing).",
