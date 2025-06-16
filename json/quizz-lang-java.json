@@ -773,6 +773,8 @@
 	"CI - Packaging - Jar - MRJAR": "Multi-Release JAR (MRJAR) files, introduced in Java 9 and fully supported in Java 11, allow a single JAR file to contain different versions of class files targeting different Java versions. This enables backward compatibility while leveraging newer Java features where available.",
 	"CI - Packaging - Jar - MRJAR - JVM": "A single JAR can include version-specific implementations. The JVM automatically selects the right class files based on the runtime version.",
 	"CI - Packaging - Jar - MRJAR - MANIFEST.MF": "Multi-Release: true",
-	"CI - Packaging - Tools - JPackage": "The packaging tool simplifies distribution of Java applications by providing native installation experiences for end users, eliminating the need for manual Java installation or complex deployment scripts."
+	"CI - Packaging - Tools - JPackage": "The packaging tool simplifies distribution of Java applications by providing native installation experiences for end users, eliminating the need for manual Java installation or complex deployment scripts.",
+
+	"CI - TestContainers": "With Testcontainers, your test is your environment. Combine that with AssertJ for fluent assertions, and tests start reading like stories."
 
 }
