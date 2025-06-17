@@ -1,5 +1,18 @@
 {
 
+	"kubectl": "SECTION",
+	"kubectl 0": "",
+	"kubectl 1": "",
+	"kubectl 2": "",
+	"kubectl 3": "",
+	"kubectl 4": "",
+	"kubectl 5": "",
+	"kubectl 6": "",
+	"kubectl 7": "",
+	"kubectl 8": "",
+	"kubectl 9": "",
+	"kubectl10": "",
+
 	"CD": "SECTION",
   "CD - Deploy": "",
 	"CD - Deploy 1 - AUTOSCALING": "https://www.linkedin.com/posts/prashant-singh-negi-b71b96157_kubernetes-chapter-4-activity-7323217041769779200-AxrA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
@@ -101,7 +114,6 @@
 	"CD - Monitoring - Diagnosing - PersistentVolumes": "Verify if PVCs are bound and availabel to the pods: kubectl get pvc ",
 	"CD - Monitoring - Diagnosing - IngressRules": "Check Ingress configurationa and backend services to ensure proper routing: kubectl describe ingress < ingress_name >",
 
-	"kubectl": "SECTION",
 	"CD - Automation - Devops57": "https://www.linkedin.com/posts/vsadhwani_when-you-dont-remember-which-kubectl-command-activity-7313224446008295425-Bxa7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Automation - Devops58": "https://www.linkedin.com/posts/pulibanti-raja_k8s-cheatsheet-activity-7326263798187675649-cjKJ?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Automation - Devops59": "https://www.linkedin.com/posts/namanjainai_kubernetes-commands-activity-7326976100754952192-9uZE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
@@ -113,7 +125,6 @@
 	"CD - Automation - Devops65": "https://www.linkedin.com/posts/saroosh-mehboob-601317211_kubectl-commands-activity-7333416484649566208-YeFl/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Automation - Devops66": "https://www.linkedin.com/posts/kiranka_a-comprehensive-kubectl-commands-activity-7332736848038895616-A7V5?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Automation - Devops67": "https://www.linkedin.com/posts/raghavender-chari-9700231919_kubectl-basics-activity-7334050954394173440-Nf4a?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
-	"CD - Automation - Devops68": "",
+	"CD - Automation - Devops68": "https://www.linkedin.com/posts/activity-7340126105531498496-0HSL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"CD - Automation - Devops69": ""
-
 }
