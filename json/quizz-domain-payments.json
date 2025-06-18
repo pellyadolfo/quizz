@@ -31,6 +31,19 @@
 	"Payments27": "",
 	"Payments28": "",
 	"Payments29": "",
-	"Payments30": ""
+	"Payments30": "",
+
+	"ISO20022": "SECTION",
+	"ISO20022 - History - 2004-2010": "Early Vision (2004–2010) – Umbrella for Existing Standards",
+	"ISO20022 - History - 2004-2010 - Umbrella": "a meta-standard that could harmonize existing financial messaging formats (like FIX, FpML, SWIFT MT, etc.) under a common methodology (UML modeling, XML syntax).",
+	"ISO20022 - History - 2004-2010 - Standards": "FIX, FpML, SWIFT MT, XBRL",
+	"ISO20022 - History - 2004-2010 - Problem": "By the early 2010s, it became clear that mapping existing standards (like FIX) into ISO 20022 was impractical due to fundamental differences in scope and structure.",
+	"ISO20022 - History - 2010-2018": "Shift to Native ISO 20022 (2010–2018) – New Standards Take Over",
+	"ISO20022 - History - 2010-2018 - Areas": "Instead, ISO 20022 began developing its own native messages for key areas: Payments (pain.001, pacs.008, camt.053), Securities (settlement, corporate actions, trade confirmations), Cards & FX (remittance data, forex trades)",
+	"ISO20022 - History - 2004-2010 - Adoption": "SWIFT announced in 2015 that it would migrate all MT messages to ISO 20022 MX by 2025 (a major turning point).",
+	"ISO20022 - History - 2018-today": "Dominance & Mandates (2018–Present) – ISO 20022 as the Primary Standard",
+	"ISO20022 - History - 2018-today - Adoption": "2018–2020: Major market infrastructures (e.g., T2/T2S in Europe, CHAPS in UK, Fedwire in the U.S.) announced ISO 20022 adoption timelines.",
+	"ISO20022 - History - 2018-today - Swift": "2021–2025: SWIFT’s cross-border payments migration (phased completion by 2025) made ISO 20022 the default for high-value payments.",
+	"ISO20022 - History - 2018-today - Coexistence": "FIX and MDDL remain separate but are sometimes used alongside ISO 20022 (e.g., FIX for trading, ISO 20022 for settlement)."
 
 }
