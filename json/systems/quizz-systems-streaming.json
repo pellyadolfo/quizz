@@ -1,5 +1,13 @@
 {
 
+	"Streaming": "SECTION",
+	"Streaming 0": "https://www.linkedin.com/posts/zoranmilosevic_sever-sent-events-explained-real-time-data-activity-7337720159345737729-NaW-/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"Streaming 1": "",
+	"Streaming 2": "",
+	"Streaming 3": "",
+	"Streaming 4": "",
+	"Streaming 5": "",
+
 	"DataStreaming": "SECTION",
 	"DataStreaming - KafkaStreams": "",
 	"DataStreaming - ApacheFlink": "",

@@ -1,5 +1,17 @@
 {
 
+	"Patterns": "SECTION",
+	"Patterns 0": "https://www.linkedin.com/posts/arpit-singh-89a4221a8_deep-dive-into-java-architecture-activity-7346369293934088192-bP2O/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"Patterns 1": "https://www.linkedin.com/posts/nelsonamigoscode_systemdesign-coding-interviewtips-activity-7344321943325556737-Zj8N?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"Patterns 2": "",
+	"Patterns 3": "",
+	"Patterns 4": "",
+	"Patterns 5": "",
+	"Patterns 6": "",
+	"Patterns 7": "",
+	"Patterns 8": "",
+	"Patterns 9": "",
+
 	"Principles": "SECTION",
 	"Principles - OOP": ".",
 	"Principles - OOP - Abstraction": "Abstraction ⮕ Focuses on what an object does, not how it does it. Hides complexity, exposing only essential details. Example: A PaymentProcessor interface defines processPayment(), while PayPalProcessor and CreditCardProcessor implement it differently.",

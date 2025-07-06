@@ -1,5 +1,17 @@
 {
 	
+	"SpringCore": "SECTION",
+	"SpringCore 0": "https://www.linkedin.com/posts/mauricio-perez-b57204202_spring-aop-spring-framework-activity-7343521011268542464-GoRn/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"SpringCore 1": "",
+	"SpringCore 2": "",
+	"SpringCore 3": "",
+	"SpringCore 4": "",
+	"SpringCore 5": "",
+	"SpringCore 6": "",
+	"SpringCore 7": "",
+	"SpringCore 8": "",
+	"SpringCore 9": "",
+
 	"Container": "SECTION",
 	"Container ": "A Spring IoC container manages one or more beans. These beans are created with the configuration metadata that you supply to the container, for example, in the form of XML <bean/> definitions.",
 	"Container - Responsibility": "Spring IoC container is responsible for instantiating, configuring, and assembling the aforementioned beans.",

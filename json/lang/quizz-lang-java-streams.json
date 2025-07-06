@@ -1,5 +1,11 @@
 {
 
+	"Streams": "SECTION",
+	"Streams 0": "https://www.linkedin.com/posts/dasari-saikiran-979592135_lamda-activity-7346189403570020355-CfdK/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"Streams 1": "",
+	"Streams 2": "",
+	"Streams 3": "",
+
 	"int": "SECTION",
 	"int - int[] - Create - fromItems - new": "new int[] {1,2,3}",
 	"int - List< int[] > - Create - fromInt[] - Arrays.asList(...)": "Arrays.asList(...)",

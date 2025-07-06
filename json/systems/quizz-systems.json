@@ -2,6 +2,16 @@
 
 
 	"Systems": "SECTION",
+	"Systems 0": "https://www.linkedin.com/posts/ashishps1_cap-theorem-explained-in-simple-terms-in-activity-7345662461863260161-qXdL/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"Systems 1": "",
+	"Systems 2": "",
+	"Systems 3": "",
+	"Systems 4": "",
+	"Systems 5": "",
+	"Systems 6": "",
+	"Systems 7": "",
+	"Systems 8": "",
+	"Systems 9": "",
 	"Systems - Theorems - CAP Theorem ": "In any distributed data store, you can have at most two of these three properties: consistency (C), high availability (A), tolerance to network partitions (P)",
 	"Systems - Theorems - CAP Theorem - Consistency (C)": "Consistency (C) – Every read receives the most recent write or an error.",
 	"Systems - Theorems - CAP Theorem - Availability (A)": "Availability (A) – Every request (read/write) gets a response, even if it's not the most recent data.",

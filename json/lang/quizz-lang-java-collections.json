@@ -1,4 +1,8 @@
 {
+	"Collections": "SECTION",
+	"Collections 0": "https://www.linkedin.com/posts/shubhamkumargupta0604_java-collections-framework-activity-7345358735034281984-F8-g/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"Collections 1": "",
+
 	"Collections - Framework": "SECTION",
 	"Collections - Framework ": "A collections framework is a unified architecture for representing and manipulating collections. All collections frameworks contain the following: interfaces, implementations. algorithms",
 	"Collections - Framework - interfaces": "These are abstract data types that represent collections. Interfaces allow collections to be manipulated independently of the details of their representation. In object-oriented languages, interfaces generally form a hierarchy.",
