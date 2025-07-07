@@ -1,0 +1,51 @@
+{
+
+	"Tokenization": "SECTION",
+	"Tokenization ": "",
+	"Tokenization - Principles": "",
+	"Tokenization - Assets": "",
+	"Tokenization - Demand": "",
+	"Tokenization - Supply": "",
+	"Tokenization - MonetaryPolicy": "",
+	"Tokenization - Simulation": "",
+	"Tokenization - Types": "",
+	"Tokenization - Types - NoCapture": "",
+	"Tokenization - Types - UtilityCapture": "",
+	"Tokenization - Types - YieldCapture": "",
+	"Tokenization - Types - PriceCapture": "",
+	"Tokenization - Types - ValueCapture": "",
+	"Tokenization - Types - AssetCapture": "",
+	"Tokenization - Basket": "",
+
+	"Issuance": "SECTION",
+	"Issuance ": "",
+	"Issuance - Tokenomics": "",
+	"Issuance - Sniping": "",
+	"Issuance - Utility - Id": "",
+	"Issuance - Utility - Investment": "",
+	"Issuance - Utility - Currency": "",
+
+	"Funding": "SECTION",
+	"Funding - Investors": "",
+	"Funding - Investors - VC": "",
+	"Funding - Startup": "",
+	"Funding - Process": "",
+
+	"Negotiation": "SECTION",
+	"Negotiation ": "",
+	"Negotiation - Exchanges": "",
+	"Negotiation - Investors": "",
+	"Negotiation - Price": "",
+	"Negotiation - Trading": "",
+	"Negotiation - Trading - Assets": "",
+	"Negotiation - Trading - Markets": "",
+	"Negotiation - Trading - Markets - ": "",
+	"Negotiation - Arbitrage": "",
+
+	"Distribution": "SECTION",
+	"Distribution ": "",
+
+	"Crowdsolving": "SECTION",
+	"Crowdsolving ": ""
+
+}

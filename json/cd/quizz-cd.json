@@ -3,6 +3,12 @@
 	"CD - Deploy": "SECTION",
 
 	"CD - Release": "SECTION",
+	"CD - Release 0": "https://www.linkedin.com/posts/vsadhwani_7-cloud-migration-strategies-every-cloud-activity-7348010231622242304-63w8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"CD - Release 1": "",
+	"CD - Release 2": "",
+	"CD - Release 3": "",
+	"CD - Release 4": "",
+	"CD - Release 5": "",
 	"CD - Release ": "The process of making a new version of software available to end-users.",
 	"CD - Release - Steps - StagingEnvironment - ProvisionInfrastructure": "Set up servers/containers matching production",
 	"CD - Release - Steps - StagingEnvironment - DeployBuild": "Install the application in staging",
