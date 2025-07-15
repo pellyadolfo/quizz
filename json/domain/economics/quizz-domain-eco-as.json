@@ -4,7 +4,7 @@
 
 
 	"Principles": "SECTION",
-	"Principles - Values - NegativeLiberty": "",
+	"Principles - Values - NegativeLiberty": "https://mises.org/power-market/austrian-school-economics-concepts-and-theories",
 	"Principles - Values - PropertyRights": "",
 	"Principles - Value - EconomicValue": "",
 	"Principles - Value - EconomicValue - SubjectiveTheoryOfValue": "",
@@ -12,6 +12,13 @@
 	"Principles - Value - MethodologicalIndividualism": "",
 	"Principles - Value - ImpossibilityOfCalculation": "",
 	"Principles - Money - SoundMoney": "",
+	"Principles - Money - SoundMoney - Quality": "",
+	"Principles - Money - SoundMoney - Quality - Rothbard - Portability": "",
+	"Principles - Money - SoundMoney - Quality - Rothbard - Durability": "",
+	"Principles - Money - SoundMoney - Quality - Rothbard - Divisibility": "",
+	"Principles - Money - SoundMoney - Quality - Rothbard - Recognizability": "",
+	"Principles - Money - SoundMoney - Quality - Rothbard - Scarcity": "",
+	"Principles - Money - SoundMoney - Quality - Rothbard - Fungibility": "Fungibility—the property making units of a good interchangeable and indistinguishable.",
 	"Principles - Money - PrivateMoney": "",
 	"Principles - Money - RegressionTheorem": "",
 	"Principles - Market": "",
@@ -20,6 +27,8 @@
 	"Principles - MonetaryTheory - InterestRates": "",
 	"Principles - MonetaryTheory - ABCT": "",
 	"Principles - MonetaryTheory - FreeBanking": "",
+
+	"HumanAction": "SECTION",
 
 	"Authors": "SECTION",
 	"Authors - Empiricists": "",
@@ -36,5 +45,7 @@
 	"Authors - Rationalists - Hayek": "",
 	"Authors - Rationalists - Popper": "",
 	"Authors - Rationalists - Tucker": "",
-	"Authors - Rationalists - Finney": ""
+	"Authors - Rationalists - Finney": "",
+	"Authors - Rationalists - Salerno": ""
+
 }

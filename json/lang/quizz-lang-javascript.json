@@ -517,7 +517,7 @@
 	"CI - Packaging - Bundling - Managers - npm - global": "global installs have links created from the global bin/ directory (for example: /usr/local/bin on Linux or at %AppData%/npm on Windows)",
 	"CI - Packaging - Bundling - Managers - npm-run-all": "The npm-run-all package enables running multiple scripts simultaneously, which is particularly useful in CI/CD pipelines to speed up tasks like linting and testing.",
 	"CI - Packaging - Bundling - Managers - npx": "execute a package that wasn’t previously installed. You can use npx to run any GitHub gists and repositories.",
-	"CI - Packaging - Bundling - Managers - npmn": "",
+	"CI - Packaging - Bundling - Managers - pnpm": "",
 	"CI - Packaging - Bundling - Managers - yarn": "",
 	"CI - Packaging - Bundling - Managers - vlt": "https://javascript.plainenglish.io/npm-author-launches-new-javascript-package-manager-84b0d0ed977e",
 	"CI - Packaging - Bundling - Managers - JSR": "https://denoland.medium.com/jsr-is-not-another-package-manager-77fa596c345d",
