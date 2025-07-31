@@ -2,6 +2,11 @@
 	"ts": "SECTION",
 	"ts - Typescript": "TypeScript is a superset of JavaScript in which you add types to JavaScript. JavaScript is a loosely typed language which leads to lot of types error in production code. With TypeScript developers can catch those error, even before running the code.",
 	"ts - Typescript - 5.7": "TypeScript 5.7 adds support for ES2024 features",
+	"ts - 0": "https://amanhimself.dev/blog/mapped-types-in-typescript/",
+	"ts - 1": "",
+	"ts - 2": "",
+	"ts - 3": "",
+	"ts - 4": "",
 
 	"Variables": "SECTION",
 	"Variables - DataTypes - type": "Types allow you to create complex types by combining existing types, union types, intersection types, and even utility types.",
