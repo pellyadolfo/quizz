@@ -244,6 +244,7 @@
 	"CD - Deploying - server": "By default, Next.js includes its own server with next start.",
 	"CD - Deploying - SST": "https://levelup.gitconnected.com/deploy-next-js-to-aws-using-sst-fa2f50c5737a",
 	"CD - Deploying - assetPrefix": "In Next.js, publishing static assets to a CDN and managing them through the assetPrefix configuration is a very efficient method. It can help optimize your application's load time and reduce server load. module.exports = { assetPrefix: isProd ? 'https://yourcdn.example.com' : '', };",
-	"CD - Deploying - next/after API": "The next/after API is another experimental feature in Next.js 15 RC. This feature enables developers to perform secondary tasks or cleanup operations without blocking the primary response. This addition provides more flexibility in handling post-response logic, allowing for cleaner and more efficient code management. Potential use cases include analytics logging, resource cleanup, or additional data fetching after the initial response."
+	"CD - Deploying - next/after API": "The next/after API is another experimental feature in Next.js 15 RC. This feature enables developers to perform secondary tasks or cleanup operations without blocking the primary response. This addition provides more flexibility in handling post-response logic, allowing for cleaner and more efficient code management. Potential use cases include analytics logging, resource cleanup, or additional data fetching after the initial response.",
+	"CD - Deploying - Upgrade - codemods": "Codemods are transformations that run on your codebase programmatically. This allows a large number of changes to be programmatically applied without having to manually go through every file."
 
 }
