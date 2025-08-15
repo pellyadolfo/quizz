@@ -224,6 +224,9 @@
 
 	"CI - Execution": "SECTION",
 	"CI - Execution - HMR": "That’s why Next.js introduced the Hot Module Replacement (HMR) mechanism, more commonly known as Fast Refresh. The HMR feature ensures that any edits you make in your code are quickly reflected in the browser without requiring a full page reload, enhancing your development experience as a result.",
+	"CI - Execution - Commands": ".",
+	"CI - Execution - Commands - next dev": "The npm run dev, is optimized to run you local code with hot-reload.",
+	"CI - Execution - Commands - next start": "When you use npm run build && npm run start, it creates a better-optimized output suitable for serving your site contents with code splitting and other good stuff.",
   "CI - Execution - SEO - robots.txt": "This is a text file placed in the root directory of your site that tells search engine crawlers which pages or sections of your site should not be crawled and indexed. For a Next.js site, you can create a robots.txt file and serve it statically. Ensure it’s accessible by placing it in the public folder. This will help control the crawler traffic to your site, prevent the indexing of certain pages, and help manage the crawl budget.",
   "CI - Execution - SEO - XML Sitemaps": "A sitemap is crucial as it lists all URLs for a site, allowing search engines to crawl the site more intelligently. In Next.js, you can generate sitemaps dynamically or during your build process. Static generation is often preferred for performance reasons. You can use libraries like next-sitemap to automate the generation of sitemaps during your build process.",
   "CI - Execution - SEO - Semantic HTML": "Semantic HTML5 elements (like <header>, <footer>, <article>, and <section>) help search engines understand the structure of your website and the importance of the content within each section. This can be particularly beneficial for SEO.",
