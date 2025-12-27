@@ -85,6 +85,7 @@
 	"CI - Building - SourceToNative - Autocompilation - IndifyStringConcatenation - invokedynamic": "Since Java 9: Uses invokedynamic (a JVM feature) for runtime optimization",
 
 	"CI - Integration": "SECTION",
+	"CI - Integration 0": "https://javascript.plainenglish.io/how-spring-boot-4-leyden-makes-java-as-fast-as-go-in-2025-4c5bc4a752ee",
 	"CI - Integration - Execution - JVMConstantsAPI - Java12": "Java 12 introduced a new JVM Constants API as an incubator feature (later finalized in Java 15) to provide programmatic access to low-level classfile and runtime artifacts that were previously only accessible through native code or reflection hacks.",
 	"CI - Integration - Execution - JVMConstantsAPI - Constants - CONSTANT_Class": "",
 	"CI - Integration - Execution - JVMConstantsAPI - Constants - CONSTANT_MethodHandle": "",
