@@ -39,6 +39,13 @@
 	"SpringBoot - Features - Integration": "Provide a range of non-functional features that are common to large classes of projects (such as embedded servers, security, metrics, health checks, and externalized configuration).",
 	"SpringBoot - Features - Ecosystem": "Integrates seamlessly with Spring Cloud, Kafka, Redis, Elasticsearch, etc..",
 	"SpringBoot - Features - ProductionReady": "Metrics, health checks, and monitoring.",
+	"SpringBoot - Features - SpringBoot4 - Jackson3": "Jackson 3 migration and package relocation (new defaults).",
+	"SpringBoot - Features - SpringBoot4 - Modularized": "Modularized jars and removed deprecated APIs — compile failures likely.",
+	"SpringBoot - Features - SpringBoot4 - Undertow": "Undertow removed as an embedded server option.",
+	"SpringBoot - Features - SpringBoot4 - JSpecify": "New null-safety tooling via JSpecify and stricter null handling.",
+	"SpringBoot - Features - SpringBoot4 - OpenTelemetry": "OpenTelemetry and Micrometer 2.x integration as first-class observability.",
+	"SpringBoot - Features - SpringBoot4 - AOT": "Native/AOT improvements and different build-time processing for Graal builds.",
+	"SpringBoot - Features - SpringBoot4 - Jakarta": "Kotlin and Jakarta upgrades (Kotlin 2.2+, Jakarta EE 11 baseline).",
 
 	"CI - Architecture": "SECTION",
 	"CI - Architecture - Layers": "",

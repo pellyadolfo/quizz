@@ -81,6 +81,12 @@
 	"SpringIntegration": "SECTION",
 	"SpringIntegration ": "Spring Integration provides an extension of the Spring programming model to support the Enterprise Integration Patterns.",
 
-	"Camel": "SECTION"
+	"Camel": "SECTION",
+
+	"Workflow": "SECTION",
+	"Workflow - Temporal": "",
+	"Workflow - Temporal - 0": "https://blog.stackademic.com/spring-boot-temporal-io-why-orchestrators-are-the-future-of-java-2025-edition-a7c2d6ff8b48",
+
+	"BPM": "SECTION"
 
 }

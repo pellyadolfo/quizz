@@ -41,7 +41,7 @@
   "View - Styling - CSS - ComponentBased - Modules": "",
 	"View - Styling - CSS - ComponentBased - Bootstrap": "",
 	"View - Styling - CSS - UtilityFirst": "Utility-first is a CSS methodology where you build up your styles using many small, purpose-specific classes.",
-	"View - Styling - CSS - UtilityFirst -SOC": "Many critics consider Tailwind's utility-first approach an anti-pattern because it goes against the separation of concerns principle. Traditionally, HTML is for structure, CSS is for styling, and JavaScript is for behavior. Tailwind blends structure and styling, potentially leading to more tightly coupled code.",
+	"View - Styling - CSS - UtilityFirst - SOC": "Many critics consider Tailwind's utility-first approach an anti-pattern because it goes against the separation of concerns principle. Traditionally, HTML is for structure, CSS is for styling, and JavaScript is for behavior. Tailwind blends structure and styling, potentially leading to more tightly coupled code.",
 	"View - Styling - CSS - UtilityFirst - TailwindCSS": "",
   "View - Styling - CSS - UtilityFirst - TailwindCSS - Signals": "Tailwind Signals is a new experimental feature in Tailwind CSS that enables custom state consumption by any descendant in the DOM for cleaner coding and efficient styling. Signals build on the concept of pseudo-classes and allow for bidirectional communication between parent and child components, enabling child components to react to state changes in their parents and vice versa.",
 	"View - Styling - CSS - UtilityFirst - UnoCSS": "",
