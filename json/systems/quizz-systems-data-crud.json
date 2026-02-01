@@ -126,6 +126,7 @@
 	"DataModel - Types - SQL - RBDMS": "In a 𝗿𝗲𝗹𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗱𝗮𝘁𝗮𝗯𝗮𝘀𝗲, data is organized in rows and columns where a row represents a record and its data fields are stored in columns. They are ideal for when ACID compliance is required, and a predefined schema can be created.",
 	"DataModel - Types - SQL - RBDMS - MySQL": "",
 	"DataModel - Types - SQL - RBDMS - PostgresSQL": "",
+	"DataModel - Types - SQL - RBDMS - PostgresSQL - PGlite": "PGlite is Postgres compiled to WebAssembly.",
 	"DataModel - Types - SQL - InMemoryDB": "Stores entire data in RAM for extremely fast access. Useful for applications requiring ultra-low latency and high-speed caching layer.",
 	"DataModel - Types - SQL - InMemoryDB - Redis": "for caching and real-time data processing. https://www.linkedin.com/posts/alexandre-zajac_softwareengineering-systemdesign-programming-activity-7315273057915289600-XxIa/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
 	"DataModel - Types - SQL - InMemoryDB - Memcache": "for high-performance distributed memory object caching.",

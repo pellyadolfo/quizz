@@ -1,0 +1,21 @@
+{
+
+	"Ethers": "SECTION",
+	"Ethers ": "",
+
+	"Web3": "SECTION",
+	"Web3 ": "",
+
+	"Foundry": "SECTION",
+	"Foundry ": "",
+
+	"Hardhat": "SECTION",
+	"Hardhat - Definition": "",
+	"Hardhat - Compiling": "",
+	"Hardhat - Compiling - compile": "npx hardhat compile",
+	"Hardhat - Testing": "",
+	"Hardhat - Testing - test": "npx hardhat test",
+	"Hardhat - Running": "Hardhat also comes built-in with Hardhat Network, a local Ethereum network designed for development.",
+	"Hardhat - Running - Network": ""
+
+}

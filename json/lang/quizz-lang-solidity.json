@@ -1,7 +1,7 @@
 {
   "Solidity": "SECTION",
   "Solidity 0": "https://www.linkedin.com/posts/rishabh-sde_web3-blockchain-liweb3-activity-7345790815820005376-Hecy/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
-  "Solidity 1": "",
+  "Solidity 1": "https://coinsbench.com/solidity-data-storage-for-gas-efficient-contracts-95237cdbfaf4",
   "Solidity 2": "",
   "Solidity 3": "",
   "Solidity 4": "",
@@ -238,6 +238,7 @@
 	"CICD - Execution - Scopes - functionargs - Storage": "State variables of contracts are stored in storage in a compact way such that multiple values sometimes use the same storage slot.",
 	"CICD - Execution - Scopes - functionargs - Memory": "Memory is a temporary data storage location that is used to hold data during the execution of a function.",
 	"CICD - Execution - Scopes - functionargs - Memory - lifecycle": "Memory is cleared once the function execution is complete. It is similar to the temporary memory storage used in a computer's RAM. Memory is useful for storing variables that are only needed temporarily during the execution of a function. These variables may include function arguments, local variables, and dynamic arrays that are created during the execution of a function.",
+	"CICD - Execution - Scopes - functionargs - Memory - constructors": "Constructors cannot use calldata because no external call exists during deployment. Use memory for constructor parameters instead.",
 	"CICD - Execution - Scopes - functionargs - CallData": "Calldata is also a temporary data storage location, but it is used to hold function arguments that are passed in from an external caller, such as a user or another contract. Calldata is read-only and cannot be modified by the function. Calldata is useful for passing large amounts of data to a function without having to copy the data into memory, which can be expensive in terms of gas usage. By using calldata, you can avoid the overhead of copying data into memory and reduce the amount of gas needed to execute the function.",
 	"CICD - Execution - OPCODES - freememeorypointer": "The free memory pointer is a pointer (i.e. shows where to go) to the next available slot of memory. Meaning that if you need to create a new uint256 for exemple, the free memory pointer will let the EVM know where to create the new uint256.",
 
