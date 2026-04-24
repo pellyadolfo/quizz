@@ -18,7 +18,7 @@
   "ContainerOrchestrator 4": "https://www.linkedin.com/posts/dineshraj-dhanapathy-25490058_kubernetes-projects-activity-7343533807628709909-j9gF?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
   "ContainerOrchestrator 5": "",
 	"ContainerOrchestrator - Tools - AWS ECS": "",
-  "ContainerOrchestrator - Tools - AWS ECS ": "ECS (Elastic Container Service) has been around longer than Kubernetes itself, while App Runner takes simplicity even further by abstracting away nearly all container management concerns.",
+  "ContainerOrchestrator - Tools - AWS AppRunner ": "ECS (Elastic Container Service) has been around longer than Kubernetes itself, while App Runner takes simplicity even further by abstracting away nearly all container management concerns.",
   "ContainerOrchestrator - Tools - Kubernetes": "",
   "ContainerOrchestrator - Tools - Kubernetes - Rancher": "",
   "ContainerOrchestrator - Tools - Kubernetes - OCP": "OpenShift by Red Hat. Enterprise-grade Kubernetes platform with built-in CI/CD, security, and developer tools. Ideal for hybrid cloud and regulated environments.",

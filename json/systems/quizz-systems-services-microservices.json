@@ -70,7 +70,7 @@
 	"Microservices - Microlith - Decomposition - Modular": "Modular units – Groups related features into a single component",
 	"Microservices - Microlith - Deploy": "The rise of containerization (Docker) and orchestration tools (Kubernetes) has made deploying and managing microliths more efficient, facilitating agile workflows through practices like continuous integration, automated testing, and infrastructure automation",
 	"Microservices - Microlith - Deploy - Independent": "Independent deployment – Can be updated without affecting others",
-	"Microservices - Moduliths": "",
+	"Microservices - Moduliths": "https://codingplainenglish.medium.com/why-teams-are-quietly-moving-back-to-modular-monoliths-in-2026-c4e34d14c63e",
 	"Microservices - NanoServices": "",
 	"Microservices - SelfContainedSystems": "",
 	"Microservices - SystemOfSystems": "",

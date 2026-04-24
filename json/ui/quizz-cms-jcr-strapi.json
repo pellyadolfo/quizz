@@ -1,0 +1,22 @@
+{
+
+	"Strapi": "SECTION",
+	"Strapi ": "",
+
+	"StrapiUI": "",
+	"StrapiUI - Workflows - Review": "",
+	"StrapiUI ": "",
+
+	"StrapiComm ": "",
+	"StrapiComm ": "",
+
+	"StrapiServer": "",
+	"StrapiServer - router": "",
+	"StrapiServer - service": "",
+	"StrapiServer - controller": "",
+	"StrapiServer - job - cronjob": "",
+
+	"StrapiStorage": "",
+	"StrapiStorage": ""
+
+}
