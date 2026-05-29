@@ -81,6 +81,12 @@
 	"Systems - Decentralized - Theorems - DCS Theorem - Scalability": "Scale means the system is capable of handling the transactional demands of any competing system providing the same service to the same arbitrary set of users across the globe (“at scale”).",
 	"Systems - Decentralized - Examples - MessageBrokers": ".",
 	"Systems - Decentralized - Examples - P2PFileSharing": ".",
-	"Systems - Decentralized - Examples - Blockchain": "."
+	"Systems - Decentralized - Examples - Blockchain": ".",
+
+	"Systems - Design": "",
+	"Systems - Design - NotificationSystem": "",
+	"Systems - Design - RateLimiter": "",
+	"Systems - Design - URLShortener": "",
+	"Systems - Design - FeedSystem": ""
 
 }

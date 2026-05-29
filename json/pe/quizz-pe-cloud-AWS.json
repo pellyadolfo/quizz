@@ -126,6 +126,8 @@
 	"ProcessingIntegration 6": "",
 	"ProcessingIntegration 7": "",
 	"ProcessingIntegration - Broker - AWS MQ": ".",
+	"ProcessingIntegration - Broker - AWS MQ - ActiveMQ": ".",
+	"ProcessingIntegration - Broker - AWS MQ - RabbitMQ": ".",
 	"ProcessingIntegration - Broker - AWS SQS": "Amazon SQS is a highly reliable, scalable message queuing service that enables asynchronous message-based communication between distributed components of an application.",
 	"ProcessingIntegration - Broker - AWS SQS - Reliability": "No message is ever lost in the interim, each message is persistently stored in highly available, highly reliable queues.",
 	"ProcessingIntegration - Broker - AWS SQS - Complexity": "SQS is dead-simple to use. Simply create a queue, and send messages to it.",
