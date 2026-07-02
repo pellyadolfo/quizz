@@ -116,6 +116,8 @@
 	"CD - Observability - Process - Inputs - Tracing - Features - Granularity": "Lower (focused on latency/dependencies).",
 	"CD - Observability - Process - Inputs - Tracing - Features - UseCase": "Diagnosing latency, bottlenecks.",
 	"CD - Observability - Process - Inputs - Tracing - Distributed": "Instrument services with code that: Assigns each external request a unique external request id. Passes the external request id to all services that are involved in handling the request. Includes the external request id in all log messages. Records information (e.g. start time, end time) about the requests and operations performed when handling a external request in a centralized service. This instrumentation might be part of the functionality provided by a Microservice Chassis framework.  - Tracks requests across multiple services in a microservices architecture. - Useful for troubleshooting and monitoring service interactions.",
+	"CD - Observability - Process - Inputs - Telemetry": "",
+	"CD - Observability - Process - Inputs - Telemetry - Scope": "Telemetry is the automated process of collecting measurements and data from remote or inaccessible sources and transmitting them to a central system for monitoring and analysis.",
 	"CD - Observability - Process - Inputs - DistributedTracing": "Tracks a single request’s journey across multiple microservices.",
 	"CD - Observability - Process - Inputs - DistributedTracing - Process - ID": "Each request gets a unique trace ID as it enters the system.",
 	"CD - Observability - Process - Inputs - DistributedTracing - Process - Record": "As the request moves through services, spans (timed operations) are recorded.",

@@ -1,5 +1,8 @@
 {
 
+	"SpringData": "SECTION",
+	"SpringData 0": "https://medium.com/codetutorials/spring-boot-4s-most-underrated-new-feature-spring-data-aot-repositories-f51731d940c3",
+
 	"Controllers": "SECTION",
 	"Controllers ": "Spring Data modules that support the repository programming model ship with a variety of web support. The web related components require Spring MVC JARs to be on the classpath.",
 	"Controllers - HATEOAS": "Some of them even provide integration with Spring HATEOAS.",

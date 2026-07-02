@@ -81,6 +81,7 @@
 	"Client - UI - Aggregation": "",
 	"Client - UI - Aggregation - UIComposition": "Each team develops a client-side UI component, such an AngularJS directive, that implements the region of the page/screen for their service. A UI team is responsible implementing the page skeletons that build pages/screens by composing multiple, service-specific UI components.",
 	"Client - UI - Aggregation - BFF": "Backends for Frontends Pattern (BFF): Creates dedicated backend services for each frontend, optimizing performance and user experience tailored to each platform.",
+	"Client - UI - Aggregation - BFF ": "https://levelup.gitconnected.com/backend-for-frontend-bff-in-java-a-practical-guide-88e3708212f0",
 	"Client - UI - Aggregation - ServiceComposition": "Each team developers a web application that generates the HTML fragment that implements the region of the page for their service. A UI team is responsible for developing the page templates that build pages by performing server-side aggregation (e.g. server-side include style mechanism) of the service-specific HTML fragments.",
 	"Client - UI - Patterns - RPC": "Use RPC for inter-service communication. The client uses a request/reply-based protocol to make requests to a service.",
 	"Client - UI - Patterns - Messaging": "Use asynchronous messaging for inter-service communication. Services communicating by exchanging messages over messaging channels.",
