@@ -1,0 +1,13 @@
+{
+
+  "PackageManagers": "SECTION",
+  "PackageManagers - npm": "",
+  "PackageManagers - npm - namespace": "",
+  "PackageManagers - npm - audit": "",
+  "PackageManagers - yarn": "",
+	"PackageManagers - bun": "",
+	"PackageManagers - pnpm": "",
+  "PackageManagers - pnpm - namespace": "",
+  "PackageManagers - pnpm - audit": ""
+
+}
