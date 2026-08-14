@@ -230,6 +230,10 @@
   "Kafka - Forks - Bufstream - Features": "Bufstream is the Kafka-compatible message queue built for the data lakehouse era. It’s a drop-in replacement for Apache Kafka, but instead of requiring expensive machines with large attached disks, Bufstream builds on top of off-the-shelf technologies such as S3 and Postgres to provide a Kafka implementation.",
   "Kafka - Forks - Bufstream - Features - MesageModel": "",
 
+	"Iggy": "SECTION",
+	"Iggy - features": "",
+	"Iggy - features - persistence": "It is a persistent message streaming platform, not a message broker. That is an important distinction. Think of it more along the lines of Kafka than RabbitMQ. It uses a similar conceptual model of streams, topics, partitions, and segments, which means if you’ve worked with Kafka, the mental model will be familiar.",
+
 	"NATS": "SECTION",
   "NATS - Features - 2011": "The initial release of the NATS BROKER was in 2011. The NATS project was donated by Synadia Communications and is primarily developed by them. The NATS server is written in the Go programming language.",
   "NATS - Features - MesageModel": "Subject-based (pub-sub)",

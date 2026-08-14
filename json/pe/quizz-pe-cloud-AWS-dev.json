@@ -1,0 +1,35 @@
+{
+
+	"AWS177": "https://www.linkedin.com/posts/iamprasanjitsahoo_aws-cli-cheat-sheet-level-up-instantly-activity-7346087275459420161-tQKK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"AWS178": "https://www.linkedin.com/posts/iamprasanjitsahoo_master-aws-troubleshooting-one-guide-activity-7345016011085008896-QnKm/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"AWS179": "https://www.linkedin.com/posts/saroosh-mehboob-601317211_aws-cli-for-automation-activity-7347193880267665408-YVwr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"AWS180": "https://www.linkedin.com/posts/namya-khullar-7b5758200_iam-aws-cli-guide-activity-7328348633139990528-DFR4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+	"AWS181": "https://www.linkedin.com/posts/mohamad-mahdi-bayat_aws-cli-cheat-sheet-activity-7317406130073169921-QTVd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ",
+
+	"Access": "SECTION",
+	"Access - IAM - features": "",
+	"Access - IAM - objects - policies": "JSON documents that explicitly allow or deny actions on specific resources.",
+	"Access - IAM - objects - roles": "Temporary permission sets that users or AWS services can assume without long-term keys.",
+	"Access - IAM - objects - groups": "Collections of users to make applying permissions easier.",
+	"Access - IAM - objects - users": "Long-term identities for single people or programs.",
+	"Access - IAM - STS": "",
+	"Access - IAM - STS - definition": "AWS Security Token Service (AWS STS) is a web service that lets you request short-term, limited-privilege credentials for IAM users or federated users. It eliminates the need to embed long-term access keys into applications, granting safer, time-limited access that automatically expires",
+	"Access - IAM - STS - package": "",
+	"Access - IAM - STS - package - AccessKeyId": "Unique identifier for the credentials",
+	"Access - IAM - STS - package - SecretAccessKey": "Secret key used to sign requests",
+	"Access - IAM - STS - package - SessionToken": "Additional security token required for all requests",
+	"Access - IAM - STS - package - Expiration": "Timestamp when credentials become invalid",
+	"Access - IAM - STS - operations": "",
+	"Access - IAM - STS - operations - AssumeRole": "",
+	"Access - IAM - STS - operations - AssumeRoleWithWebIdentity": "",
+	"Access - IAM - STS - operations - AssumeRoleWithSAML": "",
+
+	"AWS CLI": "SECTION",
+	"AWS CLI - configure": "",
+	"AWS CLI - login": "",
+	"AWS CLI - login ": "aws sso login --profile ep-dev",
+
+	"AWS SDK": "",
+	"AWS SDK ": ""
+
+}
