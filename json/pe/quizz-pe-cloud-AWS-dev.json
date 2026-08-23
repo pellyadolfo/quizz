@@ -28,8 +28,12 @@
 	"AWS CLI - configure": "",
 	"AWS CLI - login": "",
 	"AWS CLI - login ": "aws sso login --profile ep-dev",
+	"AWS CLI - s3api": "",
 
 	"AWS SDK": "",
-	"AWS SDK ": ""
+	"AWS SDK ": "",
+
+	"Resources": "SECTION",
+	"Resources - ARN": "Amazon Resource Names (ARNs) are unique identifiers for AWS resources, used across AWS to unambiguously specify items like IAM policies, Amazon RDS tags, and API calls. They follow a specific format—arn:partition:service:region:account-id:resource—enabling consistent identification across services"
 
 }

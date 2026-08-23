@@ -120,7 +120,17 @@
 	"Environments - deno": "",
 	"Environments - deno2": "",
 	"Environments - deno2 ": "https://javascript.plainenglish.io/deno-2-vs-node-js-is-this-the-end-of-10-million-node-js-users-d55d6649cb4d",
-	"Environments - Bun": ""
+	"Environments - Bun": "",
 
+	"APIs": "SECTION",
+	"APIs - Date": "comes from the ECMAScript standard. It tracks system clock time (Unix epoch) in whole milliseconds and can be skewed if your computer's system clock updates or syncs with an internet server.",
+	"APIs - Date - now()": "",
+	"APIs - HighResolutionTimeAPI": "",
+	"APIs - HighResolutionTimeAPI - performance": "Comes from the W3C Web Performance Working Group standard. It tracks monotonic time (time elapsed since the application started) in microseconds. It never moves backward, making it immune to system clock adjustments.",
+	"APIs - HighResolutionTimeAPI - performance - availability": ".",
+	"APIs - HighResolutionTimeAPI - performance - availability - browser": "It is a method on the global window.performance object. ",
+	"APIs - HighResolutionTimeAPI - performance - availability - nodeJS - 16-": "import { performance } from 'perf_hooks';",
+	"APIs - HighResolutionTimeAPI - performance - availability - nodeJS - 16+": "It is available globally. You do not need to import anything.",
+	"APIs - HighResolutionTimeAPI - performance - now()": "performance.now() comes from the High Resolution Time API, which is a standard web API built directly into modern JavaScript runtimes."
 
 }

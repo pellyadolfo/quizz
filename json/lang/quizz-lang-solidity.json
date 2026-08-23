@@ -170,8 +170,16 @@
 	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - require - gas": "If require fails, the transaction is reverted, and the user receives a gas refund for the unused portion of the transaction's gas limit. However, any gas used before the require statement, including costs for initial operations and data loading, is not refunded.",
 	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - require - gas - message - ": "The error message 'Sender is not the owner' is stored as a string array in the contract's bytecode. Each character in the string takes up space, making error messages surprisingly expensive in terms of gas.",
 	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - revert": "The revert keyword works similarly to require, but without the need for an inline condition. You can use revert directly to abort a transaction or function call anywhere in your code.",
-	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - error - 8.0.4.": "With Solidity 0.8.4 and later, you can define custom errors that are more gas-efficient than traditional require statements. A custom error is defined at the top of your contract and can be used with the revert keyword to handle errors.",
-	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - error - gas - bytecode": "Instead of embedding the entire error message string into the bytecode, only the error’s identifier is stored, which is significantly smaller.",
+	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - error": "",
+	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - error - string": "",
+	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - error - string - gas": "raw string directly in the contract's deployed bytecode, driving up gas deployment costs",
+	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - error - bytecode": "",
+	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - error - bytecode - gas": "Instead of embedding the entire error message string into the bytecode, only the error’s identifier is stored, which is significantly smaller.",
+	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - error - customerror": "",
+	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - error - customerror - 8.0.4.": "With Solidity 0.8.4 and later, you can define custom errors that are more gas-efficient than traditional require statements. A custom error is defined at the top of your contract and can be used with the revert keyword to handle errors.",
+	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - error - customerror - gas": "Custom errors store a tiny 4-byte selector hash instead.",
+	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - error - customerror - syntax": "error NonZeroAddress(address sender);",
+	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - error - customerror - args": "",
 	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - trycatch": "try / catch can only catch errors from external function calls and contract creation.",
 	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - overflow - <0.8": "",
 	"Logic - Sync - Imperative - ControlFlow - ErrorHandling - overflow - 0.8+": "Starting with Solidity version 0.8.0, integer overflow and underflow throw an error and revert the transaction by default.",
@@ -262,8 +270,26 @@
 	"CICD - Execution - Scopes - functionargs - CallData": "Calldata is also a temporary data storage location, but it is used to hold function arguments that are passed in from an external caller, such as a user or another contract. Calldata is read-only and cannot be modified by the function. Calldata is useful for passing large amounts of data to a function without having to copy the data into memory, which can be expensive in terms of gas usage. By using calldata, you can avoid the overhead of copying data into memory and reduce the amount of gas needed to execute the function.",
 	"CICD - Execution - OPCODES - freememeorypointer": "The free memory pointer is a pointer (i.e. shows where to go) to the next available slot of memory. Meaning that if you need to create a new uint256 for exemple, the free memory pointer will let the EVM know where to create the new uint256.",
 
-	"CICD - Audit": "SECTION"
-
+	"CICD - Audit": "SECTION",
+	"CICD - Audit - Log": "",
+	"CICD - Audit - Log - import": "import 'hardhat/console.sol';",
+	"CICD - Audit - Log - functions - log": "The standard console.log() function simulates JavaScript's style. It can take up to 4 arguments of varying primitive types natively.",
+	"CICD - Audit - Log - functions - log - types": "console.log() can only natively handle the following types as parameters:string, address, uint256, int256, bool.",
+	"CICD - Audit - Log - functions - log - modifiers": "%s for strings/addresses, %d for numbers.",
+	"CICD - Audit - Log - functions - logInt": "",
+	"CICD - Audit - Log - functions - logUint": "",
+	"CICD - Audit - Log - functions - logAddress": "",
+	"CICD - Audit - Log - functions - logBool": "",
+	"CICD - Audit - Log - functions - logString": "",
+	"CICD - Audit - Log - functions - logBytes": "",
+	"CICD - Audit - Log - functions - logBytes32": "",
+	"CICD - Audit - Log - workarounds": "",
+	"CICD - Audit - Log - workarounds - cast": "console.log('Value:', uint256(smallNum));",
+	"CICD - Audit - Log - workarounds - arrays": "bytes memory data = abi.encode(myStruct); console.logBytes(data);",
+	"CICD - Audit - Log - deploy": "",
+	"CICD - Audit - Log - deploy - no-op": "Hardhat's console.sol library is hardcoded to execute as a no-op (no operation) when deployed to any public network (Mainnet, Arbitrum, Sepolia, etc.).",
+	"CICD - Audit - Log - deploy - gas": "Even though the logs do absolutely nothing on Mainnet, they still consume minor amounts of transaction gas because your contract has to pack the parameters and initiate an external static call. Leaving dozens of console logs inside loops or heavily used execution paths will permanently increase your users' transactional gas overhead",
+	"CICD - Audit - Log - deploy - track": "Standard block explorers like Etherscan cannot display console.log data. To view your contract's console.log output for transactions that occur on Mainnet, you must use a specialized execution-tracing platform"
 
 }
 

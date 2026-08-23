@@ -222,6 +222,9 @@
 	"Data - Database - Aurora": "Amazon Aurora is a fully managed, cloud-native relational database engine offered by AWS, compatible with MySQL and PostgreSQL, designed for high performance, scalability, and availability, and part of the Amazon Relational Database Service (RDS). ",
 	"Data - Database - RDS": "Amazon RDS is the overlay technology that simplifies the process of configuring, managing, and optimizing your RDBMS.",
 	"Data - Database - RDS - Supported": "MySQL, PostgreSQL, SQL Server, MariaDB, Oracle, and Aurora databases.",
+	"Data - Database - RDS - CLI": "aws rds",
+	"Data - Database - RDS - CLI - start-db-instance": "",
+	"Data - Database - RDS - CLI - describe-db-instances": "",
 	"Data - Database - Glue Data Catalog": "The AWS Glue Data Catalog is a centralized repository that stores metadata about your organization's data sets.",
 
 	"StorageIntegration": "SECTION",
