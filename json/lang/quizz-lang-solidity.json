@@ -126,6 +126,7 @@
 	"Variables - Storage - access": ".",
 	"Variables - Storage - access - ColdRead": "The first read of a storage slot during a transaction is considered is a cold read and costs 2100 gas.",
 	"Variables - Storage - access - WarmRead": " Subsequent reads to the same storage slot are considered warm reads and cost 100 gas each.",
+	"Variables - Storage - stale": "Leaving stale data in a mapping does not increase the gas cost of future, unrelated transactions.",
 	"Variables - Global - block": ".",
 	"Variables - Global - block - number": "block.number gives us the current block number (like a page number in the blockchain’s history book)",
 	"Variables - Global - block - timestamp": "block.timestamp tells us the current time in seconds since 1970 (like a very precise digital timestamp).",

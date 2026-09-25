@@ -157,6 +157,7 @@
 	"Network - VPC - CIDRBlocks": "",
 	"Network - VPC - SecurityGroups": "",
 	"Network - VPC - NACLs": "",
+	"Compute - VPC - EICE": "EC2 tunnels. AWS mechanism specifically engineered to open raw network tunnels to private EC2 instances without requiring public IPs or VPNs: EC2 Instance Connect Endpoint (EICE).",
 	"Network - Regions": "",
 	"Network - Regions - AvailabilityZones": "Each Region has at least three Availability Zones.",
 	"Network - Regions - AvailabilityZones - descc": "Availability Zones (AZs) are isolated locations within an AWS Region.",

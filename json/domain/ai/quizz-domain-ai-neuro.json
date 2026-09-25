@@ -1,0 +1,10 @@
+{
+	"NeuroSymbolicAI": "SECTION",
+	"NeuroSymbolicAI - definition": "Neurosymbolic AI combines neural networks for understanding with symbolic logic for deterministic execution.",
+
+	"PredictiveAI": "SECTION",
+	"PredictiveAI ": "Predictive AI goes beyond simply predicting outcomes; it recommends optimal actions or decisions based on complex data analysis and optimization algorithms.",
+	"PredictiveAI - Tools - IBMWatson": "",
+	"PredictiveAI - Tools - MicrosoftAzureML": "",
+	"PredictiveAI - Tools - VertexAI": "Google"
+}

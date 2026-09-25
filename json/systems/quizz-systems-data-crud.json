@@ -44,6 +44,7 @@
 	"DataOptimization": "SECTION",
 	"DataOptimization - Scaling - Archiving": "We implement archiving strategies to keep active data lean and fast, moving older data to separate storage.",
 	"DataOptimization - Scaling - Replication": "Database replication copies and synchronizes database objects across multiple systems, enhancing availability, fault tolerance, and performance through redundancy.",
+	"DataOptimization - Scaling - Replication - Types - Masterless": ".",
 	"DataOptimization - Scaling - Replication - Types - MasterSlave": "Master writes, slaves replicate for reads.",
 	"DataOptimization - Scaling - Replication - Types - MultiMaster": "Multiple nodes sync bidirectional writes.",
 	"DataOptimization - Scaling - Replication - Types - Sync": "Transactions commit on all replicas.",
